@@ -7,7 +7,7 @@ import pandas as pd
 from nrfi_bot.data.mlb_api import get_todays_games, get_team_stats, get_pitcher_stats, get_season_games
 from nrfi_bot.data.data_processor import prepare_data, format_game_info
 from nrfi_bot.models.nrfi_model import train_model, predict_nrfi_probabilities
-from nrfi_bot.utils.twitter import tweet_nrfi_probabilities
+from nrfi_bot.utils.twitter import tweet_nrfi_probabilities, tweet_top_nrfi_poll
 
 def main():
     # Load environment variables
@@ -66,11 +66,24 @@ def main():
         print(f"{prediction_text}")
         print()
 
-    # Uncomment to enable tweeting
-    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-                                           [prob for _, prob in sorted_games],
-                                           model['optimal_threshold'])
-    print(f"Total tweets sent in this run: {tweets_sent}")
+    # Filter games to only include predicted NRFI games
+    nrfi_games = [(game, prob) for game, prob in sorted_games if prob >= model['optimal_threshold']]
+    
+    # Only tweet if there are NRFI predictions
+    tweets_sent = 0
+    poll_tweet = 0
+    if nrfi_games:
+        tweets_sent = tweet_nrfi_probabilities([game for game, _ in nrfi_games], 
+                                             [prob for _, prob in nrfi_games],
+                                             model['optimal_threshold'])
+        # Tweet poll only for NRFI games
+        poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
+                                        [prob for _, prob in nrfi_games],
+                                        model['optimal_threshold'])
+    else:
+        print("No NRFI predictions for today. No tweets sent.")
+    
+    print(f"Total tweets sent in this run: {tweets_sent + poll_tweet}")
 
 if __name__ == "__main__":
     main()

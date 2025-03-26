@@ -50,3 +50,43 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
 
     print(f"Total tweets sent: {tweets_sent}")
     return tweets_sent 
+
+def tweet_top_nrfi_poll(games, probabilities, model_threshold=0.5, num_games=4):
+    consumer_key = os.getenv("CONSUMER_KEY")
+    consumer_secret = os.getenv("CONSUMER_SECRET")
+    access_token = os.getenv("ACCESS_TOKEN")
+    access_token_secret = os.getenv("ACCESS_TOKEN_SECRET")
+
+    client = tweepy.Client(
+        consumer_key=consumer_key, 
+        consumer_secret=consumer_secret,
+        access_token=access_token, 
+        access_token_secret=access_token_secret
+    )
+
+    # Get top games
+    top_games = games[:num_games]  # games should already be sorted by probability
+    top_probs = probabilities[:num_games]
+
+    # Create tweet text with game summaries
+    tweet_text = "🎲 Which game will be a NRFI today? 🎯\n\n"
+    poll_options = []
+    
+    for i, (game, prob) in enumerate(zip(top_games, top_probs), 1):
+        game_time = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
+        summary = f"{i}. {game['away_team']} @ {game['home_team']} ({prob:.0%})\n"
+        tweet_text += summary
+        # Use team vs team format for poll options
+        poll_options.append(f"{game['away_team']} @ {game['home_team']}")
+
+    try:
+        response = client.create_tweet(
+            text=tweet_text,
+            poll_duration_minutes=24*60,  # 24 hours
+            poll_options=poll_options
+        )
+        print(f"Poll tweet posted successfully! Tweet ID: {response.data['id']}")
+        return 1
+    except tweepy.errors.TweepyException as e:
+        print(f"Error posting poll tweet: {e}")
+        return 0 
