@@ -9,8 +9,8 @@ def get_todays_games():
     url = "https://statsapi.mlb.com/api/v1/schedule"
     params = {
         "sportId": 1,
-        # "date": datetime.now().strftime("%Y-%m-%d"),
-        "date": "2024-05-15",
+        "date": datetime.now().strftime("%Y-%m-%d"),
+        # "date": "2024-05-15",
         "hydrate": "team,probablePitcher"
     }
     response = requests.get(url, params=params)

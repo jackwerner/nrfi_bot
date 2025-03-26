@@ -3,6 +3,47 @@ import os
 import time
 from datetime import datetime
 
+def get_acronym(team_name):
+    # Define a mapping of team names to their abbreviations
+    team_abbreviations = {
+        "Arizona Diamondbacks": "ARI",
+        "Atlanta Braves": "ATL",        
+        "Baltimore Orioles": "BAL",
+        "Boston Red Sox": "BOS",
+        "Chicago Cubs": "CHC",
+        "Chicago White Sox": "CWS",
+        "Cincinnati Reds": "CIN",
+        "Cleveland Guardians": "CLE",
+        "Colorado Rockies": "COL",
+        "Detroit Tigers": "DET",
+        "Houston Astros": "HOU",
+        "Kansas City Royals": "KC",
+        "Los Angeles Angels": "LAA",
+        "Los Angeles Dodgers": "LAD",
+        "Miami Marlins": "MIA",
+        "Milwaukee Brewers": "MIL",
+        "Minnesota Twins": "MIN",
+        "New York Mets": "NYM",
+        "New York Yankees": "NYY",
+        "Oakland Athletics": "ATH",
+        "Philadelphia Phillies": "PHI",
+        "Pittsburgh Pirates": "PIT",
+        "San Diego Padres": "SD",
+        "San Francisco Giants": "SF",
+        "Seattle Mariners": "SEA",
+        "St. Louis Cardinals": "STL",
+        "Tampa Bay Rays": "TB",
+        "Texas Rangers": "TEX",
+        "Toronto Blue Jays": "TOR",
+        "Washington Nationals": "WSH"
+    }
+    
+    # Also add the abbreviations themselves as keys to handle cases where abbreviations are passed in
+    abbreviation_map = {v: v for v in team_abbreviations.values()}
+    team_abbreviations.update(abbreviation_map)
+    
+    return team_abbreviations.get(team_name, team_name)
+
 def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
@@ -20,13 +61,12 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
 
     for i, game in enumerate(games):
         game_time_str = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
-        prediction = "NRFI" if probabilities[i] >= model_threshold else "YRFI"
         
-        game_info = (f"⚾ NRFI Probability ⚾\n"
+        game_info = (f"🚨 NRFI Alert 🚨\n"
                      f"{game['away_team']} @ {game['home_team']} - {game_time_str}⏰\n"
                      f"Pitchers: {game['away_pitcher']} 🆚 {game['home_pitcher']}\n"
-                     f"NRFI Probability: {probabilities[i]:.2%} {'📈' if probabilities[i] > 0.5 else '📉' if probabilities[i] < 0.5 else '⚖️'}\n"
-                     f"Prediction: {prediction} (Threshold: {model_threshold:.2f})")
+                     f"NRFI Probability: {probabilities[i]:.2%} 📈\n",
+                     f"#{get_acronym(game['away_team'])}vs{get_acronym(game['home_team'])} #NRFI #NRFIAlert")
         
         while True:
             try:
@@ -51,7 +91,7 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
     print(f"Total tweets sent: {tweets_sent}")
     return tweets_sent 
 
-def tweet_top_nrfi_poll(games, probabilities, model_threshold=0.5, num_games=4):
+def tweet_top_nrfi_poll(games, probabilities, num_games=4):
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
     access_token = os.getenv("ACCESS_TOKEN")
@@ -73,11 +113,10 @@ def tweet_top_nrfi_poll(games, probabilities, model_threshold=0.5, num_games=4):
     poll_options = []
     
     for i, (game, prob) in enumerate(zip(top_games, top_probs), 1):
-        game_time = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
         summary = f"{i}. {game['away_team']} @ {game['home_team']} ({prob:.0%})\n"
         tweet_text += summary
         # Use team vs team format for poll options
-        poll_options.append(f"{game['away_team']} @ {game['home_team']}")
+        poll_options.append(f"{get_acronym(game['away_team'])} @ {get_acronym(game['home_team'])}")
 
     try:
         response = client.create_tweet(

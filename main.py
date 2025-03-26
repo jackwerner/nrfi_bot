@@ -102,8 +102,7 @@ def main():
                                              model['optimal_threshold'])
         # Tweet poll only for NRFI games
         poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
-                                        [prob for _, prob in nrfi_games],
-                                        model['optimal_threshold'])
+                                        [prob for _, prob in nrfi_games])
     else:
         print("No NRFI predictions for today. No tweets sent.")
     
