@@ -1,18 +1,17 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.metrics import r2_score, mean_squared_error, confusion_matrix, ConfusionMatrixDisplay
-from sklearn.preprocessing import StandardScaler, PolynomialFeatures
+from sklearn.metrics import mean_squared_error, confusion_matrix#, ConfusionMatrixDisplay
+from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
 import xgboost as xgb
 import pickle
 from datetime import datetime
-import os
-import seaborn as sns
+# import os
+# import seaborn as sns
 from sklearn.metrics import accuracy_score, roc_auc_score, precision_score, recall_score, f1_score
-from sklearn.calibration import calibration_curve
+# from sklearn.calibration import calibration_curve
 
 def train_model(data):
     # Add runtime tracking
@@ -174,131 +173,131 @@ def train_model(data):
     print("Class balance:")
     print(class_balance)
 
-    # Create a figure with multiple subplots for better parameter analysis
-    fig = plt.figure(figsize=(20, 15))
+    # # Create a figure with multiple subplots for better parameter analysis
+    # fig = plt.figure(figsize=(20, 15))
     
-    # Main grid: 3 rows, 3 columns
-    gs = fig.add_gridspec(3, 3)
+    # # Main grid: 3 rows, 3 columns
+    # gs = fig.add_gridspec(3, 3)
     
-    # First row: Original plots (heatmap and confusion matrix)
-    ax1 = fig.add_subplot(gs[0, 0])
-    ax2 = fig.add_subplot(gs[0, 1])
+    # # First row: Original plots (heatmap and confusion matrix)
+    # ax1 = fig.add_subplot(gs[0, 0])
+    # ax2 = fig.add_subplot(gs[0, 1])
     
-    # Plot GridSearchCV results - first heatmap (n_estimators vs max_depth)
-    results = pd.DataFrame(grid_search.cv_results_)
-    pivot_params = ['classifier__n_estimators', 'classifier__max_depth']
+    # # Plot GridSearchCV results - first heatmap (n_estimators vs max_depth)
+    # results = pd.DataFrame(grid_search.cv_results_)
+    # pivot_params = ['classifier__n_estimators', 'classifier__max_depth']
     
-    pivot = results.pivot_table(
-        index=f'param_{pivot_params[0]}', 
-        columns=f'param_{pivot_params[1]}',
-        values='mean_test_score'
-    )
+    # pivot = results.pivot_table(
+    #     index=f'param_{pivot_params[0]}', 
+    #     columns=f'param_{pivot_params[1]}',
+    #     values='mean_test_score'
+    # )
     
-    sns.heatmap(pivot, annot=True, cmap='viridis', ax=ax1)
-    ax1.set_title(f'GridSearch: {pivot_params[0].split("__")[1]} vs {pivot_params[1].split("__")[1]}')
+    # sns.heatmap(pivot, annot=True, cmap='viridis', ax=ax1)
+    # ax1.set_title(f'GridSearch: {pivot_params[0].split("__")[1]} vs {pivot_params[1].split("__")[1]}')
     
-    # Confusion matrix
-    cm = confusion_matrix(y_test, y_pred)
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['RFI', 'NRFI'])
-    disp.plot(ax=ax2, cmap='Blues', values_format='d')
-    ax2.set_title('Confusion Matrix')
+    # # Confusion matrix
+    # cm = confusion_matrix(y_test, y_pred)
+    # disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['RFI', 'NRFI'])
+    # disp.plot(ax=ax2, cmap='Blues', values_format='d')
+    # ax2.set_title('Confusion Matrix')
     
-    # Additional parameter analysis plots
-    # Second heatmap: learning_rate vs subsample
-    ax3 = fig.add_subplot(gs[0, 2])
-    pivot_params2 = ['classifier__learning_rate', 'classifier__subsample']
-    pivot2 = results.pivot_table(
-        index=f'param_{pivot_params2[0]}', 
-        columns=f'param_{pivot_params2[1]}',
-        values='mean_test_score'
-    )
-    sns.heatmap(pivot2, annot=True, cmap='viridis', ax=ax3)
-    ax3.set_title(f'GridSearch: {pivot_params2[0].split("__")[1]} vs {pivot_params2[1].split("__")[1]}')
+    # # Additional parameter analysis plots
+    # # Second heatmap: learning_rate vs subsample
+    # ax3 = fig.add_subplot(gs[0, 2])
+    # pivot_params2 = ['classifier__learning_rate', 'classifier__subsample']
+    # pivot2 = results.pivot_table(
+    #     index=f'param_{pivot_params2[0]}', 
+    #     columns=f'param_{pivot_params2[1]}',
+    #     values='mean_test_score'
+    # )
+    # sns.heatmap(pivot2, annot=True, cmap='viridis', ax=ax3)
+    # ax3.set_title(f'GridSearch: {pivot_params2[0].split("__")[1]} vs {pivot_params2[1].split("__")[1]}')
     
-    # Third heatmap: learning_rate vs colsample_bytree
-    ax4 = fig.add_subplot(gs[1, 0])
-    pivot_params3 = ['classifier__learning_rate', 'classifier__colsample_bytree']
-    pivot3 = results.pivot_table(
-        index=f'param_{pivot_params3[0]}', 
-        columns=f'param_{pivot_params3[1]}',
-        values='mean_test_score'
-    )
-    sns.heatmap(pivot3, annot=True, cmap='viridis', ax=ax4)
-    ax4.set_title(f'GridSearch: {pivot_params3[0].split("__")[1]} vs {pivot_params3[1].split("__")[1]}')
+    # # Third heatmap: learning_rate vs colsample_bytree
+    # ax4 = fig.add_subplot(gs[1, 0])
+    # pivot_params3 = ['classifier__learning_rate', 'classifier__colsample_bytree']
+    # pivot3 = results.pivot_table(
+    #     index=f'param_{pivot_params3[0]}', 
+    #     columns=f'param_{pivot_params3[1]}',
+    #     values='mean_test_score'
+    # )
+    # sns.heatmap(pivot3, annot=True, cmap='viridis', ax=ax4)
+    # ax4.set_title(f'GridSearch: {pivot_params3[0].split("__")[1]} vs {pivot_params3[1].split("__")[1]}')
     
-    # Fourth heatmap: subsample vs colsample_bytree
-    ax5 = fig.add_subplot(gs[1, 1])
-    pivot_params4 = ['classifier__subsample', 'classifier__colsample_bytree']
-    pivot4 = results.pivot_table(
-        index=f'param_{pivot_params4[0]}', 
-        columns=f'param_{pivot_params4[1]}',
-        values='mean_test_score'
-    )
+    # # Fourth heatmap: subsample vs colsample_bytree
+    # ax5 = fig.add_subplot(gs[1, 1])
+    # pivot_params4 = ['classifier__subsample', 'classifier__colsample_bytree']
+    # pivot4 = results.pivot_table(
+    #     index=f'param_{pivot_params4[0]}', 
+    #     columns=f'param_{pivot_params4[1]}',
+    #     values='mean_test_score'
+    # )
     
-    # Ensure all values are visible in the heatmap
-    sns.heatmap(pivot4, annot=True, cmap='viridis', ax=ax5, fmt='.4f')
-    ax5.set_title(f'GridSearch: {pivot_params4[0].split("__")[1]} vs {pivot_params4[1].split("__")[1]}')
+    # # Ensure all values are visible in the heatmap
+    # sns.heatmap(pivot4, annot=True, cmap='viridis', ax=ax5, fmt='.4f')
+    # ax5.set_title(f'GridSearch: {pivot_params4[0].split("__")[1]} vs {pivot_params4[1].split("__")[1]}')
     
-    # Add calibration plot to evaluate probability predictions
-    ax6 = fig.add_subplot(gs[1, 2])
-    prob_true, prob_pred = calibration_curve(y_test, y_pred_proba, n_bins=10)
-    ax6.plot(prob_pred, prob_true, marker='o', linewidth=1)
-    ax6.plot([0, 1], [0, 1], 'k--')  # Perfect calibration line
-    ax6.set_xlabel('Mean Predicted Probability')
-    ax6.set_ylabel('Fraction of Positives')
-    ax6.set_title('Calibration Curve')
+    # # Add calibration plot to evaluate probability predictions
+    # ax6 = fig.add_subplot(gs[1, 2])
+    # prob_true, prob_pred = calibration_curve(y_test, y_pred_proba, n_bins=10)
+    # ax6.plot(prob_pred, prob_true, marker='o', linewidth=1)
+    # ax6.plot([0, 1], [0, 1], 'k--')  # Perfect calibration line
+    # ax6.set_xlabel('Mean Predicted Probability')
+    # ax6.set_ylabel('Fraction of Positives')
+    # ax6.set_title('Calibration Curve')
     
-    # Feature importance plot
-    ax7 = fig.add_subplot(gs[2, 0])
-    # Plot top 15 features or all if less than 15
-    n_features = min(15, len(feature_names))
-    ax7.bar(range(n_features), importances[indices[:n_features]])
-    ax7.set_xticks(range(n_features))
-    ax7.set_xticklabels([feature_names[i] for i in indices[:n_features]], rotation=90)
-    ax7.set_title('Feature Importances')
+    # # Feature importance plot
+    # ax7 = fig.add_subplot(gs[2, 0])
+    # # Plot top 15 features or all if less than 15
+    # n_features = min(15, len(feature_names))
+    # ax7.bar(range(n_features), importances[indices[:n_features]])
+    # ax7.set_xticks(range(n_features))
+    # ax7.set_xticklabels([feature_names[i] for i in indices[:n_features]], rotation=90)
+    # ax7.set_title('Feature Importances')
     
-    # Threshold optimization plot
-    ax8 = fig.add_subplot(gs[2, 1])
-    ax8.plot(threshold_df['threshold'], threshold_df['accuracy'], label='Accuracy')
-    ax8.plot(threshold_df['threshold'], threshold_df['precision'], label='Precision')
-    ax8.plot(threshold_df['threshold'], threshold_df['recall'], label='Recall')
-    ax8.plot(threshold_df['threshold'], threshold_df['f1'], label='F1 Score')
-    ax8.plot(threshold_df['threshold'], threshold_df['balanced_acc'], label='Balanced Acc')
-    ax8.plot(threshold_df['threshold'], threshold_df['pred_pos_rate'], label='Pred NRFI Rate')
-    ax8.axhline(y=actual_pos_rate, color='g', linestyle='--', label=f'Actual NRFI Rate: {actual_pos_rate:.2f}')
-    ax8.axvline(x=best_threshold, color='r', linestyle='--', label=f'Best Threshold: {best_threshold:.2f}')
-    ax8.set_xlabel('Threshold')
-    ax8.set_ylabel('Score')
-    ax8.set_title('Metrics vs. Threshold')
-    ax8.legend()
+    # # Threshold optimization plot
+    # ax8 = fig.add_subplot(gs[2, 1])
+    # ax8.plot(threshold_df['threshold'], threshold_df['accuracy'], label='Accuracy')
+    # ax8.plot(threshold_df['threshold'], threshold_df['precision'], label='Precision')
+    # ax8.plot(threshold_df['threshold'], threshold_df['recall'], label='Recall')
+    # ax8.plot(threshold_df['threshold'], threshold_df['f1'], label='F1 Score')
+    # ax8.plot(threshold_df['threshold'], threshold_df['balanced_acc'], label='Balanced Acc')
+    # ax8.plot(threshold_df['threshold'], threshold_df['pred_pos_rate'], label='Pred NRFI Rate')
+    # ax8.axhline(y=actual_pos_rate, color='g', linestyle='--', label=f'Actual NRFI Rate: {actual_pos_rate:.2f}')
+    # ax8.axvline(x=best_threshold, color='r', linestyle='--', label=f'Best Threshold: {best_threshold:.2f}')
+    # ax8.set_xlabel('Threshold')
+    # ax8.set_ylabel('Score')
+    # ax8.set_title('Metrics vs. Threshold')
+    # ax8.legend()
     
-    # ROC curve
-    ax9 = fig.add_subplot(gs[2, 2])
-    from sklearn.metrics import roc_curve
-    fpr, tpr, _ = roc_curve(y_test, y_pred_proba)
-    ax9.plot(fpr, tpr)
-    ax9.plot([0, 1], [0, 1], 'k--')
-    ax9.set_xlabel('False Positive Rate')
-    ax9.set_ylabel('True Positive Rate')
-    ax9.set_title(f'ROC Curve (AUC = {roc_auc:.4f})')
+    # # ROC curve
+    # ax9 = fig.add_subplot(gs[2, 2])
+    # from sklearn.metrics import roc_curve
+    # fpr, tpr, _ = roc_curve(y_test, y_pred_proba)
+    # ax9.plot(fpr, tpr)
+    # ax9.plot([0, 1], [0, 1], 'k--')
+    # ax9.set_xlabel('False Positive Rate')
+    # ax9.set_ylabel('True Positive Rate')
+    # ax9.set_title(f'ROC Curve (AUC = {roc_auc:.4f})')
     
-    # Add text with model metrics and best parameters
-    plt.figtext(0.5, 0.01, 
-                f'Best Parameters: {grid_search.best_params_}\n'
-                f'Optimal Threshold: {best_threshold:.2f}\n'
-                f'Model Metrics: Accuracy: {threshold_df.loc[best_bal_acc_idx, "accuracy"]:.4f}, '
-                f'ROC AUC: {threshold_df.loc[best_bal_acc_idx, "roc_auc"]:.4f}, '
-                f'F1: {threshold_df.loc[best_bal_acc_idx, "f1"]:.4f}, RMSE: {np.sqrt(mse):.4f}\n'
-                f'Class Balance: NRFI={class_balance.get(1, 0):.2%}, RFI={class_balance.get(0, 0):.2%}',
-                ha='center', fontsize=10, bbox=dict(facecolor='white', alpha=0.8))
+    # # Add text with model metrics and best parameters
+    # plt.figtext(0.5, 0.01, 
+    #             f'Best Parameters: {grid_search.best_params_}\n'
+    #             f'Optimal Threshold: {best_threshold:.2f}\n'
+    #             f'Model Metrics: Accuracy: {threshold_df.loc[best_bal_acc_idx, "accuracy"]:.4f}, '
+    #             f'ROC AUC: {threshold_df.loc[best_bal_acc_idx, "roc_auc"]:.4f}, '
+    #             f'F1: {threshold_df.loc[best_bal_acc_idx, "f1"]:.4f}, RMSE: {np.sqrt(mse):.4f}\n'
+    #             f'Class Balance: NRFI={class_balance.get(1, 0):.2%}, RFI={class_balance.get(0, 0):.2%}',
+    #             ha='center', fontsize=10, bbox=dict(facecolor='white', alpha=0.8))
     
-    plt.tight_layout(rect=[0, 0.05, 1, 0.95])
+    # plt.tight_layout(rect=[0, 0.05, 1, 0.95])
     
-    # Save the figure
-    plot_file = f"nrfi_model_gridsearch_{datetime.now().strftime('%Y%m%d')}.png"
-    plt.savefig(plot_file, dpi=300, bbox_inches='tight')
-    plt.close()
-    print(f"Saved model results plot to {plot_file}")
+    # # Save the figure
+    # plot_file = f"nrfi_model_gridsearch_{datetime.now().strftime('%Y%m%d')}.png"
+    # plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+    # plt.close()
+    # print(f"Saved model results plot to {plot_file}")
 
     # Save the trained model and optimal threshold
     model_data = {
