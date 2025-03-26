@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 import json
 import os
 import time
+from data.teamrankings import get_teamrankings_stats
 
 def get_todays_games():
     print(f"Getting today's games")
@@ -89,7 +90,6 @@ def get_team_stats():
                 }
                 
                 # Add additional NRFI-related stats from TeamRankings
-                from nrfi_bot.data.teamrankings import get_teamrankings_stats
                 team_stats[team_id].update(get_teamrankings_stats(team_name))
                 
                 for stat, value in team_stats[team_id].items():
