@@ -3,7 +3,7 @@ import os
 import time
 from datetime import datetime
 
-def tweet_nrfi_probabilities(games, probabilities):
+def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
     access_token = os.getenv("ACCESS_TOKEN")
@@ -20,10 +20,13 @@ def tweet_nrfi_probabilities(games, probabilities):
 
     for i, game in enumerate(games):
         game_time_str = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
+        prediction = "NRFI" if probabilities[i] >= model_threshold else "YRFI"
+        
         game_info = (f"⚾ NRFI Probability ⚾\n"
                      f"{game['away_team']} @ {game['home_team']} - {game_time_str}⏰\n"
                      f"Pitchers: {game['away_pitcher']} 🆚 {game['home_pitcher']}\n"
-                     f"NRFI Probability: {probabilities[i]:.2%} {'📈' if probabilities[i] > 0.5 else '📉' if probabilities[i] < 0.5 else '⚖️'}")
+                     f"NRFI Probability: {probabilities[i]:.2%} {'📈' if probabilities[i] > 0.5 else '📉' if probabilities[i] < 0.5 else '⚖️'}\n"
+                     f"Prediction: {prediction} (Threshold: {model_threshold:.2f})")
         
         while True:
             try:

@@ -328,8 +328,10 @@ def predict_nrfi(model_data, today_data):
     if isinstance(model_data, dict) and 'pipeline' in model_data and 'optimal_threshold' in model_data:
         pipeline = model_data['pipeline']
         threshold = model_data['optimal_threshold']
+        print(f"Using optimal threshold of {threshold}")
     else:
         # Fallback to default threshold if model_data is just the pipeline
+        print("Using default threshold of 0.5")
         pipeline = model_data
         threshold = 0.5
     

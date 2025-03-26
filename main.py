@@ -59,14 +59,18 @@ def main():
     # Print results
     print("\nAll Games Sorted by NRFI Probability:")
     for game, prob in sorted_games:
-        print(f"Probability: {prob}")
+        threshold_info = f"(Model threshold: {model['optimal_threshold']:.2f})"
+        prediction_text = "PREDICTED NRFI" if prob >= model['optimal_threshold'] else "PREDICTED YRFI"
+        print(f"Probability: {prob} {threshold_info}")
         print(format_game_info(game, prob))
+        print(f"{prediction_text}")
         print()
 
     # Uncomment to enable tweeting
-    # tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-    #                                        [prob for _, prob in sorted_games])
-    # print(f"Total tweets sent in this run: {tweets_sent}")
+    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
+                                           [prob for _, prob in sorted_games],
+                                           model['optimal_threshold'])
+    print(f"Total tweets sent in this run: {tweets_sent}")
 
 if __name__ == "__main__":
     main()
