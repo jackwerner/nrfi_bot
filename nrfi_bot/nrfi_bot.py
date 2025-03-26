@@ -12,6 +12,10 @@ import json
 import time
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
+import os
+import dotenv
+
+dotenv.load_dotenv()
 
 def get_todays_games():
     url = "https://statsapi.mlb.com/api/v1/schedule"
@@ -484,10 +488,10 @@ def format_game_info(game, probability):
     return result
 
 def tweet_nrfi_probabilities(games, probabilities):
-    consumer_key = "n3InURKKMBLoViA2PP7EKAHcy"
-    consumer_secret = "1AZ23usCQYNMyB4OofeHgPSZ8bHetdKvsZJk8ai1xIVdbnnira"
-    access_token = "1650583280255639559-SJLWS2Glxutqx4uDu13ePPmpU0UUdR"
-    access_token_secret = "AzpmQeyUP5rsHXXSkYLSxdBVRVDfQfwNaZ3oeITTkujIV"
+    consumer_key = os.getenv("CONSUMER_KEY")
+    consumer_secret = os.getenv("CONSUMER_SECRET")
+    access_token = os.getenv("ACCESS_TOKEN")
+    access_token_secret = os.getenv("ACCESS_TOKEN_SECRET")
 
     client = tweepy.Client(
         consumer_key=consumer_key, 
@@ -587,9 +591,9 @@ def main():
         print(format_game_info(game, prob))
         print()
 
-    # tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-    #                                        [prob for _, prob in sorted_games])
-    # print(f"Total tweets sent in this run: {tweets_sent}")
+    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
+                                           [prob for _, prob in sorted_games])
+    print(f"Total tweets sent in this run: {tweets_sent}")
 
 if __name__ == "__main__":
     main()
