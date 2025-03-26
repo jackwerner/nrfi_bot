@@ -11,12 +11,14 @@ import numpy as np
 import json
 import time
 from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
 
 def get_todays_games():
     url = "https://statsapi.mlb.com/api/v1/schedule"
     params = {
         "sportId": 1,
-        "date": datetime.now().strftime("%Y-%m-%d"),
+        # "date": datetime.now().strftime("%Y-%m-%d"),
+        "date": "2024-05-15",
         "hydrate": "team,probablePitcher"
     }
     response = requests.get(url, params=params)
@@ -86,11 +88,125 @@ def get_team_stats():
                     'atBatsPerHomeRun': stats_data.get('atBatsPerHomeRun')
                 }
                 
+                # Add additional NRFI-related stats from TeamRankings
+                team_stats[team_id].update(get_teamrankings_stats(team_name))
+                
                 for stat, value in team_stats[team_id].items():
                     if value is None:
                         print(f"Missing {stat} for team {team_name}")
             else:
                 print(f"Failed to fetch stats for {team_name}: Status code {stats_response.status_code}")
+    return team_stats
+
+def get_teamrankings_stats(team_name):
+    """
+    Get NRFI-related stats from TeamRankings.com for a specific team
+    """
+    # Map MLB API team names to TeamRankings team names if needed
+    team_name_mapping = {
+        "D-backs": "Arizona",
+        "Diamondbacks": "Arizona",
+        "Braves": "Atlanta",
+        "Orioles": "Baltimore",
+        "Red Sox": "Boston",
+        "Cubs": "Chi Cubs",
+        "White Sox": "Chi White Sox",
+        "Reds": "Cincinnati",
+        "Guardians": "Cleveland",
+        "Rockies": "Colorado",
+        "Tigers": "Detroit",
+        "Astros": "Houston",
+        "Royals": "Kansas City",
+        "Angels": "LA Angels",
+        "Dodgers": "LA Dodgers",
+        "Marlins": "Miami",
+        "Brewers": "Milwaukee",
+        "Twins": "Minnesota",
+        "Mets": "NY Mets",
+        "Yankees": "NY Yankees",
+        "Athletics": "Oakland",
+        "Phillies": "Philadelphia",
+        "Pirates": "Pittsburgh",
+        "Padres": "San Diego",
+        "Giants": "San Francisco",
+        "Mariners": "Seattle",
+        "Cardinals": "St. Louis",
+        "Rays": "Tampa Bay",
+        "Rangers": "Texas",
+        "Blue Jays": "Toronto",
+        "Nationals": "Washington"
+    }
+    
+    # Convert team name to TeamRankings format if needed
+    tr_team_name = team_name_mapping.get(team_name, team_name)
+    
+    # URLs for the stats we want to scrape
+    urls = {
+        'nrfi_pct': 'https://www.teamrankings.com/mlb/stat/no-run-first-inning-pct',
+        'opponent_nrfi_pct': 'https://www.teamrankings.com/mlb/stat/opponent-no-run-first-inning-pct',
+        '1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/1st-inning-runs-per-game',
+        'opp_1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/opponent-1st-inning-runs-per-game'
+    }
+    
+    # Headers to mimic a browser request
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    team_stats = {}
+    
+    for stat_name, url in urls.items():
+        try:
+            # Add a delay to avoid overloading the server
+            time.sleep(1)
+            
+            # Send request and get HTML content
+            response = requests.get(url, headers=headers)
+            response.raise_for_status()
+            
+            # Parse HTML
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Find the table
+            table = soup.find('table', {'class': 'tr-table datatable'})
+            if not table:
+                table = soup.find('table')
+            
+            if not table:
+                print(f"Table not found for {stat_name}")
+                continue
+            
+            # Find the row for the team
+            team_row = None
+            for row in table.find_all('tr')[1:]:  # Skip header row
+                cells = row.find_all('td')
+                if cells and len(cells) > 1:
+                    row_team_name = cells[1].text.strip()
+                    if row_team_name == tr_team_name:
+                        team_row = cells
+                        break
+            
+            if team_row and len(team_row) > 2:
+                # Get the current season value (usually in the 3rd column)
+                value_text = team_row[2].text.strip()
+                try:
+                    # Convert percentage to decimal if needed
+                    if '%' in value_text:
+                        value = float(value_text.replace('%', '')) / 100
+                    else:
+                        value = float(value_text)
+                    team_stats[stat_name] = value
+                except ValueError:
+                    print(f"Could not convert {value_text} to float for {stat_name}")
+                    team_stats[stat_name] = None
+            else:
+                print(f"Team {tr_team_name} not found in {stat_name} table")
+                team_stats[stat_name] = None
+                
+        except Exception as e:
+            print(f"Error scraping {stat_name} for {tr_team_name}: {e}")
+            team_stats[stat_name] = None
+    
     return team_stats
 
 def get_pitcher_stats():
@@ -238,6 +354,13 @@ def prepare_data(games, team_stats, pitcher_stats):
                 'away_pitcher_homeRunsPer9': pitcher_stats[away_pitcher]['homeRunsPer9']
             }
             
+            # Add the new TeamRankings stats if available
+            for stat in ['nrfi_pct', 'opponent_nrfi_pct', '1st_inning_runs', 'opp_1st_inning_runs']:
+                if stat in home_team_data:
+                    game_data[f'home_{stat}'] = home_team_data[stat]
+                if stat in away_team_data:
+                    game_data[f'away_{stat}'] = away_team_data[stat]
+            
             if all(value is not None for value in game_data.values()):
                 if 'nrfi' in game:
                     game_data['nrfi'] = game['nrfi']
@@ -305,7 +428,7 @@ def predict_nrfi_probabilities(pipeline, today_data):
 
 def format_game_info(game, probability):
     game_time_str = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
-    return (f"{game['away_team']} @ {game['home_team']} - {game_time_str}\n"
+    result = (f"{game['away_team']} @ {game['home_team']} - {game_time_str}\n"
             f"Pitchers: {game['away_pitcher']} vs {game['home_pitcher']}\n"
             f"NRFI Probability: {probability:.2%}\n"
             f"Home Team Stats:\n"
@@ -338,6 +461,27 @@ def format_game_info(game, probability):
             f"  SLG Against: {game.get('away_pitcher_slg', 'N/A'):.3f}\n"
             f"  Strikeout Walk Ratio: {game.get('away_pitcher_strikeoutWalkRatio', 'N/A'):.3f}\n"
             f"  Home Runs Per 9: {game.get('away_pitcher_homeRunsPer9', 'N/A'):.3f}")
+    
+    # Add the new TeamRankings stats if available
+    additional_stats = []
+    for prefix, team in [('home', 'Home'), ('away', 'Away')]:
+        for stat, label in [
+            ('nrfi_pct', 'NRFI %'), 
+            ('opponent_nrfi_pct', 'Opponent NRFI %'),
+            ('1st_inning_runs', '1st Inning Runs/Game'),
+            ('opp_1st_inning_runs', 'Opponent 1st Inning Runs/Game')
+        ]:
+            key = f"{prefix}_{stat}"
+            if key in game:
+                if 'pct' in stat:
+                    additional_stats.append(f"  {team} {label}: {game.get(key, 'N/A'):.1%}")
+                else:
+                    additional_stats.append(f"  {team} {label}: {game.get(key, 'N/A'):.2f}")
+    
+    if additional_stats:
+        result += "\nTeamRankings Stats:\n" + "\n".join(additional_stats)
+    
+    return result
 
 def tweet_nrfi_probabilities(games, probabilities):
     consumer_key = "n3InURKKMBLoViA2PP7EKAHcy"
@@ -403,6 +547,9 @@ def main():
     current_year = datetime.now().year
     season_start = datetime(current_year, 4, 1)
     yesterday = datetime.now() - timedelta(days=1)
+    # season_start = datetime(2024, 4, 1)
+    # current_year = 2024
+    # yesterday = datetime(2024, 5, 15)
 
     season_games = get_season_games(season_start, yesterday)
     team_stats = get_team_stats()
@@ -440,9 +587,9 @@ def main():
         print(format_game_info(game, prob))
         print()
 
-    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-                                           [prob for _, prob in sorted_games])
-    print(f"Total tweets sent in this run: {tweets_sent}")
+    # tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
+    #                                        [prob for _, prob in sorted_games])
+    # print(f"Total tweets sent in this run: {tweets_sent}")
 
 if __name__ == "__main__":
     main()
