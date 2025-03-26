@@ -56,6 +56,30 @@ def main():
     # Sort games by NRFI probability
     sorted_games = sorted(game_prob_pairs, key=lambda x: x[1], reverse=True)
     
+    # Save all predictions to CSV
+    predictions_df = pd.DataFrame([
+        {
+            'date': datetime.now().strftime('%Y-%m-%d'),
+            'away_team': game['away_team'],
+            'home_team': game['home_team'],
+            'away_pitcher': game['away_pitcher'],
+            'home_pitcher': game['home_pitcher'],
+            'game_time': game['game_time'],
+            'nrfi_probability': prob,
+            'threshold': model['optimal_threshold'],
+            'prediction': 'NRFI' if prob >= model['optimal_threshold'] else 'YRFI'
+        }
+        for game, prob in sorted_games
+    ])
+    
+    # Create directory if it doesn't exist
+    os.makedirs('predictions', exist_ok=True)
+    
+    # Save to CSV with date in filename
+    csv_filename = f"predictions/nrfi_predictions_{datetime.now().strftime('%Y-%m-%d')}.csv"
+    predictions_df.to_csv(csv_filename, index=False)
+    print(f"\nAll predictions saved to {csv_filename}")
+    
     # Print results
     print("\nAll Games Sorted by NRFI Probability:")
     for game, prob in sorted_games:
