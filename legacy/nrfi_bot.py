@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime, timedelta, timezone
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.preprocessing import StandardScaler
@@ -14,10 +13,14 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import os
 import dotenv
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import xgboost as xgb
 
 dotenv.load_dotenv()
 
 def get_todays_games():
+    print(f"Getting today's games")
     url = "https://statsapi.mlb.com/api/v1/schedule"
     params = {
         "sportId": 1,
@@ -53,10 +56,18 @@ def get_todays_games():
         raise Exception(f"Failed to fetch games: {response.status_code}")
 
 def get_team_stats():
+    # Check if cached data exists
+    print(f"Getting team stats for {datetime.now().year}")
+    cache_file = f"team_stats_{datetime.now().year}.json"
+    if os.path.exists(cache_file):
+        print(f"Loading cached team stats from {cache_file}")
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+    
     url = "https://statsapi.mlb.com/api/v1/teams"
     params = {
         "sportId": 1,
-        "season": datetime.now().year
+        "season": 2024 #datetime.now().year
     }
     response = requests.get(url, params=params)
     print(f"Team list API call: Status code {response.status_code}")
@@ -66,7 +77,7 @@ def get_team_stats():
         for team in teams:
             team_id = team['id']
             team_name = team['name']
-            stats_url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/stats?stats=season&group=hitting&season={datetime.now().year}"
+            stats_url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/stats?stats=season&group=hitting&season=2024"#{datetime.now().year}"
             stats_response = requests.get(stats_url)
             if stats_response.status_code == 200:
                 stats_data = stats_response.json()['stats'][0]['splits'][0]['stat']
@@ -100,56 +111,64 @@ def get_team_stats():
                         print(f"Missing {stat} for team {team_name}")
             else:
                 print(f"Failed to fetch stats for {team_name}: Status code {stats_response.status_code}")
-    return team_stats
+        
+        # Save to cache file
+        with open(cache_file, 'w') as f:
+            json.dump(team_stats, f)
+        print(f"Saved team stats to {cache_file}")
+        
+        return team_stats
+    else:
+        raise Exception(f"Failed to fetch team stats: {response.status_code}")
 
 def get_teamrankings_stats(team_name):
     """
     Get NRFI-related stats from TeamRankings.com for a specific team
     """
-    # Map MLB API team names to TeamRankings team names if needed
+    print(f"Getting TeamRankings stats for {team_name}")
+    # Map MLB API team names to TeamRankings team names
     team_name_mapping = {
-        "D-backs": "Arizona",
-        "Diamondbacks": "Arizona",
-        "Braves": "Atlanta",
-        "Orioles": "Baltimore",
-        "Red Sox": "Boston",
-        "Cubs": "Chi Cubs",
-        "White Sox": "Chi White Sox",
-        "Reds": "Cincinnati",
-        "Guardians": "Cleveland",
-        "Rockies": "Colorado",
-        "Tigers": "Detroit",
-        "Astros": "Houston",
-        "Royals": "Kansas City",
-        "Angels": "LA Angels",
-        "Dodgers": "LA Dodgers",
-        "Marlins": "Miami",
-        "Brewers": "Milwaukee",
-        "Twins": "Minnesota",
-        "Mets": "NY Mets",
-        "Yankees": "NY Yankees",
-        "Athletics": "Oakland",
-        "Phillies": "Philadelphia",
-        "Pirates": "Pittsburgh",
-        "Padres": "San Diego",
-        "Giants": "San Francisco",
-        "Mariners": "Seattle",
-        "Cardinals": "St. Louis",
-        "Rays": "Tampa Bay",
-        "Rangers": "Texas",
-        "Blue Jays": "Toronto",
-        "Nationals": "Washington"
+        "Arizona Diamondbacks": "Arizona",
+        "Atlanta Braves": "Atlanta",
+        "Baltimore Orioles": "Baltimore",
+        "Boston Red Sox": "Boston",
+        "Chicago Cubs": "Chi Cubs",
+        "Chicago White Sox": "Chi Sox",
+        "Cincinnati Reds": "Cincinnati",
+        "Cleveland Guardians": "Cleveland",
+        "Colorado Rockies": "Colorado",
+        "Detroit Tigers": "Detroit",
+        "Houston Astros": "Houston",
+        "Kansas City Royals": "Kansas City",
+        "Los Angeles Angels": "LA Angels",
+        "Los Angeles Dodgers": "LA Dodgers",
+        "Miami Marlins": "Miami",
+        "Milwaukee Brewers": "Milwaukee",
+        "Minnesota Twins": "Minnesota",
+        "New York Mets": "NY Mets",
+        "New York Yankees": "NY Yankees",
+        "Oakland Athletics": "Sacramento",  # Oakland is now Sacramento in TeamRankings
+        "Philadelphia Phillies": "Philadelphia",
+        "Pittsburgh Pirates": "Pittsburgh",
+        "San Diego Padres": "San Diego",
+        "San Francisco Giants": "SF Giants",
+        "Seattle Mariners": "Seattle",
+        "St. Louis Cardinals": "St. Louis",
+        "Tampa Bay Rays": "Tampa Bay",
+        "Texas Rangers": "Texas",
+        "Toronto Blue Jays": "Toronto",
+        "Washington Nationals": "Washington"
     }
     
-    # Convert team name to TeamRankings format if needed
+    # Convert team name to TeamRankings format
     tr_team_name = team_name_mapping.get(team_name, team_name)
     
     # URLs for the stats we want to scrape
     urls = {
-        'nrfi_pct': 'https://www.teamrankings.com/mlb/stat/no-run-first-inning-pct',
-        'opponent_nrfi_pct': 'https://www.teamrankings.com/mlb/stat/opponent-no-run-first-inning-pct',
-        '1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/1st-inning-runs-per-game',
-        'opp_1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/opponent-1st-inning-runs-per-game'
+        'nrfi_pct': 'https://www.teamrankings.com/mlb/stat/no-run-first-inning-pct?date=2024-10-31',
+        'opponent_nrfi_pct': 'https://www.teamrankings.com/mlb/stat/opponent-no-run-first-inning-pct?date=2024-10-31',
+        '1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/1st-inning-runs-per-game?date=2024-10-31',
+        'opp_1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/opponent-1st-inning-runs-per-game?date=2024-10-31'
     }
     
     # Headers to mimic a browser request
@@ -214,11 +233,19 @@ def get_teamrankings_stats(team_name):
     return team_stats
 
 def get_pitcher_stats():
+    # Check if cached data exists
+    print(f"Getting pitcher stats for {datetime.now().year}")
+    cache_file = f"pitcher_stats_{datetime.now().year}.json"
+    if os.path.exists(cache_file):
+        print(f"Loading cached pitcher stats from {cache_file}")
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+    
     url = "https://statsapi.mlb.com/api/v1/stats"
     params = {
         "stats": "season",
         "group": "pitching",
-        "season": datetime.now().year,
+        "season": 2024,#datetime.now().year,
         "playerPool": "All",
         "limit": 100,
         "offset": 0
@@ -254,9 +281,22 @@ def get_pitcher_stats():
             raise Exception(f"Failed to fetch pitcher stats: {response.status_code}")
     
     print(f"Total pitchers retrieved: {len(pitcher_stats)}")
+    
+    # Save to cache file
+    with open(cache_file, 'w') as f:
+        json.dump(pitcher_stats, f)
+    print(f"Saved pitcher stats to {cache_file}")
+    
     return pitcher_stats
 
 def get_season_games(start_date, end_date):
+    # Check if cached data exists
+    cache_file = f"season_games_{start_date.strftime('%Y%m%d')}_{end_date.strftime('%Y%m%d')}.json"
+    if os.path.exists(cache_file):
+        print(f"Loading cached season games from {cache_file}")
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+    
     games = []
     current_date = start_date
     print(f"Getting season games from {start_date} to {end_date}")
@@ -273,7 +313,9 @@ def get_season_games(start_date, end_date):
             data = response.json()
             for date in data['dates']:
                 for game in date['games']:
+                    # print(game)
                     if 'linescore' in game and game['linescore']['innings']:
+                        # print("linescore found")
                         home_pitcher = game['teams']['home'].get('probablePitcher', {}).get('fullName')
                         away_pitcher = game['teams']['away'].get('probablePitcher', {}).get('fullName')
                         
@@ -299,9 +341,21 @@ def get_season_games(start_date, end_date):
         current_date += timedelta(days=1)
     
     print(f"Fetched {len(games)} games with known pitchers")
+    
+    # Save to cache file
+    with open(cache_file, 'w') as f:
+        json.dump(games, f)
+    print(f"Saved season games to {cache_file}")
+    
     return games
 
 def prepare_data(games, team_stats, pitcher_stats):
+    # Check if prepared_data.csv exists and return it if so
+    csv_file = "prepared_data.csv"
+    if os.path.exists(csv_file):
+        print(f"Loading prepared data from existing {csv_file}")
+        return pd.read_csv(csv_file)
+    
     data = []
     excluded_games = 0
     missing_pitchers = set()
@@ -387,19 +441,46 @@ def prepare_data(games, team_stats, pitcher_stats):
     
     df = df.dropna()
     
+    # Save the prepared data to CSV
+    if 'nrfi' in df.columns:  # Only save historical data, not prediction data
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        csv_file = f"prepared_data.csv"
+        df.to_csv(csv_file, index=False)
+        print(f"Saved prepared data to {csv_file}")
+    
     return df
 
 def train_model(data):
-    X = data.drop(['nrfi', 'home_team', 'away_team', 'home_pitcher', 'away_pitcher'], axis=1)
+    # Check if required columns exist before dropping them
+    columns_to_drop = []
+    for col in ['nrfi', 'home_team', 'away_team', 'home_pitcher', 'away_pitcher']:
+        if col in data.columns:
+            columns_to_drop.append(col)
+    
+    X = data.drop(columns_to_drop, axis=1)
+    
+    # If 'nrfi' column doesn't exist, we can't train the model
+    if 'nrfi' not in data.columns:
+        print("Error: 'nrfi' column not found in data. Cannot train model.")
+        print("Available columns:", data.columns.tolist())
+        return None
+    
     y = data['nrfi']
     
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     pipeline = Pipeline([
         ('scaler', StandardScaler()),
-        ('classifier', LogisticRegression(random_state=42))
+        ('classifier', xgb.XGBClassifier(
+            objective='binary:logistic',
+            n_estimators=100,
+            max_depth=4,
+            learning_rate=0.1,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            random_state=42
+        ))
     ])
-
     pipeline.fit(X_train, y_train)
 
     y_pred = pipeline.predict(X_test)
@@ -412,16 +493,62 @@ def train_model(data):
     print(f"R-squared score: {r2:.2f}")
 
     mse = mean_squared_error(y_test, y_pred_proba)
-    print(f"Mean squared error: {mse:.4f}")
+    print(f"Root mean squared error: {np.sqrt(mse):.4f}")
 
-    print("---Feature coefficients---")
+    print("---Feature importances---")
     classifier = pipeline.named_steps['classifier']
-    for feature, coefficient in zip(X.columns, classifier.coef_[0]):
-        print(f"{feature}: {coefficient:.4f}")
+    # Get feature importances from XGBoost instead of coefficients
+    importances = classifier.feature_importances_
+    for feature, importance in zip(X.columns, importances):
+        print(f"{feature}: {importance:.4f}")
 
     class_balance = y.value_counts(normalize=True)
     print("Class balance:")
     print(class_balance)
+
+    # Create and save a scatterplot of predicted probabilities vs actual outcomes
+    # Create a figure with two subplots
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+    
+    # Scatter plot of predicted probabilities
+    ax1.scatter(y_pred_proba, y_test, alpha=0.5)
+    ax1.set_xlabel('Predicted NRFI Probability')
+    ax1.set_ylabel('Actual Outcome (1=NRFI, 0=RFI)')
+    ax1.set_title(f'NRFI Prediction Scatter Plot\nAccuracy: {accuracy:.2f}, R²: {r2:.2f}')
+    ax1.grid(True, linestyle='--', alpha=0.7)
+    
+    # Add a horizontal line at y=0.5 to show the decision boundary
+    ax1.axhline(y=0.5, color='r', linestyle='--', alpha=0.5)
+    
+    # Add a diagonal line for perfect predictions
+    ax1.plot([0, 1], [0, 1], 'k--', alpha=0.5)
+    
+    # Confusion matrix
+    cm = confusion_matrix(y_test, y_pred)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['RFI', 'NRFI'])
+    disp.plot(ax=ax2, cmap='Blues', values_format='d')
+    ax2.set_title('Confusion Matrix')
+    
+    # Add text with model metrics
+    plt.figtext(0.5, 0.01, 
+                f'Model Metrics:\nAccuracy: {accuracy:.2f}, R²: {r2:.2f}, MSE: {mse:.4f}\n'
+                f'Class Balance: NRFI={class_balance.get(1, 0):.2%}, RFI={class_balance.get(0, 0):.2%}',
+                ha='center', fontsize=12, bbox=dict(facecolor='white', alpha=0.8))
+    
+    plt.tight_layout(rect=[0, 0.05, 1, 0.95])
+    
+    # Save the figure
+    plot_file = f"nrfi_model_results_{datetime.now().strftime('%Y%m%d')}.png"
+    plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved model results plot to {plot_file}")
+
+    # Save the trained model
+    model_file = f"nrfi_model_{datetime.now().strftime('%Y%m%d')}.pkl"
+    with open(model_file, 'wb') as f:
+        import pickle
+        pickle.dump(pipeline, f)
+    print(f"Saved trained model to {model_file}")
 
     return pipeline
 
@@ -548,12 +675,12 @@ def tweet_nrfi_probabilities(games, probabilities):
     return tweets_sent
 
 def main():
-    current_year = datetime.now().year
-    season_start = datetime(current_year, 4, 1)
-    yesterday = datetime.now() - timedelta(days=1)
-    # season_start = datetime(2024, 4, 1)
-    # current_year = 2024
-    # yesterday = datetime(2024, 5, 15)
+    # current_year = datetime.now().year
+    # season_start = datetime(current_year, 4, 1)
+    # yesterday = datetime.now() - timedelta(days=1)
+    season_start = datetime(2024, 4, 1)
+    current_year = 2024
+    yesterday = datetime(2024, 9, 30)
 
     season_games = get_season_games(season_start, yesterday)
     team_stats = get_team_stats()
@@ -591,9 +718,9 @@ def main():
         print(format_game_info(game, prob))
         print()
 
-    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-                                           [prob for _, prob in sorted_games])
-    print(f"Total tweets sent in this run: {tweets_sent}")
+    # tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
+    #                                        [prob for _, prob in sorted_games])
+    # print(f"Total tweets sent in this run: {tweets_sent}")
 
 if __name__ == "__main__":
     main()
