@@ -147,7 +147,7 @@ def get_teamrankings_stats(team_name):
         "Minnesota Twins": "Minnesota",
         "New York Mets": "NY Mets",
         "New York Yankees": "NY Yankees",
-        "Oakland Athletics": "Sacramento",  # Oakland is now Sacramento in TeamRankings
+        "Athletics": "Sacramento",  # Oakland is now Sacramento in TeamRankings
         "Philadelphia Phillies": "Philadelphia",
         "Pittsburgh Pirates": "Pittsburgh",
         "San Diego Padres": "San Diego",

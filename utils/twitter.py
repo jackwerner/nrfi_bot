@@ -25,7 +25,7 @@ def get_acronym(team_name):
         "Minnesota Twins": "MIN",
         "New York Mets": "NYM",
         "New York Yankees": "NYY",
-        "Oakland Athletics": "ATH",
+        "Athletics": "ATH",
         "Philadelphia Phillies": "PHI",
         "Pittsburgh Pirates": "PIT",
         "San Diego Padres": "SD",
