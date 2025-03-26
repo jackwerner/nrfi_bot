@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 # Import modules from our package
-from nrfi_bot.data.mlb_api import get_todays_games, get_team_stats, get_pitcher_stats, get_season_games
-from nrfi_bot.data.data_processor import prepare_data, format_game_info
-from nrfi_bot.models.nrfi_model import train_model, predict_nrfi_probabilities
-from nrfi_bot.utils.twitter import tweet_nrfi_probabilities, tweet_top_nrfi_poll
+from data.mlb_api import get_todays_games, get_team_stats, get_pitcher_stats, get_season_games
+from data.data_processor import prepare_data, format_game_info
+from models.nrfi_model import train_model, predict_nrfi_probabilities
+from utils.twitter import tweet_nrfi_probabilities, tweet_top_nrfi_poll
 
 def main():
     # Load environment variables
