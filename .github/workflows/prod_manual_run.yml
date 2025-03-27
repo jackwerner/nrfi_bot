@@ -1,0 +1,33 @@
+name: Run NRFI Alert Bot Manually
+
+# The workflow is triggered on a schedule using cron syntax.
+on:
+  workflow_dispatch:
+    
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository so the workflow can access the Python script.
+      - uses: actions/checkout@v3
+      
+      # Set up Python; you can specify the version you need.
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11.10"
+      
+      # Install any dependencies from a requirements file (if needed).
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      # Run the Python script.
+      - name: Run Python script
+        env:
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+        run: python main.py
