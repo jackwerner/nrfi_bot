@@ -106,15 +106,15 @@ def main():
     # Only tweet if there are NRFI predictions
     tweets_sent = 0
     poll_tweet = 0
-    # if nrfi_games:
-    #     tweets_sent = tweet_nrfi_probabilities([game for game, _ in nrfi_games], 
-    #                                          [prob for _, prob in nrfi_games],
-    #                                          model['optimal_threshold'])
-    #     # Tweet poll only for NRFI games
-    #     poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
-    #                                     [prob for _, prob in nrfi_games])
-    # else:
-    #     print("No NRFI predictions for today. No tweets sent.")
+    if nrfi_games:
+        tweets_sent = tweet_nrfi_probabilities([game for game, _ in nrfi_games], 
+                                             [prob for _, prob in nrfi_games],
+                                             model['optimal_threshold'])
+        # Tweet poll only for NRFI games
+        poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
+                                        [prob for _, prob in nrfi_games])
+    else:
+        print("No NRFI predictions for today. No tweets sent.")
     
     print(f"Total tweets sent in this run: {tweets_sent + poll_tweet}")
 
