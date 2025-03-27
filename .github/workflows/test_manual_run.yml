@@ -1,4 +1,4 @@
-name: TEST: Run NRFI Alert Bot Manually
+name: TEST Run NRFI Alert Bot Manually
 
 # The workflow is triggered on a schedule using cron syntax.
 on:
