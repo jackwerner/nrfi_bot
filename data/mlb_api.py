@@ -120,7 +120,8 @@ def get_pitcher_stats():
     params = {
         "stats": "season",
         "group": "pitching",
-        "season": 2024, #datetime.now().year,
+        "season": 2025, #datetime.now().year,
+        "gameType": "S", # change to use R for regular season 
         "playerPool": "All",
         "limit": 100,
         "offset": 0
