@@ -53,7 +53,8 @@ def get_team_stats():
     url = "https://statsapi.mlb.com/api/v1/teams"
     params = {
         "sportId": 1,
-        "season": 2024 #datetime.now().year
+        "season": 2025, #datetime.now().year
+        "gameType": "S" # change to use R for regular season 
     }
     response = requests.get(url, params=params)
     print(f"Team list API call: Status code {response.status_code}")
