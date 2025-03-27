@@ -65,7 +65,7 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
         game_info = (f"🚨 NRFI Alert 🚨\n"
                      f"{game['away_team']} @ {game['home_team']} - {game_time_str}⏰\n"
                      f"Pitchers: {game['away_pitcher']} 🆚 {game['home_pitcher']}\n"
-                     f"NRFI Probability: {probabilities[i]:.2%} 📈\n",
+                     f"NRFI Probability: {probabilities[i]:.2%} 📈\n"
                      f"#{get_acronym(game['away_team'])}vs{get_acronym(game['home_team'])} #NRFI #NRFIAlert")
         
         while True:
