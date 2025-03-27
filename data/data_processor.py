@@ -4,10 +4,10 @@ from datetime import datetime
 
 def prepare_data(games, team_stats, pitcher_stats):
     # Check if prepared_data.csv exists and return it if so
-    csv_file = "prepared_data.csv"
-    if os.path.exists(csv_file):
-        print(f"Loading prepared data from existing {csv_file}")
-        return pd.read_csv(csv_file)
+    # csv_file = "prepared_data.csv"
+    # if os.path.exists(csv_file):
+    #     print(f"Loading prepared data from existing {csv_file}")
+    #     return pd.read_csv(csv_file)
     
     data = []
     excluded_games = 0

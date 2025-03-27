@@ -43,12 +43,12 @@ def get_todays_games():
 
 def get_team_stats():
     # Check if cached data exists
-    print(f"Getting team stats for {datetime.now().year}")
+    # print(f"Getting team stats for {datetime.now().year}")
     cache_file = f"team_stats_{datetime.now().year}.json"
-    if os.path.exists(cache_file):
-        print(f"Loading cached team stats from {cache_file}")
-        with open(cache_file, 'r') as f:
-            return json.load(f)
+    # if os.path.exists(cache_file):
+    #     print(f"Loading cached team stats from {cache_file}")
+    #     with open(cache_file, 'r') as f:
+    #         return json.load(f)
     
     url = "https://statsapi.mlb.com/api/v1/teams"
     params = {
@@ -110,12 +110,12 @@ def get_team_stats():
 
 def get_pitcher_stats():
     # Check if cached data exists
-    print(f"Getting pitcher stats for {datetime.now().year}")
+    # print(f"Getting pitcher stats for {datetime.now().year}")
     cache_file = f"pitcher_stats_{datetime.now().year}.json"
-    if os.path.exists(cache_file):
-        print(f"Loading cached pitcher stats from {cache_file}")
-        with open(cache_file, 'r') as f:
-            return json.load(f)
+    # if os.path.exists(cache_file):
+    #     print(f"Loading cached pitcher stats from {cache_file}")
+    #     with open(cache_file, 'r') as f:
+    #         return json.load(f)
     
     url = "https://statsapi.mlb.com/api/v1/stats"
     params = {
@@ -169,10 +169,10 @@ def get_pitcher_stats():
 def get_season_games(start_date, end_date):
     # Check if cached data exists
     cache_file = f"season_games_{start_date.strftime('%Y%m%d')}_{end_date.strftime('%Y%m%d')}.json"
-    if os.path.exists(cache_file):
-        print(f"Loading cached season games from {cache_file}")
-        with open(cache_file, 'r') as f:
-            return json.load(f)
+    # if os.path.exists(cache_file):
+    #     print(f"Loading cached season games from {cache_file}")
+    #     with open(cache_file, 'r') as f:
+    #         return json.load(f)
     
     games = []
     current_date = start_date

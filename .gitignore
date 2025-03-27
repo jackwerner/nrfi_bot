@@ -1,0 +1,8 @@
+*.csv
+*.json
+*.pkl
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+__pycache__/

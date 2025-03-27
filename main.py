@@ -31,27 +31,37 @@ def main():
     
     # Get today's games and prepare data for prediction
     today_games = get_todays_games()
+    print(f"Today's games: {today_games}")
     today_data = prepare_data(today_games, team_stats, pitcher_stats)
-    
+    print(f"Today's data: {today_data}")
     # Make predictions
     probabilities = predict_nrfi_probabilities(model, today_data)
     
     # Match predictions with game data
     game_prob_pairs = []
     for i, original_game in enumerate(today_games):
-        matching_row = today_data[(today_data['home_team'] == original_game['home_team']) & 
-                                  (today_data['away_team'] == original_game['away_team'])]
+        # Find the corresponding row in today_data by matching both teams and pitchers
+        matching_row = today_data[
+            (today_data['home_team'] == original_game['home_team']) & 
+            (today_data['away_team'] == original_game['away_team']) &
+            (today_data['home_pitcher'] == original_game['home_pitcher']) &
+            (today_data['away_pitcher'] == original_game['away_pitcher'])
+        ]
         
         if not matching_row.empty:
+            # Create a combined game info dictionary with all data
             game_info = matching_row.iloc[0].to_dict()
             game_info['game_time'] = original_game['game_time']
             
-            row_index = matching_row.index[0]
-            probability = probabilities[row_index]
+            # Get the position in the probabilities list
+            # Convert DataFrame index to position in the filtered DataFrame
+            row_position = today_data.index.get_loc(matching_row.index[0])
+            probability = probabilities[row_position]
             
             game_prob_pairs.append((game_info, probability))
         else:
             print(f"\nWarning: No matching prepared data for game {i + 1}: {original_game['away_team']} @ {original_game['home_team']}")
+            print(f"  Pitchers: {original_game['away_pitcher']} vs {original_game['home_pitcher']}")
     
     # Sort games by NRFI probability
     sorted_games = sorted(game_prob_pairs, key=lambda x: x[1], reverse=True)
@@ -96,15 +106,15 @@ def main():
     # Only tweet if there are NRFI predictions
     tweets_sent = 0
     poll_tweet = 0
-    if nrfi_games:
-        tweets_sent = tweet_nrfi_probabilities([game for game, _ in nrfi_games], 
-                                             [prob for _, prob in nrfi_games],
-                                             model['optimal_threshold'])
-        # Tweet poll only for NRFI games
-        poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
-                                        [prob for _, prob in nrfi_games])
-    else:
-        print("No NRFI predictions for today. No tweets sent.")
+    # if nrfi_games:
+    #     tweets_sent = tweet_nrfi_probabilities([game for game, _ in nrfi_games], 
+    #                                          [prob for _, prob in nrfi_games],
+    #                                          model['optimal_threshold'])
+    #     # Tweet poll only for NRFI games
+    #     poll_tweet = tweet_top_nrfi_poll([game for game, _ in nrfi_games], 
+    #                                     [prob for _, prob in nrfi_games])
+    # else:
+    #     print("No NRFI predictions for today. No tweets sent.")
     
     print(f"Total tweets sent in this run: {tweets_sent + poll_tweet}")
 
