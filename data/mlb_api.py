@@ -11,7 +11,6 @@ def get_todays_games():
     params = {
         "sportId": 1,
         "date": datetime.now().strftime("%Y-%m-%d"),
-        # "date": "2024-05-15",
         "hydrate": "team,probablePitcher"
     }
     response = requests.get(url, params=params)
@@ -64,7 +63,7 @@ def get_team_stats(year):
         for team in teams:
             team_id = team['id']
             team_name = team['name']
-            stats_url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/stats?stats=season&group=hitting&season=2024"#{datetime.now().year}"
+            stats_url = f"https://statsapi.mlb.com/api/v1/teams/{team_id}/stats?stats=season&group=hitting&season={year}"
             stats_response = requests.get(stats_url)
             if stats_response.status_code == 200:
                 stats_data = stats_response.json()['stats'][0]['splits'][0]['stat']
