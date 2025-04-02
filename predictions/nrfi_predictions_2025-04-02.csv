@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-02,Pittsburgh Pirates,Tampa Bay Rays,Paul Skenes,Ryan Pepiot,2025-04-02 13:10:00-04:00,0.7599121,0.5300000000000001,NRFI
+2025-04-02,Boston Red Sox,Baltimore Orioles,Garrett Crochet,Zach Eflin,2025-04-02 18:35:00-04:00,0.62089837,0.5300000000000001,NRFI
+2025-04-02,New York Mets,Miami Marlins,Clay Holmes,Connor Gillispie,2025-04-02 16:40:00-04:00,0.6134215,0.5300000000000001,NRFI
+2025-04-02,Kansas City Royals,Milwaukee Brewers,Cole Ragans,Freddy Peralta,2025-04-02 13:10:00-04:00,0.5686144,0.5300000000000001,NRFI
+2025-04-02,Texas Rangers,Cincinnati Reds,Jack Leiter,Hunter Greene,2025-04-02 12:40:00-04:00,0.53421676,0.5300000000000001,NRFI
+2025-04-02,Los Angeles Angels,St. Louis Cardinals,Yusei Kikuchi,Sonny Gray,2025-04-02 13:15:00-04:00,0.52896446,0.5300000000000001,YRFI
+2025-04-02,Washington Nationals,Toronto Blue Jays,MacKenzie Gore,Easton Lucas,2025-04-02 15:07:00-04:00,0.4922965,0.5300000000000001,YRFI
+2025-04-02,Arizona Diamondbacks,New York Yankees,Zac Gallen,Carlos Rodón,2025-04-02 19:05:00-04:00,0.45885643,0.5300000000000001,YRFI
+2025-04-02,Detroit Tigers,Seattle Mariners,Tarik Skubal,Luis Castillo,2025-04-02 16:10:00-04:00,0.38827506,0.5300000000000001,YRFI
