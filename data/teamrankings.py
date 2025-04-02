@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-def get_teamrankings_stats(team_name):
+def get_teamrankings_stats(team_name, year):
     """
     Get NRFI-related stats from TeamRankings.com for a specific team
     """
@@ -28,7 +28,7 @@ def get_teamrankings_stats(team_name):
         "Minnesota Twins": "Minnesota",
         "New York Mets": "NY Mets",
         "New York Yankees": "NY Yankees",
-        "Athletics": "Sacramento",  
+        "Oakland Athletics": "Sacramento",  
         "Philadelphia Phillies": "Philadelphia",
         "Pittsburgh Pirates": "Pittsburgh",
         "San Diego Padres": "San Diego",
@@ -46,10 +46,10 @@ def get_teamrankings_stats(team_name):
     
     # URLs for the stats we want to scrape
     urls = {
-        'nrfi_pct': 'https://www.teamrankings.com/mlb/stat/no-run-first-inning-pct?date=2024-10-31',
-        'opponent_nrfi_pct': 'https://www.teamrankings.com/mlb/stat/opponent-no-run-first-inning-pct?date=2024-10-31',
-        '1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/1st-inning-runs-per-game?date=2024-10-31',
-        'opp_1st_inning_runs': 'https://www.teamrankings.com/mlb/stat/opponent-1st-inning-runs-per-game?date=2024-10-31'
+        'nrfi_pct': f'https://www.teamrankings.com/mlb/stat/no-run-first-inning-pct?date={year}-10-31',
+        'opponent_nrfi_pct': f'https://www.teamrankings.com/mlb/stat/opponent-no-run-first-inning-pct?date={year}-10-31',
+        '1st_inning_runs': f'https://www.teamrankings.com/mlb/stat/1st-inning-runs-per-game?date={year}-10-31',
+        'opp_1st_inning_runs': f'https://www.teamrankings.com/mlb/stat/opponent-1st-inning-runs-per-game?date={year}-10-31'
     }
     
     # Headers to mimic a browser request

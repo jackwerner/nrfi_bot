@@ -41,10 +41,10 @@ def get_todays_games():
     else:
         raise Exception(f"Failed to fetch games: {response.status_code}")
 
-def get_team_stats():
+def get_team_stats(year):
     # Check if cached data exists
     # print(f"Getting team stats for {datetime.now().year}")
-    cache_file = f"team_stats_{datetime.now().year}.json"
+    cache_file = f"team_stats_{year}.json"
     # if os.path.exists(cache_file):
     #     print(f"Loading cached team stats from {cache_file}")
     #     with open(cache_file, 'r') as f:
@@ -53,8 +53,8 @@ def get_team_stats():
     url = "https://statsapi.mlb.com/api/v1/teams"
     params = {
         "sportId": 1,
-        "season": 2025, #datetime.now().year
-        "gameType": "S" # change to use R for regular season 
+        "season": year, #datetime.now().year
+        "gameType": "R" # change to use R for regular season 
     }
     response = requests.get(url, params=params)
     print(f"Team list API call: Status code {response.status_code}")
@@ -91,7 +91,7 @@ def get_team_stats():
                 }
                 
                 # Add additional NRFI-related stats from TeamRankings
-                team_stats[team_id].update(get_teamrankings_stats(team_name))
+                team_stats[team_id].update(get_teamrankings_stats(team_name, year))
                 
                 for stat, value in team_stats[team_id].items():
                     if value is None:
@@ -108,10 +108,10 @@ def get_team_stats():
     else:
         raise Exception(f"Failed to fetch team stats: {response.status_code}")
 
-def get_pitcher_stats():
+def get_pitcher_stats(year):
     # Check if cached data exists
     # print(f"Getting pitcher stats for {datetime.now().year}")
-    cache_file = f"pitcher_stats_{datetime.now().year}.json"
+    cache_file = f"pitcher_stats_{year}.json"
     # if os.path.exists(cache_file):
     #     print(f"Loading cached pitcher stats from {cache_file}")
     #     with open(cache_file, 'r') as f:
@@ -121,8 +121,8 @@ def get_pitcher_stats():
     params = {
         "stats": "season",
         "group": "pitching",
-        "season": 2025, #datetime.now().year,
-        "gameType": "S", # change to use R for regular season 
+        "season": year, #datetime.now().year,
+        "gameType": "R", # change to use R for regular season 
         "playerPool": "All",
         "limit": 100,
         "offset": 0

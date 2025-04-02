@@ -7,3 +7,10 @@
 *.pyw
 __pycache__/
 data/__pycache__/
+models/__pycache__/
+utils/__pycache__/
+data/__pycache__/data_processor.cpython-311.pyc
+data/__pycache__/mlb_api.cpython-311.pyc
+utils/__pycache__/twitter.cpython-311.pyc
+data/__pycache__/data_processor.cpython-311.pyc
+data/__pycache__/data_processor.cpython-311.pyc

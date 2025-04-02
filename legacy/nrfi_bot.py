@@ -718,9 +718,9 @@ def main():
         print(format_game_info(game, prob))
         print()
 
-    # tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
-    #                                        [prob for _, prob in sorted_games])
-    # print(f"Total tweets sent in this run: {tweets_sent}")
+    tweets_sent = tweet_nrfi_probabilities([game for game, _ in sorted_games], 
+                                           [prob for _, prob in sorted_games])
+    print(f"Total tweets sent in this run: {tweets_sent}")
 
 if __name__ == "__main__":
     main()
