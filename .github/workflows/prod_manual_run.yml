@@ -31,3 +31,18 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
         run: python main.py
+      
+      # Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+      # Commit and push changes if there are any
+      - name: Commit and push prediction files
+        run: |
+          git add predictions/ -f || true
+          git diff --staged --quiet || git commit -m "Update predictions from scheduled run"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
