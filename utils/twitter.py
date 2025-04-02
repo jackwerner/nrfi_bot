@@ -62,10 +62,11 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
     for i, game in enumerate(games):
         game_time_str = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
         
-        game_info = (f"🚨 NRFI Alert 🚨\n"
-                     f"{game['away_team']} @ {game['home_team']} - {game_time_str}⏰\n"
-                     f"Pitchers: {game['away_pitcher']} 🆚 {game['home_pitcher']}\n"
-                     f"NRFI Probability: {probabilities[i]:.2%} 📈\n"
+        game_info = (f"🛌 NRFI Alert 🛌\n"
+                     f"Game: {game['away_team']} @ {game['home_team']}\n"
+                     f"🕒 Time: {game_time_str}\n"
+                     f"⚔️ Pitchers: {game['away_pitcher']} vs {game['home_pitcher']}\n"
+                     f"💤 NRFI Probability: {probabilities[i]:.2%}\n\n"
                      f"#{get_acronym(game['away_team'])}vs{get_acronym(game['home_team'])} #NRFI #NRFIAlert")
         
         while True:
@@ -109,14 +110,14 @@ def tweet_top_nrfi_poll(games, probabilities, num_games=4):
     top_probs = probabilities[:num_games]
 
     # Create tweet text with game summaries
-    tweet_text = "🎲 Which game will be a NRFI today? 🎯\n\n"
+    tweet_text = "🎲 Which game will be a NRFI today? 🛌\n\n"
     poll_options = []
     
     for i, (game, prob) in enumerate(zip(top_games, top_probs), 1):
-        summary = f"{i}. {game['away_team']} @ {game['home_team']} ({prob:.0%})\n"
+        summary = f"{i}. {game['away_pitcher']} ({get_acronym(game['away_team'])}) @ {game['home_pitcher']} ({get_acronym(game['home_team'])}) ({prob:.0%})\n"
         tweet_text += summary
         # Use team vs team format for poll options
-        poll_options.append(f"{get_acronym(game['away_team'])} @ {get_acronym(game['home_team'])}")
+        poll_options.append(f"{get_acronym(game['away_pitcher'])} @ {get_acronym(game['home_pitcher'])}")
 
     try:
         response = client.create_tweet(
