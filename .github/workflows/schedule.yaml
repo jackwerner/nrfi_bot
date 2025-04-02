@@ -4,6 +4,11 @@ name: Run NRFI Alert Bot on Schedule
 on:
   schedule:
     - cron: "0 11 * * *"  # Runs every day at 7am EDT
+
+# Add permissions block to grant write access to the repository contents
+permissions:
+  contents: write
+  
 jobs:
   run-python-script:
     runs-on: ubuntu-latest

@@ -4,6 +4,10 @@ name: PROD Run NRFI Alert Bot Manually
 on:
   workflow_dispatch:
     
+# Add permissions block to grant write access to the repository contents
+permissions:
+  contents: write
+
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
