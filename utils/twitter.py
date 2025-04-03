@@ -44,6 +44,44 @@ def get_acronym(team_name):
     
     return team_abbreviations.get(team_name, team_name)
 
+def get_emoji(team_name):
+    # Define a mapping of team names to their emojis
+    team_emojis = {
+        "Arizona Diamondbacks": "🐍",
+        "Atlanta Braves": "🪶",        
+        "Baltimore Orioles": "🐦‍⬛",
+        "Boston Red Sox": "🔴🧦",
+        "Chicago Cubs": "🐻",
+        "Chicago White Sox": "⚪🧦",
+        "Cincinnati Reds": "🔴",
+        "Cleveland Guardians": "🛡️",
+        "Colorado Rockies": "⛰️",
+        "Detroit Tigers": "🐯",
+        "Houston Astros": "⭐",
+        "Kansas City Royals": "👑",
+        "Los Angeles Angels": "👼",
+        "Los Angeles Dodgers": "🔷",
+        "Miami Marlins": "🐟",
+        "Milwaukee Brewers": "🍺",
+        "Minnesota Twins": "👬",
+        "New York Mets": "🍎",
+        "New York Yankees": "🗽",
+        "Athletics": "🏅",
+        "Philadelphia Phillies": "🔔",
+        "Pittsburgh Pirates": "🏴‍☠️",
+        "San Diego Padres": "⛪",
+        "San Francisco Giants": "🌉",
+        "Seattle Mariners": "⚓",
+        "St. Louis Cardinals": "🐦‍🔥",
+        "Tampa Bay Rays": "⛱️",
+        "Texas Rangers": "🤠",
+        "Toronto Blue Jays": "🐦",
+        "Washington Nationals": "🇺🇸"
+    }
+    
+    # Use the acronym to look up the emoji
+    return team_emojis.get(team_name, "")
+
 def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
@@ -63,7 +101,7 @@ def tweet_nrfi_probabilities(games, probabilities, model_threshold=0.5):
         game_time_str = game['game_time'].strftime("%I:%M %p ET") if 'game_time' in game else "Time N/A"
         
         game_info = (f"🛌 NRFI Alert 🛌\n"
-                     f"Game: {game['away_team']} @ {game['home_team']}\n"
+                     f"Game: {game['away_team']}{get_emoji(game['away_team'])} @ {game['home_team']}{get_emoji(game['home_team'])}\n"
                      f"🕒 Time: {game_time_str}\n"
                      f"⚔️ Pitchers: {game['away_pitcher']} vs {game['home_pitcher']}\n"
                      f"💤 NRFI Probability: {probabilities[i]:.2%}\n\n"
@@ -114,10 +152,10 @@ def tweet_top_nrfi_poll(games, probabilities, num_games=4):
     poll_options = []
     
     for i, (game, prob) in enumerate(zip(top_games, top_probs), 1):
-        summary = f"{i}. {game['away_pitcher']} ({get_acronym(game['away_team'])}) @ {game['home_pitcher']} ({get_acronym(game['home_team'])}) ({prob:.0%})\n"
+        summary = f"{i}. {game['away_pitcher']} ({get_acronym(game['away_team'])}{get_emoji(game['away_team'])}) @ {game['home_pitcher']} ({get_acronym(game['home_team'])}{get_emoji(game['home_team'])}) ({prob:.0%})\n"
         tweet_text += summary
         # Use team vs team format for poll options
-        poll_options.append(f"{get_acronym(game['away_team'])} @ {get_acronym(game['home_team'])}")
+        poll_options.append(f"{get_acronym(game['away_team'])}{get_emoji(game['away_team'])} @ {get_acronym(game['home_team'])}{get_emoji(game['home_team'])}")
 
     try:
         response = client.create_tweet(
