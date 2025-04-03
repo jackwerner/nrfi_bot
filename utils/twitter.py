@@ -117,7 +117,7 @@ def tweet_top_nrfi_poll(games, probabilities, num_games=4):
         summary = f"{i}. {game['away_pitcher']} ({get_acronym(game['away_team'])}) @ {game['home_pitcher']} ({get_acronym(game['home_team'])}) ({prob:.0%})\n"
         tweet_text += summary
         # Use team vs team format for poll options
-        poll_options.append(f"{get_acronym(game['away_pitcher'])} @ {get_acronym(game['home_pitcher'])}")
+        poll_options.append(f"{get_acronym(game['away_team'])} @ {get_acronym(game['home_team'])}")
 
     try:
         response = client.create_tweet(
