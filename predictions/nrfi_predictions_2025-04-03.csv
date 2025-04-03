@@ -1,2 +1,6 @@
 date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
-2025-04-03,Boston Red Sox,Baltimore Orioles,Tanner Houck,Charlie Morton,2025-04-03 13:05:00-04:00,0.4584524,0.5300000000000001,YRFI
+2025-04-03,Boston Red Sox,Baltimore Orioles,Tanner Houck,Charlie Morton,2025-04-03 13:05:00-04:00,0.5755998,0.5300000000000001,NRFI
+2025-04-03,Colorado Rockies,Philadelphia Phillies,Antonio Senzatela,Taijuan Walker,2025-04-03 13:05:00-04:00,0.5548269,0.5300000000000001,NRFI
+2025-04-03,Houston Astros,Minnesota Twins,Hunter Brown,Joe Ryan,2025-04-03 16:10:00-04:00,0.52745116,0.5300000000000001,YRFI
+2025-04-03,Arizona Diamondbacks,New York Yankees,Merrill Kelly,Carlos Carrasco,2025-04-03 19:05:00-04:00,0.4900722,0.5300000000000001,YRFI
+2025-04-03,Cincinnati Reds,Milwaukee Brewers,Nick Lodolo,Nestor Cortes,2025-04-03 19:40:00-04:00,0.32785717,0.5300000000000001,YRFI
