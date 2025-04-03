@@ -40,7 +40,7 @@ def get_todays_games():
     else:
         raise Exception(f"Failed to fetch games: {response.status_code}")
 
-def get_team_stats(year):
+def get_team_stats(year, gameType="R"):
     # Check if cached data exists
     # print(f"Getting team stats for {datetime.now().year}")
     cache_file = f"team_stats_{year}.json"
@@ -53,7 +53,7 @@ def get_team_stats(year):
     params = {
         "sportId": 1,
         "season": year, #datetime.now().year
-        "gameType": "R" # change to use R for regular season 
+        "gameType": gameType # change to use R for regular season 
     }
     response = requests.get(url, params=params)
     print(f"Team list API call: Status code {response.status_code}")
@@ -107,7 +107,7 @@ def get_team_stats(year):
     else:
         raise Exception(f"Failed to fetch team stats: {response.status_code}")
 
-def get_pitcher_stats(year):
+def get_pitcher_stats(year, gameType="R"):
     # Check if cached data exists
     # print(f"Getting pitcher stats for {datetime.now().year}")
     cache_file = f"pitcher_stats_{year}.json"
@@ -121,7 +121,7 @@ def get_pitcher_stats(year):
         "stats": "season",
         "group": "pitching",
         "season": year, #datetime.now().year,
-        "gameType": "R", # change to use R for regular season 
+        "gameType": gameType, # change to use R for regular season 
         "playerPool": "All",
         "limit": 100,
         "offset": 0

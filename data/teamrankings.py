@@ -29,6 +29,7 @@ def get_teamrankings_stats(team_name, year):
         "New York Mets": "NY Mets",
         "New York Yankees": "NY Yankees",
         "Oakland Athletics": "Sacramento",  
+        "Athletics": "Sacramento",  
         "Philadelphia Phillies": "Philadelphia",
         "Pittsburgh Pirates": "Pittsburgh",
         "San Diego Padres": "San Diego",

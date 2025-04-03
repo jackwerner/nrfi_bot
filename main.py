@@ -21,8 +21,8 @@ def main():
 
     # Get historical data for model training
     train_season_games = get_season_games(train_start_date, train_end_date)
-    train_team_stats = get_team_stats(2024)
-    train_pitcher_stats = get_pitcher_stats(2024)
+    train_team_stats = get_team_stats(2024, "R")
+    train_pitcher_stats = get_pitcher_stats(2024, "R")
     historical_data = prepare_data(train_season_games, train_team_stats, train_pitcher_stats)
     
     # Train the model
@@ -31,7 +31,7 @@ def main():
     # Get today's games and prepare data for prediction
     today_games = get_todays_games()
     print(f"Today's games: {today_games}")
-    today_data = prepare_data(today_games, get_team_stats(datetime.now().year), get_pitcher_stats(datetime.now().year))
+    today_data = prepare_data(today_games, get_team_stats(datetime.now().year, "R"), get_pitcher_stats(datetime.now().year, "S"))
     print(f"Today's data: {today_data}")
     # Make predictions
     probabilities = predict_nrfi_probabilities(model, today_data)
