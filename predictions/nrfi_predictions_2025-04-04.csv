@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-04,Cleveland Guardians,Los Angeles Angels,Gavin Williams,José Soriano,2025-04-04 21:38:00-04:00,0.6388395,0.5300000000000001,NRFI
+2025-04-04,Athletics,Colorado Rockies,Osvaldo Bido,Ryan Feltner,2025-04-04 16:10:00-04:00,0.63467413,0.5300000000000001,NRFI
+2025-04-04,Miami Marlins,Atlanta Braves,Max Meyer,Spencer Schwellenbach,2025-04-04 19:15:00-04:00,0.6233866,0.5300000000000001,NRFI
+2025-04-04,Arizona Diamondbacks,Washington Nationals,Brandon Pfaadt,Jake Irvin,2025-04-04 18:45:00-04:00,0.5846683,0.5300000000000001,NRFI
+2025-04-04,Los Angeles Dodgers,Philadelphia Phillies,Yoshinobu Yamamoto,Jesús Luzardo,2025-04-04 18:45:00-04:00,0.57577527,0.5300000000000001,NRFI
+2025-04-04,Seattle Mariners,San Francisco Giants,Luis F. Castillo,Justin Verlander,2025-04-04 16:35:00-04:00,0.553169,0.5300000000000001,NRFI
+2025-04-04,New York Yankees,Pittsburgh Pirates,Max Fried,Mitch Keller,2025-04-04 16:12:00-04:00,0.5421435,0.5300000000000001,NRFI
+2025-04-04,Tampa Bay Rays,Texas Rangers,Zack Littell,Tyler Mahle,2025-04-04 20:05:00-04:00,0.49549082,0.5300000000000001,YRFI
+2025-04-04,St. Louis Cardinals,Boston Red Sox,Erick Fedde,Walker Buehler,2025-04-04 14:10:00-04:00,0.48339775,0.5300000000000001,YRFI
+2025-04-04,Baltimore Orioles,Kansas City Royals,Dean Kremer,Seth Lugo,2025-04-04 19:40:00-04:00,0.48060673,0.5300000000000001,YRFI
+2025-04-04,San Diego Padres,Chicago Cubs,Randy Vásquez,Shota Imanaga,2025-04-04 14:20:00-04:00,0.4751499,0.5300000000000001,YRFI
+2025-04-04,Toronto Blue Jays,New York Mets,Kevin Gausman,Tylor Megill,2025-04-04 15:10:00-04:00,0.4280027,0.5300000000000001,YRFI
+2025-04-04,Chicago White Sox,Detroit Tigers,Jonathan Cannon,Jack Flaherty,2025-04-04 13:10:00-04:00,0.42746896,0.5300000000000001,YRFI
