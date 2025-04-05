@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-05,Chicago White Sox,Detroit Tigers,Davis Martin,Reese Olson,2025-04-05 13:10:00-04:00,0.73437816,0.5300000000000001,NRFI
+2025-04-05,Los Angeles Dodgers,Philadelphia Phillies,Roki Sasaki,Aaron Nola,2025-04-05 16:05:00-04:00,0.73073894,0.5300000000000001,NRFI
+2025-04-05,Arizona Diamondbacks,Washington Nationals,Eduardo Rodriguez,Mitchell Parker,2025-04-05 16:05:00-04:00,0.6493559,0.5300000000000001,NRFI
+2025-04-05,Houston Astros,Minnesota Twins,Spencer Arrighetti,Bailey Ober,2025-04-05 14:10:00-04:00,0.6260082,0.5300000000000001,NRFI
+2025-04-05,San Diego Padres,Chicago Cubs,Nick Pivetta,Matthew Boyd,2025-04-05 14:20:00-04:00,0.62598205,0.5300000000000001,NRFI
+2025-04-05,Miami Marlins,Atlanta Braves,Cal Quantrill,AJ Smith-Shawver,2025-04-05 19:15:00-04:00,0.59466,0.5300000000000001,NRFI
+2025-04-05,Seattle Mariners,San Francisco Giants,Bryce Miller,Robbie Ray,2025-04-05 21:05:00-04:00,0.56631577,0.5300000000000001,NRFI
+2025-04-05,Toronto Blue Jays,New York Mets,Chris Bassitt,Griffin Canning,2025-04-05 19:10:00-04:00,0.566036,0.5300000000000001,NRFI
+2025-04-05,New York Yankees,Pittsburgh Pirates,Marcus Stroman,Bailey Falter,2025-04-05 16:05:00-04:00,0.55119824,0.5300000000000001,NRFI
+2025-04-05,Baltimore Orioles,Kansas City Royals,Tomoyuki Sugano,Michael Wacha,2025-04-05 16:10:00-04:00,0.5393963,0.5300000000000001,NRFI
+2025-04-05,Athletics,Colorado Rockies,JP Sears,Germán Márquez,2025-04-05 20:10:00-04:00,0.5329433,0.5300000000000001,NRFI
+2025-04-05,Cleveland Guardians,Los Angeles Angels,Tanner Bibee,Jack Kochanowicz,2025-04-05 21:38:00-04:00,0.5256737,0.5300000000000001,YRFI
+2025-04-05,Tampa Bay Rays,Texas Rangers,Taj Bradley,Jacob deGrom,2025-04-05 19:05:00-04:00,0.51427996,0.5300000000000001,YRFI
+2025-04-05,St. Louis Cardinals,Boston Red Sox,Andre Pallante,Richard Fitts,2025-04-05 16:10:00-04:00,0.46570277,0.5300000000000001,YRFI
+2025-04-05,Cincinnati Reds,Milwaukee Brewers,Brady Singer,Elvin Rodriguez,2025-04-05 19:10:00-04:00,0.3629661,0.5300000000000001,YRFI
