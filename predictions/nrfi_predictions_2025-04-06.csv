@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-06,Baltimore Orioles,Kansas City Royals,Cade Povich,Kris Bubic,2025-04-06 14:10:00-04:00,0.6339451,0.5300000000000001,NRFI
+2025-04-06,Miami Marlins,Atlanta Braves,Sandy Alcantara,Grant Holmes,2025-04-06 13:35:00-04:00,0.57309926,0.5300000000000001,NRFI
+2025-04-06,St. Louis Cardinals,Boston Red Sox,Andre Pallante,Sean Newcomb,2025-04-06 13:35:00-04:00,0.57253784,0.5300000000000001,NRFI
+2025-04-06,Los Angeles Dodgers,Philadelphia Phillies,Tyler Glasnow,Cristopher Sánchez,2025-04-06 13:35:00-04:00,0.5636695,0.5300000000000001,NRFI
+2025-04-06,Seattle Mariners,San Francisco Giants,Bryan Woo,Jordan Hicks,2025-04-06 16:05:00-04:00,0.5633516,0.5300000000000001,NRFI
+2025-04-06,Houston Astros,Minnesota Twins,Ronel Blanco,Chris Paddack,2025-04-06 14:10:00-04:00,0.5331146,0.5300000000000001,NRFI
+2025-04-06,San Diego Padres,Chicago Cubs,Kyle Hart,Ben Brown,2025-04-06 14:20:00-04:00,0.532246,0.5300000000000001,NRFI
+2025-04-06,Chicago White Sox,Detroit Tigers,Martín Pérez,Jackson Jobe,2025-04-06 13:40:00-04:00,0.5200727,0.5300000000000001,YRFI
+2025-04-06,Athletics,Colorado Rockies,Joey Estes,Chase Dollander,2025-04-06 15:10:00-04:00,0.50854635,0.5300000000000001,YRFI
+2025-04-06,Toronto Blue Jays,New York Mets,Bowden Francis,David Peterson,2025-04-06 13:40:00-04:00,0.505672,0.5300000000000001,YRFI
+2025-04-06,Tampa Bay Rays,Texas Rangers,Drew Rasmussen,Kumar Rocker,2025-04-06 14:35:00-04:00,0.5016474,0.5300000000000001,YRFI
+2025-04-06,Cleveland Guardians,Los Angeles Angels,Luis L. Ortiz,Tyler Anderson,2025-04-06 16:07:00-04:00,0.45660007,0.5300000000000001,YRFI
+2025-04-06,New York Yankees,Pittsburgh Pirates,Will Warren,Andrew Heaney,2025-04-06 13:35:00-04:00,0.39996994,0.5300000000000001,YRFI
+2025-04-06,Cincinnati Reds,Milwaukee Brewers,Carson Spiers,Chad Patrick,2025-04-06 14:10:00-04:00,0.35915238,0.5300000000000001,YRFI
