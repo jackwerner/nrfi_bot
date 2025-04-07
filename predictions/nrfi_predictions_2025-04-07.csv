@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-07,St. Louis Cardinals,Pittsburgh Pirates,Matthew Liberatore,Carmen Mlodzinski,2025-04-07 18:40:00-04:00,0.7525742,0.5300000000000001,NRFI
+2025-04-07,Baltimore Orioles,Arizona Diamondbacks,Zach Eflin,Zac Gallen,2025-04-07 21:40:00-04:00,0.6313434,0.5300000000000001,NRFI
+2025-04-07,Houston Astros,Seattle Mariners,Hayden Wesneski,Logan Gilbert,2025-04-07 21:40:00-04:00,0.58034277,0.5300000000000001,NRFI
+2025-04-07,Cincinnati Reds,San Francisco Giants,Hunter Greene,Logan Webb,2025-04-07 21:45:00-04:00,0.5792951,0.5300000000000001,NRFI
+2025-04-07,New York Yankees,Detroit Tigers,Carlos Rodón,Casey Mize,2025-04-07 15:10:00-04:00,0.54316634,0.5300000000000001,NRFI
+2025-04-07,Los Angeles Dodgers,Washington Nationals,Dustin May,MacKenzie Gore,2025-04-07 18:45:00-04:00,0.53722435,0.5300000000000001,NRFI
+2025-04-07,San Diego Padres,Athletics,Michael King,Luis Severino,2025-04-07 22:05:00-04:00,0.5350253,0.5300000000000001,NRFI
+2025-04-07,Minnesota Twins,Kansas City Royals,Simeon Woods Richardson,Michael Lorenzen,2025-04-07 19:40:00-04:00,0.5006299,0.5300000000000001,YRFI
+2025-04-07,Toronto Blue Jays,Boston Red Sox,Easton Lucas,Richard Fitts,2025-04-07 18:45:00-04:00,0.48213688,0.5300000000000001,YRFI
