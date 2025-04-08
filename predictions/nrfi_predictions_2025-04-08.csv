@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-08,Miami Marlins,New York Mets,Connor Gillispie,Clay Holmes,2025-04-08 16:10:00-04:00,0.64227384,0.5300000000000001,NRFI
+2025-04-08,Toronto Blue Jays,Boston Red Sox,Easton Lucas,Garrett Crochet,2025-04-08 18:45:00-04:00,0.6357325,0.5300000000000001,NRFI
+2025-04-08,Los Angeles Dodgers,Washington Nationals,Justin Wrobleski,Brad Lord,2025-04-08 18:45:00-04:00,0.6318929,0.5300000000000001,NRFI
+2025-04-08,Philadelphia Phillies,Atlanta Braves,Zack Wheeler,Chris Sale,2025-04-08 19:15:00-04:00,0.6240227,0.5300000000000001,NRFI
+2025-04-08,Chicago White Sox,Cleveland Guardians,Shane Smith,Ben Lively,2025-04-08 16:10:00-04:00,0.5984689,0.5300000000000001,NRFI
+2025-04-08,Cincinnati Reds,San Francisco Giants,Nick Lodolo,Landen Roupp,2025-04-08 21:45:00-04:00,0.54538864,0.5300000000000001,NRFI
+2025-04-08,New York Yankees,Detroit Tigers,Carlos Carrasco,Tarik Skubal,2025-04-08 13:10:00-04:00,0.5094827,0.5300000000000001,YRFI
+2025-04-08,Milwaukee Brewers,Colorado Rockies,Freddy Peralta,Kyle Freeland,2025-04-08 20:40:00-04:00,0.48159105,0.5300000000000001,YRFI
+2025-04-08,St. Louis Cardinals,Pittsburgh Pirates,Sonny Gray,Paul Skenes,2025-04-08 18:40:00-04:00,0.45906934,0.5300000000000001,YRFI
+2025-04-08,Minnesota Twins,Kansas City Royals,Pablo López,Cole Ragans,2025-04-08 19:40:00-04:00,0.44152424,0.5300000000000001,YRFI
+2025-04-08,Los Angeles Angels,Tampa Bay Rays,Kyle Hendricks,Shane Baz,2025-04-08 19:05:00-04:00,0.42841625,0.5300000000000001,YRFI
+2025-04-08,Baltimore Orioles,Arizona Diamondbacks,Charlie Morton,Merrill Kelly,2025-04-08 21:40:00-04:00,0.32898524,0.5300000000000001,YRFI
+2025-04-08,San Diego Padres,Athletics,Dylan Cease,Jeffrey Springs,2025-04-08 22:05:00-04:00,0.28745687,0.5300000000000001,YRFI
