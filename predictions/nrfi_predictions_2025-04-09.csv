@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-09,Cincinnati Reds,San Francisco Giants,Nick Martinez,Justin Verlander,2025-04-09 15:45:00-04:00,0.60332566,0.5300000000000001,NRFI
+2025-04-09,Texas Rangers,Chicago Cubs,Tyler Mahle,Shota Imanaga,2025-04-09 14:20:00-04:00,0.5941955,0.5300000000000001,NRFI
+2025-04-09,New York Yankees,Detroit Tigers,Max Fried,Jack Flaherty,2025-04-09 13:10:00-04:00,0.5893207,0.5300000000000001,NRFI
+2025-04-09,Miami Marlins,New York Mets,Max Meyer,Tylor Megill,2025-04-09 13:10:00-04:00,0.5630063,0.5300000000000001,NRFI
+2025-04-09,St. Louis Cardinals,Pittsburgh Pirates,Erick Fedde,Mitch Keller,2025-04-09 12:35:00-04:00,0.55597395,0.5300000000000001,NRFI
+2025-04-09,Los Angeles Angels,Tampa Bay Rays,Yusei Kikuchi,Ryan Pepiot,2025-04-09 19:05:00-04:00,0.55504674,0.5300000000000001,NRFI
+2025-04-09,Minnesota Twins,Kansas City Royals,Joe Ryan,Seth Lugo,2025-04-09 19:40:00-04:00,0.53119826,0.5300000000000001,NRFI
+2025-04-09,Philadelphia Phillies,Atlanta Braves,Taijuan Walker,Grant Holmes,2025-04-09 19:15:00-04:00,0.4910681,0.5300000000000001,YRFI
+2025-04-09,Houston Astros,Seattle Mariners,Hunter Brown,Luis F. Castillo,2025-04-09 16:10:00-04:00,0.48016945,0.5300000000000001,YRFI
+2025-04-09,Chicago White Sox,Cleveland Guardians,Sean Burke,Logan Allen,2025-04-09 18:10:00-04:00,0.47372514,0.5300000000000001,YRFI
+2025-04-09,Toronto Blue Jays,Boston Red Sox,Kevin Gausman,Tanner Houck,2025-04-09 18:45:00-04:00,0.42718273,0.5300000000000001,YRFI
+2025-04-09,Los Angeles Dodgers,Washington Nationals,Landon Knack,Jake Irvin,2025-04-09 16:05:00-04:00,0.4177084,0.5300000000000001,YRFI
+2025-04-09,Baltimore Orioles,Arizona Diamondbacks,Dean Kremer,Brandon Pfaadt,2025-04-09 15:40:00-04:00,0.40901738,0.5300000000000001,YRFI
+2025-04-09,San Diego Padres,Athletics,Randy Vásquez,Osvaldo Bido,2025-04-09 15:35:00-04:00,0.32560244,0.5300000000000001,YRFI
