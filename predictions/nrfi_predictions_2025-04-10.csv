@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-10,Minnesota Twins,Kansas City Royals,Bailey Ober,Michael Wacha,2025-04-10 14:10:00-04:00,0.61758846,0.5300000000000001,NRFI
+2025-04-10,Toronto Blue Jays,Boston Red Sox,Chris Bassitt,Walker Buehler,2025-04-10 16:10:00-04:00,0.5317093,0.5300000000000001,NRFI
+2025-04-10,Philadelphia Phillies,Atlanta Braves,Jesús Luzardo,Spencer Schwellenbach,2025-04-10 19:15:00-04:00,0.49322146,0.5300000000000001,YRFI
+2025-04-10,Milwaukee Brewers,Colorado Rockies,Quinn Priester,Ryan Feltner,2025-04-10 15:10:00-04:00,0.47532737,0.5300000000000001,YRFI
+2025-04-10,Los Angeles Angels,Tampa Bay Rays,José Soriano,Zack Littell,2025-04-10 13:10:00-04:00,0.45967847,0.5300000000000001,YRFI
+2025-04-10,Chicago White Sox,Cleveland Guardians,Jonathan Cannon,Gavin Williams,2025-04-10 13:10:00-04:00,0.4532504,0.5300000000000001,YRFI
