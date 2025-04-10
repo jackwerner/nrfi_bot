@@ -218,9 +218,4 @@ def get_season_games(start_date, end_date):
     
     print(f"Fetched {len(games)} games with known pitchers")
     
-    # Save to cache file
-    with open(cache_file, 'w') as f:
-        json.dump(games, f)
-    print(f"Saved season games to {cache_file}")
-    
     return games 
