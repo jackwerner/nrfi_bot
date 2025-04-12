@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-12,Philadelphia Phillies,St. Louis Cardinals,Cristopher Sánchez,Miles Mikolas,2025-04-12 14:15:00-04:00,0.6867159,0.5300000000000001,NRFI
+2025-04-12,Atlanta Braves,Tampa Bay Rays,AJ Smith-Shawver,Drew Rasmussen,2025-04-12 16:10:00-04:00,0.60522306,0.5300000000000001,NRFI
+2025-04-12,Chicago Cubs,Los Angeles Dodgers,Ben Brown,Roki Sasaki,2025-04-12 21:10:00-04:00,0.58996904,0.5300000000000001,NRFI
+2025-04-12,Los Angeles Angels,Houston Astros,Tyler Anderson,Ryan Gusto,2025-04-12 19:10:00-04:00,0.5893845,0.5300000000000001,NRFI
+2025-04-12,Pittsburgh Pirates,Cincinnati Reds,Andrew Heaney,Andrew Abbott,2025-04-12 18:40:00-04:00,0.58222777,0.5300000000000001,NRFI
+2025-04-12,Boston Red Sox,Chicago White Sox,Richard Fitts,Martín Pérez,2025-04-12 16:10:00-04:00,0.5596102,0.5300000000000001,NRFI
+2025-04-12,Milwaukee Brewers,Arizona Diamondbacks,Chad Patrick,Corbin Burnes,2025-04-12 20:10:00-04:00,0.5565591,0.5300000000000001,NRFI
+2025-04-12,San Francisco Giants,New York Yankees,Jordan Hicks,Will Warren,2025-04-12 15:05:00-04:00,0.5536557,0.5300000000000001,NRFI
+2025-04-12,Washington Nationals,Miami Marlins,Trevor Williams,Sandy Alcantara,2025-04-12 16:10:00-04:00,0.53762496,0.5300000000000001,NRFI
+2025-04-12,Toronto Blue Jays,Baltimore Orioles,Bowden Francis,Tomoyuki Sugano,2025-04-12 16:05:00-04:00,0.5044557,0.5300000000000001,YRFI
+2025-04-12,Texas Rangers,Seattle Mariners,Kumar Rocker,Bryan Woo,2025-04-12 21:40:00-04:00,0.48187837,0.5300000000000001,YRFI
+2025-04-12,Detroit Tigers,Minnesota Twins,Jackson Jobe,Chris Paddack,2025-04-12 14:10:00-04:00,0.434951,0.5300000000000001,YRFI
+2025-04-12,Colorado Rockies,San Diego Padres,Chase Dollander,Kyle Hart,2025-04-12 20:40:00-04:00,0.4142936,0.5300000000000001,YRFI
+2025-04-12,Kansas City Royals,Cleveland Guardians,Michael Lorenzen,Luis L. Ortiz,2025-04-12 18:10:00-04:00,0.3566406,0.5300000000000001,YRFI
