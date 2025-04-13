@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-13,Detroit Tigers,Minnesota Twins,Casey Mize,Simeon Woods Richardson,2025-04-13 14:10:00-04:00,0.7417165,0.5300000000000001,NRFI
+2025-04-13,New York Mets,Athletics,Kodai Senga,Luis Severino,2025-04-13 16:05:00-04:00,0.7280824,0.5300000000000001,NRFI
+2025-04-13,San Francisco Giants,New York Yankees,Logan Webb,Carlos Rodón,2025-04-13 13:35:00-04:00,0.7015919,0.5300000000000001,NRFI
+2025-04-13,Philadelphia Phillies,St. Louis Cardinals,Zack Wheeler,Matthew Liberatore,2025-04-13 14:15:00-04:00,0.65242136,0.5300000000000001,NRFI
+2025-04-13,Boston Red Sox,Chicago White Sox,Garrett Crochet,Shane Smith,2025-04-13 14:10:00-04:00,0.5973004,0.5300000000000001,NRFI
+2025-04-13,Toronto Blue Jays,Baltimore Orioles,José Berríos,Cade Povich,2025-04-13 13:35:00-04:00,0.5895158,0.5300000000000001,NRFI
+2025-04-13,Pittsburgh Pirates,Cincinnati Reds,Carmen Mlodzinski,Hunter Greene,2025-04-13 13:40:00-04:00,0.5703564,0.5300000000000001,NRFI
+2025-04-13,Colorado Rockies,San Diego Padres,Kyle Freeland,Michael King,2025-04-13 16:10:00-04:00,0.5635895,0.5300000000000001,NRFI
+2025-04-13,Washington Nationals,Miami Marlins,MacKenzie Gore,Cal Quantrill,2025-04-13 13:40:00-04:00,0.5419188,0.5300000000000001,NRFI
+2025-04-13,Milwaukee Brewers,Arizona Diamondbacks,Freddy Peralta,Zac Gallen,2025-04-13 16:10:00-04:00,0.52457595,0.5300000000000001,YRFI
+2025-04-13,Atlanta Braves,Tampa Bay Rays,Chris Sale,Shane Baz,2025-04-13 13:40:00-04:00,0.52000177,0.5300000000000001,YRFI
+2025-04-13,Los Angeles Angels,Houston Astros,Kyle Hendricks,Hayden Wesneski,2025-04-13 14:10:00-04:00,0.5196983,0.5300000000000001,YRFI
+2025-04-13,Texas Rangers,Seattle Mariners,Nathan Eovaldi,Logan Gilbert,2025-04-13 16:10:00-04:00,0.4394382,0.5300000000000001,YRFI
+2025-04-13,Chicago Cubs,Los Angeles Dodgers,Colin Rea,Tyler Glasnow,2025-04-13 19:10:00-04:00,0.4227638,0.5300000000000001,YRFI
+2025-04-13,Kansas City Royals,Cleveland Guardians,Cole Ragans,Ben Lively,2025-04-13 13:40:00-04:00,0.40698904,0.5300000000000001,YRFI
