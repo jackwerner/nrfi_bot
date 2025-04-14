@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-14,New York Mets,Minnesota Twins,Clay Holmes,Joe Ryan,2025-04-14 19:40:00-04:00,0.79557616,0.5300000000000001,NRFI
+2025-04-14,Atlanta Braves,Toronto Blue Jays,Grant Holmes,Easton Lucas,2025-04-14 19:07:00-04:00,0.62696946,0.5300000000000001,NRFI
+2025-04-14,Colorado Rockies,Los Angeles Dodgers,Antonio Senzatela,Dustin May,2025-04-14 22:10:00-04:00,0.62449473,0.5300000000000001,NRFI
+2025-04-14,Kansas City Royals,New York Yankees,Seth Lugo,Carlos Carrasco,2025-04-14 19:05:00-04:00,0.59360033,0.5300000000000001,NRFI
+2025-04-14,San Francisco Giants,Philadelphia Phillies,Landen Roupp,Taijuan Walker,2025-04-14 18:45:00-04:00,0.57967174,0.5300000000000001,NRFI
+2025-04-14,Washington Nationals,Pittsburgh Pirates,Brad Lord,Paul Skenes,2025-04-14 18:40:00-04:00,0.53895026,0.5300000000000001,NRFI
+2025-04-14,Boston Red Sox,Tampa Bay Rays,Tanner Houck,Shane Baz,2025-04-14 19:05:00-04:00,0.49019495,0.5300000000000001,YRFI
+2025-04-14,Houston Astros,St. Louis Cardinals,Framber Valdez,Sonny Gray,2025-04-14 19:45:00-04:00,0.4727353,0.5300000000000001,YRFI
+2025-04-14,Chicago Cubs,San Diego Padres,Jameson Taillon,Dylan Cease,2025-04-14 21:40:00-04:00,0.45784682,0.5300000000000001,YRFI
+2025-04-14,Detroit Tigers,Milwaukee Brewers,Tarik Skubal,Tyler Alexander,2025-04-14 19:40:00-04:00,0.32496136,0.5300000000000001,YRFI
