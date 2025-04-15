@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-15,Boston Red Sox,Tampa Bay Rays,Walker Buehler,Ryan Pepiot,2025-04-15 19:05:00-04:00,0.77532357,0.5300000000000001,NRFI
+2025-04-15,Cleveland Guardians,Baltimore Orioles,Logan Allen,Charlie Morton,2025-04-15 19:05:00-04:00,0.7168989,0.5300000000000001,NRFI
+2025-04-15,Seattle Mariners,Cincinnati Reds,Luis Castillo,Nick Lodolo,2025-04-15 18:40:00-04:00,0.61801934,0.5300000000000001,NRFI
+2025-04-15,Atlanta Braves,Toronto Blue Jays,Spencer Schwellenbach,Kevin Gausman,2025-04-15 19:07:00-04:00,0.6168087,0.5300000000000001,NRFI
+2025-04-15,New York Mets,Minnesota Twins,Tylor Megill,Bailey Ober,2025-04-15 19:40:00-04:00,0.61209,0.5300000000000001,NRFI
+2025-04-15,San Francisco Giants,Philadelphia Phillies,Justin Verlander,Jesús Luzardo,2025-04-15 18:45:00-04:00,0.58107775,0.5300000000000001,NRFI
+2025-04-15,Kansas City Royals,New York Yankees,Michael Wacha,Max Fried,2025-04-15 19:05:00-04:00,0.534985,0.5300000000000001,NRFI
+2025-04-15,Houston Astros,St. Louis Cardinals,Hunter Brown,Erick Fedde,2025-04-15 19:45:00-04:00,0.5189027,0.5300000000000001,YRFI
+2025-04-15,Arizona Diamondbacks,Miami Marlins,Merrill Kelly,Connor Gillispie,2025-04-15 18:40:00-04:00,0.50643814,0.5300000000000001,YRFI
+2025-04-15,Chicago Cubs,San Diego Padres,Shota Imanaga,Randy Vásquez,2025-04-15 21:40:00-04:00,0.47309294,0.5300000000000001,YRFI
+2025-04-15,Washington Nationals,Pittsburgh Pirates,Jake Irvin,Mitch Keller,2025-04-15 18:40:00-04:00,0.46180117,0.5300000000000001,YRFI
+2025-04-15,Colorado Rockies,Los Angeles Dodgers,Ryan Feltner,Landon Knack,2025-04-15 22:10:00-04:00,0.4223307,0.5300000000000001,YRFI
+2025-04-15,Athletics,Chicago White Sox,Jeffrey Springs,Sean Burke,2025-04-15 19:40:00-04:00,0.34258097,0.5300000000000001,YRFI
+2025-04-15,Detroit Tigers,Milwaukee Brewers,Jack Flaherty,Quinn Priester,2025-04-15 19:40:00-04:00,0.29133275,0.5300000000000001,YRFI
