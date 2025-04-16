@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-16,San Francisco Giants,Philadelphia Phillies,Robbie Ray,Aaron Nola,2025-04-16 18:45:00-04:00,0.6665741,0.5300000000000001,NRFI
+2025-04-16,Seattle Mariners,Cincinnati Reds,Bryce Miller,Nick Martinez,2025-04-16 18:40:00-04:00,0.6047119,0.5300000000000001,NRFI
+2025-04-16,Washington Nationals,Pittsburgh Pirates,Mitchell Parker,Bailey Falter,2025-04-16 18:40:00-04:00,0.5861573,0.5300000000000001,NRFI
+2025-04-16,Arizona Diamondbacks,Miami Marlins,Brandon Pfaadt,Max Meyer,2025-04-16 18:40:00-04:00,0.56913507,0.5300000000000001,NRFI
+2025-04-16,Boston Red Sox,Tampa Bay Rays,Sean Newcomb,Zack Littell,2025-04-16 19:05:00-04:00,0.5684591,0.5300000000000001,NRFI
+2025-04-16,Houston Astros,St. Louis Cardinals,Ronel Blanco,Steven Matz,2025-04-16 13:15:00-04:00,0.5671979,0.5300000000000001,NRFI
+2025-04-16,Kansas City Royals,New York Yankees,Kris Bubic,Clarke Schmidt,2025-04-16 19:05:00-04:00,0.5386523,0.5300000000000001,NRFI
+2025-04-16,Atlanta Braves,Toronto Blue Jays,Spencer Strider,Chris Bassitt,2025-04-16 13:07:00-04:00,0.5259636,0.5300000000000001,YRFI
+2025-04-16,Chicago Cubs,San Diego Padres,Matthew Boyd,Nick Pivetta,2025-04-16 16:10:00-04:00,0.4869079,0.5300000000000001,YRFI
+2025-04-16,Cleveland Guardians,Baltimore Orioles,Gavin Williams,Dean Kremer,2025-04-16 18:35:00-04:00,0.35938078,0.5300000000000001,YRFI
+2025-04-16,Athletics,Chicago White Sox,Osvaldo Bido,Jonathan Cannon,2025-04-16 19:40:00-04:00,0.27381992,0.5300000000000001,YRFI
