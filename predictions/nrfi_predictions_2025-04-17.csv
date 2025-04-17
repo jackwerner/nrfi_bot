@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-17,St. Louis Cardinals,New York Mets,Andre Pallante,Griffin Canning,2025-04-17 19:10:00-04:00,0.62656164,0.5300000000000001,NRFI
+2025-04-17,New York Yankees,Tampa Bay Rays,Will Warren,Taj Bradley,2025-04-17 19:05:00-04:00,0.6117615,0.5300000000000001,NRFI
+2025-04-17,Seattle Mariners,Cincinnati Reds,Emerson Hancock,Brady Singer,2025-04-17 12:40:00-04:00,0.60878253,0.5300000000000001,NRFI
+2025-04-17,San Francisco Giants,Philadelphia Phillies,Jordan Hicks,Cristopher Sánchez,2025-04-17 16:05:00-04:00,0.6013641,0.5300000000000001,NRFI
+2025-04-17,Arizona Diamondbacks,Miami Marlins,Eduardo Rodriguez,Edward Cabrera,2025-04-17 12:10:00-04:00,0.5818494,0.5300000000000001,NRFI
+2025-04-17,Cleveland Guardians,Baltimore Orioles,Tanner Bibee,Tomoyuki Sugano,2025-04-17 18:35:00-04:00,0.56661516,0.5300000000000001,NRFI
+2025-04-17,Athletics,Chicago White Sox,JP Sears,Davis Martin,2025-04-17 14:10:00-04:00,0.5479477,0.5300000000000001,NRFI
+2025-04-17,Kansas City Royals,Detroit Tigers,Michael Lorenzen,Reese Olson,2025-04-17 18:40:00-04:00,0.53821903,0.5300000000000001,NRFI
+2025-04-17,Los Angeles Angels,Texas Rangers,Jack Kochanowicz,Kumar Rocker,2025-04-17 20:05:00-04:00,0.4245656,0.5300000000000001,YRFI
+2025-04-17,Washington Nationals,Pittsburgh Pirates,Trevor Williams,Andrew Heaney,2025-04-17 12:35:00-04:00,0.3490913,0.5300000000000001,YRFI
