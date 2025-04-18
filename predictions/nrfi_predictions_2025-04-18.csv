@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-18,St. Louis Cardinals,New York Mets,Miles Mikolas,David Peterson,2025-04-18 19:10:00-04:00,0.6541636,0.5300000000000001,NRFI
+2025-04-18,Cincinnati Reds,Baltimore Orioles,Andrew Abbott,Cade Povich,2025-04-18 19:05:00-04:00,0.62635714,0.5300000000000001,NRFI
+2025-04-18,Miami Marlins,Philadelphia Phillies,Sandy Alcantara,Zack Wheeler,2025-04-18 18:45:00-04:00,0.62221456,0.5300000000000001,NRFI
+2025-04-18,Arizona Diamondbacks,Chicago Cubs,Corbin Burnes,Colin Rea,2025-04-18 14:20:00-04:00,0.6085199,0.5300000000000001,NRFI
+2025-04-18,New York Yankees,Tampa Bay Rays,Carlos Rodón,Drew Rasmussen,2025-04-18 19:05:00-04:00,0.5336642,0.5300000000000001,NRFI
+2025-04-18,San Francisco Giants,Los Angeles Angels,Logan Webb,Tyler Anderson,2025-04-18 21:38:00-04:00,0.5284217,0.5300000000000001,YRFI
+2025-04-18,San Diego Padres,Houston Astros,Kyle Hart,Ryan Gusto,2025-04-18 20:10:00-04:00,0.51960635,0.5300000000000001,YRFI
+2025-04-18,Los Angeles Dodgers,Texas Rangers,Yoshinobu Yamamoto,Jacob deGrom,2025-04-18 20:05:00-04:00,0.5087908,0.5300000000000001,YRFI
+2025-04-18,Cleveland Guardians,Pittsburgh Pirates,Luis L. Ortiz,Carmen Mlodzinski,2025-04-18 18:40:00-04:00,0.49665594,0.5300000000000001,YRFI
+2025-04-18,Washington Nationals,Colorado Rockies,MacKenzie Gore,Chase Dollander,2025-04-18 20:40:00-04:00,0.48550794,0.5300000000000001,YRFI
+2025-04-18,Kansas City Royals,Detroit Tigers,Cole Ragans,Jackson Jobe,2025-04-18 18:40:00-04:00,0.46208194,0.5300000000000001,YRFI
+2025-04-18,Minnesota Twins,Atlanta Braves,Chris Paddack,Bryce Elder,2025-04-18 19:15:00-04:00,0.45377567,0.5300000000000001,YRFI
+2025-04-18,Seattle Mariners,Toronto Blue Jays,Bryan Woo,Bowden Francis,2025-04-18 19:07:00-04:00,0.40758523,0.5300000000000001,YRFI
+2025-04-18,Athletics,Milwaukee Brewers,J.T. Ginn,Freddy Peralta,2025-04-18 20:10:00-04:00,0.31374398,0.5300000000000001,YRFI
