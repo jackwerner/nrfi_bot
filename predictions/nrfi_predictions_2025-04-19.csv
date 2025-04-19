@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-19,St. Louis Cardinals,New York Mets,Matthew Liberatore,Kodai Senga,2025-04-19 16:05:00-04:00,0.7536215,0.5300000000000001,NRFI
+2025-04-19,Los Angeles Dodgers,Texas Rangers,Roki Sasaki,Nathan Eovaldi,2025-04-19 16:05:00-04:00,0.6334776,0.5300000000000001,NRFI
+2025-04-19,San Francisco Giants,Los Angeles Angels,Landen Roupp,Kyle Hendricks,2025-04-19 21:38:00-04:00,0.5762952,0.5300000000000001,NRFI
+2025-04-19,Arizona Diamondbacks,Chicago Cubs,Zac Gallen,Ben Brown,2025-04-19 14:20:00-04:00,0.57568294,0.5300000000000001,NRFI
+2025-04-19,Chicago White Sox,Boston Red Sox,Shane Smith,Garrett Crochet,2025-04-19 16:10:00-04:00,0.57374656,0.5300000000000001,NRFI
+2025-04-19,Minnesota Twins,Atlanta Braves,Simeon Woods Richardson,Chris Sale,2025-04-19 19:15:00-04:00,0.5716788,0.5300000000000001,NRFI
+2025-04-19,San Diego Padres,Houston Astros,Michael King,Hayden Wesneski,2025-04-19 19:10:00-04:00,0.5668877,0.5300000000000001,NRFI
+2025-04-19,Kansas City Royals,Detroit Tigers,Seth Lugo,Casey Mize,2025-04-19 13:10:00-04:00,0.5655282,0.5300000000000001,NRFI
+2025-04-19,Cleveland Guardians,Pittsburgh Pirates,Ben Lively,Paul Skenes,2025-04-19 16:05:00-04:00,0.5142528,0.5300000000000001,YRFI
+2025-04-19,New York Yankees,Tampa Bay Rays,Carlos Carrasco,Shane Baz,2025-04-19 16:10:00-04:00,0.51188844,0.5300000000000001,YRFI
+2025-04-19,Washington Nationals,Colorado Rockies,MacKenzie Gore,Chase Dollander,2025-04-19 16:10:00-04:00,0.48550794,0.5300000000000001,YRFI
+2025-04-19,Seattle Mariners,Toronto Blue Jays,Logan Gilbert,José Berríos,2025-04-19 15:07:00-04:00,0.47873503,0.5300000000000001,YRFI
+2025-04-19,Miami Marlins,Philadelphia Phillies,Cal Quantrill,Taijuan Walker,2025-04-19 13:05:00-04:00,0.45779678,0.5300000000000001,YRFI
+2025-04-19,Athletics,Milwaukee Brewers,Luis Severino,Chad Patrick,2025-04-19 19:10:00-04:00,0.35793135,0.5300000000000001,YRFI
+2025-04-19,Cincinnati Reds,Baltimore Orioles,Hunter Greene,Brandon Young,2025-04-19 16:05:00-04:00,0.3355308,0.5300000000000001,YRFI
