@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-20,Miami Marlins,Philadelphia Phillies,Connor Gillispie,Jesús Luzardo,2025-04-20 13:35:00-04:00,0.58077145,0.5300000000000001,NRFI
+2025-04-20,San Diego Padres,Houston Astros,Dylan Cease,Framber Valdez,2025-04-20 19:10:00-04:00,0.579525,0.5300000000000001,NRFI
+2025-04-20,New York Yankees,Tampa Bay Rays,Max Fried,Ryan Pepiot,2025-04-20 13:40:00-04:00,0.57086563,0.5300000000000001,NRFI
+2025-04-20,Minnesota Twins,Atlanta Braves,Joe Ryan,Grant Holmes,2025-04-20 13:35:00-04:00,0.5562764,0.5300000000000001,NRFI
+2025-04-20,San Francisco Giants,Los Angeles Angels,Justin Verlander,Yusei Kikuchi,2025-04-20 16:07:00-04:00,0.55424786,0.5300000000000001,NRFI
+2025-04-20,Washington Nationals,Colorado Rockies,Brad Lord,Antonio Senzatela,2025-04-20 20:10:00-04:00,0.55294377,0.5300000000000001,NRFI
+2025-04-20,Kansas City Royals,Detroit Tigers,Michael Wacha,Tarik Skubal,2025-04-20 13:40:00-04:00,0.532942,0.5300000000000001,NRFI
+2025-04-20,Cleveland Guardians,Pittsburgh Pirates,Logan Allen,Mitch Keller,2025-04-20 13:35:00-04:00,0.52959013,0.5300000000000001,YRFI
+2025-04-20,St. Louis Cardinals,New York Mets,Sonny Gray,Clay Holmes,2025-04-20 13:40:00-04:00,0.5290969,0.5300000000000001,YRFI
+2025-04-20,Los Angeles Dodgers,Texas Rangers,Tyler Glasnow,Tyler Mahle,2025-04-20 14:35:00-04:00,0.5097851,0.5300000000000001,YRFI
+2025-04-20,Arizona Diamondbacks,Chicago Cubs,Merrill Kelly,Jameson Taillon,2025-04-20 14:20:00-04:00,0.49684754,0.5300000000000001,YRFI
+2025-04-20,Athletics,Milwaukee Brewers,Jeffrey Springs,Logan Henderson,2025-04-20 14:10:00-04:00,0.45630613,0.5300000000000001,YRFI
+2025-04-20,Washington Nationals,Colorado Rockies,Jake Irvin,Kyle Freeland,2025-04-20 15:10:00-04:00,0.40905935,0.5300000000000001,YRFI
+2025-04-20,Seattle Mariners,Toronto Blue Jays,Luis Castillo,Easton Lucas,2025-04-20 13:37:00-04:00,0.39486092,0.5300000000000001,YRFI
+2025-04-20,Chicago White Sox,Boston Red Sox,Sean Burke,Tanner Houck,2025-04-20 13:35:00-04:00,0.34842622,0.5300000000000001,YRFI
