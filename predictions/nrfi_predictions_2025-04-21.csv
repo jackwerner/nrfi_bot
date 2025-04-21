@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-21,Philadelphia Phillies,New York Mets,Aaron Nola,Tylor Megill,2025-04-21 19:10:00-04:00,0.7038923,0.5300000000000001,NRFI
+2025-04-21,Cincinnati Reds,Miami Marlins,Nick Lodolo,Max Meyer,2025-04-21 18:40:00-04:00,0.5699111,0.5300000000000001,NRFI
+2025-04-21,St. Louis Cardinals,Atlanta Braves,Erick Fedde,Spencer Schwellenbach,2025-04-21 19:15:00-04:00,0.5152009,0.5300000000000001,YRFI
+2025-04-21,New York Yankees,Cleveland Guardians,Clarke Schmidt,Gavin Williams,2025-04-21 18:10:00-04:00,0.49827492,0.5300000000000001,YRFI
+2025-04-21,Toronto Blue Jays,Houston Astros,Kevin Gausman,Hunter Brown,2025-04-21 20:10:00-04:00,0.47586268,0.5300000000000001,YRFI
+2025-04-21,San Diego Padres,Detroit Tigers,Randy Vásquez,Keider Montero,2025-04-21 18:40:00-04:00,0.4715771,0.5300000000000001,YRFI
+2025-04-21,Milwaukee Brewers,San Francisco Giants,Quinn Priester,Robbie Ray,2025-04-21 21:45:00-04:00,0.46317643,0.5300000000000001,YRFI
+2025-04-21,Chicago White Sox,Boston Red Sox,Jonathan Cannon,Walker Buehler,2025-04-21 11:10:00-04:00,0.45841086,0.5300000000000001,YRFI
