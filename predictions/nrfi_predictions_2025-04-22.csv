@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-22,Chicago White Sox,Minnesota Twins,Davis Martin,Bailey Ober,2025-04-22 19:40:00-04:00,0.6813639,0.5300000000000001,NRFI
+2025-04-22,Pittsburgh Pirates,Los Angeles Angels,Bailey Falter,José Soriano,2025-04-22 21:38:00-04:00,0.6255065,0.5300000000000001,NRFI
+2025-04-22,Toronto Blue Jays,Houston Astros,Chris Bassitt,Ronel Blanco,2025-04-22 20:10:00-04:00,0.5953591,0.5300000000000001,NRFI
+2025-04-22,Los Angeles Dodgers,Chicago Cubs,Dustin May,Shota Imanaga,2025-04-22 19:40:00-04:00,0.57472813,0.5300000000000001,NRFI
+2025-04-22,Philadelphia Phillies,New York Mets,Cristopher Sánchez,Griffin Canning,2025-04-22 19:10:00-04:00,0.56831783,0.5300000000000001,NRFI
+2025-04-22,San Diego Padres,Detroit Tigers,Nick Pivetta,Jack Flaherty,2025-04-22 18:40:00-04:00,0.55947524,0.5300000000000001,NRFI
+2025-04-22,Colorado Rockies,Kansas City Royals,Ryan Feltner,Kris Bubic,2025-04-22 19:40:00-04:00,0.5505343,0.5300000000000001,NRFI
+2025-04-22,Cincinnati Reds,Miami Marlins,Nick Martinez,Edward Cabrera,2025-04-22 18:40:00-04:00,0.48677114,0.5300000000000001,YRFI
+2025-04-22,New York Yankees,Cleveland Guardians,Will Warren,Tanner Bibee,2025-04-22 18:10:00-04:00,0.4779191,0.5300000000000001,YRFI
+2025-04-22,Tampa Bay Rays,Arizona Diamondbacks,Zack Littell,Brandon Pfaadt,2025-04-22 21:40:00-04:00,0.41513187,0.5300000000000001,YRFI
+2025-04-22,Baltimore Orioles,Washington Nationals,Dean Kremer,Mitchell Parker,2025-04-22 18:45:00-04:00,0.36332023,0.5300000000000001,YRFI
