@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-23,Philadelphia Phillies,New York Mets,Zack Wheeler,David Peterson,2025-04-23 13:10:00-04:00,0.66422546,0.5300000000000001,NRFI
+2025-04-23,Baltimore Orioles,Washington Nationals,Tomoyuki Sugano,Trevor Williams,2025-04-23 18:45:00-04:00,0.6228311,0.5300000000000001,NRFI
+2025-04-23,Cincinnati Reds,Miami Marlins,Brady Singer,Sandy Alcantara,2025-04-23 13:10:00-04:00,0.6031129,0.5300000000000001,NRFI
+2025-04-23,Tampa Bay Rays,Arizona Diamondbacks,Taj Bradley,Eduardo Rodriguez,2025-04-23 21:40:00-04:00,0.5926899,0.5300000000000001,NRFI
+2025-04-23,St. Louis Cardinals,Atlanta Braves,Miles Mikolas,Bryce Elder,2025-04-23 12:15:00-04:00,0.5816812,0.5300000000000001,NRFI
+2025-04-23,Seattle Mariners,Boston Red Sox,Emerson Hancock,Sean Newcomb,2025-04-23 18:45:00-04:00,0.5619913,0.5300000000000001,NRFI
+2025-04-23,Colorado Rockies,Kansas City Royals,Germán Márquez,Michael Lorenzen,2025-04-23 19:40:00-04:00,0.53310156,0.5300000000000001,NRFI
+2025-04-23,Toronto Blue Jays,Houston Astros,Bowden Francis,Ryan Gusto,2025-04-23 19:40:00-04:00,0.51999265,0.5300000000000001,YRFI
+2025-04-23,Milwaukee Brewers,San Francisco Giants,Freddy Peralta,Logan Webb,2025-04-23 21:45:00-04:00,0.49993205,0.5300000000000001,YRFI
+2025-04-23,Pittsburgh Pirates,Los Angeles Angels,Andrew Heaney,Jack Kochanowicz,2025-04-23 21:38:00-04:00,0.4919358,0.5300000000000001,YRFI
+2025-04-23,San Diego Padres,Detroit Tigers,Kyle Hart,Reese Olson,2025-04-23 13:10:00-04:00,0.45919442,0.5300000000000001,YRFI
+2025-04-23,New York Yankees,Cleveland Guardians,Carlos Rodón,Luis L. Ortiz,2025-04-23 13:10:00-04:00,0.40212074,0.5300000000000001,YRFI
+2025-04-23,Texas Rangers,Athletics,Kumar Rocker,JP Sears,2025-04-23 22:05:00-04:00,0.3844335,0.5300000000000001,YRFI
+2025-04-23,Chicago White Sox,Minnesota Twins,Bryse Wilson,David Festa,2025-04-23 19:40:00-04:00,0.2417055,0.5300000000000001,YRFI
