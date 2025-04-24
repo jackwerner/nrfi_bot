@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-24,Tampa Bay Rays,Arizona Diamondbacks,Drew Rasmussen,Corbin Burnes,2025-04-24 21:40:00-04:00,0.65399593,0.5300000000000001,NRFI
+2025-04-24,Chicago White Sox,Minnesota Twins,Shane Smith,Chris Paddack,2025-04-24 13:10:00-04:00,0.60537934,0.5300000000000001,NRFI
+2025-04-24,Baltimore Orioles,Washington Nationals,Cade Povich,MacKenzie Gore,2025-04-24 18:45:00-04:00,0.6005632,0.5300000000000001,NRFI
+2025-04-24,Seattle Mariners,Boston Red Sox,Bryan Woo,Garrett Crochet,2025-04-24 13:35:00-04:00,0.58544827,0.5300000000000001,NRFI
+2025-04-24,Milwaukee Brewers,San Francisco Giants,Tobias Myers,Landen Roupp,2025-04-24 15:45:00-04:00,0.5564086,0.5300000000000001,NRFI
+2025-04-24,Colorado Rockies,Kansas City Royals,Chase Dollander,Michael Lorenzen,2025-04-24 14:15:00-04:00,0.4963426,0.5300000000000001,YRFI
+2025-04-24,Colorado Rockies,Kansas City Royals,Germán Márquez,Cole Ragans,2025-04-24 14:10:00-04:00,0.49269146,0.5300000000000001,YRFI
+2025-04-24,Pittsburgh Pirates,Los Angeles Angels,Carmen Mlodzinski,Tyler Anderson,2025-04-24 21:29:00-04:00,0.4309228,0.5300000000000001,YRFI
+2025-04-24,Texas Rangers,Athletics,Jacob deGrom,J.T. Ginn,2025-04-24 22:05:00-04:00,0.34343204,0.5300000000000001,YRFI
