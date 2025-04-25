@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-25,Atlanta Braves,Arizona Diamondbacks,Chris Sale,Zac Gallen,2025-04-25 21:40:00-04:00,0.6287093,0.5300000000000001,NRFI
+2025-04-25,Toronto Blue Jays,New York Yankees,José Berríos,Carlos Carrasco,2025-04-25 19:05:00-04:00,0.6279169,0.5300000000000001,NRFI
+2025-04-25,Cincinnati Reds,Colorado Rockies,Andrew Abbott,Kyle Freeland,2025-04-25 20:40:00-04:00,0.62583816,0.5300000000000001,NRFI
+2025-04-25,Houston Astros,Kansas City Royals,Hayden Wesneski,Seth Lugo,2025-04-25 19:40:00-04:00,0.59577215,0.5300000000000001,NRFI
+2025-04-25,Texas Rangers,San Francisco Giants,Nathan Eovaldi,Justin Verlander,2025-04-25 22:15:00-04:00,0.58548516,0.5300000000000001,NRFI
+2025-04-25,Milwaukee Brewers,St. Louis Cardinals,Chad Patrick,Matthew Liberatore,2025-04-25 20:15:00-04:00,0.57568693,0.5300000000000001,NRFI
+2025-04-25,New York Mets,Washington Nationals,Kodai Senga,Jake Irvin,2025-04-25 18:45:00-04:00,0.5742606,0.5300000000000001,NRFI
+2025-04-25,Pittsburgh Pirates,Los Angeles Dodgers,Paul Skenes,Yoshinobu Yamamoto,2025-04-25 22:10:00-04:00,0.5534514,0.5300000000000001,NRFI
+2025-04-25,Miami Marlins,Seattle Mariners,Cal Quantrill,Logan Gilbert,2025-04-25 21:40:00-04:00,0.5087304,0.5300000000000001,YRFI
+2025-04-25,Boston Red Sox,Cleveland Guardians,Tanner Houck,Ben Lively,2025-04-25 19:10:00-04:00,0.4835499,0.5300000000000001,YRFI
+2025-04-25,Baltimore Orioles,Detroit Tigers,Brandon Young,Casey Mize,2025-04-25 18:40:00-04:00,0.47175825,0.5300000000000001,YRFI
+2025-04-25,Philadelphia Phillies,Chicago Cubs,Taijuan Walker,Colin Rea,2025-04-25 14:20:00-04:00,0.44221044,0.5300000000000001,YRFI
+2025-04-25,Tampa Bay Rays,San Diego Padres,Shane Baz,Michael King,2025-04-25 21:40:00-04:00,0.44141796,0.5300000000000001,YRFI
+2025-04-25,Chicago White Sox,Athletics,Sean Burke,Luis Severino,2025-04-25 22:05:00-04:00,0.36121935,0.5300000000000001,YRFI
+2025-04-25,Los Angeles Angels,Minnesota Twins,Kyle Hendricks,Pablo López,2025-04-25 19:40:00-04:00,0.30878037,0.5300000000000001,YRFI
