@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-27,Toronto Blue Jays,New York Yankees,Chris Bassitt,Clarke Schmidt,2025-04-27 13:40:00-04:00,0.7076136,0.5300000000000001,NRFI
+2025-04-27,Philadelphia Phillies,Chicago Cubs,Aaron Nola,Jameson Taillon,2025-04-27 19:10:00-04:00,0.7052115,0.5300000000000001,NRFI
+2025-04-27,Chicago White Sox,Athletics,Davis Martin,Osvaldo Bido,2025-04-27 16:05:00-04:00,0.6700392,0.5300000000000001,NRFI
+2025-04-27,Pittsburgh Pirates,Los Angeles Dodgers,Bailey Falter,Tyler Glasnow,2025-04-27 16:10:00-04:00,0.657687,0.5300000000000001,NRFI
+2025-04-27,New York Mets,Washington Nationals,Tylor Megill,Mitchell Parker,2025-04-27 13:35:00-04:00,0.6270926,0.5300000000000001,NRFI
+2025-04-27,Texas Rangers,San Francisco Giants,Jack Leiter,Jordan Hicks,2025-04-27 16:05:00-04:00,0.55163276,0.5300000000000001,NRFI
+2025-04-27,Houston Astros,Kansas City Royals,Hunter Brown,Kris Bubic,2025-04-27 14:10:00-04:00,0.5453119,0.5300000000000001,NRFI
+2025-04-27,Los Angeles Angels,Minnesota Twins,José Soriano,Joe Ryan,2025-04-27 13:40:00-04:00,0.5273762,0.5300000000000001,YRFI
+2025-04-27,Toronto Blue Jays,New York Yankees,Kevin Gausman,Max Fried,2025-04-27 13:35:00-04:00,0.5162065,0.5300000000000001,YRFI
+2025-04-27,Baltimore Orioles,Detroit Tigers,Dean Kremer,Tarik Skubal,2025-04-27 13:40:00-04:00,0.49207136,0.5300000000000001,YRFI
+2025-04-27,Atlanta Braves,Arizona Diamondbacks,Spencer Schwellenbach,Brandon Pfaadt,2025-04-27 16:10:00-04:00,0.488633,0.5300000000000001,YRFI
+2025-04-27,Tampa Bay Rays,San Diego Padres,Zack Littell,Randy Vásquez,2025-04-27 16:10:00-04:00,0.4324798,0.5300000000000001,YRFI
+2025-04-27,Cincinnati Reds,Colorado Rockies,Nick Lodolo,Ryan Feltner,2025-04-27 15:10:00-04:00,0.3574779,0.5300000000000001,YRFI
+2025-04-27,Miami Marlins,Seattle Mariners,Max Meyer,Logan Evans,2025-04-27 16:10:00-04:00,0.35418242,0.5300000000000001,YRFI
