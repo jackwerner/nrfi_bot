@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-28,New York Mets,Washington Nationals,Griffin Canning,Trevor Williams,2025-04-28 16:05:00-04:00,0.7887302,0.5300000000000001,NRFI
+2025-04-28,St. Louis Cardinals,Cincinnati Reds,Andre Pallante,Nick Martinez,2025-04-28 18:40:00-04:00,0.5672663,0.5300000000000001,NRFI
+2025-04-28,Minnesota Twins,Cleveland Guardians,Bailey Ober,Gavin Williams,2025-04-28 18:10:00-04:00,0.524168,0.5300000000000001,YRFI
+2025-04-28,New York Yankees,Baltimore Orioles,Will Warren,Tomoyuki Sugano,2025-04-28 18:35:00-04:00,0.52358496,0.5300000000000001,YRFI
+2025-04-28,Miami Marlins,Los Angeles Dodgers,Edward Cabrera,Dustin May,2025-04-28 22:10:00-04:00,0.4923766,0.5300000000000001,YRFI
+2025-04-28,Atlanta Braves,Colorado Rockies,Bryce Elder,Ryan Feltner,2025-04-28 20:40:00-04:00,0.4176641,0.5300000000000001,YRFI
+2025-04-28,Detroit Tigers,Houston Astros,Jack Flaherty,Ronel Blanco,2025-04-28 20:10:00-04:00,0.30320838,0.5300000000000001,YRFI
