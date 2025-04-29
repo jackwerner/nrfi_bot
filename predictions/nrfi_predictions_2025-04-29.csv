@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-29,Athletics,Texas Rangers,Jacob Lopez,Jacob deGrom,2025-04-29 20:05:00-04:00,0.7555918,0.5300000000000001,NRFI
+2025-04-29,Arizona Diamondbacks,New York Mets,Eduardo Rodriguez,David Peterson,2025-04-29 19:10:00-04:00,0.646784,0.5300000000000001,NRFI
+2025-04-29,Washington Nationals,Philadelphia Phillies,MacKenzie Gore,Zack Wheeler,2025-04-29 18:45:00-04:00,0.6459195,0.5300000000000001,NRFI
+2025-04-29,San Francisco Giants,San Diego Padres,Logan Webb,Nick Pivetta,2025-04-29 21:40:00-04:00,0.5887825,0.5300000000000001,NRFI
+2025-04-29,Detroit Tigers,Houston Astros,Reese Olson,Ryan Gusto,2025-04-29 20:10:00-04:00,0.58030814,0.5300000000000001,NRFI
+2025-04-29,Los Angeles Angels,Seattle Mariners,Jack Kochanowicz,Bryce Miller,2025-04-29 21:40:00-04:00,0.5623479,0.5300000000000001,NRFI
+2025-04-29,St. Louis Cardinals,Cincinnati Reds,Miles Mikolas,Brady Singer,2025-04-29 18:40:00-04:00,0.500989,0.5300000000000001,YRFI
+2025-04-29,Milwaukee Brewers,Chicago White Sox,Freddy Peralta,Bryse Wilson,2025-04-29 19:40:00-04:00,0.49242085,0.5300000000000001,YRFI
+2025-04-29,Minnesota Twins,Cleveland Guardians,Chris Paddack,Tanner Bibee,2025-04-29 18:10:00-04:00,0.47627664,0.5300000000000001,YRFI
+2025-04-29,Chicago Cubs,Pittsburgh Pirates,Shota Imanaga,Andrew Heaney,2025-04-29 18:40:00-04:00,0.41829407,0.5300000000000001,YRFI
+2025-04-29,Kansas City Royals,Tampa Bay Rays,Michael Lorenzen,Taj Bradley,2025-04-29 19:05:00-04:00,0.39210784,0.5300000000000001,YRFI
