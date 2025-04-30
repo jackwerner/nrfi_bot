@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-04-30,Milwaukee Brewers,Chicago White Sox,Tobias Myers,Shane Smith,2025-04-30 19:40:00-04:00,0.6052498,0.5300000000000001,NRFI
+2025-04-30,Kansas City Royals,Tampa Bay Rays,Noah Cameron,Drew Rasmussen,2025-04-30 19:05:00-04:00,0.5890571,0.5300000000000001,NRFI
+2025-04-30,San Francisco Giants,San Diego Padres,Landen Roupp,Michael King,2025-04-30 16:10:00-04:00,0.56802756,0.5300000000000001,NRFI
+2025-04-30,Athletics,Texas Rangers,Luis Severino,Nathan Eovaldi,2025-04-30 20:05:00-04:00,0.5620904,0.5300000000000001,NRFI
+2025-04-30,Atlanta Braves,Colorado Rockies,Chris Sale,Chase Dollander,2025-04-30 15:10:00-04:00,0.5311605,0.5300000000000001,NRFI
+2025-04-30,Washington Nationals,Philadelphia Phillies,Jake Irvin,Cristopher Sánchez,2025-04-30 18:45:00-04:00,0.5298402,0.5300000000000001,YRFI
+2025-04-30,St. Louis Cardinals,Cincinnati Reds,Miles Mikolas,Brady Singer,2025-04-30 12:40:00-04:00,0.500989,0.5300000000000001,YRFI
+2025-04-30,New York Yankees,Baltimore Orioles,Carlos Carrasco,Cade Povich,2025-04-30 18:35:00-04:00,0.49195078,0.5300000000000001,YRFI
+2025-04-30,Chicago Cubs,Pittsburgh Pirates,Matthew Boyd,Carmen Mlodzinski,2025-04-30 18:40:00-04:00,0.48911262,0.5300000000000001,YRFI
+2025-04-30,Los Angeles Angels,Seattle Mariners,Tyler Anderson,Emerson Hancock,2025-04-30 16:10:00-04:00,0.46943793,0.5300000000000001,YRFI
+2025-04-30,Minnesota Twins,Cleveland Guardians,Pablo López,Luis L. Ortiz,2025-04-30 18:10:00-04:00,0.35966286,0.5300000000000001,YRFI
+2025-04-30,Detroit Tigers,Houston Astros,Jackson Jobe,AJ Blubaugh,2025-04-30 14:10:00-04:00,0.35073188,0.5300000000000001,YRFI
