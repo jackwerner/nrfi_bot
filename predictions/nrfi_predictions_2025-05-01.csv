@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-01,Detroit Tigers,Los Angeles Angels,Casey Mize,Yusei Kikuchi,2025-05-01 21:38:00-04:00,0.6878399,0.5300000000000001,NRFI
+2025-05-01,Colorado Rockies,San Francisco Giants,Kyle Freeland,Justin Verlander,2025-05-01 21:45:00-04:00,0.5615596,0.5300000000000001,NRFI
+2025-05-01,St. Louis Cardinals,Cincinnati Reds,Matthew Liberatore,Andrew Abbott,2025-05-01 12:40:00-04:00,0.5569352,0.5300000000000001,NRFI
+2025-05-01,Arizona Diamondbacks,New York Mets,Zac Gallen,Kodai Senga,2025-05-01 13:10:00-04:00,0.54992443,0.5300000000000001,NRFI
+2025-05-01,Minnesota Twins,Cleveland Guardians,Simeon Woods Richardson,Ben Lively,2025-05-01 13:10:00-04:00,0.53045917,0.5300000000000001,NRFI
+2025-05-01,Athletics,Texas Rangers,Jeffrey Springs,Tyler Mahle,2025-05-01 14:35:00-04:00,0.5007561,0.5300000000000001,YRFI
+2025-05-01,Chicago Cubs,Pittsburgh Pirates,Colin Rea,Paul Skenes,2025-05-01 12:35:00-04:00,0.49661407,0.5300000000000001,YRFI
+2025-05-01,Washington Nationals,Philadelphia Phillies,Brad Lord,Taijuan Walker,2025-05-01 18:45:00-04:00,0.4926079,0.5300000000000001,YRFI
+2025-05-01,Boston Red Sox,Toronto Blue Jays,Tanner Houck,José Berríos,2025-05-01 19:07:00-04:00,0.46418518,0.5300000000000001,YRFI
+2025-05-01,Kansas City Royals,Tampa Bay Rays,Seth Lugo,Shane Baz,2025-05-01 13:10:00-04:00,0.39961162,0.5300000000000001,YRFI
+2025-05-01,Milwaukee Brewers,Chicago White Sox,Chad Patrick,Sean Burke,2025-05-01 14:10:00-04:00,0.3639262,0.5300000000000001,YRFI
