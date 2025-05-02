@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-02,New York Mets,St. Louis Cardinals,Clay Holmes,Sonny Gray,2025-05-02 20:15:00-04:00,0.637751,0.5300000000000001,NRFI
+2025-05-02,Tampa Bay Rays,New York Yankees,Ryan Pepiot,Max Fried,2025-05-02 19:05:00-04:00,0.6283982,0.5300000000000001,NRFI
+2025-05-02,Detroit Tigers,Los Angeles Angels,Tarik Skubal,José Soriano,2025-05-02 21:38:00-04:00,0.5946592,0.5300000000000001,NRFI
+2025-05-02,Colorado Rockies,San Francisco Giants,Antonio Senzatela,Robbie Ray,2025-05-02 22:15:00-04:00,0.58199644,0.5300000000000001,NRFI
+2025-05-02,San Diego Padres,Pittsburgh Pirates,Dylan Cease,Mitch Keller,2025-05-02 18:40:00-04:00,0.5776427,0.5300000000000001,NRFI
+2025-05-02,Cleveland Guardians,Toronto Blue Jays,Logan Allen,Chris Bassitt,2025-05-02 19:07:00-04:00,0.53860575,0.5300000000000001,NRFI
+2025-05-02,Washington Nationals,Cincinnati Reds,Mitchell Parker,Hunter Greene,2025-05-02 18:10:00-04:00,0.53570974,0.5300000000000001,NRFI
+2025-05-02,Los Angeles Dodgers,Atlanta Braves,Yoshinobu Yamamoto,Grant Holmes,2025-05-02 19:15:00-04:00,0.5037225,0.5300000000000001,YRFI
+2025-05-02,Arizona Diamondbacks,Philadelphia Phillies,Merrill Kelly,Jesús Luzardo,2025-05-02 18:45:00-04:00,0.46670616,0.5300000000000001,YRFI
+2025-05-02,Houston Astros,Chicago White Sox,Framber Valdez,Jonathan Cannon,2025-05-02 19:40:00-04:00,0.44626635,0.5300000000000001,YRFI
+2025-05-02,Chicago Cubs,Milwaukee Brewers,Ben Brown,Quinn Priester,2025-05-02 20:10:00-04:00,0.38556722,0.5300000000000001,YRFI
+2025-05-02,Seattle Mariners,Texas Rangers,Bryan Woo,Jack Leiter,2025-05-02 20:05:00-04:00,0.3697436,0.5300000000000001,YRFI
+2025-05-02,Kansas City Royals,Baltimore Orioles,Michael Wacha,Dean Kremer,2025-05-02 19:05:00-04:00,0.29588458,0.5300000000000001,YRFI
