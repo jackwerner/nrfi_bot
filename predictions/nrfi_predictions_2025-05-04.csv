@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-04,Washington Nationals,Cincinnati Reds,MacKenzie Gore,Nick Martinez,2025-05-04 16:10:00-04:00,0.58543783,0.5300000000000001,NRFI
+2025-05-04,Colorado Rockies,San Francisco Giants,Germán Márquez,Logan Webb,2025-05-04 16:05:00-04:00,0.5793151,0.5300000000000001,NRFI
+2025-05-04,Tampa Bay Rays,New York Yankees,Taj Bradley,Will Warren,2025-05-04 13:35:00-04:00,0.5391819,0.5300000000000001,NRFI
+2025-05-04,Los Angeles Dodgers,Atlanta Braves,Dustin May,Bryce Elder,2025-05-04 19:10:00-04:00,0.53803384,0.5300000000000001,NRFI
+2025-05-04,Minnesota Twins,Boston Red Sox,Chris Paddack,Garrett Crochet,2025-05-04 13:35:00-04:00,0.53082156,0.5300000000000001,NRFI
+2025-05-04,New York Mets,St. Louis Cardinals,Blade Tidwell,Erick Fedde,2025-05-04 13:15:00-04:00,0.49183294,0.5300000000000001,YRFI
+2025-05-04,Detroit Tigers,Los Angeles Angels,Reese Olson,Jack Kochanowicz,2025-05-04 16:07:00-04:00,0.49150947,0.5300000000000001,YRFI
+2025-05-04,Cleveland Guardians,Toronto Blue Jays,Tanner Bibee,Bowden Francis,2025-05-04 13:37:00-04:00,0.4684596,0.5300000000000001,YRFI
+2025-05-04,New York Mets,St. Louis Cardinals,Tylor Megill,Andre Pallante,2025-05-04 18:15:00-04:00,0.46115506,0.5300000000000001,YRFI
+2025-05-04,Seattle Mariners,Texas Rangers,Logan Evans,Jacob deGrom,2025-05-04 14:35:00-04:00,0.3658248,0.5300000000000001,YRFI
+2025-05-04,San Diego Padres,Pittsburgh Pirates,Stephen Kolek,Andrew Heaney,2025-05-04 13:35:00-04:00,0.33462462,0.5300000000000001,YRFI
+2025-05-04,Chicago Cubs,Milwaukee Brewers,Shota Imanaga,Freddy Peralta,2025-05-04 14:10:00-04:00,0.31912744,0.5300000000000001,YRFI
+2025-05-04,Athletics,Miami Marlins,JP Sears,Edward Cabrera,2025-05-04 13:40:00-04:00,0.27718338,0.5300000000000001,YRFI
