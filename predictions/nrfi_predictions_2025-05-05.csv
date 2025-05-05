@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-05,San Diego Padres,New York Yankees,Nick Pivetta,Carlos Rodón,2025-05-05 19:05:00-04:00,0.631177,0.5300000000000001,NRFI
+2025-05-05,New York Mets,Arizona Diamondbacks,Griffin Canning,Ryne Nelson,2025-05-05 21:40:00-04:00,0.5474198,0.5300000000000001,NRFI
+2025-05-05,Cincinnati Reds,Atlanta Braves,Brady Singer,AJ Smith-Shawver,2025-05-05 19:15:00-04:00,0.5432575,0.5300000000000001,NRFI
+2025-05-05,Pittsburgh Pirates,St. Louis Cardinals,Carmen Mlodzinski,Miles Mikolas,2025-05-05 19:45:00-04:00,0.5391584,0.5300000000000001,NRFI
+2025-05-05,Seattle Mariners,Athletics,Bryce Miller,Luis Severino,2025-05-05 22:05:00-04:00,0.52902436,0.5300000000000001,YRFI
+2025-05-05,Los Angeles Dodgers,Miami Marlins,Ben Casparius,Sandy Alcantara,2025-05-05 18:40:00-04:00,0.5116197,0.5300000000000001,YRFI
+2025-05-05,San Francisco Giants,Chicago Cubs,Landen Roupp,Matthew Boyd,2025-05-05 19:40:00-04:00,0.5032193,0.5300000000000001,YRFI
+2025-05-05,Houston Astros,Milwaukee Brewers,Ronel Blanco,Tobias Myers,2025-05-05 19:40:00-04:00,0.5024702,0.5300000000000001,YRFI
+2025-05-05,Chicago White Sox,Kansas City Royals,Shane Smith,Cole Ragans,2025-05-05 19:40:00-04:00,0.49363953,0.5300000000000001,YRFI
+2025-05-05,Cleveland Guardians,Washington Nationals,Luis L. Ortiz,Jake Irvin,2025-05-05 18:45:00-04:00,0.48295435,0.5300000000000001,YRFI
