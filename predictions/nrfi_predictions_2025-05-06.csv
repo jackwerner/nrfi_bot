@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-06,New York Mets,Arizona Diamondbacks,David Peterson,Zac Gallen,2025-05-06 21:40:00-04:00,0.6438437,0.5300000000000001,NRFI
+2025-05-06,Pittsburgh Pirates,St. Louis Cardinals,Paul Skenes,Matthew Liberatore,2025-05-06 19:45:00-04:00,0.6056218,0.5300000000000001,NRFI
+2025-05-06,Philadelphia Phillies,Tampa Bay Rays,Zack Wheeler,Drew Rasmussen,2025-05-06 19:05:00-04:00,0.5815356,0.5300000000000001,NRFI
+2025-05-06,Cincinnati Reds,Atlanta Braves,Andrew Abbott,Chris Sale,2025-05-06 19:15:00-04:00,0.5759588,0.5300000000000001,NRFI
+2025-05-06,San Francisco Giants,Chicago Cubs,Justin Verlander,Colin Rea,2025-05-06 19:40:00-04:00,0.57551676,0.5300000000000001,NRFI
+2025-05-06,San Diego Padres,New York Yankees,Michael King,Clarke Schmidt,2025-05-06 19:05:00-04:00,0.569438,0.5300000000000001,NRFI
+2025-05-06,Cleveland Guardians,Washington Nationals,Ben Lively,Brad Lord,2025-05-06 15:40:00-04:00,0.52751446,0.5300000000000001,YRFI
+2025-05-06,Cleveland Guardians,Washington Nationals,Luis L. Ortiz,Jake Irvin,2025-05-06 15:35:00-04:00,0.48295435,0.5300000000000001,YRFI
+2025-05-06,Detroit Tigers,Colorado Rockies,Jackson Jobe,Chase Dollander,2025-05-06 20:40:00-04:00,0.47628227,0.5300000000000001,YRFI
+2025-05-06,Chicago White Sox,Kansas City Royals,Sean Burke,Seth Lugo,2025-05-06 19:40:00-04:00,0.44421983,0.5300000000000001,YRFI
+2025-05-06,Texas Rangers,Boston Red Sox,Nathan Eovaldi,Lucas Giolito,2025-05-06 18:45:00-04:00,0.41555828,0.5300000000000001,YRFI
+2025-05-06,Houston Astros,Milwaukee Brewers,Hayden Wesneski,Chad Patrick,2025-05-06 19:40:00-04:00,0.39761344,0.5300000000000001,YRFI
+2025-05-06,Baltimore Orioles,Minnesota Twins,Cade Povich,Pablo López,2025-05-06 19:40:00-04:00,0.37395108,0.5300000000000001,YRFI
+2025-05-06,Seattle Mariners,Athletics,Emerson Hancock,Jeffrey Springs,2025-05-06 22:05:00-04:00,0.31888157,0.5300000000000001,YRFI
