@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-07,San Francisco Giants,Chicago Cubs,Robbie Ray,Ben Brown,2025-05-07 14:20:00-04:00,0.6888487,0.5300000000000001,NRFI
+2025-05-07,San Diego Padres,New York Yankees,Dylan Cease,Max Fried,2025-05-07 19:05:00-04:00,0.60358566,0.5300000000000001,NRFI
+2025-05-07,New York Mets,Arizona Diamondbacks,Kodai Senga,Merrill Kelly,2025-05-07 15:40:00-04:00,0.5826188,0.5300000000000001,NRFI
+2025-05-07,Toronto Blue Jays,Los Angeles Angels,José Berríos,Yusei Kikuchi,2025-05-07 21:38:00-04:00,0.5822291,0.5300000000000001,NRFI
+2025-05-07,Cincinnati Reds,Atlanta Braves,Hunter Greene,Grant Holmes,2025-05-07 19:15:00-04:00,0.54794425,0.5300000000000001,NRFI
+2025-05-07,Baltimore Orioles,Minnesota Twins,Charlie Morton,Simeon Woods Richardson,2025-05-07 19:40:00-04:00,0.53953546,0.5300000000000001,NRFI
+2025-05-07,Cleveland Guardians,Washington Nationals,Logan Allen,Michael Soroka,2025-05-07 12:05:00-04:00,0.51261216,0.5300000000000001,YRFI
+2025-05-07,Seattle Mariners,Athletics,Bryan Woo,Gunnar Hoglund,2025-05-07 15:35:00-04:00,0.5034129,0.5300000000000001,YRFI
+2025-05-07,Detroit Tigers,Colorado Rockies,Jackson Jobe,Chase Dollander,2025-05-07 20:40:00-04:00,0.47628227,0.5300000000000001,YRFI
+2025-05-07,Philadelphia Phillies,Tampa Bay Rays,Cristopher Sánchez,Shane Baz,2025-05-07 19:05:00-04:00,0.43938333,0.5300000000000001,YRFI
+2025-05-07,Houston Astros,Milwaukee Brewers,Framber Valdez,Quinn Priester,2025-05-07 13:10:00-04:00,0.38306937,0.5300000000000001,YRFI
+2025-05-07,Chicago White Sox,Kansas City Royals,Jonathan Cannon,Michael Wacha,2025-05-07 19:40:00-04:00,0.36897278,0.5300000000000001,YRFI
+2025-05-07,Texas Rangers,Boston Red Sox,Tyler Mahle,Tanner Houck,2025-05-07 18:45:00-04:00,0.34934142,0.5300000000000001,YRFI
+2025-05-07,Pittsburgh Pirates,St. Louis Cardinals,Mitch Keller,Sonny Gray,2025-05-07 13:15:00-04:00,0.34358963,0.5300000000000001,YRFI
