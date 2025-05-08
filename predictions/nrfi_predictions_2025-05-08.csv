@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-08,Toronto Blue Jays,Los Angeles Angels,Chris Bassitt,José Soriano,2025-05-08 21:38:00-04:00,0.76114774,0.5300000000000001,NRFI
+2025-05-08,Detroit Tigers,Colorado Rockies,Casey Mize,Kyle Freeland,2025-05-08 15:10:00-04:00,0.7590264,0.5300000000000001,NRFI
+2025-05-08,Chicago White Sox,Kansas City Royals,Davis Martin,Kris Bubic,2025-05-08 14:10:00-04:00,0.7534809,0.5300000000000001,NRFI
+2025-05-08,Cincinnati Reds,Atlanta Braves,Nick Lodolo,Spencer Schwellenbach,2025-05-08 19:15:00-04:00,0.51058024,0.5300000000000001,YRFI
+2025-05-08,Los Angeles Dodgers,Arizona Diamondbacks,Yoshinobu Yamamoto,Brandon Pfaadt,2025-05-08 21:40:00-04:00,0.48130682,0.5300000000000001,YRFI
+2025-05-08,Philadelphia Phillies,Tampa Bay Rays,Jesús Luzardo,Ryan Pepiot,2025-05-08 19:05:00-04:00,0.43316197,0.5300000000000001,YRFI
+2025-05-08,Baltimore Orioles,Minnesota Twins,Dean Kremer,Bailey Ober,2025-05-08 13:10:00-04:00,0.4080503,0.5300000000000001,YRFI
