@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-09,Baltimore Orioles,Los Angeles Angels,Tomoyuki Sugano,Kyle Hendricks,2025-05-09 21:38:00-04:00,0.59601533,0.5200000000000001,NRFI
+2025-05-09,Los Angeles Dodgers,Arizona Diamondbacks,Roki Sasaki,Eduardo Rodriguez,2025-05-09 21:40:00-04:00,0.57095057,0.5200000000000001,NRFI
+2025-05-09,Boston Red Sox,Kansas City Royals,Hunter Dobbins,Michael Lorenzen,2025-05-09 19:40:00-04:00,0.53550494,0.5200000000000001,NRFI
+2025-05-09,Chicago Cubs,New York Mets,Jameson Taillon,Clay Holmes,2025-05-09 19:10:00-04:00,0.53396946,0.5200000000000001,NRFI
+2025-05-09,Cincinnati Reds,Houston Astros,Nick Martinez,Hunter Brown,2025-05-09 20:10:00-04:00,0.5271035,0.5200000000000001,NRFI
+2025-05-09,Miami Marlins,Chicago White Sox,Max Meyer,Bryse Wilson,2025-05-09 19:40:00-04:00,0.5226881,0.5200000000000001,NRFI
+2025-05-09,St. Louis Cardinals,Washington Nationals,Erick Fedde,Mitchell Parker,2025-05-09 18:45:00-04:00,0.5184234,0.5200000000000001,YRFI
+2025-05-09,Toronto Blue Jays,Seattle Mariners,Kevin Gausman,Luis Castillo,2025-05-09 21:40:00-04:00,0.50112194,0.5200000000000001,YRFI
+2025-05-09,Philadelphia Phillies,Cleveland Guardians,Aaron Nola,Gavin Williams,2025-05-09 19:10:00-04:00,0.49280295,0.5200000000000001,YRFI
+2025-05-09,San Francisco Giants,Minnesota Twins,Jordan Hicks,Chris Paddack,2025-05-09 20:10:00-04:00,0.4918169,0.5200000000000001,YRFI
+2025-05-09,San Diego Padres,Colorado Rockies,Randy Vásquez,Antonio Senzatela,2025-05-09 20:40:00-04:00,0.45442513,0.5200000000000001,YRFI
+2025-05-09,New York Yankees,Athletics,Will Warren,Osvaldo Bido,2025-05-09 22:05:00-04:00,0.44748083,0.5200000000000001,YRFI
