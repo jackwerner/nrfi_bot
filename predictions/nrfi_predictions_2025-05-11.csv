@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-11,Atlanta Braves,Pittsburgh Pirates,Chris Sale,Carmen Mlodzinski,2025-05-11 13:35:00-04:00,0.6155841,0.5200000000000001,NRFI
+2025-05-11,Texas Rangers,Detroit Tigers,Nathan Eovaldi,Reese Olson,2025-05-11 13:40:00-04:00,0.6007579,0.5200000000000001,NRFI
+2025-05-11,St. Louis Cardinals,Washington Nationals,Miles Mikolas,MacKenzie Gore,2025-05-11 13:35:00-04:00,0.5757537,0.5200000000000001,NRFI
+2025-05-11,Milwaukee Brewers,Tampa Bay Rays,Chad Patrick,Drew Rasmussen,2025-05-11 13:40:00-04:00,0.556997,0.5200000000000001,NRFI
+2025-05-11,Toronto Blue Jays,Seattle Mariners,José Ureña,Bryce Miller,2025-05-11 16:10:00-04:00,0.5556703,0.5200000000000001,NRFI
+2025-05-11,Chicago Cubs,New York Mets,Matthew Boyd,Griffin Canning,2025-05-11 12:05:00-04:00,0.51573586,0.5200000000000001,YRFI
+2025-05-11,San Diego Padres,Colorado Rockies,Nick Pivetta,Germán Márquez,2025-05-11 15:10:00-04:00,0.50288653,0.5200000000000001,YRFI
+2025-05-11,Boston Red Sox,Kansas City Royals,Lucas Giolito,Seth Lugo,2025-05-11 14:10:00-04:00,0.49111852,0.5200000000000001,YRFI
+2025-05-11,Philadelphia Phillies,Cleveland Guardians,Zack Wheeler,Luis L. Ortiz,2025-05-11 19:10:00-04:00,0.47904256,0.5200000000000001,YRFI
+2025-05-11,Miami Marlins,Chicago White Sox,Sandy Alcantara,Sean Burke,2025-05-11 14:10:00-04:00,0.4531452,0.5200000000000001,YRFI
+2025-05-11,San Francisco Giants,Minnesota Twins,Landen Roupp,Pablo López,2025-05-11 14:10:00-04:00,0.44809017,0.5200000000000001,YRFI
+2025-05-11,Baltimore Orioles,Los Angeles Angels,Zach Eflin,Tyler Anderson,2025-05-11 16:07:00-04:00,0.42985517,0.5200000000000001,YRFI
+2025-05-11,Cincinnati Reds,Houston Astros,Chase Petty,Ronel Blanco,2025-05-11 14:10:00-04:00,0.42887148,0.5200000000000001,YRFI
