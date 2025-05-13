@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-13,Pittsburgh Pirates,New York Mets,Mitch Keller,Kodai Senga,2025-05-13 19:10:00-04:00,0.6410814,0.5200000000000001,NRFI
+2025-05-13,Kansas City Royals,Houston Astros,Kris Bubic,Framber Valdez,2025-05-13 20:10:00-04:00,0.57368743,0.5200000000000001,NRFI
+2025-05-13,New York Yankees,Seattle Mariners,Max Fried,Bryan Woo,2025-05-13 21:40:00-04:00,0.5569577,0.5200000000000001,NRFI
+2025-05-13,Washington Nationals,Atlanta Braves,Michael Soroka,Spencer Schwellenbach,2025-05-13 19:15:00-04:00,0.54646635,0.5200000000000001,NRFI
+2025-05-13,Los Angeles Angels,San Diego Padres,José Soriano,Dylan Cease,2025-05-13 21:40:00-04:00,0.5349094,0.5200000000000001,NRFI
+2025-05-13,Minnesota Twins,Baltimore Orioles,Simeon Woods Richardson,Cade Povich,2025-05-13 18:35:00-04:00,0.53156096,0.5200000000000001,NRFI
+2025-05-13,Miami Marlins,Chicago Cubs,Valente Bellozo,Ben Brown,2025-05-13 19:40:00-04:00,0.51249427,0.5200000000000001,YRFI
+2025-05-13,Arizona Diamondbacks,San Francisco Giants,Brandon Pfaadt,Robbie Ray,2025-05-13 21:45:00-04:00,0.51086354,0.5200000000000001,YRFI
+2025-05-13,Tampa Bay Rays,Toronto Blue Jays,Shane Baz,José Berríos,2025-05-13 19:07:00-04:00,0.5097979,0.5200000000000001,YRFI
+2025-05-13,Chicago White Sox,Cincinnati Reds,Jonathan Cannon,Andrew Abbott,2025-05-13 18:40:00-04:00,0.50918704,0.5200000000000001,YRFI
+2025-05-13,Colorado Rockies,Texas Rangers,Kyle Freeland,Jack Leiter,2025-05-13 20:05:00-04:00,0.45277482,0.5200000000000001,YRFI
+2025-05-13,Milwaukee Brewers,Cleveland Guardians,Quinn Priester,Logan Allen,2025-05-13 18:10:00-04:00,0.44805786,0.5200000000000001,YRFI
+2025-05-13,St. Louis Cardinals,Philadelphia Phillies,Sonny Gray,Jesús Luzardo,2025-05-13 18:45:00-04:00,0.43293387,0.5200000000000001,YRFI
