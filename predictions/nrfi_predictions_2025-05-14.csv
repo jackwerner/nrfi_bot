@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-14,Pittsburgh Pirates,New York Mets,Bailey Falter,Clay Holmes,2025-05-14 19:10:00-04:00,0.63221455,0.5200000000000001,NRFI
+2025-05-14,Arizona Diamondbacks,San Francisco Giants,Eduardo Rodriguez,Jordan Hicks,2025-05-14 15:45:00-04:00,0.6177098,0.5200000000000001,NRFI
+2025-05-14,Chicago White Sox,Cincinnati Reds,Davis Martin,Nick Lodolo,2025-05-14 19:14:00-04:00,0.592813,0.5200000000000001,NRFI
+2025-05-14,Milwaukee Brewers,Cleveland Guardians,Logan Henderson,Gavin Williams,2025-05-14 13:10:00-04:00,0.5879771,0.5200000000000001,NRFI
+2025-05-14,Miami Marlins,Chicago Cubs,Ryan Weathers,Jameson Taillon,2025-05-14 19:40:00-04:00,0.5800537,0.5200000000000001,NRFI
+2025-05-14,Tampa Bay Rays,Toronto Blue Jays,Ryan Pepiot,Chris Bassitt,2025-05-14 19:07:00-04:00,0.5704985,0.5200000000000001,NRFI
+2025-05-14,Kansas City Royals,Houston Astros,Michael Lorenzen,Colton Gordon,2025-05-14 20:10:00-04:00,0.5316688,0.5200000000000001,NRFI
+2025-05-14,Washington Nationals,Atlanta Braves,Mitchell Parker,Bryce Elder,2025-05-14 19:15:00-04:00,0.52695715,0.5200000000000001,NRFI
+2025-05-14,Los Angeles Angels,San Diego Padres,Kyle Hendricks,Randy Vásquez,2025-05-14 21:40:00-04:00,0.5131631,0.5200000000000001,YRFI
+2025-05-14,St. Louis Cardinals,Philadelphia Phillies,Erick Fedde,Jesús Luzardo,2025-05-14 13:05:00-04:00,0.49333945,0.5200000000000001,YRFI
+2025-05-14,Boston Red Sox,Detroit Tigers,Hunter Dobbins,Tarik Skubal,2025-05-14 18:40:00-04:00,0.46993223,0.5200000000000001,YRFI
+2025-05-14,St. Louis Cardinals,Philadelphia Phillies,Sonny Gray,Aaron Nola,2025-05-14 18:15:00-04:00,0.468679,0.5200000000000001,YRFI
+2025-05-14,Athletics,Los Angeles Dodgers,Gunnar Hoglund,Yoshinobu Yamamoto,2025-05-14 22:10:00-04:00,0.46160838,0.5200000000000001,YRFI
+2025-05-14,Minnesota Twins,Baltimore Orioles,Bailey Ober,Dean Kremer,2025-05-14 12:05:00-04:00,0.43153274,0.5200000000000001,YRFI
+2025-05-14,New York Yankees,Seattle Mariners,Will Warren,Luis Castillo,2025-05-14 16:10:00-04:00,0.41836423,0.5200000000000001,YRFI
