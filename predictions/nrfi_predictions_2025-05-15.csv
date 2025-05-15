@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-15,Washington Nationals,Atlanta Braves,Trevor Williams,AJ Smith-Shawver,2025-05-15 12:15:00-04:00,0.5774628,0.5200000000000001,NRFI
+2025-05-15,Chicago White Sox,Cincinnati Reds,Bryse Wilson,Nick Martinez,2025-05-15 12:40:00-04:00,0.54559284,0.5200000000000001,NRFI
+2025-05-15,Houston Astros,Texas Rangers,Hunter Brown,Jacob deGrom,2025-05-15 20:05:00-04:00,0.5364127,0.5200000000000001,NRFI
+2025-05-15,Minnesota Twins,Baltimore Orioles,Chris Paddack,Tomoyuki Sugano,2025-05-15 12:35:00-04:00,0.49121505,0.5200000000000001,YRFI
+2025-05-15,Tampa Bay Rays,Toronto Blue Jays,Zack Littell,Kevin Gausman,2025-05-15 15:07:00-04:00,0.4851831,0.5200000000000001,YRFI
+2025-05-15,Athletics,Los Angeles Dodgers,Osvaldo Bido,Matt Sauer,2025-05-15 22:10:00-04:00,0.4017425,0.5200000000000001,YRFI
