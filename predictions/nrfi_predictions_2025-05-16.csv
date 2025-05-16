@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-16,Atlanta Braves,Boston Red Sox,Chris Sale,Garrett Crochet,2025-05-16 19:10:00-04:00,0.6508529,0.5300000000000001,NRFI
+2025-05-16,New York Mets,New York Yankees,Tylor Megill,Carlos Rodón,2025-05-16 19:05:00-04:00,0.6452233,0.5300000000000001,NRFI
+2025-05-16,Los Angeles Angels,Los Angeles Dodgers,Jack Kochanowicz,Dustin May,2025-05-16 22:10:00-04:00,0.63422704,0.5300000000000001,NRFI
+2025-05-16,Chicago White Sox,Chicago Cubs,Shane Smith,Cade Horton,2025-05-16 14:20:00-04:00,0.6287635,0.5300000000000001,NRFI
+2025-05-16,Washington Nationals,Baltimore Orioles,MacKenzie Gore,Cade Povich,2025-05-16 19:05:00-04:00,0.5999025,0.5300000000000001,NRFI
+2025-05-16,Cleveland Guardians,Cincinnati Reds,Tanner Bibee,Brady Singer,2025-05-16 18:40:00-04:00,0.56030923,0.5300000000000001,NRFI
+2025-05-16,Athletics,San Francisco Giants,JP Sears,Logan Webb,2025-05-16 22:15:00-04:00,0.5439781,0.5300000000000001,NRFI
+2025-05-16,St. Louis Cardinals,Kansas City Royals,Andre Pallante,Cole Ragans,2025-05-16 19:40:00-04:00,0.50785244,0.5300000000000001,YRFI
+2025-05-16,Seattle Mariners,San Diego Padres,Logan Evans,Stephen Kolek,2025-05-16 21:40:00-04:00,0.4897645,0.5300000000000001,YRFI
+2025-05-16,Minnesota Twins,Milwaukee Brewers,Joe Ryan,Chad Patrick,2025-05-16 20:10:00-04:00,0.36622337,0.5300000000000001,YRFI
+2025-05-16,Detroit Tigers,Toronto Blue Jays,Jack Flaherty,Bowden Francis,2025-05-16 19:07:00-04:00,0.26490787,0.5300000000000001,YRFI
