@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-17,New York Mets,New York Yankees,Griffin Canning,Clarke Schmidt,2025-05-17 13:05:00-04:00,0.7728495,0.5300000000000001,NRFI
+2025-05-17,Pittsburgh Pirates,Philadelphia Phillies,Carmen Mlodzinski,Zack Wheeler,2025-05-17 18:05:00-04:00,0.66422015,0.5300000000000001,NRFI
+2025-05-17,Atlanta Braves,Boston Red Sox,Grant Holmes,Lucas Giolito,2025-05-17 19:15:00-04:00,0.6487751,0.5300000000000001,NRFI
+2025-05-17,Tampa Bay Rays,Miami Marlins,Drew Rasmussen,Sandy Alcantara,2025-05-17 16:10:00-04:00,0.616021,0.5300000000000001,NRFI
+2025-05-17,Colorado Rockies,Arizona Diamondbacks,Germán Márquez,Zac Gallen,2025-05-17 20:10:00-04:00,0.6067164,0.5300000000000001,NRFI
+2025-05-17,Seattle Mariners,San Diego Padres,Emerson Hancock,Nick Pivetta,2025-05-17 20:40:00-04:00,0.5557572,0.5300000000000001,NRFI
+2025-05-17,Athletics,San Francisco Giants,Luis Severino,Landen Roupp,2025-05-17 21:05:00-04:00,0.53112227,0.5300000000000001,NRFI
+2025-05-17,Houston Astros,Texas Rangers,Ronel Blanco,Tyler Mahle,2025-05-17 19:05:00-04:00,0.5238001,0.5300000000000001,YRFI
+2025-05-17,Minnesota Twins,Milwaukee Brewers,Pablo López,Tobias Myers,2025-05-17 19:15:00-04:00,0.49030805,0.5300000000000001,YRFI
+2025-05-17,Cleveland Guardians,Cincinnati Reds,Slade Cecconi,Brent Suter,2025-05-17 18:40:00-04:00,0.45329198,0.5300000000000001,YRFI
+2025-05-17,Chicago White Sox,Chicago Cubs,Sean Burke,Matthew Boyd,2025-05-17 14:20:00-04:00,0.44260073,0.5300000000000001,YRFI
