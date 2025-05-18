@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-18,St. Louis Cardinals,Kansas City Royals,Matthew Liberatore,Michael Wacha,2025-05-18 14:10:00-04:00,0.7823735,0.5300000000000001,NRFI
+2025-05-18,New York Mets,New York Yankees,David Peterson,Max Fried,2025-05-18 19:10:00-04:00,0.6257133,0.5300000000000001,NRFI
+2025-05-18,Cleveland Guardians,Cincinnati Reds,Luis L. Ortiz,Andrew Abbott,2025-05-18 13:40:00-04:00,0.60901356,0.5300000000000001,NRFI
+2025-05-18,Washington Nationals,Baltimore Orioles,Michael Soroka,Zach Eflin,2025-05-18 13:35:00-04:00,0.5881427,0.5300000000000001,NRFI
+2025-05-18,Seattle Mariners,San Diego Padres,Bryan Woo,Michael King,2025-05-18 16:10:00-04:00,0.5204715,0.5300000000000001,YRFI
+2025-05-18,Pittsburgh Pirates,Philadelphia Phillies,Paul Skenes,Mick Abel,2025-05-18 13:35:00-04:00,0.5105897,0.5300000000000001,YRFI
+2025-05-18,Houston Astros,Texas Rangers,Framber Valdez,Jack Leiter,2025-05-18 13:05:00-04:00,0.5080913,0.5300000000000001,YRFI
+2025-05-18,Detroit Tigers,Toronto Blue Jays,Jackson Jobe,José Berríos,2025-05-18 13:37:00-04:00,0.49669257,0.5300000000000001,YRFI
+2025-05-18,Athletics,San Francisco Giants,Jeffrey Springs,Justin Verlander,2025-05-18 16:05:00-04:00,0.46840099,0.5300000000000001,YRFI
+2025-05-18,Chicago White Sox,Chicago Cubs,Jonathan Cannon,Colin Rea,2025-05-18 14:20:00-04:00,0.428698,0.5300000000000001,YRFI
+2025-05-18,Colorado Rockies,Arizona Diamondbacks,Chase Dollander,Merrill Kelly,2025-05-18 16:10:00-04:00,0.42399594,0.5300000000000001,YRFI
+2025-05-18,Tampa Bay Rays,Miami Marlins,Shane Baz,Cal Quantrill,2025-05-18 13:40:00-04:00,0.41989875,0.5300000000000001,YRFI
