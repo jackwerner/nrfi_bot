@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-19,Philadelphia Phillies,Colorado Rockies,Cristopher Sánchez,Kyle Freeland,2025-05-19 20:40:00-04:00,0.75431365,0.5300000000000001,NRFI
+2025-05-19,Cleveland Guardians,Minnesota Twins,Logan Allen,Bailey Ober,2025-05-19 19:40:00-04:00,0.69914806,0.5300000000000001,NRFI
+2025-05-19,New York Mets,Boston Red Sox,Kodai Senga,Hunter Dobbins,2025-05-19 18:45:00-04:00,0.6695852,0.5300000000000001,NRFI
+2025-05-19,Cincinnati Reds,Pittsburgh Pirates,Nick Lodolo,Mitch Keller,2025-05-19 18:40:00-04:00,0.5952659,0.5300000000000001,NRFI
+2025-05-19,Kansas City Royals,San Francisco Giants,Kris Bubic,Robbie Ray,2025-05-19 21:45:00-04:00,0.58614564,0.5300000000000001,NRFI
+2025-05-19,Seattle Mariners,Chicago White Sox,Luis Castillo,Davis Martin,2025-05-19 19:40:00-04:00,0.56690747,0.5300000000000001,NRFI
+2025-05-19,Houston Astros,Tampa Bay Rays,Colton Gordon,Ryan Pepiot,2025-05-19 19:05:00-04:00,0.48092866,0.5300000000000001,YRFI
+2025-05-19,Baltimore Orioles,Milwaukee Brewers,Dean Kremer,Quinn Priester,2025-05-19 19:40:00-04:00,0.4456912,0.5300000000000001,YRFI
+2025-05-19,Arizona Diamondbacks,Los Angeles Dodgers,Brandon Pfaadt,Landon Knack,2025-05-19 22:10:00-04:00,0.44249728,0.5300000000000001,YRFI
+2025-05-19,Chicago Cubs,Miami Marlins,Ben Brown,Edward Cabrera,2025-05-19 18:40:00-04:00,0.35312253,0.5300000000000001,YRFI
+2025-05-19,Los Angeles Angels,Athletics,José Soriano,J.T. Ginn,2025-05-19 22:05:00-04:00,0.34472606,0.5300000000000001,YRFI
