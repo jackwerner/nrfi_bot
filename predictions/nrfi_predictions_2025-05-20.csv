@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-20,Cleveland Guardians,Minnesota Twins,Logan Allen,Bailey Ober,2025-05-20 18:10:00-04:00,0.69914806,0.5300000000000001,NRFI
+2025-05-20,Cleveland Guardians,Minnesota Twins,Gavin Williams,Chris Paddack,2025-05-20 19:40:00-04:00,0.67621875,0.5300000000000001,NRFI
+2025-05-20,Detroit Tigers,St. Louis Cardinals,Tarik Skubal,Erick Fedde,2025-05-20 19:45:00-04:00,0.63108236,0.5300000000000001,NRFI
+2025-05-20,Cincinnati Reds,Pittsburgh Pirates,Nick Martinez,Bailey Falter,2025-05-20 18:40:00-04:00,0.620995,0.5300000000000001,NRFI
+2025-05-20,Baltimore Orioles,Milwaukee Brewers,Keegan Akin,Logan Henderson,2025-05-20 19:40:00-04:00,0.50771236,0.5300000000000001,YRFI
+2025-05-20,Los Angeles Angels,Athletics,Kyle Hendricks,Gunnar Hoglund,2025-05-20 22:05:00-04:00,0.4874969,0.5300000000000001,YRFI
+2025-05-20,Chicago Cubs,Miami Marlins,Jameson Taillon,Ryan Weathers,2025-05-20 18:40:00-04:00,0.4681498,0.5300000000000001,YRFI
+2025-05-20,Philadelphia Phillies,Colorado Rockies,Jesús Luzardo,Antonio Senzatela,2025-05-20 20:40:00-04:00,0.46558055,0.5300000000000001,YRFI
+2025-05-20,Houston Astros,Tampa Bay Rays,Brandon Walter,Zack Littell,2025-05-20 19:05:00-04:00,0.45832887,0.5300000000000001,YRFI
+2025-05-20,Arizona Diamondbacks,Los Angeles Dodgers,Ryne Nelson,Yoshinobu Yamamoto,2025-05-20 22:10:00-04:00,0.38969827,0.5300000000000001,YRFI
