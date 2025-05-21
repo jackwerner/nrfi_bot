@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-21,Cleveland Guardians,Minnesota Twins,Logan Allen,Bailey Ober,2025-05-21 13:10:00-04:00,0.69914806,0.5300000000000001,NRFI
+2025-05-21,Cleveland Guardians,Minnesota Twins,Gavin Williams,Chris Paddack,2025-05-21 13:10:00-04:00,0.67621875,0.5300000000000001,NRFI
+2025-05-21,New York Mets,Boston Red Sox,Tylor Megill,Garrett Crochet,2025-05-21 18:45:00-04:00,0.6601452,0.5300000000000001,NRFI
+2025-05-21,Arizona Diamondbacks,Los Angeles Dodgers,Corbin Burnes,Dustin May,2025-05-21 22:10:00-04:00,0.6124852,0.5300000000000001,NRFI
+2025-05-21,Los Angeles Angels,Athletics,Jack Kochanowicz,JP Sears,2025-05-21 22:05:00-04:00,0.5908152,0.5300000000000001,NRFI
+2025-05-21,Texas Rangers,New York Yankees,Jacob deGrom,Ryan Yarbrough,2025-05-21 19:05:00-04:00,0.5855592,0.5300000000000001,NRFI
+2025-05-21,Atlanta Braves,Washington Nationals,AJ Smith-Shawver,Trevor Williams,2025-05-21 18:45:00-04:00,0.5394641,0.5300000000000001,NRFI
+2025-05-21,Chicago Cubs,Miami Marlins,Cade Horton,Max Meyer,2025-05-21 13:10:00-04:00,0.5282065,0.5300000000000001,YRFI
+2025-05-21,Baltimore Orioles,Milwaukee Brewers,Tomoyuki Sugano,Chad Patrick,2025-05-21 13:10:00-04:00,0.48823196,0.5300000000000001,YRFI
+2025-05-21,Seattle Mariners,Chicago White Sox,Logan Evans,Shane Smith,2025-05-21 14:10:00-04:00,0.47944865,0.5300000000000001,YRFI
+2025-05-21,Houston Astros,Tampa Bay Rays,Hunter Brown,Taj Bradley,2025-05-21 13:10:00-04:00,0.4607728,0.5300000000000001,YRFI
+2025-05-21,Detroit Tigers,St. Louis Cardinals,Brant Hurter,Andre Pallante,2025-05-21 13:15:00-04:00,0.44365317,0.5300000000000001,YRFI
+2025-05-21,Cincinnati Reds,Pittsburgh Pirates,Brady Singer,Andrew Heaney,2025-05-21 12:35:00-04:00,0.3842012,0.5300000000000001,YRFI
+2025-05-21,San Diego Padres,Toronto Blue Jays,Randy Vásquez,Kevin Gausman,2025-05-21 19:07:00-04:00,0.36509892,0.5300000000000001,YRFI
+2025-05-21,Philadelphia Phillies,Colorado Rockies,Taijuan Walker,Carson Palmquist,2025-05-21 20:40:00-04:00,0.26697162,0.5300000000000001,YRFI
