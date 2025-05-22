@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get a random delay between 0 and 120 minutes (2 hours)
-delay_minutes = random.randint(0, 120)
+# delay_minutes = random.randint(0, 120)
 
-print(f"Waiting for {delay_minutes} minutes before posting...")
+# print(f"Waiting for {delay_minutes} minutes before posting...")
 
 # Sleep for that random amount of time
-time.sleep(delay_minutes * 60)
+# time.sleep(delay_minutes * 60)
 
 def generate_human_tweet():
     """
@@ -44,14 +44,26 @@ def generate_human_tweet():
     
     prompt = f"""
     Today's date is {datetime.now().strftime("%Y-%m-%d")}.
-    Write a short tweet as a baseball fan reacting to a current MLB story. Focus on a specific topic from yesterday or today.
+    Write a short tweet as a baseball fan observing or sharing thoughts on a current MLB story. 
+    Focus on an immediately relevant topic from yesterday or today.
 
-    Sound like a real, natural person with genuine opinions - not a corporate account or a casual observer. 
-    Be moderately opinionated and insightful but keep it observational and conversational. 
-    You do not have a favorite team, you are a neutral observer. Don't refer to any team as 'us', 'our', 'we'.
-    Focus on ONE specific topic in 1-2 short, punchy sentences. Don't ramble.
+    Sound like a real, natural person with genuine opinions - not a corporate account or news headline. 
+    Be conversational and personal in your tone. Use more casual language and first-person perspective.
+    Be moderately opinionated and insightful but keep it observational and conversational.
+    Your target audience is men in their 20s-30s who are baseball fans. Don't be super animated, don't try to be cute. 
     
-    No "lol" or internet slang. Do not use hashtags. Do not plagiarize. Do not cite your sources.
+    You do not have a favorite team, you are a neutral observer. Don't refer to any team as 'us', 'our', 'we'.
+    Focus on ONE specific topic in 1-2 short, punchy sentences. The less words you use, the better.
+    
+    Avoid sounding like a news headline or report. You do not need to summarize the topic. 
+    No "lol" or internet slang. No exclamation points. Do not use hashtags. Do not plagiarize. Do not cite your sources.
+    
+    IMPORTANT: Keep it extremely concise. Avoid adding philosophical or reflective statements at the end.
+    
+    Good Examples:
+    - 'Still thinking about Taveras crushing that two-run shot in the 8th to put Seattle ahead yesterday. Mariners quietly building momentum with five wins in their last six games while everyone's focused elsewhere.'
+    - 'Orioles finally snap that brutal eight-game skid with an extra innings win against the Brewers. Mansolino gets his first W as interim manager but definitely had to sweat through some late blown leads to get there.'
+    - 'Blue Jays absolutely dismantled the Padres yesterday with that 14-0 shutout. When Toronto's offense gets rolling like that, makes you wonder why they've been so inconsistent all season.'
     
     {last_tweets_text}
     
@@ -63,7 +75,15 @@ def generate_human_tweet():
             model="claude-3-7-sonnet-latest",
             max_tokens=120,
             temperature=0.6,
-            system="You are a baseball fan with strong but reasonable opinions. Your task is to write ONLY the tweet text with no introduction or explanation.",
+            system="""
+                You are a baseball fan in your 20s-30s with reasonable opinions. 
+                Write in a casual, conversational tone as if texting a friend. 
+                Be moderately opinionated but natural. 
+                Don't use hashtags, 'lol', internet slang, or exclamation points. 
+                Don't refer to any team as 'we', 'us', or 'our'. 
+                Keep it extremely concise - 1-2 punchy sentences maximum. 
+                Your task is to write ONLY the tweet text with no introduction or explanation.
+                """,
             messages=[
                 {"role": "user", "content": prompt}
             ],
@@ -137,21 +157,21 @@ def post_random_human_tweet():
 
     print(tweet_text)
     # Post the tweet
-    try:
-        response = client.create_tweet(text=tweet_text)
-        print(f"Human-like tweet posted successfully! Tweet ID: {response.data['id']}")
-        print(f"Tweet content: {tweet_text}")
-        return True
-    except tweepy.errors.TooManyRequests as e:
-        reset_time = int(e.response.headers['x-rate-limit-reset'])
-        reset_datetime = datetime.fromtimestamp(reset_time)
-        wait_time = (reset_datetime - datetime.now()).total_seconds() + 1
-        print(f"Rate limit exceeded. Waiting until {reset_datetime} ({wait_time:.0f} seconds)")
-        time.sleep(wait_time)
-        return False
-    except tweepy.errors.TweepyException as e:
-        print(f"Error posting tweet: {e}")
-        return False
+    # try:
+    #     response = client.create_tweet(text=tweet_text)
+    #     print(f"Human-like tweet posted successfully! Tweet ID: {response.data['id']}")
+    #     print(f"Tweet content: {tweet_text}")
+    #     return True
+    # except tweepy.errors.TooManyRequests as e:
+    #     reset_time = int(e.response.headers['x-rate-limit-reset'])
+    #     reset_datetime = datetime.fromtimestamp(reset_time)
+    #     wait_time = (reset_datetime - datetime.now()).total_seconds() + 1
+    #     print(f"Rate limit exceeded. Waiting until {reset_datetime} ({wait_time:.0f} seconds)")
+    #     time.sleep(wait_time)
+    #     return False
+    # except tweepy.errors.TweepyException as e:
+    #     print(f"Error posting tweet: {e}")
+    #     return False
 
 # if __name__ == "__main__":
 #     post_random_human_tweet()
