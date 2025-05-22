@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-22,Cleveland Guardians,Detroit Tigers,Tanner Bibee,Jack Flaherty,2025-05-22 18:40:00-04:00,0.724405,0.5300000000000001,NRFI
+2025-05-22,Texas Rangers,New York Yankees,Nathan Eovaldi,Carlos Rodón,2025-05-22 12:35:00-04:00,0.5566936,0.5300000000000001,NRFI
+2025-05-22,Atlanta Braves,Washington Nationals,AJ Smith-Shawver,Trevor Williams,2025-05-22 18:45:00-04:00,0.5394641,0.5300000000000001,NRFI
+2025-05-22,Los Angeles Angels,Athletics,Tyler Anderson,Luis Severino,2025-05-22 15:35:00-04:00,0.48401695,0.5300000000000001,YRFI
+2025-05-22,Baltimore Orioles,Boston Red Sox,Cade Povich,Lucas Giolito,2025-05-22 18:45:00-04:00,0.40900654,0.5300000000000001,YRFI
+2025-05-22,San Diego Padres,Toronto Blue Jays,Stephen Kolek,Bowden Francis,2025-05-22 13:07:00-04:00,0.23910154,0.5300000000000001,YRFI
