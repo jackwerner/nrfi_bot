@@ -37,7 +37,7 @@ jobs:
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-        run: python nrfi_bot/random_human_tweets.py
+        run: python random_human_tweets.py
 
       - name: Commit changes to last_tweets.txt
         run: |
