@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get a random delay between 0 and 120 minutes (2 hours)
-# delay_minutes = random.randint(0, 120)
+delay_minutes = random.randint(0, 120)
 
-# print(f"Waiting for {delay_minutes} minutes before posting...")
+print(f"Waiting for {delay_minutes} minutes before posting...")
 
 # Sleep for that random amount of time
-# time.sleep(delay_minutes * 60)
+time.sleep(delay_minutes * 60)
 
 def generate_human_tweet():
     """
@@ -157,21 +157,21 @@ def post_random_human_tweet():
 
     print(tweet_text)
     # Post the tweet
-    # try:
-    #     response = client.create_tweet(text=tweet_text)
-    #     print(f"Human-like tweet posted successfully! Tweet ID: {response.data['id']}")
-    #     print(f"Tweet content: {tweet_text}")
-    #     return True
-    # except tweepy.errors.TooManyRequests as e:
-    #     reset_time = int(e.response.headers['x-rate-limit-reset'])
-    #     reset_datetime = datetime.fromtimestamp(reset_time)
-    #     wait_time = (reset_datetime - datetime.now()).total_seconds() + 1
-    #     print(f"Rate limit exceeded. Waiting until {reset_datetime} ({wait_time:.0f} seconds)")
-    #     time.sleep(wait_time)
-    #     return False
-    # except tweepy.errors.TweepyException as e:
-    #     print(f"Error posting tweet: {e}")
-    #     return False
+    try:
+        response = client.create_tweet(text=tweet_text)
+        print(f"Human-like tweet posted successfully! Tweet ID: {response.data['id']}")
+        print(f"Tweet content: {tweet_text}")
+        return True
+    except tweepy.errors.TooManyRequests as e:
+        reset_time = int(e.response.headers['x-rate-limit-reset'])
+        reset_datetime = datetime.fromtimestamp(reset_time)
+        wait_time = (reset_datetime - datetime.now()).total_seconds() + 1
+        print(f"Rate limit exceeded. Waiting until {reset_datetime} ({wait_time:.0f} seconds)")
+        time.sleep(wait_time)
+        return False
+    except tweepy.errors.TweepyException as e:
+        print(f"Error posting tweet: {e}")
+        return False
 
 # if __name__ == "__main__":
 #     post_random_human_tweet()
