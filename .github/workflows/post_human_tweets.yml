@@ -2,12 +2,12 @@ name: Post Human-like Baseball Tweets
 
 on:
   schedule:
-    # Run at 1pm, 5pm, 8pm, and 11pm Eastern Time (UTC-4/5)
+    # Run so that the 50% point in the 2 hour random window is at 1pm, 5pm, 8pm, and 11pm Eastern Time (UTC-4/5)
     # In UTC: 17:00, 21:00, 00:00, 03:00 (during EDT)
-    - cron: '0 17 * * *'  # 1pm ET
-    - cron: '0 21 * * *'  # 5pm ET
-    - cron: '0 0 * * *'   # 8pm ET
-    - cron: '0 3 * * *'   # 11pm ET
+    - cron: '0 16 * * *'  # 1pm ET
+    - cron: '0 20 * * *'  # 5pm ET
+    - cron: '0 23 * * *'   # 8pm ET
+    - cron: '0 2 * * *'   # 11pm ET
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
