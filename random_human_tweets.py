@@ -74,7 +74,7 @@ def generate_human_tweet():
         response = client.messages.create(
             model="claude-3-7-sonnet-latest",
             max_tokens=120,
-            temperature=0.6,
+            temperature=0.5,
             system="""
                 You are a baseball fan in your 20s-30s with reasonable opinions. 
                 Write in a casual, conversational tone as if texting a friend. 
