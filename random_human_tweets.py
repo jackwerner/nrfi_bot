@@ -82,6 +82,7 @@ def generate_human_tweet():
                 Don't use hashtags, 'lol', internet slang, or exclamation points. 
                 Don't refer to any team as 'we', 'us', or 'our'. 
                 Keep it extremely concise - 1-2 punchy sentences maximum. 
+                Tone: conversational, concise, simplify the language. Act as if you're speaking to a close friend.
                 Your task is to write ONLY the tweet text with no introduction or explanation.
                 """,
             messages=[
