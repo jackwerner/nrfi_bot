@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-24,Baltimore Orioles,Boston Red Sox,Zach Eflin,Hunter Dobbins,2025-05-24 13:05:00-04:00,0.6107312,0.5200000000000001,NRFI
+2025-05-24,Miami Marlins,Los Angeles Angels,Cal Quantrill,José Soriano,2025-05-24 22:07:00-04:00,0.56135154,0.5200000000000001,NRFI
+2025-05-24,San Diego Padres,Atlanta Braves,Michael King,Grant Holmes,2025-05-24 16:10:00-04:00,0.54098463,0.5200000000000001,NRFI
+2025-05-24,Philadelphia Phillies,Athletics,Cristopher Sánchez,Jeffrey Springs,2025-05-24 22:05:00-04:00,0.5386455,0.5200000000000001,NRFI
+2025-05-24,Arizona Diamondbacks,St. Louis Cardinals,Merrill Kelly,Matthew Liberatore,2025-05-24 14:15:00-04:00,0.53241,0.5200000000000001,NRFI
+2025-05-24,New York Yankees,Colorado Rockies,Max Fried,Kyle Freeland,2025-05-24 16:10:00-04:00,0.5310443,0.5200000000000001,NRFI
+2025-05-24,Milwaukee Brewers,Pittsburgh Pirates,Quinn Priester,Mitch Keller,2025-05-24 16:05:00-04:00,0.51798636,0.5200000000000001,YRFI
+2025-05-24,Chicago Cubs,Cincinnati Reds,Colin Rea,Andrew Abbott,2025-05-24 16:10:00-04:00,0.5042244,0.5200000000000001,YRFI
+2025-05-24,Seattle Mariners,Houston Astros,Bryan Woo,Framber Valdez,2025-05-24 16:10:00-04:00,0.49640518,0.5200000000000001,YRFI
+2025-05-24,Kansas City Royals,Minnesota Twins,Michael Wacha,Zebby Matthews,2025-05-24 14:10:00-04:00,0.47833648,0.5200000000000001,YRFI
+2025-05-24,Toronto Blue Jays,Tampa Bay Rays,José Berríos,Shane Baz,2025-05-24 19:05:00-04:00,0.44162768,0.5200000000000001,YRFI
+2025-05-24,Texas Rangers,Chicago White Sox,Jack Leiter,Jonathan Cannon,2025-05-24 16:10:00-04:00,0.43979037,0.5200000000000001,YRFI
+2025-05-24,San Francisco Giants,Washington Nationals,Kyle Harrison,Jake Irvin,2025-05-24 16:05:00-04:00,0.42549926,0.5200000000000001,YRFI
