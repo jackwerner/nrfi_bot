@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-28,Chicago White Sox,New York Mets,Shane Smith,Griffin Canning,2025-05-28 13:10:00-04:00,0.62790376,0.5300000000000001,NRFI
+2025-05-28,San Francisco Giants,Detroit Tigers,Landen Roupp,Jackson Jobe,2025-05-28 13:10:00-04:00,0.6223364,0.5300000000000001,NRFI
+2025-05-28,Atlanta Braves,Philadelphia Phillies,AJ Smith-Shawver,Zack Wheeler,2025-05-28 18:45:00-04:00,0.61420465,0.5300000000000001,NRFI
+2025-05-28,St. Louis Cardinals,Baltimore Orioles,Miles Mikolas,Cade Povich,2025-05-28 18:35:00-04:00,0.61109275,0.5300000000000001,NRFI
+2025-05-28,Pittsburgh Pirates,Arizona Diamondbacks,Paul Skenes,Zac Gallen,2025-05-28 15:40:00-04:00,0.58856267,0.5300000000000001,NRFI
+2025-05-28,Cincinnati Reds,Kansas City Royals,Hunter Greene,Noah Cameron,2025-05-28 19:40:00-04:00,0.5679253,0.5300000000000001,NRFI
+2025-05-28,Miami Marlins,San Diego Padres,Sandy Alcantara,Kyle Hart,2025-05-28 16:10:00-04:00,0.5477069,0.5300000000000001,NRFI
+2025-05-28,Minnesota Twins,Tampa Bay Rays,Pablo López,Drew Rasmussen,2025-05-28 13:10:00-04:00,0.54546714,0.5300000000000001,NRFI
+2025-05-28,Colorado Rockies,Chicago Cubs,Tanner Gordon,Matthew Boyd,2025-05-28 20:05:00-04:00,0.5015337,0.5300000000000001,YRFI
+2025-05-28,Washington Nationals,Seattle Mariners,Trevor Williams,George Kirby,2025-05-28 21:40:00-04:00,0.48159358,0.5300000000000001,YRFI
+2025-05-28,New York Yankees,Los Angeles Angels,Clarke Schmidt,Yusei Kikuchi,2025-05-28 21:38:00-04:00,0.40855265,0.5300000000000001,YRFI
