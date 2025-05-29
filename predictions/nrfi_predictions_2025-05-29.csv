@@ -1,0 +1,6 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-29,Athletics,Toronto Blue Jays,Jacob Lopez,José Berríos,2025-05-29 19:07:00-04:00,0.6933413,0.5300000000000001,NRFI
+2025-05-29,Atlanta Braves,Philadelphia Phillies,AJ Smith-Shawver,Cristopher Sánchez,2025-05-29 13:05:00-04:00,0.61941826,0.5300000000000001,NRFI
+2025-05-29,Atlanta Braves,Philadelphia Phillies,Chris Sale,Zack Wheeler,2025-05-29 18:45:00-04:00,0.5950846,0.5300000000000001,NRFI
+2025-05-29,Washington Nationals,Seattle Mariners,MacKenzie Gore,Emerson Hancock,2025-05-29 21:40:00-04:00,0.47728562,0.5300000000000001,YRFI
+2025-05-29,Tampa Bay Rays,Houston Astros,Shane Baz,Ryan Gusto,2025-05-29 20:10:00-04:00,0.4443303,0.5300000000000001,YRFI
