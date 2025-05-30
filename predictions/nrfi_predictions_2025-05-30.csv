@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-30,Detroit Tigers,Kansas City Royals,Casey Mize,Seth Lugo,2025-05-30 20:10:00-04:00,0.74083805,0.5300000000000001,NRFI
+2025-05-30,Minnesota Twins,Seattle Mariners,Zebby Matthews,Bryan Woo,2025-05-30 22:10:00-04:00,0.70660245,0.5300000000000001,NRFI
+2025-05-30,Colorado Rockies,New York Mets,Kyle Freeland,David Peterson,2025-05-30 19:10:00-04:00,0.66590893,0.5300000000000001,NRFI
+2025-05-30,Pittsburgh Pirates,San Diego Padres,Mitch Keller,Nick Pivetta,2025-05-30 21:40:00-04:00,0.6210856,0.5300000000000001,NRFI
+2025-05-30,Tampa Bay Rays,Houston Astros,Ryan Pepiot,Framber Valdez,2025-05-30 20:10:00-04:00,0.5522484,0.5300000000000001,NRFI
+2025-05-30,Boston Red Sox,Atlanta Braves,Lucas Giolito,Grant Holmes,2025-05-30 19:15:00-04:00,0.5160396,0.5300000000000001,YRFI
+2025-05-30,Athletics,Toronto Blue Jays,Jeffrey Springs,Chris Bassitt,2025-05-30 19:07:00-04:00,0.5013328,0.5300000000000001,YRFI
+2025-05-30,San Francisco Giants,Miami Marlins,Kyle Harrison,Cal Quantrill,2025-05-30 19:10:00-04:00,0.4674337,0.5300000000000001,YRFI
+2025-05-30,Chicago White Sox,Baltimore Orioles,Sean Burke,Zach Eflin,2025-05-30 19:05:00-04:00,0.41460642,0.5300000000000001,YRFI
+2025-05-30,Los Angeles Angels,Cleveland Guardians,José Soriano,Luis L. Ortiz,2025-05-30 19:10:00-04:00,0.35125697,0.5300000000000001,YRFI
+2025-05-30,Washington Nationals,Arizona Diamondbacks,Jake Irvin,Merrill Kelly,2025-05-30 21:40:00-04:00,0.3307369,0.5300000000000001,YRFI
