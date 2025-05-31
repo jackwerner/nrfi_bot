@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-05-31,Colorado Rockies,New York Mets,Antonio Senzatela,Kodai Senga,2025-05-31 16:10:00-04:00,0.79134274,0.5300000000000001,NRFI
+2025-05-31,Minnesota Twins,Seattle Mariners,Bailey Ober,Bryce Miller,2025-05-31 19:15:00-04:00,0.6701217,0.5300000000000001,NRFI
+2025-05-31,Pittsburgh Pirates,San Diego Padres,Bailey Falter,Dylan Cease,2025-05-31 21:40:00-04:00,0.66589826,0.5300000000000001,NRFI
+2025-05-31,Detroit Tigers,Kansas City Royals,Tarik Skubal,Michael Wacha,2025-05-31 16:10:00-04:00,0.5931312,0.5300000000000001,NRFI
+2025-05-31,Boston Red Sox,Atlanta Braves,Walker Buehler,Spencer Schwellenbach,2025-05-31 16:10:00-04:00,0.5651906,0.5300000000000001,NRFI
+2025-05-31,Milwaukee Brewers,Philadelphia Phillies,Chad Patrick,Jesús Luzardo,2025-05-31 16:05:00-04:00,0.55359834,0.5300000000000001,NRFI
+2025-05-31,San Francisco Giants,Miami Marlins,Robbie Ray,Edward Cabrera,2025-05-31 16:10:00-04:00,0.5070352,0.5300000000000001,YRFI
+2025-05-31,Tampa Bay Rays,Houston Astros,Zack Littell,Colton Gordon,2025-05-31 16:10:00-04:00,0.5022884,0.5300000000000001,YRFI
+2025-05-31,Athletics,Toronto Blue Jays,Gunnar Hoglund,Braydon Fisher,2025-05-31 15:07:00-04:00,0.48883432,0.5300000000000001,YRFI
+2025-05-31,Cincinnati Reds,Chicago Cubs,Nick Lodolo,Drew Pomeranz,2025-05-31 14:20:00-04:00,0.46220344,0.5300000000000001,YRFI
+2025-05-31,Chicago White Sox,Baltimore Orioles,Davis Martin,Dean Kremer,2025-05-31 16:05:00-04:00,0.42256933,0.5300000000000001,YRFI
+2025-05-31,Washington Nationals,Arizona Diamondbacks,Michael Soroka,Brandon Pfaadt,2025-05-31 22:10:00-04:00,0.40530652,0.5300000000000001,YRFI
+2025-05-31,Los Angeles Angels,Cleveland Guardians,Kyle Hendricks,Slade Cecconi,2025-05-31 16:10:00-04:00,0.3152736,0.5300000000000001,YRFI
+2025-05-31,New York Yankees,Los Angeles Dodgers,Will Warren,Landon Knack,2025-05-31 19:15:00-04:00,0.28117114,0.5300000000000001,YRFI
