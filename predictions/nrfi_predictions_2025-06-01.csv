@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-01,Boston Red Sox,Atlanta Braves,Garrett Crochet,Bryce Elder,2025-06-01 13:35:00-04:00,0.71238595,0.5300000000000001,NRFI
+2025-06-01,Detroit Tigers,Kansas City Royals,Keider Montero,Kris Bubic,2025-06-01 14:10:00-04:00,0.5955732,0.5300000000000001,NRFI
+2025-06-01,Los Angeles Angels,Cleveland Guardians,Jack Kochanowicz,Gavin Williams,2025-06-01 13:40:00-04:00,0.5769616,0.5300000000000001,NRFI
+2025-06-01,Chicago White Sox,Baltimore Orioles,Adrian Houser,Charlie Morton,2025-06-01 13:35:00-04:00,0.56093025,0.5300000000000001,NRFI
+2025-06-01,Colorado Rockies,New York Mets,Carson Palmquist,Clay Holmes,2025-06-01 13:40:00-04:00,0.5395299,0.5300000000000001,NRFI
+2025-06-01,St. Louis Cardinals,Texas Rangers,Erick Fedde,Jacob deGrom,2025-06-01 13:05:00-04:00,0.53072274,0.5300000000000001,NRFI
+2025-06-01,New York Yankees,Los Angeles Dodgers,Ryan Yarbrough,Yoshinobu Yamamoto,2025-06-01 19:10:00-04:00,0.5195236,0.5300000000000001,YRFI
+2025-06-01,Washington Nationals,Arizona Diamondbacks,Mitchell Parker,Corbin Burnes,2025-06-01 16:10:00-04:00,0.5129455,0.5300000000000001,YRFI
+2025-06-01,Cincinnati Reds,Chicago Cubs,Nick Martinez,Jameson Taillon,2025-06-01 14:20:00-04:00,0.5088131,0.5300000000000001,YRFI
+2025-06-01,Athletics,Toronto Blue Jays,JP Sears,Kevin Gausman,2025-06-01 13:37:00-04:00,0.4899338,0.5300000000000001,YRFI
+2025-06-01,Tampa Bay Rays,Houston Astros,Taj Bradley,Hunter Brown,2025-06-01 14:10:00-04:00,0.3959182,0.5300000000000001,YRFI
+2025-06-01,Pittsburgh Pirates,San Diego Padres,Andrew Heaney,Randy Vásquez,2025-06-01 17:10:00-04:00,0.3698491,0.5300000000000001,YRFI
+2025-06-01,Minnesota Twins,Seattle Mariners,Chris Paddack,Luis Castillo,2025-06-01 16:10:00-04:00,0.35454944,0.5300000000000001,YRFI
