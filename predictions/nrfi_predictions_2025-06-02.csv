@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-02,San Diego Padres,San Francisco Giants,Stephen Kolek,Logan Webb,2025-06-02 21:45:00-04:00,0.53909874,0.5300000000000001,NRFI
+2025-06-02,New York Mets,Los Angeles Dodgers,Paul Blackburn,Dustin May,2025-06-02 22:10:00-04:00,0.5102965,0.5300000000000001,YRFI
+2025-06-02,Colorado Rockies,Miami Marlins,Germán Márquez,Max Meyer,2025-06-02 18:40:00-04:00,0.50848645,0.5300000000000001,YRFI
+2025-06-02,Los Angeles Angels,Boston Red Sox,Tyler Anderson,Richard Fitts,2025-06-02 19:10:00-04:00,0.49474445,0.5300000000000001,YRFI
+2025-06-02,Minnesota Twins,Athletics,Joe Ryan,Luis Severino,2025-06-02 22:05:00-04:00,0.48935422,0.5300000000000001,YRFI
+2025-06-02,Milwaukee Brewers,Cincinnati Reds,Aaron Civale,Brady Singer,2025-06-02 19:10:00-04:00,0.44459444,0.5300000000000001,YRFI
+2025-06-02,Detroit Tigers,Chicago White Sox,Jack Flaherty,Jonathan Cannon,2025-06-02 19:40:00-04:00,0.31759876,0.5300000000000001,YRFI
