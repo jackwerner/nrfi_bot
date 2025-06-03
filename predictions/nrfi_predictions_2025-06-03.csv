@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-03,Cleveland Guardians,New York Yankees,Tanner Bibee,Carlos Rodón,2025-06-03 19:05:00-04:00,0.6729182,0.5300000000000001,NRFI
+2025-06-03,Texas Rangers,Tampa Bay Rays,Tyler Mahle,Drew Rasmussen,2025-06-03 19:35:00-04:00,0.5890203,0.5300000000000001,NRFI
+2025-06-03,Milwaukee Brewers,Cincinnati Reds,Freddy Peralta,Hunter Greene,2025-06-03 19:10:00-04:00,0.51762795,0.5300000000000001,YRFI
+2025-06-03,Arizona Diamondbacks,Atlanta Braves,Zac Gallen,Spencer Strider,2025-06-03 19:15:00-04:00,0.48382252,0.5300000000000001,YRFI
+2025-06-03,Chicago Cubs,Washington Nationals,Cade Horton,Trevor Williams,2025-06-03 18:45:00-04:00,0.4836052,0.5300000000000001,YRFI
+2025-06-03,Philadelphia Phillies,Toronto Blue Jays,Cristopher Sánchez,Bowden Francis,2025-06-03 19:07:00-04:00,0.43262565,0.5300000000000001,YRFI
+2025-06-03,Baltimore Orioles,Seattle Mariners,Tomoyuki Sugano,George Kirby,2025-06-03 21:40:00-04:00,0.42547494,0.5300000000000001,YRFI
+2025-06-03,Kansas City Royals,St. Louis Cardinals,Michael Lorenzen,Andre Pallante,2025-06-03 19:45:00-04:00,0.4193389,0.5300000000000001,YRFI
