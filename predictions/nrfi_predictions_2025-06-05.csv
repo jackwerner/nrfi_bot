@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-05,Texas Rangers,Tampa Bay Rays,Jack Leiter,Ryan Pepiot,2025-06-05 19:35:00-04:00,0.61052793,0.5300000000000001,NRFI
+2025-06-05,Houston Astros,Pittsburgh Pirates,Framber Valdez,Mitch Keller,2025-06-05 18:40:00-04:00,0.5915826,0.5300000000000001,NRFI
+2025-06-05,Baltimore Orioles,Seattle Mariners,Zach Eflin,Bryan Woo,2025-06-05 15:40:00-04:00,0.5742332,0.5300000000000001,NRFI
+2025-06-05,Arizona Diamondbacks,Atlanta Braves,Brandon Pfaadt,Grant Holmes,2025-06-05 12:15:00-04:00,0.567227,0.5300000000000001,NRFI
+2025-06-05,Kansas City Royals,St. Louis Cardinals,Noah Cameron,Miles Mikolas,2025-06-05 13:45:00-04:00,0.5563615,0.5300000000000001,NRFI
+2025-06-05,Chicago Cubs,Washington Nationals,Drew Pomeranz,Jake Irvin,2025-06-05 18:45:00-04:00,0.54573417,0.5300000000000001,NRFI
+2025-06-05,Cleveland Guardians,New York Yankees,Slade Cecconi,Max Fried,2025-06-05 19:05:00-04:00,0.5452023,0.5300000000000001,NRFI
+2025-06-05,San Diego Padres,San Francisco Giants,Dylan Cease,Robbie Ray,2025-06-05 15:45:00-04:00,0.5355564,0.5300000000000001,NRFI
+2025-06-05,New York Mets,Los Angeles Dodgers,David Peterson,Landon Knack,2025-06-05 16:10:00-04:00,0.4947593,0.5300000000000001,YRFI
+2025-06-05,Kansas City Royals,St. Louis Cardinals,Cole Ragans,Matthew Liberatore,2025-06-05 19:45:00-04:00,0.48140714,0.5300000000000001,YRFI
+2025-06-05,Philadelphia Phillies,Toronto Blue Jays,Jesús Luzardo,Chris Bassitt,2025-06-05 15:07:00-04:00,0.4484067,0.5300000000000001,YRFI
+2025-06-05,Detroit Tigers,Chicago White Sox,Casey Mize,Sean Burke,2025-06-05 14:10:00-04:00,0.40951574,0.5300000000000001,YRFI
