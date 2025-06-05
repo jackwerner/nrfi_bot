@@ -38,8 +38,8 @@ def generate_human_tweet():
     # Create the last tweets part of the prompt conditionally
     last_tweets_text = ""
     if last_tweets:
-        last_tweets_text = "Here are the last tweets I posted, make sure you tweet about something different:\n"
-        for i, tweet in enumerate(last_tweets[-4:], 1):  # Get up to 4 most recent tweets
+        last_tweets_text = "Here are the last few tweets I posted, make sure you tweet about something different:\n"
+        for i, tweet in enumerate(last_tweets[-6:], 1):  # Get up to 6 most recent tweets
             last_tweets_text += f"{i}. \"{tweet}\"\n"
     
     prompt = f"""
@@ -118,7 +118,7 @@ def generate_human_tweet():
         # Save the generated tweet to the file with the last 4 tweets
         if last_tweets:
             # Keep only the 3 most recent tweets and add the new one
-            last_tweets = last_tweets[-3:] + [tweet_text]
+            last_tweets = last_tweets[-5:] + [tweet_text]
         else:
             last_tweets = [tweet_text]
             
