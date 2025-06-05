@@ -58,13 +58,22 @@ def generate_human_tweet():
     Avoid sounding like a news headline or report. You do not need to summarize the topic. 
     No "lol" or internet slang. No exclamation points. Do not use hashtags. Do not plagiarize. Do not cite your sources.
     
-    IMPORTANT: Keep it extremely concise. Avoid adding philosophical or reflective statements at the end.
+    IMPORTANT: Keep it extremely concise and brief. Avoid adding philosophical or reflective statements at the end.
+    
+    VARIETY GUIDELINES:
+    - Mix up your opening structure - don't always start with "Player Name + action"
+    - Vary between player-focused, team-focused, and situation-focused observations
+    - Avoid cliché phrases like "peak [team] baseball", "flair for the dramatic", "hits different"
+    - Try different angles: injury reactions, strategic observations, season narrative, individual performances
     
     Good Examples:
     - 'Still thinking about Taveras crushing that two-run shot in the 8th to put Seattle ahead yesterday. Mariners quietly building momentum with five wins in their last six games while everyone's focused elsewhere.'
     - 'Orioles finally snap that brutal eight-game skid with an extra innings win against the Brewers. Mansolino gets his first W as interim manager but definitely had to sweat through some late blown leads to get there.'
     - 'Blue Jays absolutely dismantled the Padres yesterday with that 14-0 shutout. When Toronto's offense gets rolling like that, makes you wonder why they've been so inconsistent all season.'
-    
+    - 'That Kirby injury last night was hard to watch. 102 mph right to the face but seeing him walk off on his own was at least somewhat reassuring.'
+    - 'Rockies swept Miami for their first series win in two months. Sometimes the worst teams still find ways to surprise you.'
+    - 'Dodgers keep finding ways to win these close games. Freeman's walk-off double was clutch but they really shouldn't have needed extra innings against this Mets team.'
+ 
     {last_tweets_text}
     
     IMPORTANT: Do not include any introduction or explanation. Write ONLY the tweet and nothing else.
