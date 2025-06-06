@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-06,Boston Red Sox,New York Yankees,Walker Buehler,Will Warren,2025-06-06 19:05:00-04:00,0.73283875,0.5300000000000001,NRFI
+2025-06-06,Arizona Diamondbacks,Cincinnati Reds,Eduardo Rodriguez,Nick Lodolo,2025-06-06 19:10:00-04:00,0.6416738,0.5300000000000001,NRFI
+2025-06-06,Los Angeles Dodgers,St. Louis Cardinals,Justin Wrobleski,Sonny Gray,2025-06-06 20:15:00-04:00,0.6218228,0.5300000000000001,NRFI
+2025-06-06,Philadelphia Phillies,Pittsburgh Pirates,Joe Ross,Bailey Falter,2025-06-06 18:40:00-04:00,0.6185177,0.5300000000000001,NRFI
+2025-06-06,Kansas City Royals,Chicago White Sox,Seth Lugo,Davis Martin,2025-06-06 19:40:00-04:00,0.6022683,0.5300000000000001,NRFI
+2025-06-06,Chicago Cubs,Detroit Tigers,Ben Brown,Tarik Skubal,2025-06-06 19:10:00-04:00,0.59909135,0.5300000000000001,NRFI
+2025-06-06,Seattle Mariners,Los Angeles Angels,Bryce Miller,Kyle Hendricks,2025-06-06 21:38:00-04:00,0.5354946,0.5300000000000001,NRFI
+2025-06-06,New York Mets,Colorado Rockies,Kodai Senga,Antonio Senzatela,2025-06-06 20:40:00-04:00,0.5318985,0.5300000000000001,NRFI
+2025-06-06,Houston Astros,Cleveland Guardians,Colton Gordon,Logan Allen,2025-06-06 19:10:00-04:00,0.4875638,0.5300000000000001,YRFI
+2025-06-06,San Diego Padres,Milwaukee Brewers,Randy Vásquez,Chad Patrick,2025-06-06 20:10:00-04:00,0.305723,0.5300000000000001,YRFI
