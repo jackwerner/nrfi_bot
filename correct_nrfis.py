@@ -92,6 +92,18 @@ def tweet_correct_predictions():
                 "🎯 PRECISION! Predicted the",
             ]
             
+            # Special celebration phrases for NRFI predictions
+            nrfi_celebration_phrases = [
+                "😴 SNOOZE FEST! Called the",
+                "🥱 BORING! Nailed the",
+                "💤 SNOOZERS! Predicted the",
+                "🛏️ SLEEPY TIME! Got the",
+                "😪 YAWN! Secured the",
+                "🌙 NAPTIME! Delivered the",
+                "🧘‍♂️ ZEN MODE! Called the",
+                "📺 CHANNEL CHANGER! Predicted the",
+            ]
+            
             confidence_descriptions = [
                 "with ice-cold confidence",
                 "like a seasoned pro",
@@ -109,7 +121,12 @@ def tweet_correct_predictions():
                 "with supercomputer certainty",
             ]
             
-            celebration = random.choice(celebration_phrases)
+            # Choose celebration phrase based on prediction type
+            if prediction['predicted'] == 'NRFI':
+                celebration = random.choice(nrfi_celebration_phrases)
+            else:
+                celebration = random.choice(celebration_phrases)
+            
             confidence_desc = random.choice(confidence_descriptions)
             
             result_tweet = (
