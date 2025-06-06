@@ -113,7 +113,7 @@ def tweet_correct_predictions():
             confidence_desc = random.choice(confidence_descriptions)
             
             result_tweet = (
-                f"{celebration} {prediction['predicted']} yesterday!\n"
+                f"{celebration} {prediction['predicted']}! Another successful prediction yesterday...\n"
                 f"🏟️ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
                 f"⚾ Hurlers: {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
                 f"🎯 Called it {confidence_desc} ({prediction['nrfi_probability']:.1%})\n"
