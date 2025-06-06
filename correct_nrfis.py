@@ -59,7 +59,7 @@ def tweet_correct_predictions():
         f"{summary_emoji} {summary_descriptor} WITH NRFI PREDICTIONS! {summary_emoji}\n"
         f"🎯 Nailed {correct_count}/{total_predictions} predictions ({accuracy:.1%})\n"
         f"📅 {yesterday.strftime('%B %d, %Y')}\n"
-        f"🔥 #NRFI #MLB #BaseballBetting #NRFIAlert"
+        f"🔥 #NRFI  #NRFIAlert #MLB #BaseballBetting"
     )
     
     try:
@@ -82,30 +82,40 @@ def tweet_correct_predictions():
                 "🎯 BULLSEYE! Nailed the",
                 "🔥 MONEY! Called the", 
                 "💰 CASH! Predicted the",
-                "⚡ LIGHTNING STRIKE! Hit the",
+                "⚡ BOOM! Hit the",
                 "🎪 MAGIC! Conjured the",
-                "🚀 ROCKET! Launched the",
-                "💎 DIAMOND! Polished the",
-                "🏆 CHAMPION! Dominated the"
+                "✨ PERFECT! Crushed the",
+                "🎲 JACKPOT! Landed the",
+                "🎪 SHOWTIME! Delivered the",
+                "🌟 STELLAR! Locked in the",
+                "💫 CLUTCH! Secured the",
+                "🎯 PRECISION! Predicted the",
             ]
             
             confidence_descriptions = [
                 "with ice-cold confidence",
                 "like a seasoned pro",
-                "with surgical precision", 
-                "with unwavering conviction",
+                "with surgical precision",
+                "with unwavering conviction", 
                 "with crystal clear vision",
                 "with laser focus",
-                "with pinpoint accuracy"
+                "with pinpoint accuracy",
+                "like a hawk spotting prey",
+                "like clockwork",
+                "with machine-like precision",
+                "like a chess grandmaster",
+                "with sniper-like accuracy",
+                "like a fortune teller",
+                "with supercomputer certainty",
             ]
             
             celebration = random.choice(celebration_phrases)
             confidence_desc = random.choice(confidence_descriptions)
             
             result_tweet = (
-                f"{celebration} {prediction['predicted']}!\n"
-                f"⚾ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
-                f"🥎 Hurlers: {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
+                f"{celebration} {prediction['predicted']} yesterday!\n"
+                f"🏟️ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
+                f"⚾ Hurlers: {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
                 f"🎯 Called it {confidence_desc} ({prediction['nrfi_probability']:.1%})\n"
                 f"#{get_acronym(prediction['away_team'])}vs{get_acronym(prediction['home_team'])} #NRFI #NRFIAlert #BaseballBetting"
             )
