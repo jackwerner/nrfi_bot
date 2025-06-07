@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-07,Boston Red Sox,New York Yankees,Garrett Crochet,Ryan Yarbrough,2025-06-07 19:35:00-04:00,0.7329734,0.5300000000000001,NRFI
+2025-06-07,Arizona Diamondbacks,Cincinnati Reds,Eduardo Rodriguez,Nick Lodolo,2025-06-07 14:10:00-04:00,0.6416738,0.5300000000000001,NRFI
+2025-06-07,Houston Astros,Cleveland Guardians,Hunter Brown,Gavin Williams,2025-06-07 16:10:00-04:00,0.60431516,0.5300000000000001,NRFI
+2025-06-07,Atlanta Braves,San Francisco Giants,Bryce Elder,Logan Webb,2025-06-07 16:05:00-04:00,0.58025914,0.5300000000000001,NRFI
+2025-06-07,Baltimore Orioles,Athletics,Charlie Morton,Luis Severino,2025-06-07 22:05:00-04:00,0.5728625,0.5300000000000001,NRFI
+2025-06-07,Miami Marlins,Tampa Bay Rays,Ryan Weathers,Taj Bradley,2025-06-07 16:10:00-04:00,0.5337758,0.5300000000000001,NRFI
+2025-06-07,Seattle Mariners,Los Angeles Angels,Luis Castillo,Jack Kochanowicz,2025-06-07 21:38:00-04:00,0.5303386,0.5300000000000001,NRFI
+2025-06-07,New York Mets,Colorado Rockies,Clay Holmes,Carson Palmquist,2025-06-07 21:40:00-04:00,0.52455384,0.5300000000000001,YRFI
+2025-06-07,Kansas City Royals,Chicago White Sox,Michael Wacha,Adrian Houser,2025-06-07 16:10:00-04:00,0.51060915,0.5300000000000001,YRFI
+2025-06-07,Chicago Cubs,Detroit Tigers,Jameson Taillon,Tyler Holton,2025-06-07 13:10:00-04:00,0.4926933,0.5300000000000001,YRFI
+2025-06-07,Texas Rangers,Washington Nationals,Jacob deGrom,Mitchell Parker,2025-06-07 16:05:00-04:00,0.49044555,0.5300000000000001,YRFI
+2025-06-07,Arizona Diamondbacks,Cincinnati Reds,Ryne Nelson,Nick Martinez,2025-06-07 16:10:00-04:00,0.4675917,0.5300000000000001,YRFI
+2025-06-07,Toronto Blue Jays,Minnesota Twins,Kevin Gausman,Chris Paddack,2025-06-07 14:10:00-04:00,0.46449876,0.5300000000000001,YRFI
+2025-06-07,Los Angeles Dodgers,St. Louis Cardinals,Yoshinobu Yamamoto,Erick Fedde,2025-06-07 14:15:00-04:00,0.4560888,0.5300000000000001,YRFI
