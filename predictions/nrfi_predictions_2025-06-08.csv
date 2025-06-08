@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-08,Philadelphia Phillies,Pittsburgh Pirates,Cristopher Sánchez,Paul Skenes,2025-06-08 13:35:00-04:00,0.71158946,0.5300000000000001,NRFI
+2025-06-08,Baltimore Orioles,Athletics,Tomoyuki Sugano,Jacob Lopez,2025-06-08 16:05:00-04:00,0.6524846,0.5300000000000001,NRFI
+2025-06-08,Houston Astros,Cleveland Guardians,Brandon Walter,Tanner Bibee,2025-06-08 13:40:00-04:00,0.5825531,0.5300000000000001,NRFI
+2025-06-08,Boston Red Sox,New York Yankees,Hunter Dobbins,Carlos Rodón,2025-06-08 19:10:00-04:00,0.5667361,0.5300000000000001,NRFI
+2025-06-08,New York Mets,Colorado Rockies,Tylor Megill,Chase Dollander,2025-06-08 15:10:00-04:00,0.55113226,0.5300000000000001,NRFI
+2025-06-08,Chicago Cubs,Detroit Tigers,Cade Horton,Jack Flaherty,2025-06-08 13:40:00-04:00,0.5449374,0.5300000000000001,NRFI
+2025-06-08,Atlanta Braves,San Francisco Giants,Spencer Strider,Landen Roupp,2025-06-08 16:05:00-04:00,0.51304835,0.5300000000000001,YRFI
+2025-06-08,Miami Marlins,Tampa Bay Rays,Anthony Veneziano,Drew Rasmussen,2025-06-08 12:10:00-04:00,0.49473312,0.5300000000000001,YRFI
+2025-06-08,Kansas City Royals,Chicago White Sox,Michael Lorenzen,Mike Vasil,2025-06-08 14:10:00-04:00,0.46164492,0.5300000000000001,YRFI
+2025-06-08,Toronto Blue Jays,Minnesota Twins,Bowden Francis,Joe Ryan,2025-06-08 14:10:00-04:00,0.44552705,0.5300000000000001,YRFI
+2025-06-08,Arizona Diamondbacks,Cincinnati Reds,Zac Gallen,Brady Singer,2025-06-08 13:40:00-04:00,0.44281325,0.5300000000000001,YRFI
+2025-06-08,Seattle Mariners,Los Angeles Angels,George Kirby,Tyler Anderson,2025-06-08 16:07:00-04:00,0.33853766,0.5300000000000001,YRFI
