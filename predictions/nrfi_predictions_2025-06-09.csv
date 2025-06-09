@@ -1,0 +1,6 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-09,Chicago Cubs,Philadelphia Phillies,Matthew Boyd,Zack Wheeler,2025-06-09 18:45:00-04:00,0.5933302,0.5300000000000001,NRFI
+2025-06-09,Los Angeles Dodgers,San Diego Padres,Dustin May,Nick Pivetta,2025-06-09 21:40:00-04:00,0.5753885,0.5300000000000001,NRFI
+2025-06-09,Atlanta Braves,Milwaukee Brewers,Chris Sale,Aaron Civale,2025-06-09 19:40:00-04:00,0.55339646,0.5300000000000001,NRFI
+2025-06-09,Seattle Mariners,Arizona Diamondbacks,Emerson Hancock,Merrill Kelly,2025-06-09 21:40:00-04:00,0.4373637,0.5300000000000001,YRFI
+2025-06-09,Toronto Blue Jays,St. Louis Cardinals,José Berríos,Andre Pallante,2025-06-09 19:45:00-04:00,0.41907227,0.5300000000000001,YRFI
