@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-10,Toronto Blue Jays,St. Louis Cardinals,Chris Bassitt,Miles Mikolas,2025-06-10 19:45:00-04:00,0.683457,0.5300000000000001,NRFI
+2025-06-10,New York Yankees,Kansas City Royals,Max Fried,Noah Cameron,2025-06-10 19:40:00-04:00,0.61807686,0.5300000000000001,NRFI
+2025-06-10,Washington Nationals,New York Mets,MacKenzie Gore,Griffin Canning,2025-06-10 19:10:00-04:00,0.59916186,0.5300000000000001,NRFI
+2025-06-10,Athletics,Los Angeles Angels,Mitch Spence,José Soriano,2025-06-10 21:38:00-04:00,0.5377235,0.5300000000000001,NRFI
+2025-06-10,Atlanta Braves,Milwaukee Brewers,Grant Holmes,Quinn Priester,2025-06-10 19:40:00-04:00,0.48891124,0.5300000000000001,YRFI
+2025-06-10,San Francisco Giants,Colorado Rockies,Kyle Harrison,Carson Palmquist,2025-06-10 20:40:00-04:00,0.48003006,0.5300000000000001,YRFI
+2025-06-10,Chicago Cubs,Philadelphia Phillies,Colin Rea,Mick Abel,2025-06-10 18:45:00-04:00,0.4569523,0.5300000000000001,YRFI
+2025-06-10,Tampa Bay Rays,Boston Red Sox,Ryan Pepiot,Lucas Giolito,2025-06-10 19:10:00-04:00,0.42871925,0.5300000000000001,YRFI
+2025-06-10,Seattle Mariners,Arizona Diamondbacks,Logan Evans,Brandon Pfaadt,2025-06-10 21:40:00-04:00,0.3959501,0.5300000000000001,YRFI
+2025-06-10,Cincinnati Reds,Cleveland Guardians,Andrew Abbott,Slade Cecconi,2025-06-10 18:40:00-04:00,0.33464977,0.5300000000000001,YRFI
