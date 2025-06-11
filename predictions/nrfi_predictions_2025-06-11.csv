@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-11,San Francisco Giants,Colorado Rockies,Robbie Ray,Kyle Freeland,2025-06-11 20:40:00-04:00,0.7326599,0.5300000000000001,NRFI
+2025-06-11,Miami Marlins,Pittsburgh Pirates,Cal Quantrill,Bailey Falter,2025-06-11 12:35:00-04:00,0.64495945,0.5300000000000001,NRFI
+2025-06-11,Detroit Tigers,Baltimore Orioles,Casey Mize,Zach Eflin,2025-06-11 18:35:00-04:00,0.63516587,0.5300000000000001,NRFI
+2025-06-11,Tampa Bay Rays,Boston Red Sox,Zack Littell,Walker Buehler,2025-06-11 19:10:00-04:00,0.61689395,0.5300000000000001,NRFI
+2025-06-11,Cincinnati Reds,Cleveland Guardians,Nick Lodolo,Logan Allen,2025-06-11 13:10:00-04:00,0.5717828,0.5300000000000001,NRFI
+2025-06-11,Seattle Mariners,Arizona Diamondbacks,Bryan Woo,Eduardo Rodriguez,2025-06-11 15:40:00-04:00,0.5380345,0.5300000000000001,NRFI
+2025-06-11,Chicago White Sox,Houston Astros,Sean Burke,Ryan Gusto,2025-06-11 20:10:00-04:00,0.52090466,0.5300000000000001,YRFI
+2025-06-11,Washington Nationals,New York Mets,Jake Irvin,David Peterson,2025-06-11 19:10:00-04:00,0.5110232,0.5300000000000001,YRFI
+2025-06-11,Chicago Cubs,Philadelphia Phillies,Ben Brown,Jesús Luzardo,2025-06-11 13:05:00-04:00,0.50981814,0.5300000000000001,YRFI
+2025-06-11,Toronto Blue Jays,St. Louis Cardinals,Eric Lauer,Matthew Liberatore,2025-06-11 14:15:00-04:00,0.4977157,0.5300000000000001,YRFI
+2025-06-11,New York Yankees,Kansas City Royals,Clarke Schmidt,Kris Bubic,2025-06-11 19:40:00-04:00,0.496603,0.5300000000000001,YRFI
+2025-06-11,Athletics,Los Angeles Angels,JP Sears,Kyle Hendricks,2025-06-11 16:07:00-04:00,0.49585024,0.5300000000000001,YRFI
+2025-06-11,Atlanta Braves,Milwaukee Brewers,Spencer Schwellenbach,Chad Patrick,2025-06-11 14:10:00-04:00,0.48925206,0.5300000000000001,YRFI
+2025-06-11,Los Angeles Dodgers,San Diego Padres,Justin Wrobleski,Randy Vásquez,2025-06-11 16:10:00-04:00,0.46904138,0.5300000000000001,YRFI
+2025-06-11,Texas Rangers,Minnesota Twins,Jack Leiter,David Festa,2025-06-11 19:40:00-04:00,0.34377062,0.5300000000000001,YRFI
