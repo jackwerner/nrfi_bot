@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get a random delay between 0 and 120 minutes (2 hours)
-delay_minutes = random.randint(0, 120)
+# delay_minutes = random.randint(0, 120)
 
-print(f"Waiting for {delay_minutes} minutes before posting...")
+# print(f"Waiting for {delay_minutes} minutes before posting...")
 
 # Sleep for that random amount of time
-time.sleep(delay_minutes * 60)
+# time.sleep(delay_minutes * 60)
 
 def generate_human_tweet():
     """
