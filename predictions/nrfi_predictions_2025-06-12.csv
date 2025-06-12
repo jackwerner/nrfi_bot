@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-12,Chicago White Sox,Houston Astros,Davis Martin,Framber Valdez,2025-06-12 20:10:00-04:00,0.7532078,0.5300000000000001,NRFI
+2025-06-12,New York Yankees,Kansas City Royals,Will Warren,Seth Lugo,2025-06-12 19:40:00-04:00,0.5418918,0.5300000000000001,NRFI
+2025-06-12,Washington Nationals,New York Mets,Michael Soroka,Kodai Senga,2025-06-12 13:10:00-04:00,0.5114207,0.5300000000000001,YRFI
+2025-06-12,Pittsburgh Pirates,Chicago Cubs,Andrew Heaney,Jameson Taillon,2025-06-12 20:05:00-04:00,0.42518184,0.5300000000000001,YRFI
+2025-06-12,St. Louis Cardinals,Milwaukee Brewers,Sonny Gray,Jacob Misiorowski,2025-06-12 19:40:00-04:00,0.40433764,0.5300000000000001,YRFI
+2025-06-12,Detroit Tigers,Baltimore Orioles,Tarik Skubal,Dean Kremer,2025-06-12 18:35:00-04:00,0.34516254,0.5300000000000001,YRFI
