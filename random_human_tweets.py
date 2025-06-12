@@ -38,45 +38,40 @@ def generate_human_tweet():
     # Create the last tweets part of the prompt conditionally
     last_tweets_text = ""
     if last_tweets:
-        last_tweets_text = "Here are the last few tweets I posted, make sure you tweet about something different:\n"
+        last_tweets_text = "Here are the last few tweets we posted, make sure you write about something different:\n"
         for i, tweet in enumerate(last_tweets[-6:], 1):  # Get up to 6 most recent tweets
             last_tweets_text += f"{i}. \"{tweet}\"\n"
     
     prompt = f"""
-    Today's date is {datetime.now().strftime("%Y-%m-%d")}.
-    Write a short tweet as a baseball fan observing or sharing thoughts on a current MLB story. 
-    Focus on an immediately relevant topic from yesterday or today.
+    You are a neutral baseball observer writing tweets for male baseball fans in their 20s-30s. Write a short tweet (under 280 characters) about a current MLB story from yesterday or today. 
 
-    Sound like a real, natural person with genuine opinions - not a corporate account or news headline. 
-    Be conversational and personal in your tone. Use more casual language and first-person perspective.
-    Be moderately opinionated and insightful but keep it observational and conversational.
-    Your target audience is men in their 20s-30s who are baseball fans. Don't be super animated, don't try to be cute. 
-    
-    You do not have a favorite team, you are a neutral observer. Don't refer to any team as 'us', 'our', 'we'.
-    Focus on ONE specific topic in 1-2 short, punchy sentences. The less words you use, the better.
-    
-    Avoid sounding like a news headline or report. You do not need to summarize the topic. 
-    No "lol" or internet slang. No exclamation points. Do not use hashtags. Do not plagiarize. Do not cite your sources.
-    
-    IMPORTANT: Keep it extremely concise and brief. Avoid adding philosophical or reflective statements at the end.
-    
-    VARIETY GUIDELINES:
-    - Mix up your opening structure - don't always start with "Player Name + action"
-    - Vary between player-focused, team-focused, and situation-focused observations
-    - Avoid cliché phrases like "peak [team] baseball", "flair for the dramatic", "hits different"
-    - Try different angles: injury reactions, strategic observations, season narrative, individual performances
-    
-    Good Examples:
-    - 'Still thinking about Taveras crushing that two-run shot in the 8th to put Seattle ahead yesterday. Mariners quietly building momentum with five wins in their last six games while everyone's focused elsewhere.'
-    - 'Orioles finally snap that brutal eight-game skid with an extra innings win against the Brewers. Mansolino gets his first W as interim manager but definitely had to sweat through some late blown leads to get there.'
-    - 'Blue Jays absolutely dismantled the Padres yesterday with that 14-0 shutout. When Toronto's offense gets rolling like that, makes you wonder why they've been so inconsistent all season.'
-    - 'That Kirby injury last night was hard to watch. 102 mph right to the face but seeing him walk off on his own was at least somewhat reassuring.'
-    - 'Rockies swept Miami for their first series win in two months. Sometimes the worst teams still find ways to surprise you.'
-    - 'Dodgers keep finding ways to win these close games. Freeman's walk-off double was clutch but they really shouldn't have needed extra innings against this Mets team.'
- 
+    Requirements: 
+    - Focus on breaking news, standout performances, trades, injuries, or playoff implications 
+    - Use a straightforward, conversational tone without exclamation points - No hashtags, internet slang, or "lol" type language 
+    - Maintain complete neutrality 
+    - never use "us," "our," or "we" when referring to teams 
+    - Ask questions or make observations that encourage discussion 
+    - Keep it direct and authentic, not overly animated or cute 
+    - No emojis 
+    - Do not cite sources or plagiarize content 
+    - Stick to facts about the MLB news 
+    - no philosophical observations or generalizations about baseball 
+
+    Format: Just the tweet text, ready to post 
+
+    Current date: {datetime.now().strftime("%Y-%m-%d")}.
+
+    Examples of tone: 
+    - "[Player] just went 4-for-4 with 2 home runs against [Team]. Guy's been locked in since the All-Star break" 
+    - "[Team] traded [Player] to [Team] for [Player] and two prospects. That's a lot to give up for a rental" 
+    - "[Player] placed on 15-day IL with shoulder inflammation. [Team] already thin at that position" 
+    IMPORTANT: Do not include any introduction or explanation. Write ONLY the tweet and nothing else.
+
     {last_tweets_text}
     
     IMPORTANT: Do not include any introduction or explanation. Write ONLY the tweet and nothing else.
+
+    Write the tweet:
     """
     
     try:
@@ -102,9 +97,9 @@ def generate_human_tweet():
                     "type": "web_search_20250305",
                     "name": "web_search",
                     # Optional: Limit searches per request
-                    "max_uses": 1,
+                    "max_uses": 3,
                     # Optional: Only include results from these domains
-                    "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","apnews.com","cbssports.com"],
+                    "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","apnews.com","cbssports.com","yahoo.com","sports.yahoo.com","si.com"],
                 }
             ]
         )
