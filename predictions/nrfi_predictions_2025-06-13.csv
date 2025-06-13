@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-13,San Francisco Giants,Los Angeles Dodgers,Logan Webb,Yoshinobu Yamamoto,2025-06-13 22:10:00-04:00,0.797019,0.5300000000000001,NRFI
+2025-06-13,Tampa Bay Rays,New York Mets,Taj Bradley,Clay Holmes,2025-06-13 19:10:00-04:00,0.6367476,0.5300000000000001,NRFI
+2025-06-13,New York Yankees,Boston Red Sox,Ryan Yarbrough,Garrett Crochet,2025-06-13 19:10:00-04:00,0.60299104,0.5300000000000001,NRFI
+2025-06-13,Pittsburgh Pirates,Chicago Cubs,Paul Skenes,Cade Horton,2025-06-13 14:20:00-04:00,0.5649912,0.5300000000000001,NRFI
+2025-06-13,Los Angeles Angels,Baltimore Orioles,Jack Kochanowicz,Charlie Morton,2025-06-13 19:08:00-04:00,0.5344512,0.5300000000000001,NRFI
+2025-06-13,Minnesota Twins,Houston Astros,Chris Paddack,Colton Gordon,2025-06-13 20:10:00-04:00,0.5075646,0.5300000000000001,YRFI
+2025-06-13,Colorado Rockies,Atlanta Braves,Germán Márquez,Bryce Elder,2025-06-13 19:15:00-04:00,0.48353153,0.5300000000000001,YRFI
+2025-06-13,Athletics,Kansas City Royals,Luis Severino,Michael Wacha,2025-06-13 20:10:00-04:00,0.41669762,0.5300000000000001,YRFI
+2025-06-13,Miami Marlins,Washington Nationals,Edward Cabrera,Mitchell Parker,2025-06-13 18:45:00-04:00,0.3977261,0.5300000000000001,YRFI
+2025-06-13,St. Louis Cardinals,Milwaukee Brewers,Erick Fedde,Freddy Peralta,2025-06-13 20:10:00-04:00,0.39568397,0.5300000000000001,YRFI
+2025-06-13,San Diego Padres,Arizona Diamondbacks,Stephen Kolek,Ryne Nelson,2025-06-13 21:40:00-04:00,0.36752486,0.5300000000000001,YRFI
