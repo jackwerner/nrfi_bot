@@ -206,7 +206,8 @@ def get_season_games(start_date, end_date):
                                 'away_team_id': game['teams']['away']['team']['id'],
                                 'home_pitcher': home_pitcher,
                                 'away_pitcher': away_pitcher,
-                                'nrfi': nrfi
+                                'nrfi': nrfi,
+                                'linescore': game['linescore']
                             })
                         else:
                             print(f"Skipped game due to missing pitcher info: {game['teams']['away']['team']['name']} @ {game['teams']['home']['team']['name']}")

@@ -56,10 +56,10 @@ def tweet_correct_predictions():
         summary_descriptor = "BUILDING MOMENTUM"
     
     summary_tweet = (
-        f"{summary_emoji} {summary_descriptor} WITH NRFI PREDICTIONS! {summary_emoji}\n"
+        f"{summary_emoji} {summary_descriptor} WITH THE MODEL! {summary_emoji}\n"
         f"🎯 Nailed {correct_count}/{total_predictions} predictions ({accuracy:.1%})\n"
         f"📅 {yesterday.strftime('%B %d, %Y')}\n"
-        f"🔥 #NRFI  #NRFIAlert #MLB #BaseballBetting"
+        f"🔥 #NRFI #MLB"
     )
     
     try:
@@ -129,18 +129,67 @@ def tweet_correct_predictions():
             
             confidence_desc = random.choice(confidence_descriptions)
             
+            # Get first inning stats from the game data
+            from data.mlb_api import get_season_games
+            game_data = get_season_games(
+                datetime.strptime(prediction['date'], '%Y-%m-%d'),
+                datetime.strptime(prediction['date'], '%Y-%m-%d')
+            )
+            
+            # Find the matching game
+            matching_game = None
+            for game in game_data:
+                if (game['home_team'] == prediction['home_team'] and 
+                    game['away_team'] == prediction['away_team'] and
+                    game['home_pitcher'] == prediction['home_pitcher'] and
+                    game['away_pitcher'] == prediction['away_pitcher']):
+                    matching_game = game
+                    break
+            
+            if not matching_game:
+                print("No matching game found!")
+
+            # Get first inning stats if available
+            first_inning_stats = ""
+            if matching_game and 'linescore' in matching_game and matching_game['linescore'] and 'innings' in matching_game['linescore'] and matching_game['linescore']['innings']:
+                first_inning = matching_game['linescore']['innings'][0]
+                away_hits = first_inning['away'].get('hits', 0)
+                away_lob = first_inning['away'].get('leftOnBase', 0)
+                away_errors = first_inning['away'].get('errors', 0)
+                home_hits = first_inning['home'].get('hits', 0)
+                home_lob = first_inning['home'].get('leftOnBase', 0)
+                home_errors = first_inning['home'].get('errors', 0)
+                total_hits = away_hits + home_hits
+                total_lob = away_lob + home_lob
+                total_errors = away_errors + home_errors
+                
+                # Add drama level based on hits and LOB
+                drama_level = "😅 Close Call!" if (total_hits > 1 or total_errors > 0 or total_lob > 0) else "😎 Easy Money!"
+                
+                first_inning_stats = (
+                    f"\n📊 1st Inning Stats:\n"
+                    f"💥 Hits: {away_hits} ({away_team}) | {home_hits} ({home_team})\n"
+                    f"❌ Errors: {away_errors} ({away_team}) | {home_errors} ({home_team})\n"
+                    f"🏃 LOB: {away_lob} ({away_team}) | {home_lob} ({home_team})\n"
+                    f"{drama_level}"
+                )
+            else:
+                print("No linescore data available for this game")
+            
             result_tweet = (
-                f"{celebration} {prediction['predicted']}! Another successful prediction yesterday...\n"
+                f"{celebration} {prediction['predicted']}!\n"
                 f"🏟️ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
-                f"⚾ Hurlers: {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
-                f"🎯 Called it {confidence_desc} ({prediction['nrfi_probability']:.1%} likelihood)\n"
-                f"#{get_acronym(prediction['away_team'])}vs{get_acronym(prediction['home_team'])} #NRFI #NRFIAlert #BaseballBetting"
+                f"⚾ {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
+                f"🎯 Predicted likelihood: {prediction['nrfi_probability']:.1%}"
+                f"\n{first_inning_stats}\n"
+                f"#{get_acronym(prediction['away_team'])}vs{get_acronym(prediction['home_team'])}"
             )
             
             try:
                 response = client.create_tweet(text=result_tweet)
                 print(f"Result tweet posted successfully! Tweet ID: {response.data['id']}")
-                time.sleep(10)  # Wait between tweets to avoid rate limits
+                print(result_tweet)
+                time.sleep(5)  # Wait between tweets to avoid rate limits
             except tweepy.errors.TweepyException as e:
                 print(f"Error posting result tweet: {e}")
                 
