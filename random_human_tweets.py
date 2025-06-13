@@ -35,12 +35,15 @@ def generate_human_tweet():
         with open(tweet_file, "r") as f:
             last_tweets = [line.strip() for line in f.readlines() if line.strip()]
     
-    # Create the last tweets part of the prompt conditionally
+        # Create the last tweets part of the prompt conditionally
     last_tweets_text = ""
     if last_tweets:
         last_tweets_text = "Here are the last few tweets we posted, make sure you write about something different:\n"
         for i, tweet in enumerate(last_tweets[-6:], 1):  # Get up to 6 most recent tweets
-            last_tweets_text += f"{i}. \"{tweet}\"\n"
+            # Split the tweet into words and take first 6
+            words = tweet.split()
+            truncated_tweet = ' '.join(words[:6]) + "..."
+            last_tweets_text += f"{i}. \"{truncated_tweet}\"\n"
     
     prompt = f"""
     You are a neutral baseball observer writing tweets for male baseball fans in their 20s-30s. Write a short tweet (under 280 characters) about a current MLB story from yesterday or today. 
@@ -50,12 +53,11 @@ def generate_human_tweet():
     - Use a straightforward, conversational tone without exclamation points - No hashtags, internet slang, or "lol" type language 
     - Maintain complete neutrality 
     - never use "us," "our," or "we" when referring to teams 
-    - Ask questions or make observations that encourage discussion 
     - Keep it direct and authentic, not overly animated or cute 
     - No emojis 
     - Do not cite sources or plagiarize content 
     - Stick to facts about the MLB news 
-    - no philosophical observations or generalizations about baseball 
+    - No philosophical observations or generalizations about baseball 
 
     Format: Just the tweet text, ready to post 
 
