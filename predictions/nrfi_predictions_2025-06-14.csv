@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-14,Tampa Bay Rays,New York Mets,Drew Rasmussen,Tylor Megill,2025-06-14 16:10:00-04:00,0.6702194,0.5300000000000001,NRFI
+2025-06-14,Athletics,Kansas City Royals,Jacob Lopez,Michael Lorenzen,2025-06-14 16:10:00-04:00,0.6165133,0.5300000000000001,NRFI
+2025-06-14,Cincinnati Reds,Detroit Tigers,Brady Singer,Jack Flaherty,2025-06-14 13:10:00-04:00,0.5703886,0.5300000000000001,NRFI
+2025-06-14,Toronto Blue Jays,Philadelphia Phillies,Bowden Francis,Cristopher Sánchez,2025-06-14 16:05:00-04:00,0.55149966,0.5300000000000001,NRFI
+2025-06-14,Los Angeles Angels,Baltimore Orioles,Tyler Anderson,Tomoyuki Sugano,2025-06-14 16:05:00-04:00,0.5408766,0.5300000000000001,NRFI
+2025-06-14,Chicago White Sox,Texas Rangers,Mike Vasil,Jacob deGrom,2025-06-14 16:05:00-04:00,0.48697886,0.5300000000000001,YRFI
+2025-06-14,Cleveland Guardians,Seattle Mariners,Tanner Bibee,George Kirby,2025-06-14 21:40:00-04:00,0.48449513,0.5300000000000001,YRFI
+2025-06-14,Colorado Rockies,Atlanta Braves,Chase Dollander,Spencer Strider,2025-06-14 16:10:00-04:00,0.45073172,0.5300000000000001,YRFI
+2025-06-14,New York Yankees,Boston Red Sox,Carlos Rodón,Hunter Dobbins,2025-06-14 19:15:00-04:00,0.44646555,0.5300000000000001,YRFI
+2025-06-14,Minnesota Twins,Houston Astros,Joe Ryan,Hunter Brown,2025-06-14 16:10:00-04:00,0.40255377,0.5300000000000001,YRFI
+2025-06-14,Pittsburgh Pirates,Chicago Cubs,Mike Burrows,Matthew Boyd,2025-06-14 14:20:00-04:00,0.37905875,0.5300000000000001,YRFI
