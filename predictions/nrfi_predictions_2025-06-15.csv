@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-15,Toronto Blue Jays,Philadelphia Phillies,José Berríos,Zack Wheeler,2025-06-15 13:35:00-04:00,0.6595162,0.5300000000000001,NRFI
+2025-06-15,Tampa Bay Rays,New York Mets,Shane Baz,Griffin Canning,2025-06-15 13:40:00-04:00,0.58039576,0.5300000000000001,NRFI
+2025-06-15,Los Angeles Angels,Baltimore Orioles,Yusei Kikuchi,Cade Povich,2025-06-15 13:35:00-04:00,0.51351,0.5300000000000001,YRFI
+2025-06-15,Cleveland Guardians,Seattle Mariners,Luis L. Ortiz,Emerson Hancock,2025-06-15 16:10:00-04:00,0.50826544,0.5300000000000001,YRFI
+2025-06-15,Athletics,Kansas City Royals,Jeffrey Springs,Noah Cameron,2025-06-15 14:10:00-04:00,0.4880715,0.5300000000000001,YRFI
+2025-06-15,San Diego Padres,Arizona Diamondbacks,Nick Pivetta,Merrill Kelly,2025-06-15 16:10:00-04:00,0.47013283,0.5300000000000001,YRFI
+2025-06-15,San Francisco Giants,Los Angeles Dodgers,Kyle Harrison,Dustin May,2025-06-15 19:10:00-04:00,0.46843398,0.5300000000000001,YRFI
+2025-06-15,Minnesota Twins,Houston Astros,Simeon Woods Richardson,Brandon Walter,2025-06-15 14:10:00-04:00,0.40897194,0.5300000000000001,YRFI
+2025-06-15,St. Louis Cardinals,Milwaukee Brewers,Miles Mikolas,Quinn Priester,2025-06-15 14:10:00-04:00,0.37331378,0.5300000000000001,YRFI
+2025-06-15,Pittsburgh Pirates,Chicago Cubs,Mitch Keller,Colin Rea,2025-06-15 14:20:00-04:00,0.36639968,0.5300000000000001,YRFI
+2025-06-15,Chicago White Sox,Texas Rangers,Aaron Civale,Kumar Rocker,2025-06-15 14:35:00-04:00,0.31679618,0.5300000000000001,YRFI
