@@ -1,0 +1,6 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-16,Baltimore Orioles,Tampa Bay Rays,Zach Eflin,Ryan Pepiot,2025-06-16 19:35:00-04:00,0.60218596,0.5300000000000001,NRFI
+2025-06-16,Los Angeles Angels,New York Yankees,José Soriano,Clarke Schmidt,2025-06-16 19:05:00-04:00,0.58860284,0.5300000000000001,NRFI
+2025-06-16,Philadelphia Phillies,Miami Marlins,Mick Abel,Sandy Alcantara,2025-06-16 18:40:00-04:00,0.58332896,0.5300000000000001,NRFI
+2025-06-16,Boston Red Sox,Seattle Mariners,Lucas Giolito,Logan Gilbert,2025-06-16 21:40:00-04:00,0.43426105,0.5300000000000001,YRFI
+2025-06-16,Colorado Rockies,Washington Nationals,Carson Palmquist,Jake Irvin,2025-06-16 18:45:00-04:00,0.39222842,0.5300000000000001,YRFI
