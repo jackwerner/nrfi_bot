@@ -39,10 +39,10 @@ def generate_human_tweet():
     last_tweets_text = ""
     if last_tweets:
         last_tweets_text = "Here are the last few tweets we posted, make sure you write about something different:\n"
-        for i, tweet in enumerate(last_tweets[-6:], 1):  # Get up to 6 most recent tweets
+        for i, tweet in enumerate(last_tweets[-8:], 1):  # Get up to 8 most recent tweets
             # Split the tweet into words and take first 6
             words = tweet.split()
-            truncated_tweet = ' '.join(words[:6]) + "..."
+            truncated_tweet = ' '.join(words[:8]) + "..."
             last_tweets_text += f"{i}. \"{truncated_tweet}\"\n"
     
     prompt = f"""
@@ -99,7 +99,7 @@ def generate_human_tweet():
                     "type": "web_search_20250305",
                     "name": "web_search",
                     # Optional: Limit searches per request
-                    "max_uses": 3,
+                    "max_uses": 2,
                     # Optional: Only include results from these domains
                     "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","apnews.com","cbssports.com","yahoo.com","sports.yahoo.com","si.com"],
                 }
@@ -124,7 +124,7 @@ def generate_human_tweet():
         # Save the generated tweet to the file with the last 4 tweets
         if last_tweets:
             # Keep only the 3 most recent tweets and add the new one
-            last_tweets = last_tweets[-5:] + [tweet_text]
+            last_tweets = last_tweets[-7:] + [tweet_text]
         else:
             last_tweets = [tweet_text]
             
