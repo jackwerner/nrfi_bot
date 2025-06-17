@@ -151,37 +151,38 @@ def tweet_correct_predictions():
 
             # Get first inning stats if available
             first_inning_stats = ""
-            if matching_game and 'linescore' in matching_game and matching_game['linescore'] and 'innings' in matching_game['linescore'] and matching_game['linescore']['innings']:
-                first_inning = matching_game['linescore']['innings'][0]
-                away_hits = first_inning['away'].get('hits', 0)
-                away_lob = first_inning['away'].get('leftOnBase', 0)
-                away_errors = first_inning['away'].get('errors', 0)
-                home_hits = first_inning['home'].get('hits', 0)
-                home_lob = first_inning['home'].get('leftOnBase', 0)
-                home_errors = first_inning['home'].get('errors', 0)
-                total_hits = away_hits + home_hits
-                total_lob = away_lob + home_lob
-                total_errors = away_errors + home_errors
-                
-                # Add drama level based on hits and LOB
-                drama_level = "😅 Close Call!" if (total_hits > 1 or total_errors > 0 or total_lob > 0) else "😎 Easy Money!"
-                
-                first_inning_stats = (
-                    f"\n📊 1st Inning Stats:\n"
-                    f"💥 Hits: {away_hits} ({away_team}) | {home_hits} ({home_team})\n"
-                    f"❌ Errors: {away_errors} ({away_team}) | {home_errors} ({home_team})\n"
-                    f"🏃 LOB: {away_lob} ({away_team}) | {home_lob} ({home_team})\n"
-                    f"{drama_level}"
-                )
-            else:
-                print("No linescore data available for this game")
+            if prediction['predicted'] == 'NRFI':  # Only show stats for NRFI predictions
+                if matching_game and 'linescore' in matching_game and matching_game['linescore'] and 'innings' in matching_game['linescore'] and matching_game['linescore']['innings']:
+                    first_inning = matching_game['linescore']['innings'][0]
+                    away_hits = first_inning['away'].get('hits', 0)
+                    away_lob = first_inning['away'].get('leftOnBase', 0)
+                    away_errors = first_inning['away'].get('errors', 0)
+                    home_hits = first_inning['home'].get('hits', 0)
+                    home_lob = first_inning['home'].get('leftOnBase', 0)
+                    home_errors = first_inning['home'].get('errors', 0)
+                    total_hits = away_hits + home_hits
+                    total_lob = away_lob + home_lob
+                    total_errors = away_errors + home_errors
+                    
+                    # Add drama level based on hits and LOB
+                    drama_level = "😅 Close Call!" if (total_hits > 1 or total_errors > 0 or total_lob > 0) else "😎 Easy Money!"
+                    
+                    first_inning_stats = (
+                        f"\n📊 1st Inning Stats:\n"
+                        f"💥 Hits: {away_hits} ({away_team}) | {home_hits} ({home_team})\n"
+                        f"❌ Errors: {away_errors} ({away_team}) | {home_errors} ({home_team})\n"
+                        f"🏃 LOB: {away_lob} ({away_team}) | {home_lob} ({home_team})\n"
+                        f"{drama_level}"
+                    )
+                else:
+                    print("No linescore data available for this game")
             
             result_tweet = (
                 f"{celebration} {prediction['predicted']}!\n"
                 f"🏟️ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
                 f"⚾ {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
                 f"🎯 Predicted likelihood: {prediction['nrfi_probability']:.1%}"
-                f"\n{first_inning_stats}\n"
+                f"{first_inning_stats}\n"
                 f"#{get_acronym(prediction['away_team'])}vs{get_acronym(prediction['home_team'])}"
             )
             
