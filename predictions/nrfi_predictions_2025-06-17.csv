@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-17,Boston Red Sox,Seattle Mariners,Walker Buehler,Bryan Woo,2025-06-17 21:40:00-04:00,0.7234395,0.5300000000000001,NRFI
+2025-06-17,Kansas City Royals,Texas Rangers,Seth Lugo,Jack Leiter,2025-06-17 20:05:00-04:00,0.62484986,0.5300000000000001,NRFI
+2025-06-17,Pittsburgh Pirates,Detroit Tigers,Bailey Falter,Casey Mize,2025-06-17 18:40:00-04:00,0.6240002,0.5300000000000001,NRFI
+2025-06-17,St. Louis Cardinals,Chicago White Sox,Matthew Liberatore,Shane Smith,2025-06-17 19:40:00-04:00,0.6156924,0.5300000000000001,NRFI
+2025-06-17,Colorado Rockies,Washington Nationals,Antonio Senzatela,Michael Soroka,2025-06-17 18:45:00-04:00,0.6118114,0.5300000000000001,NRFI
+2025-06-17,Minnesota Twins,Cincinnati Reds,David Festa,Andrew Abbott,2025-06-17 19:10:00-04:00,0.59899074,0.5300000000000001,NRFI
+2025-06-17,New York Mets,Atlanta Braves,David Peterson,Spencer Schwellenbach,2025-06-17 19:15:00-04:00,0.57246846,0.5300000000000001,NRFI
+2025-06-17,Arizona Diamondbacks,Toronto Blue Jays,Brandon Pfaadt,Chris Bassitt,2025-06-17 19:07:00-04:00,0.5646976,0.5300000000000001,NRFI
+2025-06-17,Los Angeles Angels,New York Yankees,Kyle Hendricks,Will Warren,2025-06-17 19:05:00-04:00,0.55883783,0.5300000000000001,NRFI
+2025-06-17,Cleveland Guardians,San Francisco Giants,Slade Cecconi,Robbie Ray,2025-06-17 21:45:00-04:00,0.4854877,0.5300000000000001,YRFI
+2025-06-17,Philadelphia Phillies,Miami Marlins,Jesús Luzardo,Cal Quantrill,2025-06-17 18:10:00-04:00,0.42904964,0.5300000000000001,YRFI
+2025-06-17,Baltimore Orioles,Tampa Bay Rays,Dean Kremer,Zack Littell,2025-06-17 19:35:00-04:00,0.41968668,0.5300000000000001,YRFI
+2025-06-17,Milwaukee Brewers,Chicago Cubs,Chad Patrick,Ben Brown,2025-06-17 20:05:00-04:00,0.36266744,0.5300000000000001,YRFI
