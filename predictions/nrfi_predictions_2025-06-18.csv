@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-18,Cleveland Guardians,San Francisco Giants,Logan Allen,Justin Verlander,2025-06-18 21:45:00-04:00,0.7627012,0.5300000000000001,NRFI
+2025-06-18,Minnesota Twins,Cincinnati Reds,Bailey Ober,Nick Lodolo,2025-06-18 19:10:00-04:00,0.6357154,0.5300000000000001,NRFI
+2025-06-18,Los Angeles Angels,New York Yankees,Jack Kochanowicz,Ryan Yarbrough,2025-06-18 19:05:00-04:00,0.59144145,0.5300000000000001,NRFI
+2025-06-18,Houston Astros,Athletics,Framber Valdez,Luis Severino,2025-06-18 22:05:00-04:00,0.5850207,0.5300000000000001,NRFI
+2025-06-18,Pittsburgh Pirates,Detroit Tigers,Andrew Heaney,Tarik Skubal,2025-06-18 18:40:00-04:00,0.5540503,0.5300000000000001,NRFI
+2025-06-18,Arizona Diamondbacks,Toronto Blue Jays,Eduardo Rodriguez,Eric Lauer,2025-06-18 19:07:00-04:00,0.5324494,0.5300000000000001,NRFI
+2025-06-18,New York Mets,Atlanta Braves,Paul Blackburn,Chris Sale,2025-06-18 19:15:00-04:00,0.5064135,0.5300000000000001,YRFI
+2025-06-18,Milwaukee Brewers,Chicago Cubs,Jacob Misiorowski,Jameson Taillon,2025-06-18 20:05:00-04:00,0.5043046,0.5300000000000001,YRFI
+2025-06-18,Colorado Rockies,Washington Nationals,Germán Márquez,Mitchell Parker,2025-06-18 18:45:00-04:00,0.4866472,0.5300000000000001,YRFI
+2025-06-18,Boston Red Sox,Seattle Mariners,Garrett Crochet,Luis Castillo,2025-06-18 16:10:00-04:00,0.47831193,0.5300000000000001,YRFI
+2025-06-18,St. Louis Cardinals,Chicago White Sox,Sonny Gray,Sean Burke,2025-06-18 19:40:00-04:00,0.39810216,0.5300000000000001,YRFI
