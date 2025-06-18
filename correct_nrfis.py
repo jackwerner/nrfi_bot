@@ -182,7 +182,7 @@ def tweet_correct_predictions():
                 f"🏟️ {away_team}{away_emoji} @ {home_team}{home_emoji}\n"
                 f"⚾ {prediction['away_pitcher']} vs {prediction['home_pitcher']}\n"
                 f"🎯 Predicted likelihood: {prediction['nrfi_probability']:.1%}"
-                f"{first_inning_stats}\n"
+                f"\n{first_inning_stats}\n"
                 f"#{get_acronym(prediction['away_team'])}vs{get_acronym(prediction['home_team'])}"
             )
             
