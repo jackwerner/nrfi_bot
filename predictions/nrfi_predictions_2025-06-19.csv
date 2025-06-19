@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-19,New York Mets,Atlanta Braves,Clay Holmes,Spencer Strider,2025-06-19 19:15:00-04:00,0.6239158,0.5300000000000001,NRFI
+2025-06-19,Cleveland Guardians,San Francisco Giants,Gavin Williams,Logan Webb,2025-06-19 16:05:00-04:00,0.609897,0.5300000000000001,NRFI
+2025-06-19,Baltimore Orioles,Tampa Bay Rays,Charlie Morton,Drew Rasmussen,2025-06-19 19:35:00-04:00,0.6095276,0.5300000000000001,NRFI
+2025-06-19,Los Angeles Angels,New York Yankees,Tyler Anderson,Carlos Rodón,2025-06-19 13:05:00-04:00,0.5833668,0.5300000000000001,NRFI
+2025-06-19,Pittsburgh Pirates,Detroit Tigers,Andrew Heaney,Tarik Skubal,2025-06-19 13:10:00-04:00,0.5540503,0.5300000000000001,NRFI
+2025-06-19,Houston Astros,Athletics,Colton Gordon,Jacob Lopez,2025-06-19 22:05:00-04:00,0.51475763,0.5300000000000001,YRFI
+2025-06-19,Kansas City Royals,Texas Rangers,Michael Wacha,Shawn Armstrong,2025-06-19 14:35:00-04:00,0.5102682,0.5300000000000001,YRFI
+2025-06-19,Minnesota Twins,Cincinnati Reds,Chris Paddack,Nick Martinez,2025-06-19 12:40:00-04:00,0.49705398,0.5300000000000001,YRFI
+2025-06-19,Colorado Rockies,Washington Nationals,Chase Dollander,Trevor Williams,2025-06-19 13:05:00-04:00,0.4418816,0.5300000000000001,YRFI
+2025-06-19,St. Louis Cardinals,Chicago White Sox,Erick Fedde,Sean Burke,2025-06-19 14:10:00-04:00,0.41430762,0.5300000000000001,YRFI
+2025-06-19,Arizona Diamondbacks,Toronto Blue Jays,Ryne Nelson,Kevin Gausman,2025-06-19 15:07:00-04:00,0.36015186,0.5300000000000001,YRFI
+2025-06-19,Philadelphia Phillies,Miami Marlins,Cristopher Sánchez,Edward Cabrera,2025-06-19 18:40:00-04:00,0.3446765,0.5300000000000001,YRFI
