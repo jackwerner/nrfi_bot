@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-20,New York Mets,Philadelphia Phillies,Blade Tidwell,Zack Wheeler,2025-06-20 19:15:00-04:00,0.6330305,0.5300000000000001,NRFI
+2025-06-20,Baltimore Orioles,New York Yankees,Tomoyuki Sugano,Max Fried,2025-06-20 19:05:00-04:00,0.62263787,0.5300000000000001,NRFI
+2025-06-20,Kansas City Royals,San Diego Padres,Michael Lorenzen,Nick Pivetta,2025-06-20 21:40:00-04:00,0.60124415,0.5300000000000001,NRFI
+2025-06-20,Cleveland Guardians,Athletics,Tanner Bibee,Jeffrey Springs,2025-06-20 22:05:00-04:00,0.59169275,0.5300000000000001,NRFI
+2025-06-20,Houston Astros,Los Angeles Angels,Hunter Brown,Yusei Kikuchi,2025-06-20 21:38:00-04:00,0.5703722,0.5300000000000001,NRFI
+2025-06-20,Milwaukee Brewers,Minnesota Twins,Jacob Misiorowski,Joe Ryan,2025-06-20 20:10:00-04:00,0.55726707,0.5300000000000001,NRFI
+2025-06-20,Texas Rangers,Pittsburgh Pirates,Jacob deGrom,Mike Burrows,2025-06-20 18:40:00-04:00,0.50677466,0.5300000000000001,YRFI
+2025-06-20,Detroit Tigers,Tampa Bay Rays,Jack Flaherty,Shane Baz,2025-06-20 19:05:00-04:00,0.45514786,0.5300000000000001,YRFI
+2025-06-20,Cincinnati Reds,St. Louis Cardinals,Brady Singer,Andre Pallante,2025-06-20 19:15:00-04:00,0.41545072,0.5300000000000001,YRFI
+2025-06-20,Seattle Mariners,Chicago Cubs,George Kirby,Matthew Boyd,2025-06-20 14:20:00-04:00,0.3784617,0.5300000000000001,YRFI
