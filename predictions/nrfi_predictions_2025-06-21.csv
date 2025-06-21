@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-21,Cleveland Guardians,Athletics,Logan Allen,Mitch Spence,2025-06-21 22:05:00-04:00,0.7470817,0.5300000000000001,NRFI
+2025-06-21,New York Mets,Philadelphia Phillies,Griffin Canning,Mick Abel,2025-06-21 19:15:00-04:00,0.64780194,0.5300000000000001,NRFI
+2025-06-21,Kansas City Royals,San Diego Padres,Noah Cameron,Dylan Cease,2025-06-21 19:15:00-04:00,0.557876,0.5300000000000001,NRFI
+2025-06-21,Seattle Mariners,Chicago Cubs,Emerson Hancock,Cade Horton,2025-06-21 14:20:00-04:00,0.52212334,0.5300000000000001,YRFI
+2025-06-21,Houston Astros,Los Angeles Angels,Brandon Walter,José Soriano,2025-06-21 21:38:00-04:00,0.51997095,0.5300000000000001,YRFI
+2025-06-21,Baltimore Orioles,New York Yankees,Zach Eflin,Clarke Schmidt,2025-06-21 13:05:00-04:00,0.50870675,0.5300000000000001,YRFI
+2025-06-21,Texas Rangers,Pittsburgh Pirates,Kumar Rocker,Mitch Keller,2025-06-21 16:05:00-04:00,0.48611057,0.5300000000000001,YRFI
+2025-06-21,Washington Nationals,Los Angeles Dodgers,Jake Irvin,Dustin May,2025-06-21 22:10:00-04:00,0.45703217,0.5300000000000001,YRFI
+2025-06-21,Chicago White Sox,Toronto Blue Jays,Aaron Civale,José Berríos,2025-06-21 15:07:00-04:00,0.43000147,0.5300000000000001,YRFI
+2025-06-21,Cincinnati Reds,St. Louis Cardinals,Brent Suter,Sonny Gray,2025-06-21 14:15:00-04:00,0.3546974,0.5300000000000001,YRFI
+2025-06-21,Arizona Diamondbacks,Colorado Rockies,Merrill Kelly,Carson Palmquist,2025-06-21 21:10:00-04:00,0.28984123,0.5300000000000001,YRFI
