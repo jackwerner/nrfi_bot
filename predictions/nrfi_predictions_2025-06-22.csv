@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-22,New York Mets,Philadelphia Phillies,David Peterson,Jesús Luzardo,2025-06-22 19:10:00-04:00,0.7452718,0.5300000000000001,NRFI
+2025-06-22,Texas Rangers,Pittsburgh Pirates,Jack Leiter,Bailey Falter,2025-06-22 13:35:00-04:00,0.66210824,0.5300000000000001,NRFI
+2025-06-22,Chicago White Sox,Toronto Blue Jays,Adrian Houser,Chris Bassitt,2025-06-22 13:37:00-04:00,0.65447176,0.5300000000000001,NRFI
+2025-06-22,Cincinnati Reds,St. Louis Cardinals,Andrew Abbott,Miles Mikolas,2025-06-22 14:15:00-04:00,0.6161819,0.5300000000000001,NRFI
+2025-06-22,Atlanta Braves,Miami Marlins,Bryce Elder,Sandy Alcantara,2025-06-22 13:40:00-04:00,0.5732492,0.5300000000000001,NRFI
+2025-06-22,Arizona Diamondbacks,Colorado Rockies,Brandon Pfaadt,Antonio Senzatela,2025-06-22 15:10:00-04:00,0.56380546,0.5300000000000001,NRFI
+2025-06-22,Detroit Tigers,Tampa Bay Rays,Casey Mize,Zack Littell,2025-06-22 12:10:00-04:00,0.56354266,0.5300000000000001,NRFI
+2025-06-22,Houston Astros,Los Angeles Angels,Ryan Gusto,Kyle Hendricks,2025-06-22 16:07:00-04:00,0.55599153,0.5300000000000001,NRFI
+2025-06-22,Boston Red Sox,San Francisco Giants,Lucas Giolito,Robbie Ray,2025-06-22 16:05:00-04:00,0.525008,0.5300000000000001,YRFI
+2025-06-22,Baltimore Orioles,New York Yankees,Dean Kremer,Will Warren,2025-06-22 11:35:00-04:00,0.47417182,0.5300000000000001,YRFI
+2025-06-22,Cleveland Guardians,Athletics,Slade Cecconi,JP Sears,2025-06-22 16:05:00-04:00,0.40881762,0.5300000000000001,YRFI
+2025-06-22,Milwaukee Brewers,Minnesota Twins,Quinn Priester,David Festa,2025-06-22 14:10:00-04:00,0.3696577,0.5300000000000001,YRFI
+2025-06-22,Seattle Mariners,Chicago Cubs,Logan Gilbert,Colin Rea,2025-06-22 14:20:00-04:00,0.36565125,0.5300000000000001,YRFI
+2025-06-22,Kansas City Royals,San Diego Padres,Seth Lugo,Randy Vásquez,2025-06-22 16:10:00-04:00,0.3431737,0.5300000000000001,YRFI
