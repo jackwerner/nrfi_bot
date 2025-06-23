@@ -99,7 +99,7 @@ def generate_human_tweet():
                     "type": "web_search_20250305",
                     "name": "web_search",
                     # Optional: Limit searches per request
-                    "max_uses": 2,
+                    "max_uses": 1,
                     # Optional: Only include results from these domains
                     "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","apnews.com","cbssports.com","yahoo.com","sports.yahoo.com","si.com"],
                 }
