@@ -4,7 +4,6 @@ on:
   schedule:
     # In UTC: 17:00, 20:00, 21:00, 23:00, 01:00, 03:00 (during EDT)
     - cron: '0 17 * * *'  # 1pm ET
-    - cron: '0 20 * * *'  # 4pm ET
     - cron: '0 21 * * *'  # 5pm ET
     - cron: '0 23 * * *'  # 7pm ET
     - cron: '0 1 * * *'   # 9pm ET
