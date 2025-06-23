@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-23,Atlanta Braves,New York Mets,Spencer Schwellenbach,Paul Blackburn,2025-06-23 19:10:00-04:00,0.6582209,0.5300000000000001,NRFI
+2025-06-23,Arizona Diamondbacks,Chicago White Sox,Eduardo Rodriguez,Shane Smith,2025-06-23 19:40:00-04:00,0.60309887,0.5300000000000001,NRFI
+2025-06-23,Boston Red Sox,Los Angeles Angels,Walker Buehler,Jack Kochanowicz,2025-06-23 21:38:00-04:00,0.547799,0.5300000000000001,NRFI
+2025-06-23,Chicago Cubs,St. Louis Cardinals,Ben Brown,Matthew Liberatore,2025-06-23 19:45:00-04:00,0.5316788,0.5300000000000001,NRFI
+2025-06-23,Washington Nationals,San Diego Padres,Mitchell Parker,Stephen Kolek,2025-06-23 21:40:00-04:00,0.523075,0.5300000000000001,YRFI
+2025-06-23,Seattle Mariners,Minnesota Twins,Bryan Woo,Bailey Ober,2025-06-23 19:40:00-04:00,0.50010407,0.5300000000000001,YRFI
+2025-06-23,New York Yankees,Cincinnati Reds,Allan Winans,Nick Lodolo,2025-06-23 19:10:00-04:00,0.40129519,0.5300000000000001,YRFI
