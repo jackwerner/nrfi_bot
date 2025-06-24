@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-24,Miami Marlins,San Francisco Giants,Cal Quantrill,Justin Verlander,2025-06-24 21:45:00-04:00,0.5797487,0.5300000000000001,NRFI
+2025-06-24,Athletics,Detroit Tigers,Luis Severino,Tarik Skubal,2025-06-24 18:40:00-04:00,0.56286395,0.5300000000000001,NRFI
+2025-06-24,New York Yankees,Cincinnati Reds,Carlos Rodón,Chase Burns,2025-06-24 19:10:00-04:00,0.5475267,0.5300000000000001,NRFI
+2025-06-24,Toronto Blue Jays,Cleveland Guardians,Eric Lauer,Logan Allen,2025-06-24 18:40:00-04:00,0.52518463,0.5300000000000001,YRFI
+2025-06-24,Tampa Bay Rays,Kansas City Royals,Taj Bradley,Kris Bubic,2025-06-24 19:40:00-04:00,0.52040315,0.5300000000000001,YRFI
+2025-06-24,Seattle Mariners,Minnesota Twins,Luis Castillo,Chris Paddack,2025-06-24 19:40:00-04:00,0.5047274,0.5300000000000001,YRFI
+2025-06-24,Boston Red Sox,Los Angeles Angels,Garrett Crochet,Tyler Anderson,2025-06-24 21:38:00-04:00,0.47127876,0.5300000000000001,YRFI
+2025-06-24,Pittsburgh Pirates,Milwaukee Brewers,Andrew Heaney,Freddy Peralta,2025-06-24 19:40:00-04:00,0.43454853,0.5300000000000001,YRFI
+2025-06-24,Arizona Diamondbacks,Chicago White Sox,Ryne Nelson,Jordan Leasure,2025-06-24 19:40:00-04:00,0.3924075,0.5300000000000001,YRFI
