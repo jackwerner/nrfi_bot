@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-25,Athletics,Detroit Tigers,Jacob Lopez,Jack Flaherty,2025-06-25 18:40:00-04:00,0.7386939,0.5300000000000001,NRFI
+2025-06-25,Tampa Bay Rays,Kansas City Royals,Drew Rasmussen,Michael Wacha,2025-06-25 19:40:00-04:00,0.6412481,0.5300000000000001,NRFI
+2025-06-25,Philadelphia Phillies,Houston Astros,Zack Wheeler,Colton Gordon,2025-06-25 20:10:00-04:00,0.6211876,0.5300000000000001,NRFI
+2025-06-25,Pittsburgh Pirates,Milwaukee Brewers,Paul Skenes,Jacob Misiorowski,2025-06-25 14:10:00-04:00,0.5993424,0.5300000000000001,NRFI
+2025-06-25,Boston Red Sox,Los Angeles Angels,Richard Fitts,Yusei Kikuchi,2025-06-25 16:07:00-04:00,0.5679592,0.5300000000000001,NRFI
+2025-06-25,Washington Nationals,San Diego Padres,MacKenzie Gore,Nick Pivetta,2025-06-25 16:10:00-04:00,0.56482613,0.5300000000000001,NRFI
+2025-06-25,Toronto Blue Jays,Cleveland Guardians,Max Scherzer,Gavin Williams,2025-06-25 18:40:00-04:00,0.5329453,0.5300000000000001,NRFI
+2025-06-25,Seattle Mariners,Minnesota Twins,George Kirby,Joe Ryan,2025-06-25 19:40:00-04:00,0.5161984,0.5300000000000001,YRFI
+2025-06-25,Miami Marlins,San Francisco Giants,Edward Cabrera,Logan Webb,2025-06-25 21:45:00-04:00,0.49249673,0.5300000000000001,YRFI
+2025-06-25,Los Angeles Dodgers,Colorado Rockies,Yoshinobu Yamamoto,Chase Dollander,2025-06-25 20:40:00-04:00,0.47785932,0.5300000000000001,YRFI
+2025-06-25,New York Yankees,Cincinnati Reds,Max Fried,Brady Singer,2025-06-25 19:10:00-04:00,0.41517547,0.5300000000000001,YRFI
+2025-06-25,Chicago Cubs,St. Louis Cardinals,Matthew Boyd,Erick Fedde,2025-06-25 19:45:00-04:00,0.38935003,0.5300000000000001,YRFI
+2025-06-25,Arizona Diamondbacks,Chicago White Sox,Zac Gallen,Sean Burke,2025-06-25 14:10:00-04:00,0.3511136,0.5300000000000001,YRFI
+2025-06-25,Texas Rangers,Baltimore Orioles,Jacob deGrom,Brandon Young,2025-06-25 18:35:00-04:00,0.34637257,0.5300000000000001,YRFI
