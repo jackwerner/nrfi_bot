@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-26,Philadelphia Phillies,Houston Astros,Cristopher Sánchez,Hunter Brown,2025-06-26 14:10:00-04:00,0.65500087,0.5300000000000001,NRFI
+2025-06-26,Athletics,Detroit Tigers,Jeffrey Springs,Dietrich Enns,2025-06-26 13:10:00-04:00,0.61342925,0.5300000000000001,NRFI
+2025-06-26,Atlanta Braves,New York Mets,Grant Holmes,Griffin Canning,2025-06-26 19:10:00-04:00,0.54836863,0.5300000000000001,NRFI
+2025-06-26,Seattle Mariners,Minnesota Twins,Emerson Hancock,Simeon Woods Richardson,2025-06-26 13:10:00-04:00,0.48104814,0.5300000000000001,YRFI
+2025-06-26,Tampa Bay Rays,Kansas City Royals,Shane Baz,Michael Lorenzen,2025-06-26 14:10:00-04:00,0.478764,0.5300000000000001,YRFI
+2025-06-26,Toronto Blue Jays,Cleveland Guardians,Kevin Gausman,Tanner Bibee,2025-06-26 13:10:00-04:00,0.4642999,0.5300000000000001,YRFI
+2025-06-26,Chicago Cubs,St. Louis Cardinals,Shota Imanaga,Andre Pallante,2025-06-26 14:15:00-04:00,0.45078358,0.5300000000000001,YRFI
