@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-27,Tampa Bay Rays,Baltimore Orioles,Ryan Pepiot,Tomoyuki Sugano,2025-06-27 19:05:00-04:00,0.6435819,0.5300000000000001,NRFI
+2025-06-27,New York Mets,Pittsburgh Pirates,David Peterson,Mitch Keller,2025-06-27 18:40:00-04:00,0.61146265,0.5300000000000001,NRFI
+2025-06-27,San Diego Padres,Cincinnati Reds,Dylan Cease,Nick Martinez,2025-06-27 19:10:00-04:00,0.60984474,0.5300000000000001,NRFI
+2025-06-27,Los Angeles Dodgers,Kansas City Royals,Dustin May,Noah Cameron,2025-06-27 20:10:00-04:00,0.567898,0.5300000000000001,NRFI
+2025-06-27,San Francisco Giants,Chicago White Sox,Landen Roupp,Aaron Civale,2025-06-27 19:40:00-04:00,0.5494178,0.5300000000000001,NRFI
+2025-06-27,Athletics,New York Yankees,Mitch Spence,Will Warren,2025-06-27 19:05:00-04:00,0.5282685,0.5300000000000001,YRFI
+2025-06-27,Seattle Mariners,Texas Rangers,Logan Gilbert,Nathan Eovaldi,2025-06-27 20:05:00-04:00,0.52166325,0.5300000000000001,YRFI
+2025-06-27,St. Louis Cardinals,Cleveland Guardians,Sonny Gray,Luis L. Ortiz,2025-06-27 19:10:00-04:00,0.49582815,0.5300000000000001,YRFI
+2025-06-27,Chicago Cubs,Houston Astros,Cade Horton,Brandon Walter,2025-06-27 20:10:00-04:00,0.4740981,0.5300000000000001,YRFI
+2025-06-27,Philadelphia Phillies,Atlanta Braves,Mick Abel,Bryce Elder,2025-06-27 19:15:00-04:00,0.45799175,0.5300000000000001,YRFI
+2025-06-27,Washington Nationals,Los Angeles Angels,Jake Irvin,José Soriano,2025-06-27 21:38:00-04:00,0.39822266,0.5300000000000001,YRFI
