@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-28,Tampa Bay Rays,Baltimore Orioles,Zack Littell,Zach Eflin,2025-06-28 16:05:00-04:00,0.64725244,0.5300000000000001,NRFI
+2025-06-28,Colorado Rockies,Milwaukee Brewers,Antonio Senzatela,Quinn Priester,2025-06-28 16:10:00-04:00,0.62032586,0.5300000000000001,NRFI
+2025-06-28,Miami Marlins,Arizona Diamondbacks,Sandy Alcantara,Brandon Pfaadt,2025-06-28 16:10:00-04:00,0.61279017,0.5300000000000001,NRFI
+2025-06-28,San Francisco Giants,Chicago White Sox,Robbie Ray,Adrian Houser,2025-06-28 16:10:00-04:00,0.6103363,0.5300000000000001,NRFI
+2025-06-28,Toronto Blue Jays,Boston Red Sox,Chris Bassitt,Lucas Giolito,2025-06-28 16:10:00-04:00,0.59626025,0.5300000000000001,NRFI
+2025-06-28,New York Mets,Pittsburgh Pirates,Paul Blackburn,Bailey Falter,2025-06-28 16:05:00-04:00,0.59243584,0.5300000000000001,NRFI
+2025-06-28,Minnesota Twins,Detroit Tigers,Bailey Ober,Casey Mize,2025-06-28 13:10:00-04:00,0.5318688,0.5300000000000001,NRFI
+2025-06-28,San Diego Padres,Cincinnati Reds,Randy Vásquez,Andrew Abbott,2025-06-28 16:10:00-04:00,0.5147304,0.5300000000000001,YRFI
+2025-06-28,Philadelphia Phillies,Atlanta Braves,Jesús Luzardo,Spencer Schwellenbach,2025-06-28 19:15:00-04:00,0.5033017,0.5300000000000001,YRFI
+2025-06-28,Washington Nationals,Los Angeles Angels,Michael Soroka,Kyle Hendricks,2025-06-28 21:38:00-04:00,0.49767485,0.5300000000000001,YRFI
+2025-06-28,Athletics,New York Yankees,JP Sears,Clarke Schmidt,2025-06-28 13:05:00-04:00,0.47583956,0.5300000000000001,YRFI
+2025-06-28,St. Louis Cardinals,Cleveland Guardians,Miles Mikolas,Slade Cecconi,2025-06-28 16:10:00-04:00,0.45653898,0.5300000000000001,YRFI
+2025-06-28,Seattle Mariners,Texas Rangers,Bryan Woo,Kumar Rocker,2025-06-28 16:05:00-04:00,0.3586579,0.5300000000000001,YRFI
