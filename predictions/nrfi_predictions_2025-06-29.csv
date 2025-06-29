@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-29,Miami Marlins,Arizona Diamondbacks,Cal Quantrill,Eduardo Rodriguez,2025-06-29 16:10:00-04:00,0.60646015,0.5300000000000001,NRFI
+2025-06-29,St. Louis Cardinals,Cleveland Guardians,Matthew Liberatore,Logan Allen,2025-06-29 12:05:00-04:00,0.56117594,0.5300000000000001,NRFI
+2025-06-29,San Diego Padres,Cincinnati Reds,Stephen Kolek,Nick Lodolo,2025-06-29 13:40:00-04:00,0.5559238,0.5300000000000001,NRFI
+2025-06-29,Washington Nationals,Los Angeles Angels,Mitchell Parker,Jack Kochanowicz,2025-06-29 16:07:00-04:00,0.55220485,0.5300000000000001,NRFI
+2025-06-29,Minnesota Twins,Detroit Tigers,Chris Paddack,Tarik Skubal,2025-06-29 19:10:00-04:00,0.5361598,0.5300000000000001,NRFI
+2025-06-29,Toronto Blue Jays,Boston Red Sox,Eric Lauer,Walker Buehler,2025-06-29 13:35:00-04:00,0.49986473,0.5300000000000001,YRFI
+2025-06-29,Athletics,New York Yankees,Luis Severino,Marcus Stroman,2025-06-29 13:35:00-04:00,0.4936558,0.5300000000000001,YRFI
+2025-06-29,Chicago Cubs,Houston Astros,Jameson Taillon,Framber Valdez,2025-06-29 14:10:00-04:00,0.4853172,0.5300000000000001,YRFI
+2025-06-29,Seattle Mariners,Texas Rangers,Luis Castillo,Jack Leiter,2025-06-29 14:35:00-04:00,0.43294898,0.5300000000000001,YRFI
+2025-06-29,Colorado Rockies,Milwaukee Brewers,Germán Márquez,Chad Patrick,2025-06-29 14:10:00-04:00,0.4169406,0.5300000000000001,YRFI
+2025-06-29,San Francisco Giants,Chicago White Sox,Justin Verlander,Jonathan Cannon,2025-06-29 14:10:00-04:00,0.40483105,0.5300000000000001,YRFI
+2025-06-29,Tampa Bay Rays,Baltimore Orioles,Taj Bradley,Dean Kremer,2025-06-29 13:35:00-04:00,0.32066977,0.5300000000000001,YRFI
