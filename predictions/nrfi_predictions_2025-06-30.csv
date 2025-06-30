@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-06-30,San Diego Padres,Philadelphia Phillies,Matt Waldron,Zack Wheeler,2025-06-30 18:35:00-04:00,0.56905174,0.4800000000000001,NRFI
+2025-06-30,Athletics,Tampa Bay Rays,Jacob Lopez,Drew Rasmussen,2025-06-30 19:35:00-04:00,0.5445125,0.4800000000000001,NRFI
+2025-06-30,Cincinnati Reds,Boston Red Sox,Chase Burns,Garrett Crochet,2025-06-30 19:10:00-04:00,0.54437417,0.4800000000000001,NRFI
+2025-06-30,San Francisco Giants,Arizona Diamondbacks,Logan Webb,Ryne Nelson,2025-06-30 21:40:00-04:00,0.46744993,0.4800000000000001,YRFI
+2025-06-30,St. Louis Cardinals,Pittsburgh Pirates,Erick Fedde,Andrew Heaney,2025-06-30 18:40:00-04:00,0.4633261,0.4800000000000001,YRFI
+2025-06-30,New York Yankees,Toronto Blue Jays,Carlos Rodón,Max Scherzer,2025-06-30 19:07:00-04:00,0.46206868,0.4800000000000001,YRFI
+2025-06-30,Kansas City Royals,Seattle Mariners,Michael Wacha,George Kirby,2025-06-30 21:40:00-04:00,0.40878358,0.4800000000000001,YRFI
