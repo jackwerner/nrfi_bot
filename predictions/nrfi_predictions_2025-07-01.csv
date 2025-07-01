@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-01,San Diego Padres,Philadelphia Phillies,Nick Pivetta,Cristopher Sánchez,2025-07-01 18:35:00-04:00,0.6547522,0.5300000000000001,NRFI
+2025-07-01,New York Yankees,Toronto Blue Jays,Max Fried,Kevin Gausman,2025-07-01 15:07:00-04:00,0.5951836,0.5300000000000001,NRFI
+2025-07-01,Chicago White Sox,Los Angeles Dodgers,Shane Smith,Yoshinobu Yamamoto,2025-07-01 22:10:00-04:00,0.5799506,0.5300000000000001,NRFI
+2025-07-01,Milwaukee Brewers,New York Mets,Freddy Peralta,Clay Holmes,2025-07-01 19:10:00-04:00,0.5582306,0.5300000000000001,NRFI
+2025-07-01,Detroit Tigers,Washington Nationals,Jack Flaherty,Trevor Williams,2025-07-01 18:45:00-04:00,0.5498774,0.5300000000000001,NRFI
+2025-07-01,Cincinnati Reds,Boston Red Sox,Brady Singer,Richard Fitts,2025-07-01 19:10:00-04:00,0.5463126,0.5300000000000001,NRFI
+2025-07-01,St. Louis Cardinals,Pittsburgh Pirates,Andre Pallante,Paul Skenes,2025-07-01 18:40:00-04:00,0.51507336,0.5300000000000001,YRFI
+2025-07-01,Kansas City Royals,Seattle Mariners,Michael Lorenzen,Emerson Hancock,2025-07-01 21:40:00-04:00,0.50091255,0.5300000000000001,YRFI
+2025-07-01,Houston Astros,Colorado Rockies,Colton Gordon,Chase Dollander,2025-07-01 20:40:00-04:00,0.49850276,0.5300000000000001,YRFI
+2025-07-01,Baltimore Orioles,Texas Rangers,Brandon Young,Jacob deGrom,2025-07-01 20:05:00-04:00,0.47821084,0.5300000000000001,YRFI
+2025-07-01,Athletics,Tampa Bay Rays,Jeffrey Springs,Shane Baz,2025-07-01 19:05:00-04:00,0.43426427,0.5300000000000001,YRFI
+2025-07-01,Cleveland Guardians,Chicago Cubs,Gavin Williams,Matthew Boyd,2025-07-01 20:05:00-04:00,0.4202062,0.5300000000000001,YRFI
+2025-07-01,Minnesota Twins,Miami Marlins,Joe Ryan,Edward Cabrera,2025-07-01 18:40:00-04:00,0.36042768,0.5300000000000001,YRFI
