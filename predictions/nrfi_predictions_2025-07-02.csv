@@ -1,0 +1,16 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-02,Cleveland Guardians,Chicago Cubs,Tanner Bibee,Shota Imanaga,2025-07-02 20:05:00-04:00,0.715191,0.5300000000000001,NRFI
+2025-07-02,Baltimore Orioles,Texas Rangers,Tomoyuki Sugano,Nathan Eovaldi,2025-07-02 20:05:00-04:00,0.6811399,0.5300000000000001,NRFI
+2025-07-02,San Diego Padres,Philadelphia Phillies,Dylan Cease,Cristopher Sánchez,2025-07-02 18:15:00-04:00,0.62530035,0.5300000000000001,NRFI
+2025-07-02,Detroit Tigers,Washington Nationals,Jack Flaherty,MacKenzie Gore,2025-07-02 18:45:00-04:00,0.5590701,0.5300000000000001,NRFI
+2025-07-02,Milwaukee Brewers,New York Mets,Freddy Peralta,Clay Holmes,2025-07-02 13:10:00-04:00,0.5582306,0.5300000000000001,NRFI
+2025-07-02,Cincinnati Reds,Boston Red Sox,Brady Singer,Richard Fitts,2025-07-02 14:30:00-04:00,0.5463126,0.5300000000000001,NRFI
+2025-07-02,Milwaukee Brewers,New York Mets,Jacob Misiorowski,Blade Tidwell,2025-07-02 19:10:00-04:00,0.54521674,0.5300000000000001,NRFI
+2025-07-02,Minnesota Twins,Miami Marlins,Simeon Woods Richardson,Janson Junk,2025-07-02 18:40:00-04:00,0.53960544,0.5300000000000001,NRFI
+2025-07-02,San Diego Padres,Philadelphia Phillies,Nick Pivetta,Mick Abel,2025-07-02 13:05:00-04:00,0.53288454,0.5300000000000001,NRFI
+2025-07-02,Athletics,Tampa Bay Rays,Mitch Spence,Ryan Pepiot,2025-07-02 12:10:00-04:00,0.5235513,0.5300000000000001,YRFI
+2025-07-02,Kansas City Royals,Seattle Mariners,Noah Cameron,Logan Gilbert,2025-07-02 21:40:00-04:00,0.5015537,0.5300000000000001,YRFI
+2025-07-02,St. Louis Cardinals,Pittsburgh Pirates,Sonny Gray,Mitch Keller,2025-07-02 12:35:00-04:00,0.49279934,0.5300000000000001,YRFI
+2025-07-02,New York Yankees,Toronto Blue Jays,Will Warren,José Berríos,2025-07-02 19:07:00-04:00,0.45128274,0.5300000000000001,YRFI
+2025-07-02,San Francisco Giants,Arizona Diamondbacks,Landen Roupp,Merrill Kelly,2025-07-02 21:40:00-04:00,0.42052925,0.5300000000000001,YRFI
+2025-07-02,Detroit Tigers,Washington Nationals,Tyler Holton,Trevor Williams,2025-07-02 13:05:00-04:00,0.412371,0.5300000000000001,YRFI
