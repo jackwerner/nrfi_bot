@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-03,Detroit Tigers,Washington Nationals,Dietrich Enns,Jake Irvin,2025-07-03 18:45:00-04:00,0.60164934,0.5300000000000001,NRFI
+2025-07-03,San Francisco Giants,Arizona Diamondbacks,Robbie Ray,Brandon Pfaadt,2025-07-03 21:40:00-04:00,0.58993304,0.5300000000000001,NRFI
+2025-07-03,Houston Astros,Colorado Rockies,Brandon Walter,Kyle Freeland,2025-07-03 15:10:00-04:00,0.5604266,0.5300000000000001,NRFI
+2025-07-03,Kansas City Royals,Seattle Mariners,Seth Lugo,Bryan Woo,2025-07-03 22:10:00-04:00,0.52043086,0.5300000000000001,YRFI
+2025-07-03,Los Angeles Angels,Atlanta Braves,José Soriano,Bryce Elder,2025-07-03 19:15:00-04:00,0.50994474,0.5300000000000001,YRFI
+2025-07-03,Cleveland Guardians,Chicago Cubs,Luis L. Ortiz,Cade Horton,2025-07-03 20:05:00-04:00,0.49131304,0.5300000000000001,YRFI
+2025-07-03,Chicago White Sox,Los Angeles Dodgers,Aaron Civale,Dustin May,2025-07-03 22:10:00-04:00,0.46351084,0.5300000000000001,YRFI
+2025-07-03,New York Yankees,Toronto Blue Jays,Clarke Schmidt,Chris Bassitt,2025-07-03 19:07:00-04:00,0.43906808,0.5300000000000001,YRFI
