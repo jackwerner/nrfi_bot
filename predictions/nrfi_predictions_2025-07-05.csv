@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-05,St. Louis Cardinals,Chicago Cubs,Matthew Liberatore,Drew Pomeranz,2025-07-05 14:20:00-04:00,0.79980844,0.5300000000000001,NRFI
+2025-07-05,San Francisco Giants,Athletics,Logan Webb,Luis Severino,2025-07-05 22:05:00-04:00,0.7661683,0.5300000000000001,NRFI
+2025-07-05,Boston Red Sox,Washington Nationals,Walker Buehler,Mitchell Parker,2025-07-05 16:05:00-04:00,0.6312122,0.5300000000000001,NRFI
+2025-07-05,Los Angeles Angels,Toronto Blue Jays,Jack Kochanowicz,Max Scherzer,2025-07-05 15:07:00-04:00,0.5745867,0.5300000000000001,NRFI
+2025-07-05,Detroit Tigers,Cleveland Guardians,Casey Mize,Logan Allen,2025-07-05 19:15:00-04:00,0.5465766,0.5300000000000001,NRFI
+2025-07-05,Milwaukee Brewers,Miami Marlins,Chad Patrick,Cal Quantrill,2025-07-05 16:10:00-04:00,0.53686976,0.5300000000000001,NRFI
+2025-07-05,Baltimore Orioles,Atlanta Braves,Dean Kremer,Aaron Bummer,2025-07-05 16:10:00-04:00,0.47557777,0.5300000000000001,YRFI
+2025-07-05,Pittsburgh Pirates,Seattle Mariners,Mike Burrows,Luis Castillo,2025-07-05 22:10:00-04:00,0.47472134,0.5300000000000001,YRFI
+2025-07-05,Kansas City Royals,Arizona Diamondbacks,Michael Wacha,Ryne Nelson,2025-07-05 16:10:00-04:00,0.3970763,0.5300000000000001,YRFI
+2025-07-05,Chicago White Sox,Colorado Rockies,Jonathan Cannon,Germán Márquez,2025-07-05 21:10:00-04:00,0.33060402,0.5300000000000001,YRFI
