@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-06,Tampa Bay Rays,Minnesota Twins,Drew Rasmussen,Joe Ryan,2025-07-06 14:10:00-04:00,0.671283,0.5300000000000001,NRFI
+2025-07-06,Cincinnati Reds,Philadelphia Phillies,Chase Burns,Zack Wheeler,2025-07-06 13:35:00-04:00,0.60620284,0.5300000000000001,NRFI
+2025-07-06,Chicago White Sox,Colorado Rockies,Shane Smith,Chase Dollander,2025-07-06 15:10:00-04:00,0.5847545,0.5300000000000001,NRFI
+2025-07-06,Detroit Tigers,Cleveland Guardians,Tarik Skubal,Gavin Williams,2025-07-06 13:40:00-04:00,0.5621257,0.5300000000000001,NRFI
+2025-07-06,Pittsburgh Pirates,Seattle Mariners,Paul Skenes,George Kirby,2025-07-06 16:10:00-04:00,0.5461797,0.5300000000000001,NRFI
+2025-07-06,New York Yankees,New York Mets,Max Fried,Chris Devenski,2025-07-06 13:40:00-04:00,0.5378097,0.5300000000000001,NRFI
+2025-07-06,Boston Red Sox,Washington Nationals,Garrett Crochet,Shinnosuke Ogasawara,2025-07-06 13:35:00-04:00,0.47812057,0.5300000000000001,YRFI
+2025-07-06,Los Angeles Angels,Toronto Blue Jays,Tyler Anderson,Kevin Gausman,2025-07-06 13:37:00-04:00,0.4491972,0.5300000000000001,YRFI
+2025-07-06,Milwaukee Brewers,Miami Marlins,Brandon Woodruff,Edward Cabrera,2025-07-06 13:40:00-04:00,0.41735414,0.5300000000000001,YRFI
+2025-07-06,St. Louis Cardinals,Chicago Cubs,Erick Fedde,Matthew Boyd,2025-07-06 18:10:00-04:00,0.37710062,0.5300000000000001,YRFI
