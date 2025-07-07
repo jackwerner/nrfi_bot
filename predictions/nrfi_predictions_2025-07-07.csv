@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-07,Cleveland Guardians,Houston Astros,Tanner Bibee,Colton Gordon,2025-07-07 20:10:00-04:00,0.73132247,0.5300000000000001,NRFI
+2025-07-07,Philadelphia Phillies,San Francisco Giants,Cristopher Sánchez,Landen Roupp,2025-07-07 21:45:00-04:00,0.5580184,0.5300000000000001,NRFI
+2025-07-07,Arizona Diamondbacks,San Diego Padres,Zac Gallen,Yu Darvish,2025-07-07 21:40:00-04:00,0.547681,0.5300000000000001,NRFI
+2025-07-07,Pittsburgh Pirates,Kansas City Royals,Andrew Heaney,Noah Cameron,2025-07-07 19:40:00-04:00,0.5047671,0.5300000000000001,YRFI
+2025-07-07,Texas Rangers,Los Angeles Angels,Jacob deGrom,Yusei Kikuchi,2025-07-07 21:38:00-04:00,0.46938014,0.5300000000000001,YRFI
+2025-07-07,Miami Marlins,Cincinnati Reds,Janson Junk,Brady Singer,2025-07-07 19:10:00-04:00,0.39595854,0.5300000000000001,YRFI
+2025-07-07,Toronto Blue Jays,Chicago White Sox,José Berríos,Sean Burke,2025-07-07 19:40:00-04:00,0.31976765,0.5300000000000001,YRFI
+2025-07-07,Los Angeles Dodgers,Milwaukee Brewers,Yoshinobu Yamamoto,Freddy Peralta,2025-07-07 19:40:00-04:00,0.30384177,0.5300000000000001,YRFI
