@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-08,Toronto Blue Jays,Chicago White Sox,Chris Bassitt,Aaron Civale,2025-07-08 19:40:00-04:00,0.6637236,0.5300000000000001,NRFI
+2025-07-08,Pittsburgh Pirates,Kansas City Royals,Mitch Keller,Seth Lugo,2025-07-08 19:40:00-04:00,0.6120942,0.5300000000000001,NRFI
+2025-07-08,Texas Rangers,Los Angeles Angels,Nathan Eovaldi,José Soriano,2025-07-08 21:38:00-04:00,0.58177805,0.5300000000000001,NRFI
+2025-07-08,Tampa Bay Rays,Detroit Tigers,Ryan Pepiot,Jack Flaherty,2025-07-08 18:40:00-04:00,0.5791755,0.5300000000000001,NRFI
+2025-07-08,New York Mets,Baltimore Orioles,Clay Holmes,Brandon Young,2025-07-08 18:35:00-04:00,0.5655283,0.5300000000000001,NRFI
+2025-07-08,Seattle Mariners,New York Yankees,Logan Gilbert,Will Warren,2025-07-08 19:05:00-04:00,0.50093776,0.5300000000000001,YRFI
+2025-07-08,Arizona Diamondbacks,San Diego Padres,Merrill Kelly,Nick Pivetta,2025-07-08 21:40:00-04:00,0.5004776,0.5300000000000001,YRFI
+2025-07-08,Philadelphia Phillies,San Francisco Giants,Taijuan Walker,Robbie Ray,2025-07-08 21:45:00-04:00,0.43662432,0.5300000000000001,YRFI
+2025-07-08,Chicago Cubs,Minnesota Twins,Shota Imanaga,Simeon Woods Richardson,2025-07-08 19:40:00-04:00,0.4153296,0.5300000000000001,YRFI
+2025-07-08,Cleveland Guardians,Houston Astros,Joey Cantillo,Hunter Brown,2025-07-08 20:10:00-04:00,0.40411282,0.5300000000000001,YRFI
+2025-07-08,Washington Nationals,St. Louis Cardinals,Jake Irvin,Sonny Gray,2025-07-08 19:45:00-04:00,0.27383587,0.5300000000000001,YRFI
