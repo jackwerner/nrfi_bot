@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-09,Pittsburgh Pirates,Kansas City Royals,Bailey Falter,Kris Bubic,2025-07-09 19:40:00-04:00,0.6940671,0.5300000000000001,NRFI
+2025-07-09,Colorado Rockies,Boston Red Sox,Antonio Senzatela,Lucas Giolito,2025-07-09 19:10:00-04:00,0.64001954,0.5300000000000001,NRFI
+2025-07-09,New York Mets,Baltimore Orioles,David Peterson,Tomoyuki Sugano,2025-07-09 19:05:00-04:00,0.5904651,0.5300000000000001,NRFI
+2025-07-09,Miami Marlins,Cincinnati Reds,Sandy Alcantara,Andrew Abbott,2025-07-09 19:10:00-04:00,0.5569352,0.5300000000000001,NRFI
+2025-07-09,Toronto Blue Jays,Chicago White Sox,Eric Lauer,Adrian Houser,2025-07-09 14:10:00-04:00,0.5395868,0.5300000000000001,NRFI
+2025-07-09,Tampa Bay Rays,Detroit Tigers,Zack Littell,Reese Olson,2025-07-09 17:10:00-04:00,0.5252416,0.5300000000000001,YRFI
+2025-07-09,Atlanta Braves,Athletics,Bryce Elder,Mitch Spence,2025-07-09 22:05:00-04:00,0.5204633,0.5300000000000001,YRFI
+2025-07-09,Arizona Diamondbacks,San Diego Padres,Brandon Pfaadt,Dylan Cease,2025-07-09 21:40:00-04:00,0.50672966,0.5300000000000001,YRFI
+2025-07-09,Texas Rangers,Los Angeles Angels,Kumar Rocker,Kyle Hendricks,2025-07-09 21:38:00-04:00,0.46966133,0.5300000000000001,YRFI
+2025-07-09,Philadelphia Phillies,San Francisco Giants,Jesús Luzardo,Justin Verlander,2025-07-09 15:45:00-04:00,0.45465916,0.5300000000000001,YRFI
+2025-07-09,Cleveland Guardians,Houston Astros,Slade Cecconi,Brandon Walter,2025-07-09 20:10:00-04:00,0.42017734,0.5300000000000001,YRFI
+2025-07-09,Seattle Mariners,New York Yankees,Logan Evans,Cam Schlittler,2025-07-09 19:05:00-04:00,0.40003204,0.5300000000000001,YRFI
+2025-07-09,Washington Nationals,St. Louis Cardinals,MacKenzie Gore,Andre Pallante,2025-07-09 19:45:00-04:00,0.34305605,0.5300000000000001,YRFI
+2025-07-09,Chicago Cubs,Minnesota Twins,Cade Horton,David Festa,2025-07-09 19:40:00-04:00,0.28047064,0.5300000000000001,YRFI
