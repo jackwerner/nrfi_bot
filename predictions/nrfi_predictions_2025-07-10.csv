@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-10,New York Mets,Baltimore Orioles,David Peterson,Charlie Morton,2025-07-10 12:05:00-04:00,0.74433,0.5300000000000001,NRFI
+2025-07-10,Tampa Bay Rays,Boston Red Sox,Taj Bradley,Walker Buehler,2025-07-10 19:10:00-04:00,0.5954374,0.5300000000000001,NRFI
+2025-07-10,Miami Marlins,Cincinnati Reds,Cal Quantrill,Nick Lodolo,2025-07-10 17:10:00-04:00,0.5740016,0.5300000000000001,NRFI
+2025-07-10,Atlanta Braves,Athletics,Spencer Strider,JP Sears,2025-07-10 21:05:00-04:00,0.5119468,0.5300000000000001,YRFI
+2025-07-10,Seattle Mariners,New York Yankees,Bryan Woo,Marcus Stroman,2025-07-10 19:05:00-04:00,0.50599813,0.5300000000000001,YRFI
+2025-07-10,Washington Nationals,St. Louis Cardinals,Michael Soroka,Miles Mikolas,2025-07-10 19:45:00-04:00,0.49175334,0.5300000000000001,YRFI
+2025-07-10,Cleveland Guardians,Chicago White Sox,Logan Allen,Jonathan Cannon,2025-07-10 19:40:00-04:00,0.4479599,0.5300000000000001,YRFI
+2025-07-10,Chicago Cubs,Minnesota Twins,Colin Rea,Chris Paddack,2025-07-10 13:10:00-04:00,0.4100792,0.5300000000000001,YRFI
+2025-07-10,Arizona Diamondbacks,San Diego Padres,Eduardo Rodriguez,Randy Vásquez,2025-07-10 21:40:00-04:00,0.33048552,0.5300000000000001,YRFI
