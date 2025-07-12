@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-12,Philadelphia Phillies,San Diego Padres,Zack Wheeler,Yu Darvish,2025-07-12 19:35:00-04:00,0.66707426,0.5300000000000001,NRFI
+2025-07-12,Colorado Rockies,Cincinnati Reds,Bradley Blalock,Brady Singer,2025-07-12 16:10:00-04:00,0.5924581,0.5300000000000001,NRFI
+2025-07-12,Seattle Mariners,Detroit Tigers,George Kirby,Casey Mize,2025-07-12 13:10:00-04:00,0.570548,0.5300000000000001,NRFI
+2025-07-12,Washington Nationals,Milwaukee Brewers,Shinnosuke Ogasawara,Brandon Woodruff,2025-07-12 16:10:00-04:00,0.56747085,0.5300000000000001,NRFI
+2025-07-12,Tampa Bay Rays,Boston Red Sox,Shane Baz,Garrett Crochet,2025-07-12 16:10:00-04:00,0.5381395,0.5300000000000001,NRFI
+2025-07-12,Arizona Diamondbacks,Los Angeles Angels,Zac Gallen,Yusei Kikuchi,2025-07-12 21:38:00-04:00,0.516607,0.5300000000000001,YRFI
+2025-07-12,Chicago Cubs,New York Yankees,Matthew Boyd,Max Fried,2025-07-12 13:05:00-04:00,0.49115884,0.5300000000000001,YRFI
+2025-07-12,Texas Rangers,Houston Astros,Jacob deGrom,Framber Valdez,2025-07-12 19:35:00-04:00,0.47743377,0.5300000000000001,YRFI
+2025-07-12,Toronto Blue Jays,Athletics,Kevin Gausman,Jacob Lopez,2025-07-12 22:05:00-04:00,0.4645042,0.5300000000000001,YRFI
+2025-07-12,Cleveland Guardians,Chicago White Sox,Tanner Bibee,Sean Burke,2025-07-12 16:10:00-04:00,0.46384996,0.5300000000000001,YRFI
