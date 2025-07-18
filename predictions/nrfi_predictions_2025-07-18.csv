@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-18,San Francisco Giants,Toronto Blue Jays,Justin Verlander,Chris Bassitt,2025-07-18 19:07:00-04:00,0.615114,0.5300000000000001,NRFI
+2025-07-18,Chicago White Sox,Pittsburgh Pirates,Jonathan Cannon,Bailey Falter,2025-07-18 18:40:00-04:00,0.5696886,0.5300000000000001,NRFI
+2025-07-18,Baltimore Orioles,Tampa Bay Rays,Charlie Morton,Taj Bradley,2025-07-18 19:35:00-04:00,0.44053087,0.5300000000000001,YRFI
+2025-07-18,Milwaukee Brewers,Los Angeles Dodgers,Quinn Priester,Tyler Glasnow,2025-07-18 22:10:00-04:00,0.4350852,0.5300000000000001,YRFI
+2025-07-18,Boston Red Sox,Chicago Cubs,Lucas Giolito,Colin Rea,2025-07-18 14:20:00-04:00,0.3463557,0.5300000000000001,YRFI
+2025-07-18,Athletics,Cleveland Guardians,JP Sears,Slade Cecconi,2025-07-18 19:10:00-04:00,0.30613393,0.5300000000000001,YRFI
