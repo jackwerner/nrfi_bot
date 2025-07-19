@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-19,San Francisco Giants,Toronto Blue Jays,Logan Webb,Eric Lauer,2025-07-19 15:07:00-04:00,0.7527507,0.5300000000000001,NRFI
+2025-07-19,Cincinnati Reds,New York Mets,Nick Martinez,Clay Holmes,2025-07-19 16:10:00-04:00,0.6302186,0.5300000000000001,NRFI
+2025-07-19,San Diego Padres,Washington Nationals,Yu Darvish,Mitchell Parker,2025-07-19 18:45:00-04:00,0.5912738,0.5300000000000001,NRFI
+2025-07-19,Athletics,Cleveland Guardians,Luis Severino,Logan Allen,2025-07-19 19:10:00-04:00,0.5600839,0.5300000000000001,NRFI
+2025-07-19,Los Angeles Angels,Philadelphia Phillies,Yusei Kikuchi,Taijuan Walker,2025-07-19 18:05:00-04:00,0.52857643,0.5300000000000001,YRFI
+2025-07-19,Chicago White Sox,Pittsburgh Pirates,Adrian Houser,Mike Burrows,2025-07-19 18:40:00-04:00,0.50675476,0.5300000000000001,YRFI
+2025-07-19,Minnesota Twins,Colorado Rockies,Zebby Matthews,Antonio Senzatela,2025-07-19 20:10:00-04:00,0.50079155,0.5300000000000001,YRFI
+2025-07-19,New York Yankees,Atlanta Braves,Will Warren,Joey Wentz,2025-07-19 19:15:00-04:00,0.45188826,0.5300000000000001,YRFI
+2025-07-19,Kansas City Royals,Miami Marlins,Michael Wacha,Cal Quantrill,2025-07-19 16:10:00-04:00,0.44514868,0.5300000000000001,YRFI
+2025-07-19,Baltimore Orioles,Tampa Bay Rays,Dean Kremer,Zack Littell,2025-07-19 19:05:00-04:00,0.4407046,0.5300000000000001,YRFI
+2025-07-19,St. Louis Cardinals,Arizona Diamondbacks,Sonny Gray,Ryne Nelson,2025-07-19 19:15:00-04:00,0.39190555,0.5300000000000001,YRFI
+2025-07-19,Detroit Tigers,Texas Rangers,Keider Montero,Kumar Rocker,2025-07-19 19:05:00-04:00,0.3519707,0.5300000000000001,YRFI
