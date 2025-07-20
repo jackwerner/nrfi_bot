@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-20,San Francisco Giants,Toronto Blue Jays,Robbie Ray,José Berríos,2025-07-20 12:05:00-04:00,0.68867755,0.5300000000000001,NRFI
+2025-07-20,Cincinnati Reds,New York Mets,Andrew Abbott,David Peterson,2025-07-20 13:40:00-04:00,0.6774461,0.5300000000000001,NRFI
+2025-07-20,Boston Red Sox,Chicago Cubs,Garrett Crochet,Cade Horton,2025-07-20 14:20:00-04:00,0.64912176,0.5300000000000001,NRFI
+2025-07-20,San Diego Padres,Washington Nationals,Nick Pivetta,MacKenzie Gore,2025-07-20 13:35:00-04:00,0.61120933,0.5300000000000001,NRFI
+2025-07-20,Athletics,Cleveland Guardians,Jeffrey Springs,Gavin Williams,2025-07-20 13:40:00-04:00,0.5638092,0.5300000000000001,NRFI
+2025-07-20,Kansas City Royals,Miami Marlins,Kris Bubic,Janson Junk,2025-07-20 13:40:00-04:00,0.5293934,0.5300000000000001,YRFI
+2025-07-20,Houston Astros,Seattle Mariners,Hunter Brown,Bryan Woo,2025-07-20 16:10:00-04:00,0.49057037,0.5300000000000001,YRFI
+2025-07-20,Minnesota Twins,Colorado Rockies,Joe Ryan,Germán Márquez,2025-07-20 15:10:00-04:00,0.44020674,0.5300000000000001,YRFI
+2025-07-20,New York Yankees,Atlanta Braves,Marcus Stroman,Grant Holmes,2025-07-20 13:35:00-04:00,0.41997,0.5300000000000001,YRFI
+2025-07-20,St. Louis Cardinals,Arizona Diamondbacks,Miles Mikolas,Merrill Kelly,2025-07-20 16:10:00-04:00,0.36650118,0.5300000000000001,YRFI
+2025-07-20,Chicago White Sox,Pittsburgh Pirates,Aaron Civale,Andrew Heaney,2025-07-20 13:35:00-04:00,0.29669717,0.5300000000000001,YRFI
