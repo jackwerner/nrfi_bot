@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-21,Baltimore Orioles,Cleveland Guardians,Tomoyuki Sugano,Tanner Bibee,2025-07-21 18:40:00-04:00,0.63012755,0.5300000000000001,NRFI
+2025-07-21,Boston Red Sox,Philadelphia Phillies,Walker Buehler,Zack Wheeler,2025-07-21 18:45:00-04:00,0.6007213,0.5300000000000001,NRFI
+2025-07-21,Athletics,Texas Rangers,Jacob Lopez,Jack Leiter,2025-07-21 20:05:00-04:00,0.59422696,0.5300000000000001,NRFI
+2025-07-21,Detroit Tigers,Pittsburgh Pirates,Jack Flaherty,Paul Skenes,2025-07-21 18:40:00-04:00,0.57151824,0.5300000000000001,NRFI
+2025-07-21,Houston Astros,Arizona Diamondbacks,Colton Gordon,Zac Gallen,2025-07-21 21:40:00-04:00,0.54226744,0.5300000000000001,NRFI
+2025-07-21,Los Angeles Angels,New York Mets,Tyler Anderson,Kodai Senga,2025-07-21 19:10:00-04:00,0.52723557,0.5300000000000001,YRFI
+2025-07-21,Cincinnati Reds,Washington Nationals,Brady Singer,Jake Irvin,2025-07-21 18:45:00-04:00,0.51274705,0.5300000000000001,YRFI
+2025-07-21,Milwaukee Brewers,Seattle Mariners,Brandon Woodruff,George Kirby,2025-07-21 21:40:00-04:00,0.48368806,0.5300000000000001,YRFI
+2025-07-21,New York Yankees,Toronto Blue Jays,Carlos Rodón,Kevin Gausman,2025-07-21 19:07:00-04:00,0.46257728,0.5300000000000001,YRFI
+2025-07-21,Chicago White Sox,Tampa Bay Rays,Sean Burke,Shane Baz,2025-07-21 19:35:00-04:00,0.34972188,0.5300000000000001,YRFI
