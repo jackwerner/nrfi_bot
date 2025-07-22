@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-22,Cincinnati Reds,Washington Nationals,Chase Burns,Brad Lord,2025-07-22 18:45:00-04:00,0.6585318,0.5300000000000001,NRFI
+2025-07-22,San Francisco Giants,Atlanta Braves,Landen Roupp,Davis Daniel,2025-07-22 19:15:00-04:00,0.6112252,0.5300000000000001,NRFI
+2025-07-22,Houston Astros,Arizona Diamondbacks,Framber Valdez,Eduardo Rodriguez,2025-07-22 21:40:00-04:00,0.6048241,0.5300000000000001,NRFI
+2025-07-22,Boston Red Sox,Philadelphia Phillies,Richard Fitts,Cristopher Sánchez,2025-07-22 18:45:00-04:00,0.6032232,0.5300000000000001,NRFI
+2025-07-22,St. Louis Cardinals,Colorado Rockies,Erick Fedde,Bradley Blalock,2025-07-22 20:40:00-04:00,0.5644448,0.5300000000000001,NRFI
+2025-07-22,Detroit Tigers,Pittsburgh Pirates,Casey Mize,Mitch Keller,2025-07-22 18:40:00-04:00,0.5617296,0.5300000000000001,NRFI
+2025-07-22,Milwaukee Brewers,Seattle Mariners,Jacob Misiorowski,Logan Gilbert,2025-07-22 21:40:00-04:00,0.5488645,0.5300000000000001,NRFI
+2025-07-22,New York Yankees,Toronto Blue Jays,Cam Schlittler,Max Scherzer,2025-07-22 19:07:00-04:00,0.5433141,0.5300000000000001,NRFI
+2025-07-22,Minnesota Twins,Los Angeles Dodgers,Simeon Woods Richardson,Yoshinobu Yamamoto,2025-07-22 22:10:00-04:00,0.5047877,0.5300000000000001,YRFI
+2025-07-22,Athletics,Texas Rangers,J.T. Ginn,Jacob deGrom,2025-07-22 20:05:00-04:00,0.48402008,0.5300000000000001,YRFI
+2025-07-22,Baltimore Orioles,Cleveland Guardians,Brandon Young,Joey Cantillo,2025-07-22 18:40:00-04:00,0.4327376,0.5300000000000001,YRFI
+2025-07-22,San Diego Padres,Miami Marlins,Stephen Kolek,Edward Cabrera,2025-07-22 18:40:00-04:00,0.31837267,0.5300000000000001,YRFI
