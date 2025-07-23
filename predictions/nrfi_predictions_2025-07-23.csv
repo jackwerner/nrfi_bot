@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-23,San Diego Padres,Miami Marlins,Dylan Cease,Sandy Alcantara,2025-07-23 12:10:00-04:00,0.6253532,0.5300000000000001,NRFI
+2025-07-23,New York Yankees,Toronto Blue Jays,Max Fried,Chris Bassitt,2025-07-23 19:07:00-04:00,0.6173368,0.5300000000000001,NRFI
+2025-07-23,San Francisco Giants,Atlanta Braves,Justin Verlander,Spencer Strider,2025-07-23 12:15:00-04:00,0.55110735,0.5300000000000001,NRFI
+2025-07-23,Baltimore Orioles,Cleveland Guardians,Zach Eflin,Slade Cecconi,2025-07-23 18:40:00-04:00,0.51163155,0.5300000000000001,YRFI
+2025-07-23,Minnesota Twins,Los Angeles Dodgers,Chris Paddack,Tyler Glasnow,2025-07-23 16:10:00-04:00,0.47155643,0.5300000000000001,YRFI
+2025-07-23,Houston Astros,Arizona Diamondbacks,Brandon Walter,Brandon Pfaadt,2025-07-23 15:40:00-04:00,0.44851252,0.5300000000000001,YRFI
+2025-07-23,Boston Red Sox,Philadelphia Phillies,Lucas Giolito,Jesús Luzardo,2025-07-23 19:05:00-04:00,0.44788182,0.5300000000000001,YRFI
+2025-07-23,Kansas City Royals,Chicago Cubs,Seth Lugo,Colin Rea,2025-07-23 14:20:00-04:00,0.39718044,0.5300000000000001,YRFI
+2025-07-23,Chicago White Sox,Tampa Bay Rays,Jonathan Cannon,Taj Bradley,2025-07-23 19:35:00-04:00,0.3665471,0.5300000000000001,YRFI
+2025-07-23,Milwaukee Brewers,Seattle Mariners,Quinn Priester,Luis Castillo,2025-07-23 15:40:00-04:00,0.3559702,0.5300000000000001,YRFI
+2025-07-23,Cincinnati Reds,Washington Nationals,Nick Lodolo,Michael Soroka,2025-07-23 12:05:00-04:00,0.34785154,0.5300000000000001,YRFI
