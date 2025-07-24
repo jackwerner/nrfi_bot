@@ -1,0 +1,5 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-24,Baltimore Orioles,Cleveland Guardians,Charlie Morton,Logan Allen,2025-07-24 13:10:00-04:00,0.60693556,0.5300000000000001,NRFI
+2025-07-24,Toronto Blue Jays,Detroit Tigers,Eric Lauer,Reese Olson,2025-07-24 18:40:00-04:00,0.5570131,0.5300000000000001,NRFI
+2025-07-24,Seattle Mariners,Los Angeles Angels,Logan Evans,Yusei Kikuchi,2025-07-24 21:38:00-04:00,0.43488377,0.5300000000000001,YRFI
+2025-07-24,San Diego Padres,St. Louis Cardinals,Yu Darvish,Sonny Gray,2025-07-24 19:45:00-04:00,0.33147708,0.5300000000000001,YRFI
