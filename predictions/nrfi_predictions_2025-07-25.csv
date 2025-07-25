@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-25,Cleveland Guardians,Kansas City Royals,Gavin Williams,Michael Wacha,2025-07-25 20:10:00-04:00,0.6480652,0.5300000000000001,NRFI
+2025-07-25,San Diego Padres,St. Louis Cardinals,Nick Pivetta,Miles Mikolas,2025-07-25 19:15:00-04:00,0.6310835,0.5300000000000001,NRFI
+2025-07-25,Athletics,Houston Astros,Jeffrey Springs,Ryan Gusto,2025-07-25 20:10:00-04:00,0.60605025,0.5300000000000001,NRFI
+2025-07-25,Toronto Blue Jays,Detroit Tigers,José Berríos,Keider Montero,2025-07-25 19:10:00-04:00,0.6008967,0.5300000000000001,NRFI
+2025-07-25,Tampa Bay Rays,Cincinnati Reds,Zack Littell,Nick Martinez,2025-07-25 19:10:00-04:00,0.5998341,0.5300000000000001,NRFI
+2025-07-25,New York Mets,San Francisco Giants,Clay Holmes,Logan Webb,2025-07-25 22:15:00-04:00,0.5931266,0.5300000000000001,NRFI
+2025-07-25,Atlanta Braves,Texas Rangers,Joey Wentz,Nathan Eovaldi,2025-07-25 20:05:00-04:00,0.57130694,0.5300000000000001,NRFI
+2025-07-25,Washington Nationals,Minnesota Twins,MacKenzie Gore,Zebby Matthews,2025-07-25 20:10:00-04:00,0.5680155,0.5300000000000001,NRFI
+2025-07-25,Seattle Mariners,Los Angeles Angels,Bryan Woo,José Soriano,2025-07-25 21:38:00-04:00,0.52424705,0.5300000000000001,YRFI
+2025-07-25,Chicago Cubs,Chicago White Sox,Shota Imanaga,Adrian Houser,2025-07-25 19:40:00-04:00,0.48753506,0.5300000000000001,YRFI
+2025-07-25,Arizona Diamondbacks,Pittsburgh Pirates,Ryne Nelson,Mike Burrows,2025-07-25 18:40:00-04:00,0.41653693,0.5300000000000001,YRFI
+2025-07-25,Philadelphia Phillies,New York Yankees,Taijuan Walker,Will Warren,2025-07-25 19:05:00-04:00,0.412621,0.5300000000000001,YRFI
+2025-07-25,Colorado Rockies,Baltimore Orioles,Kyle Freeland,Dean Kremer,2025-07-25 19:05:00-04:00,0.35171497,0.5300000000000001,YRFI
+2025-07-25,Miami Marlins,Milwaukee Brewers,Cal Quantrill,Freddy Peralta,2025-07-25 16:10:00-04:00,0.34507915,0.5300000000000001,YRFI
