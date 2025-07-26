@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-26,Cleveland Guardians,Kansas City Royals,Tanner Bibee,Kris Bubic,2025-07-26 19:15:00-04:00,0.759579,0.5300000000000001,NRFI
+2025-07-26,Cleveland Guardians,Kansas City Royals,Gavin Williams,Michael Wacha,2025-07-26 14:40:00-04:00,0.6480652,0.5300000000000001,NRFI
+2025-07-26,Tampa Bay Rays,Cincinnati Reds,Ryan Pepiot,Andrew Abbott,2025-07-26 18:40:00-04:00,0.60656965,0.5300000000000001,NRFI
+2025-07-26,New York Mets,San Francisco Giants,David Peterson,Robbie Ray,2025-07-26 21:05:00-04:00,0.59996253,0.5300000000000001,NRFI
+2025-07-26,Athletics,Houston Astros,Jacob Lopez,Hunter Brown,2025-07-26 19:10:00-04:00,0.5633095,0.5300000000000001,NRFI
+2025-07-26,Washington Nationals,Minnesota Twins,Mitchell Parker,Joe Ryan,2025-07-26 19:10:00-04:00,0.5294297,0.5300000000000001,YRFI
+2025-07-26,Toronto Blue Jays,Detroit Tigers,Kevin Gausman,Tarik Skubal,2025-07-26 18:10:00-04:00,0.510467,0.5300000000000001,YRFI
+2025-07-26,Atlanta Braves,Texas Rangers,Grant Holmes,Kumar Rocker,2025-07-26 19:05:00-04:00,0.49735305,0.5300000000000001,YRFI
+2025-07-26,San Diego Padres,St. Louis Cardinals,Randy Vásquez,Matthew Liberatore,2025-07-26 19:15:00-04:00,0.49147123,0.5300000000000001,YRFI
+2025-07-26,Chicago Cubs,Chicago White Sox,Cade Horton,Aaron Civale,2025-07-26 19:10:00-04:00,0.46971077,0.5300000000000001,YRFI
+2025-07-26,Seattle Mariners,Los Angeles Angels,George Kirby,Tyler Anderson,2025-07-26 21:38:00-04:00,0.36310554,0.5300000000000001,YRFI
+2025-07-26,Arizona Diamondbacks,Pittsburgh Pirates,Merrill Kelly,Andrew Heaney,2025-07-26 18:40:00-04:00,0.304759,0.5300000000000001,YRFI
