@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-27,Toronto Blue Jays,Detroit Tigers,Max Scherzer,Jack Flaherty,2025-07-27 13:40:00-04:00,0.749755,0.5300000000000001,NRFI
+2025-07-27,New York Mets,San Francisco Giants,Kodai Senga,Matt Gage,2025-07-27 19:10:00-04:00,0.5869736,0.5300000000000001,NRFI
+2025-07-27,Chicago Cubs,Chicago White Sox,Ben Brown,Grant Taylor,2025-07-27 14:10:00-04:00,0.5651281,0.5300000000000001,NRFI
+2025-07-27,Cleveland Guardians,Kansas City Royals,Joey Cantillo,Noah Cameron,2025-07-27 14:10:00-04:00,0.5582411,0.5300000000000001,NRFI
+2025-07-27,Arizona Diamondbacks,Pittsburgh Pirates,Zac Gallen,Paul Skenes,2025-07-27 13:35:00-04:00,0.548036,0.5300000000000001,NRFI
+2025-07-27,Los Angeles Dodgers,Boston Red Sox,Dustin May,Walker Buehler,2025-07-27 13:35:00-04:00,0.54550725,0.5300000000000001,NRFI
+2025-07-27,Athletics,Houston Astros,J.T. Ginn,Colton Gordon,2025-07-27 14:10:00-04:00,0.4955948,0.5300000000000001,YRFI
+2025-07-27,Seattle Mariners,Los Angeles Angels,Logan Gilbert,Kyle Hendricks,2025-07-27 16:07:00-04:00,0.49119887,0.5300000000000001,YRFI
+2025-07-27,Philadelphia Phillies,New York Yankees,Zack Wheeler,Carlos Rodón,2025-07-27 13:35:00-04:00,0.49056584,0.5300000000000001,YRFI
+2025-07-27,Atlanta Braves,Texas Rangers,Bryce Elder,Jack Leiter,2025-07-27 14:35:00-04:00,0.48360386,0.5300000000000001,YRFI
+2025-07-27,Tampa Bay Rays,Cincinnati Reds,Shane Baz,Brady Singer,2025-07-27 13:40:00-04:00,0.34355733,0.5300000000000001,YRFI
