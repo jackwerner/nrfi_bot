@@ -101,7 +101,7 @@ def generate_human_tweet():
                     # Optional: Limit searches per request
                     "max_uses": 1,
                     # Optional: Only include results from these domains
-                    "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","apnews.com","cbssports.com","yahoo.com","sports.yahoo.com","si.com"],
+                    "allowed_domains": ["mlb.com", "mlbtraderumors.com","ftnfantasy.com","pitcherlist.com","yardbarker.com","espn.com","cbssports.com","yahoo.com","sports.yahoo.com","si.com"],
                 }
             ]
         )
