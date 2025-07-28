@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-28,Toronto Blue Jays,Baltimore Orioles,Chris Bassitt,Zach Eflin,2025-07-28 18:35:00-04:00,0.6537211,0.5300000000000001,NRFI
+2025-07-28,Tampa Bay Rays,New York Yankees,Drew Rasmussen,Cam Schlittler,2025-07-28 19:05:00-04:00,0.63412803,0.5300000000000001,NRFI
+2025-07-28,Colorado Rockies,Cleveland Guardians,Bradley Blalock,Slade Cecconi,2025-07-28 18:40:00-04:00,0.62022346,0.5300000000000001,NRFI
+2025-07-28,Washington Nationals,Houston Astros,Brad Lord,Framber Valdez,2025-07-28 20:10:00-04:00,0.55091906,0.5300000000000001,NRFI
+2025-07-28,Seattle Mariners,Athletics,Luis Castillo,JP Sears,2025-07-28 22:05:00-04:00,0.5241687,0.5300000000000001,YRFI
+2025-07-28,Los Angeles Dodgers,Cincinnati Reds,Yoshinobu Yamamoto,Chase Burns,2025-07-28 19:10:00-04:00,0.52031744,0.5300000000000001,YRFI
+2025-07-28,Boston Red Sox,Minnesota Twins,Richard Fitts,Simeon Woods Richardson,2025-07-28 19:40:00-04:00,0.51842767,0.5300000000000001,YRFI
+2025-07-28,Philadelphia Phillies,Chicago White Sox,Cristopher Sánchez,Davis Martin,2025-07-28 19:40:00-04:00,0.5109706,0.5300000000000001,YRFI
+2025-07-28,Texas Rangers,Los Angeles Angels,Jacob deGrom,Jack Kochanowicz,2025-07-28 21:38:00-04:00,0.5096663,0.5300000000000001,YRFI
+2025-07-28,Chicago Cubs,Milwaukee Brewers,Matthew Boyd,Jacob Misiorowski,2025-07-28 19:40:00-04:00,0.4166953,0.5300000000000001,YRFI
+2025-07-28,Miami Marlins,St. Louis Cardinals,Edward Cabrera,Andre Pallante,2025-07-28 19:45:00-04:00,0.34220842,0.5300000000000001,YRFI
