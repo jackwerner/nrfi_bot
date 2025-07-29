@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-29,Pittsburgh Pirates,San Francisco Giants,Bailey Falter,Justin Verlander,2025-07-29 21:45:00-04:00,0.65038115,0.5300000000000001,NRFI
+2025-07-29,Tampa Bay Rays,New York Yankees,Joe Boyle,Max Fried,2025-07-29 19:05:00-04:00,0.5876796,0.5300000000000001,NRFI
+2025-07-29,Arizona Diamondbacks,Detroit Tigers,Brandon Pfaadt,Casey Mize,2025-07-29 18:40:00-04:00,0.57202154,0.5300000000000001,NRFI
+2025-07-29,Colorado Rockies,Cleveland Guardians,Tanner Gordon,Logan Allen,2025-07-29 18:40:00-04:00,0.55756474,0.5300000000000001,NRFI
+2025-07-29,Atlanta Braves,Kansas City Royals,Erick Fedde,Seth Lugo,2025-07-29 19:40:00-04:00,0.51732117,0.5300000000000001,YRFI
+2025-07-29,Miami Marlins,St. Louis Cardinals,Sandy Alcantara,Sonny Gray,2025-07-29 19:45:00-04:00,0.49025178,0.5300000000000001,YRFI
+2025-07-29,Los Angeles Dodgers,Cincinnati Reds,Tyler Glasnow,Nick Lodolo,2025-07-29 19:10:00-04:00,0.4886991,0.5300000000000001,YRFI
+2025-07-29,Seattle Mariners,Athletics,Logan Evans,Luis Severino,2025-07-29 22:05:00-04:00,0.38842526,0.5300000000000001,YRFI
+2025-07-29,Chicago Cubs,Milwaukee Brewers,Colin Rea,Quinn Priester,2025-07-29 19:40:00-04:00,0.32707852,0.5300000000000001,YRFI
+2025-07-29,Philadelphia Phillies,Chicago White Sox,Jesús Luzardo,Jonathan Cannon,2025-07-29 19:40:00-04:00,0.24799196,0.5300000000000001,YRFI
