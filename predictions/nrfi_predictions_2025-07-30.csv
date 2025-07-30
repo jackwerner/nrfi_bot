@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-30,New York Mets,San Diego Padres,Clay Holmes,Yu Darvish,2025-07-30 16:10:00-04:00,0.78540665,0.5300000000000001,NRFI
+2025-07-30,Washington Nationals,Houston Astros,MacKenzie Gore,Ryan Gusto,2025-07-30 14:10:00-04:00,0.6496106,0.5300000000000001,NRFI
+2025-07-30,Texas Rangers,Los Angeles Angels,Nathan Eovaldi,José Soriano,2025-07-30 21:38:00-04:00,0.57977134,0.5300000000000001,NRFI
+2025-07-30,Miami Marlins,St. Louis Cardinals,Cal Quantrill,Miles Mikolas,2025-07-30 19:45:00-04:00,0.5655861,0.5300000000000001,NRFI
+2025-07-30,Colorado Rockies,Cleveland Guardians,Kyle Freeland,Kolby Allard,2025-07-30 18:40:00-04:00,0.5645481,0.5300000000000001,NRFI
+2025-07-30,Tampa Bay Rays,New York Yankees,Zack Littell,Will Warren,2025-07-30 19:05:00-04:00,0.52658755,0.5300000000000001,YRFI
+2025-07-30,Philadelphia Phillies,Chicago White Sox,Taijuan Walker,Adrian Houser,2025-07-30 14:10:00-04:00,0.49895975,0.5300000000000001,YRFI
+2025-07-30,Arizona Diamondbacks,Detroit Tigers,Ryne Nelson,Chris Paddack,2025-07-30 13:10:00-04:00,0.4582764,0.5300000000000001,YRFI
+2025-07-30,Toronto Blue Jays,Baltimore Orioles,José Berríos,Dean Kremer,2025-07-30 12:35:00-04:00,0.3838298,0.5300000000000001,YRFI
+2025-07-30,Seattle Mariners,Athletics,Bryan Woo,Jeffrey Springs,2025-07-30 22:05:00-04:00,0.33153978,0.5300000000000001,YRFI
+2025-07-30,Chicago Cubs,Milwaukee Brewers,Shota Imanaga,Freddy Peralta,2025-07-30 14:10:00-04:00,0.32634228,0.5300000000000001,YRFI
