@@ -1,0 +1,4 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-07-31,Tampa Bay Rays,New York Yankees,Ryan Pepiot,Marcus Stroman,2025-07-31 13:05:00-04:00,0.52736723,0.5300000000000001,YRFI
+2025-07-31,Atlanta Braves,Cincinnati Reds,Carlos Carrasco,Andrew Abbott,2025-07-31 19:10:00-04:00,0.51729137,0.5300000000000001,YRFI
+2025-07-31,Texas Rangers,Seattle Mariners,Kumar Rocker,George Kirby,2025-07-31 21:40:00-04:00,0.4307553,0.5300000000000001,YRFI
