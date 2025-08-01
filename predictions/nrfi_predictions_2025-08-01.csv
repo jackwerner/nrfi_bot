@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-01,St. Louis Cardinals,San Diego Padres,Matthew Liberatore,Nick Pivetta,2025-08-01 21:40:00-04:00,0.6336113,0.5300000000000001,NRFI
+2025-08-01,San Francisco Giants,New York Mets,Robbie Ray,David Peterson,2025-08-01 19:10:00-04:00,0.5336135,0.5300000000000001,NRFI
+2025-08-01,Minnesota Twins,Cleveland Guardians,Joe Ryan,Gavin Williams,2025-08-01 19:10:00-04:00,0.52681345,0.5300000000000001,YRFI
+2025-08-01,Pittsburgh Pirates,Colorado Rockies,Andrew Heaney,Antonio Senzatela,2025-08-01 20:10:00-04:00,0.51409453,0.5300000000000001,YRFI
+2025-08-01,Texas Rangers,Seattle Mariners,Jack Leiter,Logan Gilbert,2025-08-01 22:10:00-04:00,0.5082719,0.5300000000000001,YRFI
+2025-08-01,New York Yankees,Miami Marlins,Carlos Rodón,Janson Junk,2025-08-01 19:10:00-04:00,0.43763977,0.5300000000000001,YRFI
+2025-08-01,Atlanta Braves,Cincinnati Reds,Bryce Elder,Brady Singer,2025-08-01 12:40:00-04:00,0.40698203,0.5300000000000001,YRFI
