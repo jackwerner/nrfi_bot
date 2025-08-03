@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-03,Pittsburgh Pirates,Colorado Rockies,Mitch Keller,Bradley Blalock,2025-08-03 15:10:00-04:00,0.692374,0.5300000000000001,NRFI
+2025-08-03,Detroit Tigers,Philadelphia Phillies,Charlie Morton,Cristopher Sánchez,2025-08-03 19:10:00-04:00,0.6613535,0.5300000000000001,NRFI
+2025-08-03,Arizona Diamondbacks,Athletics,Eduardo Rodriguez,Jack Perkins,2025-08-03 16:05:00-04:00,0.628069,0.5300000000000001,NRFI
+2025-08-03,Atlanta Braves,Cincinnati Reds,Austin Cox,Chase Burns,2025-08-03 13:05:00-04:00,0.5980331,0.5300000000000001,NRFI
+2025-08-03,Kansas City Royals,Toronto Blue Jays,Seth Lugo,Chris Bassitt,2025-08-03 13:37:00-04:00,0.59500104,0.5300000000000001,NRFI
+2025-08-03,Milwaukee Brewers,Washington Nationals,Jacob Misiorowski,Brad Lord,2025-08-03 13:35:00-04:00,0.55636173,0.5300000000000001,NRFI
+2025-08-03,St. Louis Cardinals,San Diego Padres,Andre Pallante,Dylan Cease,2025-08-03 16:10:00-04:00,0.5408721,0.5300000000000001,NRFI
+2025-08-03,Chicago White Sox,Los Angeles Angels,Sean Burke,Jack Kochanowicz,2025-08-03 16:07:00-04:00,0.4677208,0.5300000000000001,YRFI
+2025-08-03,Minnesota Twins,Cleveland Guardians,José Ureña,Joey Cantillo,2025-08-03 13:40:00-04:00,0.46747932,0.5300000000000001,YRFI
+2025-08-03,Houston Astros,Boston Red Sox,Framber Valdez,Lucas Giolito,2025-08-03 11:35:00-04:00,0.4523337,0.5300000000000001,YRFI
+2025-08-03,Los Angeles Dodgers,Tampa Bay Rays,Yoshinobu Yamamoto,Joe Boyle,2025-08-03 12:10:00-04:00,0.4043261,0.5300000000000001,YRFI
+2025-08-03,Baltimore Orioles,Chicago Cubs,Brandon Young,Colin Rea,2025-08-03 14:20:00-04:00,0.3146634,0.5300000000000001,YRFI
+2025-08-03,Texas Rangers,Seattle Mariners,Jacob deGrom,Logan Evans,2025-08-03 16:10:00-04:00,0.27768472,0.5300000000000001,YRFI
