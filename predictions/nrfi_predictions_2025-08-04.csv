@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-04,Baltimore Orioles,Philadelphia Phillies,Cade Povich,Jesús Luzardo,2025-08-04 18:45:00-04:00,0.5899283,0.5300000000000001,NRFI
+2025-08-04,Tampa Bay Rays,Los Angeles Angels,Adrian Houser,Yusei Kikuchi,2025-08-04 21:38:00-04:00,0.56445473,0.5300000000000001,NRFI
+2025-08-04,Toronto Blue Jays,Colorado Rockies,Eric Lauer,Tanner Gordon,2025-08-04 20:40:00-04:00,0.5005961,0.5300000000000001,YRFI
+2025-08-04,St. Louis Cardinals,Los Angeles Dodgers,Sonny Gray,Tyler Glasnow,2025-08-04 22:10:00-04:00,0.41759166,0.5300000000000001,YRFI
+2025-08-04,Cincinnati Reds,Chicago Cubs,Nick Lodolo,Michael Soroka,2025-08-04 20:05:00-04:00,0.41703588,0.5300000000000001,YRFI
+2025-08-04,Milwaukee Brewers,Atlanta Braves,Quinn Priester,Erick Fedde,2025-08-04 19:15:00-04:00,0.4126828,0.5300000000000001,YRFI
+2025-08-04,San Diego Padres,Arizona Diamondbacks,JP Sears,Brandon Pfaadt,2025-08-04 21:40:00-04:00,0.37675294,0.5300000000000001,YRFI
