@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-05,San Francisco Giants,Pittsburgh Pirates,Logan Webb,Mike Burrows,2025-08-05 18:40:00-04:00,0.7741651,0.5300000000000001,NRFI
+2025-08-05,Minnesota Twins,Detroit Tigers,Zebby Matthews,Chris Paddack,2025-08-05 18:40:00-04:00,0.7650599,0.5300000000000001,NRFI
+2025-08-05,Chicago White Sox,Seattle Mariners,Davis Martin,Bryan Woo,2025-08-05 21:40:00-04:00,0.72124815,0.5300000000000001,NRFI
+2025-08-05,Cleveland Guardians,New York Mets,Logan Allen,Clay Holmes,2025-08-05 19:10:00-04:00,0.5823308,0.5300000000000001,NRFI
+2025-08-05,Tampa Bay Rays,Los Angeles Angels,Ryan Pepiot,José Soriano,2025-08-05 21:38:00-04:00,0.56646734,0.5300000000000001,NRFI
+2025-08-05,New York Yankees,Texas Rangers,Will Warren,Nathan Eovaldi,2025-08-05 20:05:00-04:00,0.5331318,0.5300000000000001,NRFI
+2025-08-05,Athletics,Washington Nationals,Luis Severino,MacKenzie Gore,2025-08-05 18:45:00-04:00,0.5293645,0.5300000000000001,YRFI
+2025-08-05,Baltimore Orioles,Philadelphia Phillies,Dean Kremer,Taijuan Walker,2025-08-05 18:45:00-04:00,0.5231739,0.5300000000000001,YRFI
+2025-08-05,Cincinnati Reds,Chicago Cubs,Zack Littell,Shota Imanaga,2025-08-05 20:05:00-04:00,0.47904354,0.5300000000000001,YRFI
+2025-08-05,Milwaukee Brewers,Atlanta Braves,Freddy Peralta,Joey Wentz,2025-08-05 19:15:00-04:00,0.47350314,0.5300000000000001,YRFI
+2025-08-05,Toronto Blue Jays,Colorado Rockies,José Berríos,Anthony Molina,2025-08-05 20:40:00-04:00,0.43526828,0.5300000000000001,YRFI
+2025-08-05,San Diego Padres,Arizona Diamondbacks,Yu Darvish,Ryne Nelson,2025-08-05 21:40:00-04:00,0.31184268,0.5300000000000001,YRFI
