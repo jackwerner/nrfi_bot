@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-06,Cleveland Guardians,New York Mets,Gavin Williams,David Peterson,2025-08-06 13:10:00-04:00,0.6770037,0.5300000000000001,NRFI
+2025-08-06,Houston Astros,Miami Marlins,Spencer Arrighetti,Janson Junk,2025-08-06 16:40:00-04:00,0.6504323,0.5300000000000001,NRFI
+2025-08-06,Cincinnati Reds,Chicago Cubs,Andrew Abbott,Cade Horton,2025-08-06 14:20:00-04:00,0.6121573,0.5300000000000001,NRFI
+2025-08-06,Kansas City Royals,Boston Red Sox,Michael Wacha,Dustin May,2025-08-06 19:10:00-04:00,0.470305,0.5300000000000001,YRFI
+2025-08-06,Toronto Blue Jays,Colorado Rockies,Kevin Gausman,Kyle Freeland,2025-08-06 15:10:00-04:00,0.45451328,0.5300000000000001,YRFI
+2025-08-06,San Francisco Giants,Pittsburgh Pirates,Robbie Ray,Andrew Heaney,2025-08-06 12:35:00-04:00,0.44111007,0.5300000000000001,YRFI
+2025-08-06,Chicago White Sox,Seattle Mariners,Jonathan Cannon,George Kirby,2025-08-06 21:40:00-04:00,0.4240586,0.5300000000000001,YRFI
+2025-08-06,New York Yankees,Texas Rangers,Carlos Rodón,Jack Leiter,2025-08-06 14:35:00-04:00,0.4023131,0.5300000000000001,YRFI
+2025-08-06,Tampa Bay Rays,Los Angeles Angels,Shane Baz,Tyler Anderson,2025-08-06 16:07:00-04:00,0.38889384,0.5300000000000001,YRFI
