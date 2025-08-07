@@ -1,0 +1,4 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-07,Athletics,Washington Nationals,Jacob Lopez,Mitchell Parker,2025-08-07 12:05:00-04:00,0.6294745,0.5300000000000001,NRFI
+2025-08-07,Cincinnati Reds,Pittsburgh Pirates,Brady Singer,Paul Skenes,2025-08-07 18:40:00-04:00,0.56466764,0.5300000000000001,NRFI
+2025-08-07,Chicago White Sox,Seattle Mariners,Shane Smith,Logan Gilbert,2025-08-07 16:10:00-04:00,0.5267794,0.5300000000000001,YRFI
