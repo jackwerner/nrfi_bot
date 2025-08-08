@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-08,Athletics,Baltimore Orioles,J.T. Ginn,Tomoyuki Sugano,2025-08-08 19:05:00-04:00,0.61375636,0.5300000000000001,NRFI
+2025-08-08,Cleveland Guardians,Chicago White Sox,Tanner Bibee,Aaron Civale,2025-08-08 19:40:00-04:00,0.6018797,0.5300000000000001,NRFI
+2025-08-08,Boston Red Sox,San Diego Padres,Walker Buehler,Nick Pivetta,2025-08-08 21:40:00-04:00,0.58847576,0.5300000000000001,NRFI
+2025-08-08,Cincinnati Reds,Pittsburgh Pirates,Chase Burns,Mitch Keller,2025-08-08 18:40:00-04:00,0.5662916,0.5300000000000001,NRFI
+2025-08-08,Los Angeles Angels,Detroit Tigers,Kyle Hendricks,Tarik Skubal,2025-08-08 19:10:00-04:00,0.55917853,0.5300000000000001,NRFI
+2025-08-08,Kansas City Royals,Minnesota Twins,Seth Lugo,Joe Ryan,2025-08-08 20:10:00-04:00,0.5469955,0.5300000000000001,NRFI
+2025-08-08,Philadelphia Phillies,Texas Rangers,Cristopher Sánchez,Merrill Kelly,2025-08-08 20:05:00-04:00,0.52748275,0.5300000000000001,YRFI
+2025-08-08,New York Mets,Milwaukee Brewers,Kodai Senga,Brandon Woodruff,2025-08-08 20:10:00-04:00,0.5156486,0.5300000000000001,YRFI
+2025-08-08,Houston Astros,New York Yankees,Hunter Brown,Cam Schlittler,2025-08-08 19:05:00-04:00,0.5082068,0.5300000000000001,YRFI
+2025-08-08,Tampa Bay Rays,Seattle Mariners,Drew Rasmussen,Luis Castillo,2025-08-08 21:40:00-04:00,0.44562268,0.5300000000000001,YRFI
+2025-08-08,Miami Marlins,Atlanta Braves,Edward Cabrera,Bryce Elder,2025-08-08 19:15:00-04:00,0.3886321,0.5300000000000001,YRFI
