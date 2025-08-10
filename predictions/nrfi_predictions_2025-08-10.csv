@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-10,Colorado Rockies,Arizona Diamondbacks,Tanner Gordon,Brandon Pfaadt,2025-08-10 16:10:00-04:00,0.5935461,0.5300000000000001,NRFI
+2025-08-10,Tampa Bay Rays,Seattle Mariners,Adrian Houser,Bryan Woo,2025-08-10 16:10:00-04:00,0.5681282,0.5300000000000001,NRFI
+2025-08-10,Miami Marlins,Atlanta Braves,Cal Quantrill,Joey Wentz,2025-08-10 13:35:00-04:00,0.567255,0.5300000000000001,NRFI
+2025-08-10,Los Angeles Angels,Detroit Tigers,Jack Kochanowicz,Casey Mize,2025-08-10 13:40:00-04:00,0.5537773,0.5300000000000001,NRFI
+2025-08-10,Washington Nationals,San Francisco Giants,MacKenzie Gore,Justin Verlander,2025-08-10 16:05:00-04:00,0.5460739,0.5300000000000001,NRFI
+2025-08-10,Athletics,Baltimore Orioles,Luis Morales,Cade Povich,2025-08-10 13:35:00-04:00,0.52861613,0.5300000000000001,YRFI
+2025-08-10,Cleveland Guardians,Chicago White Sox,Slade Cecconi,Davis Martin,2025-08-10 14:10:00-04:00,0.5043295,0.5300000000000001,YRFI
+2025-08-10,Toronto Blue Jays,Los Angeles Dodgers,Eric Lauer,Tyler Glasnow,2025-08-10 16:10:00-04:00,0.48645884,0.5300000000000001,YRFI
+2025-08-10,Cincinnati Reds,Pittsburgh Pirates,Zack Littell,Mike Burrows,2025-08-10 13:35:00-04:00,0.37568948,0.5300000000000001,YRFI
+2025-08-10,Chicago Cubs,St. Louis Cardinals,Shota Imanaga,Sonny Gray,2025-08-10 19:10:00-04:00,0.2838702,0.5300000000000001,YRFI
