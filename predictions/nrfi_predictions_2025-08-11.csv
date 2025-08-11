@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-11,Minnesota Twins,New York Yankees,Zebby Matthews,Will Warren,2025-08-11 19:05:00-04:00,0.76211154,0.5300000000000001,NRFI
+2025-08-11,San Diego Padres,San Francisco Giants,Yu Darvish,Logan Webb,2025-08-11 21:45:00-04:00,0.6338952,0.5300000000000001,NRFI
+2025-08-11,Detroit Tigers,Chicago White Sox,Chris Paddack,Elvis Peguero,2025-08-11 19:40:00-04:00,0.5413712,0.5300000000000001,NRFI
+2025-08-11,Philadelphia Phillies,Cincinnati Reds,Taijuan Walker,Andrew Abbott,2025-08-11 18:10:00-04:00,0.52132475,0.5300000000000001,YRFI
+2025-08-11,Los Angeles Dodgers,Los Angeles Angels,Yoshinobu Yamamoto,José Soriano,2025-08-11 21:38:00-04:00,0.47950265,0.5300000000000001,YRFI
+2025-08-11,Arizona Diamondbacks,Texas Rangers,Ryne Nelson,Nathan Eovaldi,2025-08-11 20:05:00-04:00,0.45001692,0.5300000000000001,YRFI
+2025-08-11,Tampa Bay Rays,Athletics,Ryan Pepiot,Jeffrey Springs,2025-08-11 22:05:00-04:00,0.30624148,0.5300000000000001,YRFI
