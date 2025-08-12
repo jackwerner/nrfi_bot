@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-12,Colorado Rockies,St. Louis Cardinals,Kyle Freeland,Matthew Liberatore,2025-08-12 19:45:00-04:00,0.6036677,0.5300000000000001,NRFI
+2025-08-12,Atlanta Braves,New York Mets,Spencer Strider,Clay Holmes,2025-08-12 19:10:00-04:00,0.59716606,0.5300000000000001,NRFI
+2025-08-12,Miami Marlins,Cleveland Guardians,Janson Junk,Logan Allen,2025-08-12 18:40:00-04:00,0.57479906,0.5300000000000001,NRFI
+2025-08-12,San Diego Padres,San Francisco Giants,Nestor Cortes,Robbie Ray,2025-08-12 21:45:00-04:00,0.5517467,0.5300000000000001,NRFI
+2025-08-12,Chicago Cubs,Toronto Blue Jays,Ben Brown,José Berríos,2025-08-12 19:07:00-04:00,0.5225015,0.5300000000000001,YRFI
+2025-08-12,Tampa Bay Rays,Athletics,Shane Baz,Jacob Lopez,2025-08-12 22:05:00-04:00,0.48429057,0.5300000000000001,YRFI
+2025-08-12,Washington Nationals,Kansas City Royals,Mitchell Parker,Michael Wacha,2025-08-12 19:40:00-04:00,0.46529168,0.5300000000000001,YRFI
+2025-08-12,Boston Red Sox,Houston Astros,Dustin May,Spencer Arrighetti,2025-08-12 20:10:00-04:00,0.45917708,0.5300000000000001,YRFI
+2025-08-12,Pittsburgh Pirates,Milwaukee Brewers,Paul Skenes,Freddy Peralta,2025-08-12 19:40:00-04:00,0.4377896,0.5300000000000001,YRFI
+2025-08-12,Seattle Mariners,Baltimore Orioles,George Kirby,Dean Kremer,2025-08-12 18:35:00-04:00,0.33832636,0.5300000000000001,YRFI
