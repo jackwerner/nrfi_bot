@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-14,Detroit Tigers,Minnesota Twins,Tarik Skubal,Bailey Ober,2025-08-14 19:40:00-04:00,0.6281654,0.5300000000000001,NRFI
+2025-08-14,Arizona Diamondbacks,Colorado Rockies,Eduardo Rodriguez,Bradley Blalock,2025-08-14 20:40:00-04:00,0.6022587,0.5300000000000001,NRFI
+2025-08-14,Atlanta Braves,New York Mets,Bryce Elder,Kodai Senga,2025-08-14 19:10:00-04:00,0.55805284,0.5300000000000001,NRFI
+2025-08-14,Seattle Mariners,Baltimore Orioles,Logan Evans,Tomoyuki Sugano,2025-08-14 13:05:00-04:00,0.50935686,0.5300000000000001,YRFI
+2025-08-14,Chicago Cubs,Toronto Blue Jays,Matthew Boyd,Max Scherzer,2025-08-14 15:07:00-04:00,0.4722667,0.5300000000000001,YRFI
+2025-08-14,Miami Marlins,Cleveland Guardians,Edward Cabrera,Tanner Bibee,2025-08-14 18:40:00-04:00,0.45978838,0.5300000000000001,YRFI
+2025-08-14,Philadelphia Phillies,Washington Nationals,Jesús Luzardo,Brad Lord,2025-08-14 18:45:00-04:00,0.43398997,0.5300000000000001,YRFI
