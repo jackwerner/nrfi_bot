@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-15,Philadelphia Phillies,Washington Nationals,Zack Wheeler,MacKenzie Gore,2025-08-15 18:45:00-04:00,0.5790285,0.5300000000000001,NRFI
+2025-08-15,Arizona Diamondbacks,Colorado Rockies,Brandon Pfaadt,Tanner Gordon,2025-08-15 20:40:00-04:00,0.5557515,0.5300000000000001,NRFI
+2025-08-15,Los Angeles Angels,Athletics,Yusei Kikuchi,Jack Perkins,2025-08-15 22:05:00-04:00,0.55349296,0.5300000000000001,NRFI
+2025-08-15,Tampa Bay Rays,San Francisco Giants,Joe Boyle,Landen Roupp,2025-08-15 22:15:00-04:00,0.55154973,0.5300000000000001,NRFI
+2025-08-15,Atlanta Braves,Cleveland Guardians,Hurston Waldrep,Joey Cantillo,2025-08-15 19:10:00-04:00,0.5319363,0.5300000000000001,NRFI
+2025-08-15,Texas Rangers,Toronto Blue Jays,Jacob deGrom,Chris Bassitt,2025-08-15 19:07:00-04:00,0.51760507,0.5300000000000001,YRFI
+2025-08-15,Miami Marlins,Boston Red Sox,Sandy Alcantara,Lucas Giolito,2025-08-15 19:10:00-04:00,0.5097682,0.5300000000000001,YRFI
+2025-08-15,Chicago White Sox,Kansas City Royals,Aaron Civale,Noah Cameron,2025-08-15 20:10:00-04:00,0.5057955,0.5300000000000001,YRFI
+2025-08-15,Baltimore Orioles,Houston Astros,Brandon Young,Framber Valdez,2025-08-15 20:10:00-04:00,0.38745004,0.5300000000000001,YRFI
