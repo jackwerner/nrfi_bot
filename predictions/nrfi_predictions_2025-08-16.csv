@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-16,Tampa Bay Rays,San Francisco Giants,Adrian Houser,Justin Verlander,2025-08-16 21:05:00-04:00,0.6075647,0.5300000000000001,NRFI
+2025-08-16,San Diego Padres,Los Angeles Dodgers,Dylan Cease,Blake Snell,2025-08-16 21:10:00-04:00,0.58270735,0.5300000000000001,NRFI
+2025-08-16,Detroit Tigers,Minnesota Twins,Casey Mize,Zebby Matthews,2025-08-16 19:15:00-04:00,0.5678308,0.5300000000000001,NRFI
+2025-08-16,Los Angeles Angels,Athletics,Tyler Anderson,Luis Morales,2025-08-16 22:05:00-04:00,0.5355084,0.5300000000000001,NRFI
+2025-08-16,Pittsburgh Pirates,Chicago Cubs,Mike Burrows,Shota Imanaga,2025-08-16 14:20:00-04:00,0.48580384,0.5300000000000001,YRFI
+2025-08-16,Chicago White Sox,Kansas City Royals,Sean Burke,Michael Lorenzen,2025-08-16 19:10:00-04:00,0.46730983,0.5300000000000001,YRFI
+2025-08-16,Arizona Diamondbacks,Colorado Rockies,Ryne Nelson,Chase Dollander,2025-08-16 20:10:00-04:00,0.3610073,0.5300000000000001,YRFI
+2025-08-16,Milwaukee Brewers,Cincinnati Reds,Quinn Priester,Zack Littell,2025-08-16 18:40:00-04:00,0.34250847,0.5300000000000001,YRFI
+2025-08-16,New York Yankees,St. Louis Cardinals,Max Fried,Sonny Gray,2025-08-16 19:15:00-04:00,0.31217238,0.5300000000000001,YRFI
+2025-08-16,Atlanta Braves,Cleveland Guardians,Joey Wentz,Slade Cecconi,2025-08-16 19:10:00-04:00,0.25144693,0.5300000000000001,YRFI
