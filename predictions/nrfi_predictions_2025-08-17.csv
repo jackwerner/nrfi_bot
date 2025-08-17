@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-17,Miami Marlins,Boston Red Sox,Janson Junk,Garrett Crochet,2025-08-17 13:35:00-04:00,0.6403151,0.5300000000000001,NRFI
+2025-08-17,Seattle Mariners,New York Mets,George Kirby,Clay Holmes,2025-08-17 19:10:00-04:00,0.6284393,0.5300000000000001,NRFI
+2025-08-17,Texas Rangers,Toronto Blue Jays,Nathan Eovaldi,José Berríos,2025-08-17 13:37:00-04:00,0.6028963,0.5300000000000001,NRFI
+2025-08-17,Tampa Bay Rays,San Francisco Giants,Ryan Pepiot,Logan Webb,2025-08-17 16:05:00-04:00,0.60031253,0.5300000000000001,NRFI
+2025-08-17,San Diego Padres,Los Angeles Dodgers,Yu Darvish,Tyler Glasnow,2025-08-17 16:10:00-04:00,0.5829763,0.5300000000000001,NRFI
+2025-08-17,Philadelphia Phillies,Washington Nationals,Aaron Nola,Mitchell Parker,2025-08-17 11:35:00-04:00,0.52769303,0.5300000000000001,YRFI
+2025-08-17,Atlanta Braves,Cleveland Guardians,Erick Fedde,Logan Allen,2025-08-17 13:40:00-04:00,0.4787183,0.5300000000000001,YRFI
+2025-08-17,New York Yankees,St. Louis Cardinals,Will Warren,Miles Mikolas,2025-08-17 14:15:00-04:00,0.4337673,0.5300000000000001,YRFI
+2025-08-17,Los Angeles Angels,Athletics,José Soriano,Jeffrey Springs,2025-08-17 16:05:00-04:00,0.31080067,0.5300000000000001,YRFI
