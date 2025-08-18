@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-18,Houston Astros,Detroit Tigers,Spencer Arrighetti,Jack Flaherty,2025-08-18 18:40:00-04:00,0.6318005,0.5300000000000001,NRFI
+2025-08-18,Chicago White Sox,Atlanta Braves,Yoendrys Gómez,Spencer Strider,2025-08-18 19:15:00-04:00,0.5802715,0.5300000000000001,NRFI
+2025-08-18,San Francisco Giants,San Diego Padres,Robbie Ray,Nestor Cortes,2025-08-18 21:40:00-04:00,0.5528901,0.5300000000000001,NRFI
+2025-08-18,Texas Rangers,Kansas City Royals,Jack Leiter,Michael Wacha,2025-08-18 19:40:00-04:00,0.54421514,0.5300000000000001,NRFI
+2025-08-18,Los Angeles Dodgers,Colorado Rockies,Yoshinobu Yamamoto,Kyle Freeland,2025-08-18 20:40:00-04:00,0.5087488,0.5300000000000001,YRFI
+2025-08-18,Toronto Blue Jays,Pittsburgh Pirates,Kevin Gausman,Paul Skenes,2025-08-18 18:40:00-04:00,0.468219,0.5300000000000001,YRFI
+2025-08-18,Milwaukee Brewers,Chicago Cubs,Freddy Peralta,Cade Horton,2025-08-18 14:20:00-04:00,0.461613,0.5300000000000001,YRFI
+2025-08-18,Cincinnati Reds,Los Angeles Angels,Brady Singer,Victor Mederos,2025-08-18 21:38:00-04:00,0.27828372,0.5300000000000001,YRFI
