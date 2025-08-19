@@ -1,0 +1,14 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-19,Athletics,Minnesota Twins,Jacob Lopez,Joe Ryan,2025-08-19 19:40:00-04:00,0.7496542,0.5300000000000001,NRFI
+2025-08-19,Milwaukee Brewers,Chicago Cubs,Brandon Woodruff,Jameson Taillon,2025-08-19 20:05:00-04:00,0.72706485,0.5300000000000001,NRFI
+2025-08-19,New York Mets,Washington Nationals,David Peterson,Jake Irvin,2025-08-19 18:45:00-04:00,0.6346619,0.5300000000000001,NRFI
+2025-08-19,Chicago White Sox,Atlanta Braves,Shane Smith,Bryce Elder,2025-08-19 19:15:00-04:00,0.6205666,0.5300000000000001,NRFI
+2025-08-19,Baltimore Orioles,Boston Red Sox,Tomoyuki Sugano,Walker Buehler,2025-08-19 19:10:00-04:00,0.61556226,0.5300000000000001,NRFI
+2025-08-19,Seattle Mariners,Philadelphia Phillies,Bryce Miller,Cristopher Sánchez,2025-08-19 18:45:00-04:00,0.6148068,0.5300000000000001,NRFI
+2025-08-19,Houston Astros,Detroit Tigers,Hunter Brown,Tarik Skubal,2025-08-19 18:40:00-04:00,0.5794718,0.5300000000000001,NRFI
+2025-08-19,Toronto Blue Jays,Pittsburgh Pirates,Max Scherzer,Mitch Keller,2025-08-19 18:40:00-04:00,0.57901907,0.5300000000000001,NRFI
+2025-08-19,Texas Rangers,Kansas City Royals,Merrill Kelly,Seth Lugo,2025-08-19 19:40:00-04:00,0.5549934,0.5300000000000001,NRFI
+2025-08-19,Cleveland Guardians,Arizona Diamondbacks,Tanner Bibee,Eduardo Rodriguez,2025-08-19 21:40:00-04:00,0.5405314,0.5300000000000001,NRFI
+2025-08-19,Cincinnati Reds,Los Angeles Angels,Hunter Greene,Kyle Hendricks,2025-08-19 21:38:00-04:00,0.51682925,0.5300000000000001,YRFI
+2025-08-19,Milwaukee Brewers,Chicago Cubs,Chad Patrick,Matthew Boyd,2025-08-19 14:20:00-04:00,0.36266744,0.5300000000000001,YRFI
+2025-08-19,New York Yankees,Tampa Bay Rays,Carlos Rodón,Shane Baz,2025-08-19 19:35:00-04:00,0.35921872,0.5300000000000001,YRFI
