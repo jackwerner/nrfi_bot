@@ -1,0 +1,5 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-21,San Francisco Giants,San Diego Padres,Justin Verlander,Dylan Cease,2025-08-21 16:10:00-04:00,0.56950307,0.5300000000000001,NRFI
+2025-08-21,Athletics,Minnesota Twins,Jack Perkins,José Ureña,2025-08-21 13:10:00-04:00,0.4981295,0.5300000000000001,YRFI
+2025-08-21,Milwaukee Brewers,Chicago Cubs,Quinn Priester,Shota Imanaga,2025-08-21 14:20:00-04:00,0.44216847,0.5300000000000001,YRFI
+2025-08-21,St. Louis Cardinals,Tampa Bay Rays,Sonny Gray,Joe Boyle,2025-08-21 19:35:00-04:00,0.42908612,0.5300000000000001,YRFI
