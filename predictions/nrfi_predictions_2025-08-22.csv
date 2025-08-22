@@ -1,0 +1,6 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-22,St. Louis Cardinals,Tampa Bay Rays,Miles Mikolas,Adrian Houser,2025-08-22 19:35:00-04:00,0.6630385,0.5300000000000001,NRFI
+2025-08-22,Minnesota Twins,Chicago White Sox,Zebby Matthews,Aaron Civale,2025-08-22 19:40:00-04:00,0.6595861,0.5300000000000001,NRFI
+2025-08-22,Cleveland Guardians,Texas Rangers,Slade Cecconi,Nathan Eovaldi,2025-08-22 20:05:00-04:00,0.4471039,0.5300000000000001,YRFI
+2025-08-22,Los Angeles Dodgers,San Diego Padres,Blake Snell,Yu Darvish,2025-08-22 21:40:00-04:00,0.43018916,0.5300000000000001,YRFI
+2025-08-22,Cincinnati Reds,Arizona Diamondbacks,Zack Littell,Ryne Nelson,2025-08-22 21:40:00-04:00,0.3010011,0.5300000000000001,YRFI
