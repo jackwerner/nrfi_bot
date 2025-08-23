@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-23,New York Mets,Atlanta Braves,Clay Holmes,Cal Quantrill,2025-08-23 19:15:00-04:00,0.7835989,0.5300000000000001,NRFI
+2025-08-23,Boston Red Sox,New York Yankees,Garrett Crochet,Will Warren,2025-08-23 13:05:00-04:00,0.7451532,0.5300000000000001,NRFI
+2025-08-23,San Francisco Giants,Milwaukee Brewers,Logan Webb,Freddy Peralta,2025-08-23 19:10:00-04:00,0.6742508,0.5300000000000001,NRFI
+2025-08-23,Cincinnati Reds,Arizona Diamondbacks,Andrew Abbott,Nabil Crismatt,2025-08-23 20:10:00-04:00,0.600757,0.5300000000000001,NRFI
+2025-08-23,Washington Nationals,Philadelphia Phillies,Mitchell Parker,Aaron Nola,2025-08-23 18:05:00-04:00,0.5786674,0.5300000000000001,NRFI
+2025-08-23,Toronto Blue Jays,Miami Marlins,José Berríos,Janson Junk,2025-08-23 16:10:00-04:00,0.57092005,0.5300000000000001,NRFI
+2025-08-23,Cleveland Guardians,Texas Rangers,Logan Allen,Jack Leiter,2025-08-23 19:05:00-04:00,0.5652269,0.5300000000000001,NRFI
+2025-08-23,Colorado Rockies,Pittsburgh Pirates,Kyle Freeland,Mike Burrows,2025-08-23 18:40:00-04:00,0.55228156,0.5300000000000001,NRFI
+2025-08-23,Kansas City Royals,Detroit Tigers,Michael Wacha,Chris Paddack,2025-08-23 18:10:00-04:00,0.5253114,0.5300000000000001,YRFI
+2025-08-23,Athletics,Seattle Mariners,Jeffrey Springs,George Kirby,2025-08-23 21:40:00-04:00,0.48670167,0.5300000000000001,YRFI
+2025-08-23,Los Angeles Dodgers,San Diego Padres,Tyler Glasnow,Nestor Cortes,2025-08-23 20:40:00-04:00,0.3150455,0.5300000000000001,YRFI
+2025-08-23,Chicago Cubs,Los Angeles Angels,Cade Horton,Victor Mederos,2025-08-23 21:38:00-04:00,0.23765033,0.5300000000000001,YRFI
