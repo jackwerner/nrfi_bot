@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-25,Philadelphia Phillies,New York Mets,Cristopher Sánchez,Kodai Senga,2025-08-25 19:10:00-04:00,0.7324876,0.5300000000000001,NRFI
+2025-08-25,Arizona Diamondbacks,Milwaukee Brewers,Eduardo Rodriguez,Brandon Woodruff,2025-08-25 19:40:00-04:00,0.64447683,0.5300000000000001,NRFI
+2025-08-25,Tampa Bay Rays,Cleveland Guardians,Ian Seymour,Tanner Bibee,2025-08-25 18:40:00-04:00,0.61986,0.5300000000000001,NRFI
+2025-08-25,Boston Red Sox,Baltimore Orioles,Brennan Bernardino,Tomoyuki Sugano,2025-08-25 18:35:00-04:00,0.6161256,0.5300000000000001,NRFI
+2025-08-25,Kansas City Royals,Chicago White Sox,Noah Cameron,Shane Smith,2025-08-25 19:40:00-04:00,0.593666,0.5300000000000001,NRFI
+2025-08-25,San Diego Padres,Seattle Mariners,JP Sears,Bryce Miller,2025-08-25 21:40:00-04:00,0.5561673,0.5300000000000001,NRFI
+2025-08-25,Washington Nationals,New York Yankees,Brad Lord,Cam Schlittler,2025-08-25 19:05:00-04:00,0.5520227,0.5300000000000001,NRFI
+2025-08-25,Minnesota Twins,Toronto Blue Jays,Joe Ryan,Max Scherzer,2025-08-25 19:07:00-04:00,0.5270459,0.5300000000000001,YRFI
+2025-08-25,Los Angeles Angels,Texas Rangers,José Soriano,Jacob deGrom,2025-08-25 20:05:00-04:00,0.5264752,0.5300000000000001,YRFI
+2025-08-25,Detroit Tigers,Athletics,Tarik Skubal,J.T. Ginn,2025-08-25 22:05:00-04:00,0.40684924,0.5300000000000001,YRFI
+2025-08-25,Atlanta Braves,Miami Marlins,Spencer Strider,Edward Cabrera,2025-08-25 18:40:00-04:00,0.27027813,0.5300000000000001,YRFI
