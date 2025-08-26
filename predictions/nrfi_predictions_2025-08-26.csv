@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-26,Colorado Rockies,Houston Astros,Tanner Gordon,Hunter Brown,2025-08-26 20:10:00-04:00,0.5920414,0.5300000000000001,NRFI
+2025-08-26,Atlanta Braves,Miami Marlins,Hurston Waldrep,Sandy Alcantara,2025-08-26 18:40:00-04:00,0.57628584,0.5300000000000001,NRFI
+2025-08-26,Minnesota Twins,Toronto Blue Jays,Bailey Ober,Chris Bassitt,2025-08-26 19:07:00-04:00,0.54807603,0.5300000000000001,NRFI
+2025-08-26,Arizona Diamondbacks,Milwaukee Brewers,Brandon Pfaadt,Jacob Misiorowski,2025-08-26 19:40:00-04:00,0.5413945,0.5300000000000001,NRFI
+2025-08-26,Kansas City Royals,Chicago White Sox,Michael Lorenzen,Martín Pérez,2025-08-26 19:40:00-04:00,0.5327874,0.5300000000000001,NRFI
+2025-08-26,Detroit Tigers,Athletics,Charlie Morton,Osvaldo Bido,2025-08-26 22:05:00-04:00,0.4819869,0.5300000000000001,YRFI
+2025-08-26,Chicago Cubs,San Francisco Giants,Matthew Boyd,Justin Verlander,2025-08-26 21:45:00-04:00,0.43401018,0.5300000000000001,YRFI
+2025-08-26,San Diego Padres,Seattle Mariners,Dylan Cease,Luis Castillo,2025-08-26 21:40:00-04:00,0.40007913,0.5300000000000001,YRFI
+2025-08-26,Pittsburgh Pirates,St. Louis Cardinals,Mitch Keller,Andre Pallante,2025-08-26 19:45:00-04:00,0.36015484,0.5300000000000001,YRFI
