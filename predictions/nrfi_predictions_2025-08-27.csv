@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-27,Atlanta Braves,Miami Marlins,Joey Wentz,Ryan Gusto,2025-08-27 13:10:00-04:00,0.6515464,0.5300000000000001,NRFI
+2025-08-27,Detroit Tigers,Athletics,Casey Mize,Luis Morales,2025-08-27 22:05:00-04:00,0.5858349,0.5300000000000001,NRFI
+2025-08-27,San Diego Padres,Seattle Mariners,Yu Darvish,Bryan Woo,2025-08-27 16:10:00-04:00,0.5207532,0.5300000000000001,YRFI
+2025-08-27,Minnesota Twins,Toronto Blue Jays,Simeon Woods Richardson,Eric Lauer,2025-08-27 19:07:00-04:00,0.49495083,0.5300000000000001,YRFI
+2025-08-27,Colorado Rockies,Houston Astros,Chase Dollander,Framber Valdez,2025-08-27 20:10:00-04:00,0.42152548,0.5300000000000001,YRFI
+2025-08-27,Arizona Diamondbacks,Milwaukee Brewers,Ryne Nelson,Quinn Priester,2025-08-27 19:40:00-04:00,0.39616475,0.5300000000000001,YRFI
+2025-08-27,Tampa Bay Rays,Cleveland Guardians,Drew Rasmussen,Slade Cecconi,2025-08-27 13:10:00-04:00,0.3352214,0.5300000000000001,YRFI
+2025-08-27,Pittsburgh Pirates,St. Louis Cardinals,Carmen Mlodzinski,Sonny Gray,2025-08-27 19:45:00-04:00,0.32088432,0.5300000000000001,YRFI
