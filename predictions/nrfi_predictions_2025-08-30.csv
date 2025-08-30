@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-30,Detroit Tigers,Kansas City Royals,Jack Flaherty,Stephen Kolek,2025-08-30 19:15:00-04:00,0.62422365,0.5300000000000001,NRFI
+2025-08-30,Arizona Diamondbacks,Los Angeles Dodgers,Eduardo Rodriguez,Tyler Glasnow,2025-08-30 21:10:00-04:00,0.6231464,0.5300000000000001,NRFI
+2025-08-30,New York Yankees,Chicago White Sox,Cam Schlittler,Shane Smith,2025-08-30 19:10:00-04:00,0.5587082,0.5300000000000001,NRFI
+2025-08-30,Miami Marlins,New York Mets,Edward Cabrera,David Peterson,2025-08-30 16:10:00-04:00,0.5564806,0.5300000000000001,NRFI
+2025-08-30,Tampa Bay Rays,Washington Nationals,Ryan Pepiot,Jake Irvin,2025-08-30 16:05:00-04:00,0.54847765,0.5300000000000001,NRFI
+2025-08-30,Seattle Mariners,Cleveland Guardians,Logan Gilbert,Gavin Williams,2025-08-30 19:15:00-04:00,0.5145973,0.5300000000000001,YRFI
+2025-08-30,Milwaukee Brewers,Toronto Blue Jays,Quinn Priester,Kevin Gausman,2025-08-30 15:07:00-04:00,0.4232241,0.5300000000000001,YRFI
+2025-08-30,Los Angeles Angels,Houston Astros,Kyle Hendricks,Spencer Arrighetti,2025-08-30 19:10:00-04:00,0.39712042,0.5300000000000001,YRFI
+2025-08-30,San Diego Padres,Minnesota Twins,Nick Pivetta,Taj Bradley,2025-08-30 19:10:00-04:00,0.3776674,0.5300000000000001,YRFI
+2025-08-30,Texas Rangers,Athletics,Merrill Kelly,Mason Barnett,2025-08-30 22:05:00-04:00,0.36530155,0.5300000000000001,YRFI
