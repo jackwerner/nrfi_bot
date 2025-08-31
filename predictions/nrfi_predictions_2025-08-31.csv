@@ -1,0 +1,15 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-08-31,San Diego Padres,Minnesota Twins,David Morgan,Joe Ryan,2025-08-31 13:05:00-04:00,0.779792,0.5300000000000001,NRFI
+2025-08-31,Miami Marlins,New York Mets,Sandy Alcantara,Kodai Senga,2025-08-31 13:40:00-04:00,0.7488786,0.5300000000000001,NRFI
+2025-08-31,Atlanta Braves,Philadelphia Phillies,Hurston Waldrep,Jesús Luzardo,2025-08-31 19:10:00-04:00,0.71142507,0.5300000000000001,NRFI
+2025-08-31,Baltimore Orioles,San Francisco Giants,Tomoyuki Sugano,Justin Verlander,2025-08-31 16:05:00-04:00,0.63757074,0.5300000000000001,NRFI
+2025-08-31,Tampa Bay Rays,Washington Nationals,Ian Seymour,Brad Lord,2025-08-31 13:35:00-04:00,0.6238733,0.5300000000000001,NRFI
+2025-08-31,Detroit Tigers,Kansas City Royals,Tarik Skubal,Michael Wacha,2025-08-31 14:10:00-04:00,0.62195396,0.5300000000000001,NRFI
+2025-08-31,Milwaukee Brewers,Toronto Blue Jays,Brandon Woodruff,Max Scherzer,2025-08-31 13:37:00-04:00,0.58114743,0.5300000000000001,NRFI
+2025-08-31,Seattle Mariners,Cleveland Guardians,Bryce Miller,Tanner Bibee,2025-08-31 13:40:00-04:00,0.5590089,0.5300000000000001,NRFI
+2025-08-31,Arizona Diamondbacks,Los Angeles Dodgers,Brandon Pfaadt,Yoshinobu Yamamoto,2025-08-31 16:10:00-04:00,0.48933515,0.5300000000000001,YRFI
+2025-08-31,St. Louis Cardinals,Cincinnati Reds,Andre Pallante,Brady Singer,2025-08-31 12:10:00-04:00,0.47426125,0.5300000000000001,YRFI
+2025-08-31,Chicago Cubs,Colorado Rockies,Matthew Boyd,Tanner Gordon,2025-08-31 15:10:00-04:00,0.47349384,0.5300000000000001,YRFI
+2025-08-31,Los Angeles Angels,Houston Astros,José Soriano,Hunter Brown,2025-08-31 14:10:00-04:00,0.35373634,0.5300000000000001,YRFI
+2025-08-31,Texas Rangers,Athletics,Jacob deGrom,J.T. Ginn,2025-08-31 16:05:00-04:00,0.34343204,0.5300000000000001,YRFI
+2025-08-31,Pittsburgh Pirates,Boston Red Sox,Mitch Keller,Lucas Giolito,2025-08-31 13:35:00-04:00,0.30234843,0.5300000000000001,YRFI
