@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-01,Toronto Blue Jays,Cincinnati Reds,Chris Bassitt,Hunter Greene,2025-09-01 13:10:00-04:00,0.75553465,0.5300000000000001,NRFI
+2025-09-01,Athletics,St. Louis Cardinals,Luis Morales,Sonny Gray,2025-09-01 14:15:00-04:00,0.46670827,0.5300000000000001,YRFI
+2025-09-01,Chicago White Sox,Minnesota Twins,Aaron Civale,Bailey Ober,2025-09-01 14:10:00-04:00,0.45040396,0.5300000000000001,YRFI
+2025-09-01,Philadelphia Phillies,Milwaukee Brewers,Taijuan Walker,Jacob Misiorowski,2025-09-01 16:10:00-04:00,0.4279411,0.5300000000000001,YRFI
+2025-09-01,Seattle Mariners,Tampa Bay Rays,Luis Castillo,Shane Baz,2025-09-01 19:35:00-04:00,0.36448136,0.5300000000000001,YRFI
+2025-09-01,Atlanta Braves,Chicago Cubs,Spencer Strider,Colin Rea,2025-09-01 16:05:00-04:00,0.3633547,0.5300000000000001,YRFI
