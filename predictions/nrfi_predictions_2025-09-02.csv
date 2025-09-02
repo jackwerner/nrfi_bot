@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-02,Chicago White Sox,Minnesota Twins,Davis Martin,Simeon Woods Richardson,2025-09-02 19:40:00-04:00,0.7522784,0.5300000000000001,NRFI
+2025-09-02,San Francisco Giants,Colorado Rockies,Logan Webb,Kyle Freeland,2025-09-02 20:40:00-04:00,0.7404399,0.5300000000000001,NRFI
+2025-09-02,New York Yankees,Houston Astros,Max Fried,Framber Valdez,2025-09-02 20:10:00-04:00,0.5975628,0.5300000000000001,NRFI
+2025-09-02,Seattle Mariners,Tampa Bay Rays,Bryan Woo,Drew Rasmussen,2025-09-02 19:35:00-04:00,0.5842465,0.5300000000000001,NRFI
+2025-09-02,Toronto Blue Jays,Cincinnati Reds,José Berríos,Nick Lodolo,2025-09-02 18:40:00-04:00,0.57547843,0.5300000000000001,NRFI
+2025-09-02,Cleveland Guardians,Boston Red Sox,Slade Cecconi,Garrett Crochet,2025-09-02 18:45:00-04:00,0.5318929,0.5300000000000001,NRFI
+2025-09-02,Athletics,St. Louis Cardinals,Luis Severino,Miles Mikolas,2025-09-02 19:45:00-04:00,0.5183737,0.5300000000000001,YRFI
+2025-09-02,Atlanta Braves,Chicago Cubs,Joey Wentz,Shota Imanaga,2025-09-02 19:40:00-04:00,0.50612026,0.5300000000000001,YRFI
