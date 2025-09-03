@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-03,Texas Rangers,Arizona Diamondbacks,Jack Leiter,Zac Gallen,2025-09-03 15:40:00-04:00,0.6639339,0.5300000000000001,NRFI
+2025-09-03,Seattle Mariners,Tampa Bay Rays,George Kirby,Adrian Houser,2025-09-03 19:35:00-04:00,0.62544507,0.5300000000000001,NRFI
+2025-09-03,New York Mets,Detroit Tigers,Clay Holmes,Casey Mize,2025-09-03 13:10:00-04:00,0.56069523,0.5300000000000001,NRFI
+2025-09-03,Chicago White Sox,Minnesota Twins,Yoendrys Gómez,Zebby Matthews,2025-09-03 19:40:00-04:00,0.5468759,0.5300000000000001,NRFI
+2025-09-03,Athletics,St. Louis Cardinals,Jeffrey Springs,Matthew Liberatore,2025-09-03 19:45:00-04:00,0.5422105,0.5300000000000001,NRFI
+2025-09-03,Atlanta Braves,Chicago Cubs,Bryce Elder,Cade Horton,2025-09-03 19:40:00-04:00,0.5326212,0.5300000000000001,NRFI
+2025-09-03,Cleveland Guardians,Boston Red Sox,Joey Cantillo,Brennan Bernardino,2025-09-03 18:45:00-04:00,0.5222466,0.5300000000000001,YRFI
+2025-09-03,Baltimore Orioles,San Diego Padres,Cade Povich,Nestor Cortes,2025-09-03 16:10:00-04:00,0.4291496,0.5300000000000001,YRFI
+2025-09-03,San Francisco Giants,Colorado Rockies,Robbie Ray,Germán Márquez,2025-09-03 20:40:00-04:00,0.3790576,0.5300000000000001,YRFI
