@@ -1,0 +1,5 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-04,Cleveland Guardians,Tampa Bay Rays,Logan Allen,Ryan Pepiot,2025-09-04 19:35:00-04:00,0.7485072,0.5300000000000001,NRFI
+2025-09-04,Los Angeles Angels,Kansas City Royals,Kyle Hendricks,Noah Cameron,2025-09-04 19:40:00-04:00,0.56696075,0.5300000000000001,NRFI
+2025-09-04,Los Angeles Dodgers,Pittsburgh Pirates,Blake Snell,Paul Skenes,2025-09-04 18:40:00-04:00,0.4476725,0.5300000000000001,YRFI
+2025-09-04,Chicago White Sox,Minnesota Twins,Fraser Ellard,Taj Bradley,2025-09-04 19:40:00-04:00,0.3317998,0.5300000000000001,YRFI
