@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-05,Cleveland Guardians,Tampa Bay Rays,Gavin Williams,Griffin Jax,2025-09-05 19:35:00-04:00,0.63732964,0.5300000000000001,NRFI
+2025-09-05,Chicago White Sox,Detroit Tigers,Shane Smith,Jack Flaherty,2025-09-05 18:40:00-04:00,0.618822,0.5300000000000001,NRFI
+2025-09-05,New York Mets,Cincinnati Reds,David Peterson,Andrew Abbott,2025-09-05 18:40:00-04:00,0.5507908,0.5300000000000001,NRFI
+2025-09-05,Athletics,Los Angeles Angels,Mason Barnett,José Soriano,2025-09-05 21:38:00-04:00,0.4915665,0.5300000000000001,YRFI
+2025-09-05,Seattle Mariners,Atlanta Braves,Logan Gilbert,Chris Sale,2025-09-05 19:15:00-04:00,0.4792597,0.5300000000000001,YRFI
+2025-09-05,Toronto Blue Jays,New York Yankees,Kevin Gausman,Cam Schlittler,2025-09-05 19:05:00-04:00,0.45441687,0.5300000000000001,YRFI
+2025-09-05,Philadelphia Phillies,Miami Marlins,Cristopher Sánchez,Valente Bellozo,2025-09-05 19:10:00-04:00,0.43392578,0.5300000000000001,YRFI
+2025-09-05,Los Angeles Dodgers,Baltimore Orioles,Tyler Glasnow,Dean Kremer,2025-09-05 19:05:00-04:00,0.28677627,0.5300000000000001,YRFI
