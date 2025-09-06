@@ -1,0 +1,12 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-06,Seattle Mariners,Atlanta Braves,Bryce Miller,Hurston Waldrep,2025-09-06 19:15:00-04:00,0.61498135,0.5300000000000001,NRFI
+2025-09-06,Milwaukee Brewers,Pittsburgh Pirates,Brandon Woodruff,Mitch Keller,2025-09-06 18:40:00-04:00,0.6022459,0.5300000000000001,NRFI
+2025-09-06,Minnesota Twins,Kansas City Royals,Joe Ryan,Stephen Kolek,2025-09-06 19:15:00-04:00,0.589996,0.5300000000000001,NRFI
+2025-09-06,Chicago White Sox,Detroit Tigers,Martín Pérez,Tarik Skubal,2025-09-06 18:10:00-04:00,0.56915003,0.5300000000000001,NRFI
+2025-09-06,Athletics,Los Angeles Angels,J.T. Ginn,Yusei Kikuchi,2025-09-06 21:38:00-04:00,0.53465205,0.5300000000000001,NRFI
+2025-09-06,Houston Astros,Texas Rangers,Hunter Brown,Jacob deGrom,2025-09-06 19:15:00-04:00,0.51735127,0.5300000000000001,YRFI
+2025-09-06,Philadelphia Phillies,Miami Marlins,Jesús Luzardo,Sandy Alcantara,2025-09-06 16:10:00-04:00,0.46802413,0.5300000000000001,YRFI
+2025-09-06,Cleveland Guardians,Tampa Bay Rays,Tanner Bibee,Shane Baz,2025-09-06 19:05:00-04:00,0.39225307,0.5300000000000001,YRFI
+2025-09-06,Washington Nationals,Chicago Cubs,Brad Lord,Matthew Boyd,2025-09-06 14:20:00-04:00,0.37782398,0.5300000000000001,YRFI
+2025-09-06,Boston Red Sox,Arizona Diamondbacks,Lucas Giolito,Brandon Pfaadt,2025-09-06 20:10:00-04:00,0.37254435,0.5300000000000001,YRFI
+2025-09-06,San Francisco Giants,St. Louis Cardinals,Justin Verlander,Andre Pallante,2025-09-06 19:15:00-04:00,0.33158347,0.5300000000000001,YRFI
