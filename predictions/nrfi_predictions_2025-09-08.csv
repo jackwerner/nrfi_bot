@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-08,Arizona Diamondbacks,San Francisco Giants,Nabil Crismatt,Logan Webb,2025-09-08 21:45:00-04:00,0.5801452,0.5300000000000001,NRFI
+2025-09-08,Boston Red Sox,Athletics,Garrett Crochet,Luis Morales,2025-09-08 22:05:00-04:00,0.57485765,0.5300000000000001,NRFI
+2025-09-08,St. Louis Cardinals,Seattle Mariners,Miles Mikolas,Bryan Woo,2025-09-08 21:40:00-04:00,0.5444008,0.5300000000000001,NRFI
+2025-09-08,Cincinnati Reds,San Diego Padres,Nick Lodolo,Yu Darvish,2025-09-08 21:40:00-04:00,0.51664793,0.5300000000000001,YRFI
+2025-09-08,Chicago Cubs,Atlanta Braves,Shota Imanaga,Bryce Elder,2025-09-08 19:15:00-04:00,0.45661125,0.5300000000000001,YRFI
+2025-09-08,Minnesota Twins,Los Angeles Angels,Simeon Woods Richardson,Caden Dana,2025-09-08 21:38:00-04:00,0.40732023,0.5300000000000001,YRFI
