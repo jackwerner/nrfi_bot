@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-09,Detroit Tigers,New York Yankees,Casey Mize,Will Warren,2025-09-09 19:05:00-04:00,0.770077,0.5300000000000001,NRFI
+2025-09-09,Washington Nationals,Miami Marlins,Mitchell Parker,Adam Mazur,2025-09-09 18:40:00-04:00,0.5526936,0.5300000000000001,NRFI
+2025-09-09,Arizona Diamondbacks,San Francisco Giants,Zac Gallen,Robbie Ray,2025-09-09 21:45:00-04:00,0.5261502,0.5300000000000001,YRFI
+2025-09-09,Minnesota Twins,Los Angeles Angels,Zebby Matthews,Kyle Hendricks,2025-09-09 21:38:00-04:00,0.512989,0.5300000000000001,YRFI
+2025-09-09,Cincinnati Reds,San Diego Padres,Zack Littell,Michael King,2025-09-09 21:40:00-04:00,0.49473056,0.5300000000000001,YRFI
+2025-09-09,St. Louis Cardinals,Seattle Mariners,Matthew Liberatore,George Kirby,2025-09-09 21:40:00-04:00,0.48884428,0.5300000000000001,YRFI
+2025-09-09,Chicago Cubs,Atlanta Braves,Cade Horton,Spencer Strider,2025-09-09 19:15:00-04:00,0.48312843,0.5300000000000001,YRFI
+2025-09-09,Boston Red Sox,Athletics,Dustin May,Jeffrey Springs,2025-09-09 22:05:00-04:00,0.33622706,0.5300000000000001,YRFI
+2025-09-09,Kansas City Royals,Cleveland Guardians,Noah Cameron,Joey Cantillo,2025-09-09 18:40:00-04:00,0.32740262,0.5300000000000001,YRFI
