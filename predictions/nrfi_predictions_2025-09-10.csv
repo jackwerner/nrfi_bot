@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-10,Cincinnati Reds,San Diego Padres,Andrew Abbott,Nick Pivetta,2025-09-10 20:40:00-04:00,0.6307857,0.5300000000000001,NRFI
+2025-09-10,Kansas City Royals,Cleveland Guardians,Jonathan Bowlan,Logan Allen,2025-09-10 18:40:00-04:00,0.6104829,0.5300000000000001,NRFI
+2025-09-10,New York Mets,Philadelphia Phillies,Clay Holmes,Cristopher Sánchez,2025-09-10 18:45:00-04:00,0.5794292,0.5300000000000001,NRFI
+2025-09-10,Colorado Rockies,Los Angeles Dodgers,Kyle Freeland,Blake Snell,2025-09-10 22:10:00-04:00,0.5367203,0.5300000000000001,NRFI
+2025-09-10,Detroit Tigers,New York Yankees,Jack Flaherty,Carlos Rodón,2025-09-10 19:05:00-04:00,0.51477814,0.5300000000000001,YRFI
+2025-09-10,Minnesota Twins,Los Angeles Angels,Taj Bradley,José Soriano,2025-09-10 16:07:00-04:00,0.5012747,0.5300000000000001,YRFI
+2025-09-10,Milwaukee Brewers,Texas Rangers,Freddy Peralta,Merrill Kelly,2025-09-10 14:35:00-04:00,0.44323438,0.5300000000000001,YRFI
