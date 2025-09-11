@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-11,New York Mets,Philadelphia Phillies,David Peterson,Jesús Luzardo,2025-09-11 19:15:00-04:00,0.75455296,0.5300000000000001,NRFI
+2025-09-11,Tampa Bay Rays,Chicago White Sox,Ian Seymour,Shane Smith,2025-09-11 14:10:00-04:00,0.6233678,0.5300000000000001,NRFI
+2025-09-11,Kansas City Royals,Cleveland Guardians,Stephen Kolek,Gavin Williams,2025-09-11 19:15:00-04:00,0.61005825,0.5300000000000001,NRFI
+2025-09-11,Washington Nationals,Miami Marlins,MacKenzie Gore,Ryan Weathers,2025-09-11 18:40:00-04:00,0.5769357,0.5300000000000001,NRFI
+2025-09-11,Los Angeles Angels,Seattle Mariners,José Soriano,Bryce Miller,2025-09-11 21:40:00-04:00,0.5079074,0.5300000000000001,YRFI
+2025-09-11,Detroit Tigers,New York Yankees,Tyler Holton,Cam Schlittler,2025-09-11 19:05:00-04:00,0.44982654,0.5300000000000001,YRFI
