@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-12,Kansas City Royals,Philadelphia Phillies,Michael Lorenzen,Walker Buehler,2025-09-12 18:45:00-04:00,0.6142439,0.5300000000000001,NRFI
+2025-09-12,Pittsburgh Pirates,Washington Nationals,Mitch Keller,Brad Lord,2025-09-12 18:45:00-04:00,0.6100305,0.5300000000000001,NRFI
+2025-09-12,Detroit Tigers,Miami Marlins,Tarik Skubal,Sandy Alcantara,2025-09-12 19:10:00-04:00,0.58612263,0.5300000000000001,NRFI
+2025-09-12,Chicago White Sox,Cleveland Guardians,Martín Pérez,Tanner Bibee,2025-09-12 19:10:00-04:00,0.53430825,0.5300000000000001,NRFI
+2025-09-12,Los Angeles Dodgers,San Francisco Giants,Yoshinobu Yamamoto,Justin Verlander,2025-09-12 22:15:00-04:00,0.4933732,0.5300000000000001,YRFI
+2025-09-12,St. Louis Cardinals,Milwaukee Brewers,Andre Pallante,Quinn Priester,2025-09-12 20:10:00-04:00,0.46630216,0.5300000000000001,YRFI
+2025-09-12,Los Angeles Angels,Seattle Mariners,Yusei Kikuchi,Luis Castillo,2025-09-12 22:10:00-04:00,0.40028173,0.5300000000000001,YRFI
+2025-09-12,Arizona Diamondbacks,Minnesota Twins,Brandon Pfaadt,Pablo López,2025-09-12 20:10:00-04:00,0.3883879,0.5300000000000001,YRFI
+2025-09-12,Tampa Bay Rays,Chicago Cubs,Shane Baz,Matthew Boyd,2025-09-12 14:20:00-04:00,0.3411073,0.5300000000000001,YRFI
