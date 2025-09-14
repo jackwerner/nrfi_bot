@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-14,Tampa Bay Rays,Chicago Cubs,Adrian Houser,Shota Imanaga,2025-09-14 14:20:00-04:00,0.6091401,0.5300000000000001,NRFI
+2025-09-14,Arizona Diamondbacks,Minnesota Twins,Nabil Crismatt,Bailey Ober,2025-09-14 14:10:00-04:00,0.5976396,0.5300000000000001,NRFI
+2025-09-14,Houston Astros,Atlanta Braves,Framber Valdez,Joey Wentz,2025-09-14 13:35:00-04:00,0.57919973,0.5300000000000001,NRFI
+2025-09-14,Kansas City Royals,Philadelphia Phillies,Noah Cameron,Aaron Nola,2025-09-14 13:35:00-04:00,0.5594175,0.5300000000000001,NRFI
+2025-09-14,Cincinnati Reds,Athletics,Nick Lodolo,Luis Morales,2025-09-14 16:05:00-04:00,0.5463941,0.5300000000000001,NRFI
+2025-09-14,New York Yankees,Boston Red Sox,Will Warren,Garrett Crochet,2025-09-14 19:10:00-04:00,0.5233244,0.5300000000000001,YRFI
+2025-09-14,Colorado Rockies,San Diego Padres,Germán Márquez,Yu Darvish,2025-09-14 16:10:00-04:00,0.49093774,0.5300000000000001,YRFI
+2025-09-14,Los Angeles Dodgers,San Francisco Giants,Tyler Glasnow,Robbie Ray,2025-09-14 16:05:00-04:00,0.48233533,0.5300000000000001,YRFI
+2025-09-14,Chicago White Sox,Cleveland Guardians,Yoendrys Gómez,Slade Cecconi,2025-09-14 13:40:00-04:00,0.4523414,0.5300000000000001,YRFI
+2025-09-14,Los Angeles Angels,Seattle Mariners,Kyle Hendricks,George Kirby,2025-09-14 16:10:00-04:00,0.40848187,0.5300000000000001,YRFI
