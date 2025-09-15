@@ -1,0 +1,4 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-15,Cincinnati Reds,St. Louis Cardinals,Zack Littell,Matthew Liberatore,2025-09-15 19:45:00-04:00,0.56652015,0.5300000000000001,NRFI
+2025-09-15,Atlanta Braves,Washington Nationals,Spencer Strider,Mitchell Parker,2025-09-15 18:45:00-04:00,0.50788176,0.5300000000000001,YRFI
+2025-09-15,New York Yankees,Minnesota Twins,Carlos Rodón,Simeon Woods Richardson,2025-09-15 19:40:00-04:00,0.47190967,0.5300000000000001,YRFI
