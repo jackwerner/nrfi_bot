@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-16,San Diego Padres,New York Mets,Michael King,Clay Holmes,2025-09-16 19:10:00-04:00,0.63865787,0.5300000000000001,NRFI
+2025-09-16,Cleveland Guardians,Detroit Tigers,Joey Cantillo,Casey Mize,2025-09-16 18:40:00-04:00,0.60878336,0.5300000000000001,NRFI
+2025-09-16,Toronto Blue Jays,Tampa Bay Rays,José Berríos,Ryan Pepiot,2025-09-16 19:35:00-04:00,0.58448416,0.5300000000000001,NRFI
+2025-09-16,Atlanta Braves,Washington Nationals,Chris Sale,MacKenzie Gore,2025-09-16 18:45:00-04:00,0.5745883,0.5300000000000001,NRFI
+2025-09-16,New York Yankees,Minnesota Twins,Cam Schlittler,Zebby Matthews,2025-09-16 19:40:00-04:00,0.54023504,0.5300000000000001,NRFI
+2025-09-16,Chicago Cubs,Pittsburgh Pirates,Cade Horton,Paul Skenes,2025-09-16 18:40:00-04:00,0.52025527,0.5300000000000001,YRFI
+2025-09-16,Los Angeles Angels,Milwaukee Brewers,Caden Dana,Freddy Peralta,2025-09-16 19:40:00-04:00,0.5147764,0.5300000000000001,YRFI
+2025-09-16,Baltimore Orioles,Chicago White Sox,Dean Kremer,Shane Smith,2025-09-16 19:40:00-04:00,0.4673993,0.5300000000000001,YRFI
+2025-09-16,Seattle Mariners,Kansas City Royals,Logan Gilbert,Michael Wacha,2025-09-16 19:40:00-04:00,0.46607706,0.5300000000000001,YRFI
+2025-09-16,Texas Rangers,Houston Astros,Merrill Kelly,AJ Blubaugh,2025-09-16 20:10:00-04:00,0.38955215,0.5300000000000001,YRFI
