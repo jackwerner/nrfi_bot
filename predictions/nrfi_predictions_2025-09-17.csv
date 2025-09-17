@@ -1,0 +1,11 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-17,San Diego Padres,New York Mets,Nick Pivetta,David Peterson,2025-09-17 19:10:00-04:00,0.67050195,0.5300000000000001,NRFI
+2025-09-17,Atlanta Braves,Washington Nationals,Hurston Waldrep,Brad Lord,2025-09-17 16:05:00-04:00,0.65817547,0.5300000000000001,NRFI
+2025-09-17,Cleveland Guardians,Detroit Tigers,Gavin Williams,Jack Flaherty,2025-09-17 18:40:00-04:00,0.6391692,0.5300000000000001,NRFI
+2025-09-17,Los Angeles Angels,Milwaukee Brewers,José Soriano,Brandon Woodruff,2025-09-17 19:40:00-04:00,0.57662416,0.5300000000000001,NRFI
+2025-09-17,Philadelphia Phillies,Los Angeles Dodgers,Jesús Luzardo,Blake Snell,2025-09-17 22:10:00-04:00,0.47034442,0.5300000000000001,YRFI
+2025-09-17,Toronto Blue Jays,Tampa Bay Rays,Kevin Gausman,Ian Seymour,2025-09-17 19:05:00-04:00,0.46939275,0.5300000000000001,YRFI
+2025-09-17,Seattle Mariners,Kansas City Royals,Bryce Miller,Cole Ragans,2025-09-17 19:40:00-04:00,0.3774657,0.5300000000000001,YRFI
+2025-09-17,Athletics,Boston Red Sox,Mason Barnett,Lucas Giolito,2025-09-17 18:45:00-04:00,0.35136166,0.5300000000000001,YRFI
+2025-09-17,San Francisco Giants,Arizona Diamondbacks,Justin Verlander,Brandon Pfaadt,2025-09-17 15:40:00-04:00,0.34506312,0.5300000000000001,YRFI
+2025-09-17,Cincinnati Reds,St. Louis Cardinals,Brady Singer,Andre Pallante,2025-09-17 13:15:00-04:00,0.33647978,0.5300000000000001,YRFI
