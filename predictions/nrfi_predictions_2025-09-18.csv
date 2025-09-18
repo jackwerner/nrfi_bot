@@ -1,0 +1,8 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-18,San Francisco Giants,Los Angeles Dodgers,Logan Webb,Yoshinobu Yamamoto,2025-09-18 22:10:00-04:00,0.77995944,0.5300000000000001,NRFI
+2025-09-18,New York Yankees,Baltimore Orioles,Max Fried,Cade Povich,2025-09-18 19:15:00-04:00,0.57587445,0.5300000000000001,NRFI
+2025-09-18,Cleveland Guardians,Detroit Tigers,Tanner Bibee,Tarik Skubal,2025-09-18 13:10:00-04:00,0.5662043,0.5300000000000001,NRFI
+2025-09-18,Seattle Mariners,Kansas City Royals,Luis Castillo,Stephen Kolek,2025-09-18 14:10:00-04:00,0.56228316,0.5300000000000001,NRFI
+2025-09-18,Miami Marlins,Colorado Rockies,Sandy Alcantara,Tanner Gordon,2025-09-18 15:10:00-04:00,0.5496319,0.5300000000000001,NRFI
+2025-09-18,Los Angeles Angels,Milwaukee Brewers,Yusei Kikuchi,Quinn Priester,2025-09-18 19:40:00-04:00,0.46087688,0.5300000000000001,YRFI
+2025-09-18,Toronto Blue Jays,Tampa Bay Rays,Chris Bassitt,Shane Baz,2025-09-18 13:10:00-04:00,0.4414803,0.5300000000000001,YRFI
