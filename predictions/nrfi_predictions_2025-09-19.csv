@@ -1,0 +1,10 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-19,Toronto Blue Jays,Kansas City Royals,Max Scherzer,Michael Lorenzen,2025-09-19 19:40:00-04:00,0.6727447,0.5300000000000001,NRFI
+2025-09-19,San Diego Padres,Chicago White Sox,Dylan Cease,Davis Martin,2025-09-19 19:40:00-04:00,0.60452884,0.5300000000000001,NRFI
+2025-09-19,Miami Marlins,Texas Rangers,Janson Junk,Tyler Mahle,2025-09-19 20:05:00-04:00,0.57649016,0.5300000000000001,NRFI
+2025-09-19,Atlanta Braves,Detroit Tigers,Bryce Elder,Charlie Morton,2025-09-19 18:40:00-04:00,0.559138,0.5300000000000001,NRFI
+2025-09-19,Boston Red Sox,Tampa Bay Rays,Garrett Crochet,Drew Rasmussen,2025-09-19 19:35:00-04:00,0.51595813,0.5300000000000001,YRFI
+2025-09-19,Chicago Cubs,Cincinnati Reds,Shota Imanaga,Nick Lodolo,2025-09-19 18:40:00-04:00,0.48357207,0.5300000000000001,YRFI
+2025-09-19,Milwaukee Brewers,St. Louis Cardinals,Jacob Misiorowski,Sonny Gray,2025-09-19 20:15:00-04:00,0.3747867,0.5300000000000001,YRFI
+2025-09-19,Seattle Mariners,Houston Astros,Bryan Woo,Hunter Brown,2025-09-19 20:10:00-04:00,0.36070746,0.5300000000000001,YRFI
+2025-09-19,Philadelphia Phillies,Arizona Diamondbacks,Taijuan Walker,Ryne Nelson,2025-09-19 21:40:00-04:00,0.33167735,0.5300000000000001,YRFI
