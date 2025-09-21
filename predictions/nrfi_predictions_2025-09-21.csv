@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-21,Atlanta Braves,Detroit Tigers,Spencer Strider,Casey Mize,2025-09-21 13:40:00-04:00,0.54160225,0.5300000000000001,NRFI
+2025-09-21,Cleveland Guardians,Minnesota Twins,Joey Cantillo,Simeon Woods Richardson,2025-09-21 14:10:00-04:00,0.5097679,0.5300000000000001,YRFI
+2025-09-21,Chicago Cubs,Cincinnati Reds,Jameson Taillon,Andrew Abbott,2025-09-21 13:40:00-04:00,0.48692447,0.5300000000000001,YRFI
+2025-09-21,Los Angeles Angels,Colorado Rockies,Caden Dana,Kyle Freeland,2025-09-21 15:10:00-04:00,0.44980738,0.5300000000000001,YRFI
+2025-09-21,Athletics,Pittsburgh Pirates,Mitch Spence,Mike Burrows,2025-09-21 13:35:00-04:00,0.39590427,0.5300000000000001,YRFI
+2025-09-21,San Diego Padres,Chicago White Sox,Michael King,Sean Burke,2025-09-21 14:10:00-04:00,0.36469963,0.5300000000000001,YRFI
