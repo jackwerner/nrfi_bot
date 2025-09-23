@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-23,New York Mets,Chicago Cubs,David Peterson,Cade Horton,2025-09-23 19:40:00-04:00,0.6310032,0.5300000000000001,NRFI
+2025-09-23,Washington Nationals,Atlanta Braves,Brad Lord,Hurston Waldrep,2025-09-23 19:15:00-04:00,0.611211,0.5300000000000001,NRFI
+2025-09-23,St. Louis Cardinals,San Francisco Giants,Andre Pallante,Logan Webb,2025-09-23 21:45:00-04:00,0.5991707,0.5300000000000001,NRFI
+2025-09-23,Detroit Tigers,Cleveland Guardians,Tarik Skubal,Gavin Williams,2025-09-23 18:40:00-04:00,0.5650805,0.5300000000000001,NRFI
+2025-09-23,Miami Marlins,Philadelphia Phillies,Edward Cabrera,Cristopher Sánchez,2025-09-23 18:45:00-04:00,0.5249458,0.5300000000000001,YRFI
+2025-09-23,Boston Red Sox,Toronto Blue Jays,Lucas Giolito,Kevin Gausman,2025-09-23 19:07:00-04:00,0.44881964,0.5300000000000001,YRFI
+2025-09-23,Milwaukee Brewers,San Diego Padres,Bruce Zimmermann,Randy Vásquez,2025-09-23 21:40:00-04:00,0.3470265,0.5300000000000001,YRFI
+2025-09-23,Tampa Bay Rays,Baltimore Orioles,Ryan Pepiot,Dean Kremer,2025-09-23 18:35:00-04:00,0.29865316,0.5300000000000001,YRFI
