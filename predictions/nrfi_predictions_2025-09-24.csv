@@ -1,0 +1,13 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-24,Miami Marlins,Philadelphia Phillies,Ryan Weathers,Jesús Luzardo,2025-09-24 18:45:00-04:00,0.753748,0.5300000000000001,NRFI
+2025-09-24,Detroit Tigers,Cleveland Guardians,Jack Flaherty,Tanner Bibee,2025-09-24 18:40:00-04:00,0.6094555,0.5300000000000001,NRFI
+2025-09-24,Kansas City Royals,Los Angeles Angels,Stephen Kolek,Yusei Kikuchi,2025-09-24 21:38:00-04:00,0.5828182,0.5300000000000001,NRFI
+2025-09-24,Colorado Rockies,Seattle Mariners,Tanner Gordon,Luis Castillo,2025-09-24 21:40:00-04:00,0.5811724,0.5300000000000001,NRFI
+2025-09-24,Milwaukee Brewers,San Diego Padres,Chad Patrick,Dylan Cease,2025-09-24 16:10:00-04:00,0.560142,0.5300000000000001,NRFI
+2025-09-24,Minnesota Twins,Texas Rangers,Taj Bradley,Jacob deGrom,2025-09-24 20:05:00-04:00,0.5284078,0.5300000000000001,YRFI
+2025-09-24,Boston Red Sox,Toronto Blue Jays,Garrett Crochet,Max Scherzer,2025-09-24 19:07:00-04:00,0.5241317,0.5300000000000001,YRFI
+2025-09-24,Pittsburgh Pirates,Cincinnati Reds,Paul Skenes,Hunter Greene,2025-09-24 18:40:00-04:00,0.521524,0.5300000000000001,YRFI
+2025-09-24,Houston Astros,Athletics,Hunter Brown,Luis Severino,2025-09-24 22:05:00-04:00,0.49065587,0.5300000000000001,YRFI
+2025-09-24,Chicago White Sox,New York Yankees,Fraser Ellard,Max Fried,2025-09-24 19:05:00-04:00,0.48491922,0.5300000000000001,YRFI
+2025-09-24,St. Louis Cardinals,San Francisco Giants,Sonny Gray,JT Brubaker,2025-09-24 21:45:00-04:00,0.4216884,0.5300000000000001,YRFI
+2025-09-24,Los Angeles Dodgers,Arizona Diamondbacks,Blake Snell,Ryne Nelson,2025-09-24 21:40:00-04:00,0.34607795,0.5300000000000001,YRFI
