@@ -1,0 +1,6 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-25,Minnesota Twins,Texas Rangers,Bailey Ober,Tyler Mahle,2025-09-25 14:35:00-04:00,0.70733345,0.5300000000000001,NRFI
+2025-09-25,Chicago White Sox,New York Yankees,Davis Martin,Carlos Rodón,2025-09-25 19:05:00-04:00,0.6185734,0.5300000000000001,NRFI
+2025-09-25,Miami Marlins,Philadelphia Phillies,Janson Junk,Walker Buehler,2025-09-25 18:05:00-04:00,0.6161848,0.5300000000000001,NRFI
+2025-09-25,Tampa Bay Rays,Baltimore Orioles,Drew Rasmussen,Cade Povich,2025-09-25 13:05:00-04:00,0.58740383,0.5300000000000001,NRFI
+2025-09-25,Houston Astros,Athletics,Framber Valdez,J.T. Ginn,2025-09-25 15:35:00-04:00,0.36944816,0.5300000000000001,YRFI
