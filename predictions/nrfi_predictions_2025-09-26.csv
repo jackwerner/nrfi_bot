@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-26,Pittsburgh Pirates,Atlanta Braves,Mitch Keller,Joey Wentz,2025-09-26 19:15:00-04:00,0.6071752,0.5300000000000001,NRFI
+2025-09-26,New York Mets,Miami Marlins,Brandon Sproat,Sandy Alcantara,2025-09-26 19:10:00-04:00,0.6009618,0.5300000000000001,NRFI
+2025-09-26,Minnesota Twins,Philadelphia Phillies,Joe Ryan,Aaron Nola,2025-09-26 18:45:00-04:00,0.5655181,0.5300000000000001,NRFI
+2025-09-26,Arizona Diamondbacks,San Diego Padres,Zac Gallen,Yu Darvish,2025-09-26 21:40:00-04:00,0.5460161,0.5300000000000001,NRFI
+2025-09-26,Detroit Tigers,Boston Red Sox,Casey Mize,Kyle Harrison,2025-09-26 19:10:00-04:00,0.538804,0.5300000000000001,NRFI
+2025-09-26,Colorado Rockies,San Francisco Giants,Germán Márquez,Trevor McDonald,2025-09-26 22:15:00-04:00,0.4349142,0.5300000000000001,YRFI
+2025-09-26,Cincinnati Reds,Milwaukee Brewers,Zack Littell,Quinn Priester,2025-09-26 20:10:00-04:00,0.3757884,0.5300000000000001,YRFI
+2025-09-26,Texas Rangers,Cleveland Guardians,Jack Leiter,Slade Cecconi,2025-09-26 19:10:00-04:00,0.32396832,0.5300000000000001,YRFI
