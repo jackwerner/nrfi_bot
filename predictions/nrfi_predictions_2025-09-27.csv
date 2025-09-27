@@ -1,0 +1,9 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-27,Baltimore Orioles,New York Yankees,Tomoyuki Sugano,Cam Schlittler,2025-09-27 13:05:00-04:00,0.6376551,0.5300000000000001,NRFI
+2025-09-27,Arizona Diamondbacks,San Diego Padres,Eduardo Rodriguez,Michael King,2025-09-27 20:40:00-04:00,0.61293846,0.5300000000000001,NRFI
+2025-09-27,Colorado Rockies,San Francisco Giants,Kyle Freeland,Justin Verlander,2025-09-27 16:05:00-04:00,0.5594342,0.5300000000000001,NRFI
+2025-09-27,Pittsburgh Pirates,Atlanta Braves,Bubba Chandler,Spencer Strider,2025-09-27 19:15:00-04:00,0.5463267,0.5300000000000001,NRFI
+2025-09-27,Kansas City Royals,Athletics,Michael Wacha,Luis Morales,2025-09-27 22:05:00-04:00,0.47712383,0.5300000000000001,YRFI
+2025-09-27,Los Angeles Dodgers,Seattle Mariners,Tyler Glasnow,Logan Gilbert,2025-09-27 21:40:00-04:00,0.47477442,0.5300000000000001,YRFI
+2025-09-27,Houston Astros,Los Angeles Angels,AJ Blubaugh,Caden Dana,2025-09-27 21:38:00-04:00,0.3982399,0.5300000000000001,YRFI
+2025-09-27,Chicago White Sox,Washington Nationals,Sean Burke,Jake Irvin,2025-09-27 16:05:00-04:00,0.3456642,0.5300000000000001,YRFI
