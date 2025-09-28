@@ -1,0 +1,7 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-09-28,Minnesota Twins,Philadelphia Phillies,Simeon Woods Richardson,Cristopher Sánchez,2025-09-28 15:05:00-04:00,0.6036878,0.5300000000000001,NRFI
+2025-09-28,Chicago White Sox,Washington Nationals,Shane Smith,Brad Lord,2025-09-28 15:05:00-04:00,0.59693795,0.5300000000000001,NRFI
+2025-09-28,Tampa Bay Rays,Toronto Blue Jays,Ian Seymour,Kevin Gausman,2025-09-28 15:07:00-04:00,0.57612497,0.5300000000000001,NRFI
+2025-09-28,Arizona Diamondbacks,San Diego Padres,Brandon Pfaadt,JP Sears,2025-09-28 15:10:00-04:00,0.5187449,0.5300000000000001,YRFI
+2025-09-28,Kansas City Royals,Athletics,Cole Ragans,Brady Basso,2025-09-28 15:05:00-04:00,0.4996088,0.5300000000000001,YRFI
+2025-09-28,Cincinnati Reds,Milwaukee Brewers,Brady Singer,Freddy Peralta,2025-09-28 15:10:00-04:00,0.43131676,0.5300000000000001,YRFI
