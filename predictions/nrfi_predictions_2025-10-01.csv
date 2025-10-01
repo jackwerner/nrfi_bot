@@ -1,0 +1,4 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-10-01,Detroit Tigers,Cleveland Guardians,Casey Mize,Tanner Bibee,2025-10-01 13:08:00-04:00,0.74377906,0.5300000000000001,NRFI
+2025-10-01,Cincinnati Reds,Los Angeles Dodgers,Zack Littell,Yoshinobu Yamamoto,2025-10-01 21:08:00-04:00,0.48915187,0.5300000000000001,YRFI
+2025-10-01,San Diego Padres,Chicago Cubs,Dylan Cease,Andrew Kittredge,2025-10-01 15:08:00-04:00,0.38143715,0.5300000000000001,YRFI
