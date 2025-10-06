@@ -1,0 +1,3 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-10-06,Los Angeles Dodgers,Philadelphia Phillies,Blake Snell,Jesús Luzardo,2025-10-06 18:08:00-04:00,0.47575697,0.5300000000000001,YRFI
+2025-10-06,Chicago Cubs,Milwaukee Brewers,Shota Imanaga,Aaron Ashby,2025-10-06 21:08:00-04:00,0.44284606,0.5300000000000001,YRFI
