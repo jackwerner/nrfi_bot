@@ -1,0 +1,5 @@
+date,away_team,home_team,away_pitcher,home_pitcher,game_time,nrfi_probability,threshold,prediction
+2025-10-08,Toronto Blue Jays,New York Yankees,Louis Varland,Cam Schlittler,2025-10-08 19:08:00-04:00,0.77547246,0.5300000000000001,NRFI
+2025-10-08,Philadelphia Phillies,Los Angeles Dodgers,Aaron Nola,Yoshinobu Yamamoto,2025-10-08 21:08:00-04:00,0.6796009,0.5300000000000001,NRFI
+2025-10-08,Seattle Mariners,Detroit Tigers,Bryce Miller,Casey Mize,2025-10-08 15:08:00-04:00,0.5583734,0.5300000000000001,NRFI
+2025-10-08,Milwaukee Brewers,Chicago Cubs,Quinn Priester,Jameson Taillon,2025-10-08 17:08:00-04:00,0.38704467,0.5300000000000001,YRFI
